@@ -1,6 +1,6 @@
 #pdfViewBodyWrap {
 	position: relative;
-	height: 90vh;
+	height: Calc( 100vh - 66px );
 	display: flex;
 	align-items: center;
 }
@@ -64,7 +64,7 @@
 	border: none;
 }
 @keyframes formAnimCome {
-    0%   {left: 120%;}
+    0%   {left: 200%;}
     25%  {left: 45%;}
     35%  {left: 55%;}
     45%  {left: 47%;}
@@ -74,7 +74,7 @@
   }
   @keyframes formAnimGo {
     0%   {left: 50%;}
-    100% {left: 120%;}
+    100% {left: 200%;}
   }
 
 .text-muted.pdfInfoForm {
@@ -88,12 +88,12 @@
 #submitInfoWrap {
 	position: fixed;
 	top: 50%;
-	left: 120%;
+	left: 200%;
 	transform: translate(-50%,-50%);
 }
 #submitInfoWrap.deactive {
     animation: 1s formAnimGo;
-    left: 120%;
+    left: 200%;
 }
 #submitInfoWrap.active {
     animation: 1s formAnimCome;
@@ -105,4 +105,26 @@
 	width: 420px;
 	background: #ffff;
 	padding: 30px;
+}
+@media only screen and (min-width: 1400px) {
+	.pdfview_wrap {width: 1320px;}
+}
+@media only screen and (max-width: 991px) {
+	.pdfview_wrap {
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 575px) {
+	#submitInfoWrap {
+		width: 90%;
+	}
+	.pdfFormSubmit {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.pdf_nav {
+		grid-template-columns: 60px 60px 60px;
+		font-size: 12px;
+	}
 }

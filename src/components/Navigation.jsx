@@ -31,7 +31,7 @@ function Navigation(props) {
     <div id="appWrap">
     <Navbar collapseOnSelect sticky="top" expand="md" bg="black" variant="dark">
       <Container>
-        <div class="" onClick={refreshPage}>
+        <div>
           <Link class="navbar-brand" to="/">
             <img
               id="logowiz"

@@ -69,7 +69,7 @@ export default function App() {
      <Routes>
           <Route path="/" element={<Navigation />}>
           <Route index element={<Home />} />
-          <Route path="/test" element={ <PDFViewer />} />
+          <Route path="/service-portfolio" element={ <PDFViewer />} />
           <Route path="/contact-us" element={ <Contact />} />
           <Route path="/blog" element={ <Blog />} />
           <Route path="/footer" element={ <Footer />} />

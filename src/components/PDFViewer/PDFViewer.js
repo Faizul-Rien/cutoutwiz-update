@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import emailjs from "emailjs-com";
 import { redirect, useNavigate } from "react-router-dom";
+import Loading from '../Loading/Loading';
 
 
 const PDFViewer = () => {
@@ -14,6 +15,7 @@ const PDFViewer = () => {
   const [pageNumber, setPageNumber] = useState(1);
   const [pageThumbnails, setPageThumbnails] = useState([]);
   const [formActive, setFormActive] = useState("");
+  const [getLoading, setLoading] = useState(false); 
   const defaultPageView = 3;
 
   const onDocumentLoadSuccess = ({ numPages }) => {
@@ -37,9 +39,11 @@ const PDFViewer = () => {
 
   const functionsendEmail = (e) => {
     e.preventDefault();
+    setLoading(true); 
 
     emailjs.sendForm('service_1zfatsb', 'template_aak2bzj', e.target, 'user_3TcS4pRKMgpo7fArsKmSf')
       .then((result) => {
+        setLoading(false)
         redirectAfterSubmit(); 
       }, (error) => {
         console.log(error.text);
@@ -52,9 +56,11 @@ const PDFViewer = () => {
   return (
     <div id='pdfViewBodyWrap' class="fwidth">
 
+     {getLoading == true && <Loading/> } 
+
       <div className='pdfview_wrap'>
         <div className='viewPdfBody fwidth'>
-          <div className='viewPdf'>
+          <div className='viewPdf fwidth'>
             <Document file={pdfFile} onLoadSuccess={onDocumentLoadSuccess} className="pdfViewcon_wrap">
               <Page width={500} devicePixelRatio={2} pageNumber={pageNumber} renderTextLayer={false} className="pdfViewFile" />
             </Document>
