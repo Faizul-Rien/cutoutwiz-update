@@ -1,0 +1,108 @@
+#pdfViewBodyWrap {
+	position: relative;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+}
+#pdfViewBodyWrap::before {
+	content: "";
+	background: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.4;
+}
+.pdfViewcon_wrap {
+    float: left;
+    width: 100%;
+}
+
+.pdfview_wrap {
+	width: 60%;
+	margin: auto;
+}
+.viewPdfBody {
+	display: flex;
+}
+.pdfViewFile {
+    min-width: 100% !important;
+    min-height: auto !important;
+}
+.pdfViewFile canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+	display: none;
+}
+
+/* nav area */
+.pdf_nav_wrap {
+	display: grid;
+	align-items: center;
+	align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #353535;
+}
+.pdf_nav {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+    margin: auto;
+	text-align: center;
+}
+#pageInfo {
+	align-self: center;
+	margin: 0px;
+	color: #ffff;
+}
+.pdfBtn {
+	border: none;
+}
+@keyframes formAnimCome {
+    0%   {left: 120%;}
+    25%  {left: 45%;}
+    35%  {left: 55%;}
+    45%  {left: 47%;}
+    55% {left: 52%;}
+    65% {left: 50%;}
+    100% {left: 50%;}
+  }
+  @keyframes formAnimGo {
+    0%   {left: 50%;}
+    100% {left: 120%;}
+  }
+
+.text-muted.pdfInfoForm {
+	background: #abd0bc;
+	color: #272727 !important;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#submitInfoWrap {
+	position: fixed;
+	top: 50%;
+	left: 120%;
+	transform: translate(-50%,-50%);
+}
+#submitInfoWrap.deactive {
+    animation: 1s formAnimGo;
+    left: 120%;
+}
+#submitInfoWrap.active {
+    animation: 1s formAnimCome;
+    left: 50%;
+}
+.pdfFormSubmit {
+	position: relative;
+	margin: auto;
+	width: 420px;
+	background: #ffff;
+	padding: 30px;
+}

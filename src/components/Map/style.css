@@ -1,0 +1,581 @@
+.mapWrap {
+	position: relative;
+	width: 1140px !important;
+	margin: auto;
+}
+.mapIntList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+}
+.mapIntListRel {
+    position: relative;
+    /* background: blue; */
+    width: 100%;
+    height: 100%;
+}
+.intIcon {
+    position: absolute;
+}
+@keyframes integrateAnim {
+    0%   {top: -5px;}
+    10%  {top: -10px}
+    20%  {top: -5px}
+    30%  {top: -10px}
+    40%  {top: -5px}
+    50%  {top: -5px}
+    60%   {top: -10px;}
+    70%  {top: -5px}
+    80%  {top: -10px}
+    90%  {top: -5px}
+    100% {top: -5px}
+  }
+
+.mapIntWrap {
+    display: grid;
+    grid-template-columns: 21px minmax(auto, 200px);
+    align-items: center;
+    grid-gap: 10px;
+    position: relative;
+}
+.mapIntWrap img {
+    width: 18px;
+    animation: integrateAnim 3s infinite;
+  position: absolute;
+}
+.mapIntWrap span {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 28px;
+}
+#canada {
+	top: 177px;
+	left: 338px;
+}
+#USA {
+	top: 230px;
+	left: 303px;
+}
+#DENMARK {
+	top: 119px;
+	left: 631px;
+}
+#NEDERLAND {
+	top: 148px;
+	left: 641px;
+}
+#UK {
+	top: 165px;
+	left: 599px;
+}
+#GERMANY {
+	left: 667px;
+	top: 180px;
+}
+#PORTUGAL {
+	top: 194px;
+	left: 584px;
+}
+#HUNGARY {
+	top: 223px;
+	left: 688px;
+}
+#SPAIN {
+	top: 235px;
+	left: 609px;
+}
+#DUBAI {
+	top: 259px;
+	left: 757px;
+}
+#INDIA {
+	top: 280px;
+	left: 813px;
+}
+#HONGKONG {
+	top: 253px;
+	left: 906px;
+}
+#THAILAND {
+	top: 286px;
+	left: 890px;
+}
+#VIETNAM {
+	top: 314px;
+	left: 934px;
+}
+#PHILIPPINES {
+	top: 334px;
+	left: 991px;
+}
+#SINGAPORE {
+	top: 350px;
+	left: 916px;
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 1199px) {
+    .mapWrap {
+        width: 960px !important;
+    }
+    .mapIntWrap span {
+        font-size: 12px;
+    }
+    #canada {
+        top: 141px;
+        left: 283px;
+    }
+    #USA {
+        top: 198px;
+        left: 258px;
+    }
+    #DENMARK {
+        top: 100px;
+        left: 529px;
+    }
+    #NEDERLAND {
+        top: 124px;
+        left: 539px;
+    }
+    #UK {
+        top: 137px;
+        left: 503px;
+    }
+    #GERMANY {
+        left: 560px;
+        top: 151px;
+    }
+    #PORTUGAL {
+        top: 164px;
+        left: 492px;
+    }
+    #HUNGARY {
+        top: 187px;
+        left: 578px;
+    }
+    #SPAIN {
+        top: 195px;
+        left: 515px;
+    }
+    #DUBAI {
+        top: 217px;
+        left: 633px;
+    }
+    #INDIA {
+        top: 236px;
+        left: 681px;
+    }
+    #HONGKONG {
+        top: 211px;
+        left: 763px;
+    }
+    #THAILAND {
+        top: 240px;
+        left: 747px;
+    }
+    #VIETNAM {
+        top: 267px;
+        left: 785px;
+    }
+    #PHILIPPINES {
+        top: 283px;
+        left: 830px;
+    }
+    #SINGAPORE {
+        top: 295px;
+        left: 761px;
+    }
+  }
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 991px) {
+    .mapWrap {
+        width:720px !important;
+    }
+    .mapIntWrap img {
+        width: 15px;
+        height: 14px;
+        margin-top: 5px !important;
+    }
+    .mapIntWrap span {
+        padding-left: 20px;
+        font-size: 10px;
+    }
+    #canada {
+        top: 107px;
+        left: 213px;
+    }
+    #USA {
+        top: 146px;
+        left: 198px;
+    }
+    #DENMARK {
+        top: 72px;
+        left: 397px;
+    }
+    #NEDERLAND {
+        top: 91px;
+        left: 403px;
+    }
+    #UK {
+        top: 99px;
+        left: 376px;
+    }
+    #GERMANY {
+        left: 419px;
+        top: 111px;
+    }
+    #PORTUGAL {
+        top: 119px;
+        left: 369px;
+    }
+    #HUNGARY {
+        top: 135px;
+        left: 433px;
+    }
+    #SPAIN {
+        top: 141px;
+        left: 385px;
+    }
+    #DUBAI {
+        top: 158px;
+        left: 474px;
+    }
+    #INDIA {
+        top: 170px;
+        left: 509px;
+    }
+    #HONGKONG {
+        top: 154px;
+        left: 570px;
+    }
+    #THAILAND {
+        top: 174px;
+        left: 558px;
+    }
+    #VIETNAM {
+        top: 192px;
+        left: 589px;
+    }
+    #PHILIPPINES {
+        top: 204px;
+        left: 620px;
+    }
+    #SINGAPORE {
+        top: 218px;
+        left: 569px;
+    }
+  }
+
+    /* On screens that are 981px wide or less, go from four columns to two columns */
+@media screen and (max-width: 980px) {
+    .mobileMapView {
+        float: left;
+        margin-top: 10px;
+    }
+    .mapWrap {
+        width:704px !important;
+    }
+    #canada {
+        top: 106px;
+        left: 206px;
+    }
+    #USA {
+        top: 144px;
+        left: 189px;
+    }
+    #DENMARK {
+        top: 73px;
+        left: 387px;
+    }
+    #NEDERLAND {
+        top: 91px;
+        left: 395px;
+    }
+    #UK {
+        top: 107px;
+        left: 369px;
+    }
+    #GERMANY {
+        left: 411px;
+        top: 113px;
+    }
+    #PORTUGAL {
+        top: 119px;
+        left: 358px;
+    }
+    #HUNGARY {
+        top: 136px;
+        left: 424px;
+    }
+    #SPAIN {
+        top: 143px;
+        left: 378px;
+    }
+    #DUBAI {
+        top: 158px;
+        left: 466px;
+    }
+    #INDIA {
+        top: 167px;
+        left: 500px;
+    }
+    #HONGKONG {
+        top: 153px;
+        left: 561px;
+    }
+    #THAILAND {
+        top: 175px;
+        left: 548px;
+    }
+    #VIETNAM {
+        top: 192px;
+        left: 579px;
+    }
+    #PHILIPPINES {
+        top: 205px;
+        left: 612px;
+    }
+    #SINGAPORE {
+        top: 214px;
+        left: 559px;
+    }
+  }
+  @media screen and (max-width: 776px) {
+    .mapWrap {
+        width:524px !important;
+    }
+    .mapIntWrap img {
+        width: 12px;
+        height: 13px;
+    }
+    .mapIntWrap span {
+        padding-left: 17px;
+        font-size: 9px;
+    }
+    #canada {
+        top: 78px;
+        left: 151px;
+    }
+    #USA {
+        top: 103px;
+        left: 140px;
+    }
+    #DENMARK {
+        top: 52px;
+        left: 287px;
+    }
+    #NEDERLAND {
+        top: 65px;
+        left: 295px;
+    }
+    #UK {
+        top: 73px;
+        left: 274px;
+    }
+    #GERMANY {
+        left: 306px;
+        top: 78px;
+    }
+    #PORTUGAL {
+        top: 86px;
+        left: 267px;
+    }
+    #HUNGARY {
+        top: 98px;
+        left: 316px;
+    }
+    #SPAIN {
+        top: 102px;
+        left: 281px;
+    }
+    #DUBAI {
+        top: 115px;
+        left: 347px;
+    }
+    #INDIA {
+        top: 125px;
+        left: 372px;
+    }
+    #HONGKONG {
+        top: 110px;
+        left: 418px;
+    }
+    #THAILAND {
+        top: 128px;
+        left: 407px;
+    }
+    #VIETNAM {
+        top: 141px;
+        left: 428px;
+    }
+    #PHILIPPINES {
+        top: 151px;
+        left: 455px;
+    }
+    #SINGAPORE {
+        top: 160px;
+        left: 419px;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    .mapWrap {
+        width:414px !important;
+    }
+    .mapIntWrap img {
+        width: 9px;
+        height: 10px;
+    }
+    .mapIntWrap span {
+        padding-left: 13px;
+        font-size: 7px;
+    }
+    #canada {
+        top: 59px;
+        left: 121px;
+    }
+    #USA {
+        top: 81px;
+        left: 110px;
+    }
+    #DENMARK {
+        top: 40px;
+        left: 228px;
+    }
+    #NEDERLAND {
+        top: 51px;
+        left: 231px;
+    }
+    #UK {
+        top: 57px;
+        left: 217px;
+    }
+    #GERMANY {
+        left: 241px;
+        top: 64px;
+    }
+    #PORTUGAL {
+        top: 67px;
+        left: 212px;
+    }
+    #HUNGARY {
+        top: 77px;
+        left: 248px;
+    }
+    #SPAIN {
+        top: 81px;
+        left: 222px;
+    }
+    #DUBAI {
+        top: 91px;
+        left: 273px;
+    }
+    #INDIA {
+        top: 97px;
+        left: 294px;
+    }
+    #HONGKONG {
+        top: 86px;
+        left: 329px;
+    }
+    #THAILAND {
+        top: 100px;
+        left: 321px;
+    }
+    #VIETNAM {
+        top: 110px;
+        left: 340px;
+    }
+    #PHILIPPINES {
+        top: 118px;
+        left: 360px;
+    }
+    #SINGAPORE {
+        top: 123px;
+        left: 330px;
+    }
+  }
+  @media screen and (max-width: 413px) {
+    .mapWrap {
+        width:360px !important;
+    }
+    .mapIntWrap img {
+        width: 7px;
+        height: 8px;
+        margin-top: 6px !important;
+    }
+    .mapIntWrap span {
+        padding-left: 10px;
+        font-size: 7px;
+    }
+    #canada {
+        top: 51px;
+        left: 102px;
+    }
+    #USA {
+        top: 69px;
+        left: 95px;
+    }
+    #DENMARK {
+        top: 34px;
+        left: 194px;
+    }
+    #NEDERLAND {
+        top: 43px;
+        left: 197px;
+    }
+    #UK {
+        top: 49px;
+        left: 185px;
+    }
+    #GERMANY {
+        left: 207px;
+        top: 52px;
+    }
+    #PORTUGAL {
+        top: 58px;
+        left: 180px;
+    }
+    #HUNGARY {
+        top: 65px;
+        left: 213px;
+    }
+    #SPAIN {
+        top: 68px;
+        left: 189px;
+    }
+    #DUBAI {
+        top: 76px;
+        left: 233px;
+    }
+    #INDIA {
+        top: 82px;
+        left: 250px;
+    }
+    #HONGKONG {
+        top: 73px;
+        left: 280px;
+    }
+    #THAILAND {
+        top: 83px;
+        left: 274px;
+    }
+    #VIETNAM {
+        top: 93px;
+        left: 288px;
+    }
+    #PHILIPPINES {
+        top: 99px;
+        left: 305px;
+    }
+    #SINGAPORE {
+        top: 102px;
+        left: 280px;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    #mapArea {
+        overflow: hidden;
+    }
+  }
