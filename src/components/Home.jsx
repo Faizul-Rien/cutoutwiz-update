@@ -713,6 +713,9 @@ function Home(props) {
             <div id="image-editing-service"></div>
 
             <div class="card-img-hidden">
+              <div  className="srv_prt_btn">
+                <Link to="/service-portfolio">Service Portfolio</Link>
+              </div>
               <div className="cardImage">
                 <div className="srvLeftSlide">
                   <img id="service-left"src="assets/images/round for services.png"/>
@@ -905,7 +908,7 @@ function Home(props) {
                     <img id="service-left-2"src="assets/images/round for services.png"/>
                     <Slider
                       className="mobi_mainSlider"
-                      autoplay={false}
+                      autoplay={true}
                       asNavFor={nav3}
                       pauseOnHover={true}
                       swipeToSlide={true}

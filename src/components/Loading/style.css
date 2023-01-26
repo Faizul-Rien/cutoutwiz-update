@@ -1,0 +1,27 @@
+
+#loading_spin_wrap {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 99;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #c5da9c;
+    border-bottom-color:#db2b2b;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
