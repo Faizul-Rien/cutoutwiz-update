@@ -5,10 +5,11 @@ import NewBanner from "./NewBanner/NewBanner";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Banner from "./Banner/Banner";
+import PriceCard from "./PriceCard/PriceCard";
 import Map from "./Map/Map";
 import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
 import Slider from "react-slick";
- 
+
 import Reviews from "./Reviews/Reviews";
 import Footer from "./Footer/Footer";
 const $ = window.$;
@@ -531,7 +532,6 @@ function Home(props) {
             our success is that we believe in customer first and providing the
             best quality service.
           </p>
-
         </div>
       </div>
 
@@ -541,169 +541,165 @@ function Home(props) {
         <div class="container">
           <div class="row">
             <div class="successTxt">
-              
-                <p id="sucRcd">
-                  Success Record
-                </p>
-                <p
-                  style={{ textAlign: "center", marginTop: "-2%", fontSize: "20px" }}
-                >
-                  In numbers
-                </p>
-
+              <p id="sucRcd">Success Record</p>
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "-2%",
+                  fontSize: "20px",
+                }}
+              >
+                In numbers
+              </p>
             </div>
           </div>
           <div id="countStartWrap">
-          <div class="row">
-            <div
-              class="col-md-3"
-              id="countAnimFirst"
-            >
-              <div id="retouchCount" class="text-center">
-                <img
-                  id="sucphn"
-                  src="assets/images/18m.png"
-                  height="90%"
-                  width="90%"
-                />
-              </div>
-              <div class="fade-in-text">
-                <p
-                  style={{
-                    fontSize: "17px",
-                    fontWeight: "700",
-                    textAlign: "center",
-                  }}
-                >
-                  IMAGE <br /> PRODUCTION
-                </p>
-                <div class="text-center" style={{ marginTop: "-5%" }}>
-                  <button
-                    id="rest"
+            <div class="row">
+              <div class="col-md-3" id="countAnimFirst">
+                <div id="retouchCount" class="text-center">
+                  <img
+                    id="sucphn"
+                    src="assets/images/18m.png"
+                    height="90%"
+                    width="90%"
+                  />
+                </div>
+                <div class="fade-in-text">
+                  <p
                     style={{
-                      backgroundColor: "#c5da9c",
-                      borderRadius: "20px",
-                      padding: "3px 21px",
-                      border: "none",
+                      fontSize: "17px",
+                      fontWeight: "700",
+                      textAlign: "center",
                     }}
                   >
-                    2020-2021
-                  </button>
+                    IMAGE <br /> PRODUCTION
+                  </p>
+                  <div class="text-center" style={{ marginTop: "-5%" }}>
+                    <button
+                      id="rest"
+                      style={{
+                        backgroundColor: "#c5da9c",
+                        borderRadius: "20px",
+                        padding: "3px 21px",
+                        border: "none",
+                      }}
+                    >
+                      2020-2021
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-md-3" id="countAnim">
-              <div id="retouchCount" class="text-center">
-                <img
-                  id="sucphn"
-                  src="assets/images/40k.png"
-                  height="90%"
-                  width="90%"
-                />
-              </div>
-              <div class="fade-in-text40k">
-                <p
-                  style={{
-                    fontSize: "17px",
-                    fontWeight: "700",
-                    textAlign: "center",
-                  }}
-                >
-                  IMAGE <br /> PRODUCTION
-                </p>
-                <div class="text-center" style={{ marginTop: "-5%" }}>
-                  <button
-                    id="rest"
+              <div class="col-md-3" id="countAnim">
+                <div id="retouchCount" class="text-center">
+                  <img
+                    id="sucphn"
+                    src="assets/images/40k.png"
+                    height="90%"
+                    width="90%"
+                  />
+                </div>
+                <div class="fade-in-text40k">
+                  <p
                     style={{
-                      backgroundColor: "#c5da9c",
-                      borderRadius: "20px",
-                      padding: "3px 21px",
-                      border: "none",
+                      fontSize: "17px",
+                      fontWeight: "700",
+                      textAlign: "center",
                     }}
                   >
-                    PER DAY
-                  </button>
+                    IMAGE <br /> PRODUCTION
+                  </p>
+                  <div class="text-center" style={{ marginTop: "-5%" }}>
+                    <button
+                      id="rest"
+                      style={{
+                        backgroundColor: "#c5da9c",
+                        borderRadius: "20px",
+                        padding: "3px 21px",
+                        border: "none",
+                      }}
+                    >
+                      PER DAY
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-md-3" id="countAnim">
-              <div id="retouchCount" class="text-center">
-                <img
-                  id="sucphn"
-                  src="assets/images/9.2k.png"
-                  height="90%"
-                  width="90%"
-                />
-              </div>
+              <div class="col-md-3" id="countAnim">
+                <div id="retouchCount" class="text-center">
+                  <img
+                    id="sucphn"
+                    src="assets/images/9.2k.png"
+                    height="90%"
+                    width="90%"
+                  />
+                </div>
 
-              <div class="fade-in-text92k">
-                <p
-                  style={{
-                    fontSize: "17px",
-                    fontWeight: "700",
-                    textAlign: "center",
-                  }}
-                >
-                  VIDEO <br /> PRODUCTION
-                </p>
-                <div class="text-center" style={{ marginTop: "-5%" }}>
-                  <button
-                    id="rest"
+                <div class="fade-in-text92k">
+                  <p
                     style={{
-                      backgroundColor: "#c5da9c",
-                      borderRadius: "20px",
-                      padding: "3px 21px",
-                      border: "none",
+                      fontSize: "17px",
+                      fontWeight: "700",
+                      textAlign: "center",
                     }}
                   >
-                    2020-2021
-                  </button>
+                    VIDEO <br /> PRODUCTION
+                  </p>
+                  <div class="text-center" style={{ marginTop: "-5%" }}>
+                    <button
+                      id="rest"
+                      style={{
+                        backgroundColor: "#c5da9c",
+                        borderRadius: "20px",
+                        padding: "3px 21px",
+                        border: "none",
+                      }}
+                    >
+                      2020-2021
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-md-3" id="countAnim">
-              <div id="retouchCount" class="text-center">
-                <img
-                  id="sucphn"
-                  src="assets/images/54k.png"
-                  height="90%"
-                  width="90%"
-                />
-              </div>
+              <div class="col-md-3" id="countAnim">
+                <div id="retouchCount" class="text-center">
+                  <img
+                    id="sucphn"
+                    src="assets/images/54k.png"
+                    height="90%"
+                    width="90%"
+                  />
+                </div>
 
-              <div class="fade-in-text54k">
-                <p
-                  style={{
-                    fontSize: "17px",
-                    fontWeight: "700",
-                    textAlign: "center",
-                  }}
-                >
-                  VIDEO <br /> PRODUCTION
-                </p>
-                <div class="text-center" style={{ marginTop: "-5%" }}>
-                  <button
-                    id="rest"
+                <div class="fade-in-text54k">
+                  <p
                     style={{
-                      backgroundColor: "#c5da9c",
-                      borderRadius: "20px",
-                      padding: "3px 21px",
-                      border: "none",
+                      fontSize: "17px",
+                      fontWeight: "700",
+                      textAlign: "center",
                     }}
                   >
-                    FIVE YEAR
-                  </button>
+                    VIDEO <br /> PRODUCTION
+                  </p>
+                  <div class="text-center" style={{ marginTop: "-5%" }}>
+                    <button
+                      id="rest"
+                      style={{
+                        backgroundColor: "#c5da9c",
+                        borderRadius: "20px",
+                        padding: "3px 21px",
+                        border: "none",
+                      }}
+                    >
+                      FIVE YEAR
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
       </div>
-
 
       {/* Image editing service */}
 
@@ -713,12 +709,15 @@ function Home(props) {
             <div id="image-editing-service"></div>
 
             <div class="card-img-hidden">
-              <div  className="srv_prt_btn">
+              <div className="srv_prt_btn">
                 <Link to="/service-portfolio">Service Portfolio</Link>
               </div>
               <div className="cardImage">
                 <div className="srvLeftSlide">
-                  <img id="service-left"src="assets/images/round for services.png"/>
+                  <img
+                    id="service-left"
+                    src="assets/images/round for services.png"
+                  />
                   <Slider
                     className="mainSlider"
                     autoplay={true}
@@ -857,42 +856,58 @@ function Home(props) {
                     >
                       <div>
                         <p class="sl_heading">IMAGE</p>
-                        <p class="sl_pr" id="testret-re">MASKING</p>
+                        <p class="sl_pr" id="testret-re">
+                          MASKING
+                        </p>
                       </div>
 
                       <div>
                         <p class="sl_heading">GHOST</p>
-                        <p class="sl_pr" id="testret-re">MANNEQUIN</p>
+                        <p class="sl_pr" id="testret-re">
+                          MANNEQUIN
+                        </p>
                       </div>
 
                       <div>
                         <p class="sl_heading">PHOTO</p>
-                        <p class="sl_pr" id="testret-re">RECOLOR</p>
+                        <p class="sl_pr" id="testret-re">
+                          RECOLOR
+                        </p>
                       </div>
 
                       <div>
                         <p class="sl_heading">SHADOW</p>
-                        <p class="sl_pr" id="testret-re">CREATION</p>
+                        <p class="sl_pr" id="testret-re">
+                          CREATION
+                        </p>
                       </div>
 
                       <div>
                         <p class="sl_heading">PHOTO</p>
-                        <p class="sl_pr" id="testret-ret">RETOUCH</p>
+                        <p class="sl_pr" id="testret-ret">
+                          RETOUCH
+                        </p>
                       </div>
 
                       <div>
                         <p class="sl_heading">COLOR</p>
-                        <p class="sl_pr" id="testret-re">CORRECTION</p>
+                        <p class="sl_pr" id="testret-re">
+                          CORRECTION
+                        </p>
                       </div>
 
                       <div>
                         <p class="sl_heading">IMAGE</p>
-                        <p class="sl_pr" id="testret-re">MANIPULATION</p>
+                        <p class="sl_pr" id="testret-re">
+                          MANIPULATION
+                        </p>
                       </div>
 
                       <div>
                         <p class="sl_heading">BACKGROUND</p>
-                        <p class="sl_pr" id="testret">REMOVAL</p>
+                        <p class="sl_pr" id="testret">
+                          REMOVAL
+                        </p>
                       </div>
                     </Slider>
                   </div>
@@ -905,24 +920,29 @@ function Home(props) {
                   <hr id="border10" />
                 </div>
                 <div className="srvLeftSlide">
-                    <img id="service-left-2"src="assets/images/round for services.png"/>
-                    <Slider
-                      className="mobi_mainSlider"
-                      autoplay={true}
-                      asNavFor={nav3}
-                      pauseOnHover={true}
-                      swipeToSlide={true}
-                      focusOnSelect={true}
-                      speed={4000}
-                      autoplaySpeed={8000}
-                      ref={(slider3) => setNav3(slider3)}
-                    >
-                      <div id="cf3">
-						<div class="sl_details">
-							<p class="sl_heading">IMAGE</p>
-							<p class="sl_pr" id="testret-re">MASKING</p>
-						</div>
-						<div class="slImages">
+                  <img
+                    id="service-left-2"
+                    src="assets/images/round for services.png"
+                  />
+                  <Slider
+                    className="mobi_mainSlider"
+                    autoplay={true}
+                    asNavFor={nav3}
+                    pauseOnHover={true}
+                    swipeToSlide={true}
+                    focusOnSelect={true}
+                    speed={4000}
+                    autoplaySpeed={8000}
+                    ref={(slider3) => setNav3(slider3)}
+                  >
+                    <div id="cf3">
+                      <div class="sl_details">
+                        <p class="sl_heading">IMAGE</p>
+                        <p class="sl_pr" id="testret-re">
+                          MASKING
+                        </p>
+                      </div>
+                      <div class="slImages">
                         <img
                           id="photo1"
                           class="bottom"
@@ -934,15 +954,17 @@ function Home(props) {
                           class="top"
                           src="assets/images/Hair-Masking-before.png"
                         />
-						</div>
                       </div>
+                    </div>
 
-                      <div id="cf3">
-						<div class="sl_details">
+                    <div id="cf3">
+                      <div class="sl_details">
                         <p class="sl_heading">GHOST</p>
-                        <p class="sl_pr" id="testret-re">MANNEQUIN</p>
+                        <p class="sl_pr" id="testret-re">
+                          MANNEQUIN
+                        </p>
                       </div>
-						<div class="slImages">
+                      <div class="slImages">
                         <img
                           id="photo2"
                           class="bottom"
@@ -953,15 +975,17 @@ function Home(props) {
                           class="top"
                           src="assets/images/Ghost manniquin-02.png"
                         />
-						</div>
                       </div>
+                    </div>
 
-                      <div id="cf3">
-						<div class="sl_details">
+                    <div id="cf3">
+                      <div class="sl_details">
                         <p class="sl_heading">PHOTO</p>
-                        <p class="sl_pr" id="testret-re">RECOLOR</p>
+                        <p class="sl_pr" id="testret-re">
+                          RECOLOR
+                        </p>
                       </div>
-						<div class="slImages">
+                      <div class="slImages">
                         <img
                           id="photo3"
                           class="bottom"
@@ -972,15 +996,17 @@ function Home(props) {
                           class="top"
                           src="assets/images/recolor-01.png"
                         />
-						</div>
                       </div>
+                    </div>
 
-                      <div id="cf3">
-						<div class="sl_details">
+                    <div id="cf3">
+                      <div class="sl_details">
                         <p class="sl_heading">SHADOW</p>
-                        <p class="sl_pr" id="testret-re">CREATION</p>
+                        <p class="sl_pr" id="testret-re">
+                          CREATION
+                        </p>
                       </div>
-						<div class="slImages">
+                      <div class="slImages">
                         <img
                           id="photo4"
                           class="top"
@@ -992,16 +1018,17 @@ function Home(props) {
                           class="bottom"
                           src="assets/images/Shadow creation-01.png"
                         />
-						</div>
                       </div>
+                    </div>
 
-                      <div id="cf3">
-					  
-						<div class="sl_details">
+                    <div id="cf3">
+                      <div class="sl_details">
                         <p class="sl_heading">PHOTO</p>
-                        <p class="sl_pr" id="testret-ret">RETOUCH</p>
+                        <p class="sl_pr" id="testret-ret">
+                          RETOUCH
+                        </p>
                       </div>
-						<div class="slImages">
+                      <div class="slImages">
                         <img
                           id="photo5"
                           class="bottom"
@@ -1012,16 +1039,17 @@ function Home(props) {
                           class="top"
                           src="assets/images/prbefore.png"
                         />
-						</div>
                       </div>
+                    </div>
 
-                      <div id="cf3">
-					  
-						<div class="sl_details">
+                    <div id="cf3">
+                      <div class="sl_details">
                         <p class="sl_heading">COLOR</p>
-                        <p class="sl_pr" id="testret-re">CORRECTION</p>
+                        <p class="sl_pr" id="testret-re">
+                          CORRECTION
+                        </p>
                       </div>
-						<div class="slImages">
+                      <div class="slImages">
                         <img
                           id="photo6"
                           class="bottom"
@@ -1032,15 +1060,17 @@ function Home(props) {
                           class="top"
                           src="assets/images/color correction-02.png"
                         />
-						</div>
                       </div>
+                    </div>
 
-                      <div id="cf3">
-						<div class="sl_details">
+                    <div id="cf3">
+                      <div class="sl_details">
                         <p class="sl_heading">IMAGE</p>
-                        <p class="sl_pr" id="testret-re">MANIPULATION</p>
+                        <p class="sl_pr" id="testret-re">
+                          MANIPULATION
+                        </p>
                       </div>
-						<div class="slImages">
+                      <div class="slImages">
                         <img
                           id="photo7"
                           class="bottom"
@@ -1051,16 +1081,17 @@ function Home(props) {
                           class="top"
                           src="assets/images/manipulation-after-1.png"
                         />
-						</div>
                       </div>
+                    </div>
 
-                      <div id="cf3">
-					  
-						<div class="sl_details">
+                    <div id="cf3">
+                      <div class="sl_details">
                         <p class="sl_heading">BACKGROUND</p>
-                        <p class="sl_pr" id="testret">REMOVAL</p>
+                        <p class="sl_pr" id="testret">
+                          REMOVAL
+                        </p>
                       </div>
-						<div class="slImages">
+                      <div class="slImages">
                         <img
                           id="photo8"
                           class="bottom"
@@ -1071,13 +1102,12 @@ function Home(props) {
                           class="top"
                           src="assets/images/Background-remove-before.png"
                         />
-						</div>
                       </div>
-                    </Slider>
-                  </div>
+                    </div>
+                  </Slider>
+                </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -1090,41 +1120,39 @@ function Home(props) {
             <div class="row">
               <div id="vdo_des_wrap" class="col-md-12 col-lg-5">
                 <div id="vid_des">
-                <p id="servicePars"></p>
-                <p id="imgser">
-                  Video Editing Service
-                </p>
-                <hr id="border11" />
-                <div id="container-target">
-                  <div id="js-nametag1" style={{ marginTop: "-4%" }}>
-                    <p id="vid_txt_2">VIDEO</p>
-                    <p id="testret-add">CROPPING </p>
-                  </div>
+                  <p id="servicePars"></p>
+                  <p id="imgser">Video Editing Service</p>
+                  <hr id="border11" />
+                  <div id="container-target">
+                    <div id="js-nametag1" style={{ marginTop: "-4%" }}>
+                      <p id="vid_txt_2">VIDEO</p>
+                      <p id="testret-add">CROPPING </p>
+                    </div>
 
-                  <div
-                    id="js-nametag2"
-                    style={{ marginTop: "-4%", display: "none" }}
-                  >
-                    <p style={{ fontSize: "46px" }}>TITLE</p>
-                    <p id="testret-add"> EDITING</p>
-                  </div>
+                    <div
+                      id="js-nametag2"
+                      style={{ marginTop: "-4%", display: "none" }}
+                    >
+                      <p style={{ fontSize: "46px" }}>TITLE</p>
+                      <p id="testret-add"> EDITING</p>
+                    </div>
 
-                  <div
-                    id="js-nametag3"
-                    style={{ marginTop: "-4%", display: "none" }}
-                  >
-                    <p style={{ fontSize: "46px" }}>SUBTITLE</p>
-                    <p id="testret-add"> ADDITION</p>
-                  </div>
+                    <div
+                      id="js-nametag3"
+                      style={{ marginTop: "-4%", display: "none" }}
+                    >
+                      <p style={{ fontSize: "46px" }}>SUBTITLE</p>
+                      <p id="testret-add"> ADDITION</p>
+                    </div>
 
-                  <div
-                    id="js-nametag4"
-                    style={{ marginTop: "-4%", display: "none" }}
-                  >
-                    <p style={{ fontSize: "46px" }}>AUDIO</p>
-                    <p id="testret-add"> ADDITION</p>
+                    <div
+                      id="js-nametag4"
+                      style={{ marginTop: "-4%", display: "none" }}
+                    >
+                      <p style={{ fontSize: "46px" }}>AUDIO</p>
+                      <p id="testret-add"> ADDITION</p>
+                    </div>
                   </div>
-                </div>                  
                 </div>
               </div>
 
@@ -1229,9 +1257,9 @@ function Home(props) {
 
       <Reviews></Reviews>
 
-
       {/* Plan  */}
-      <div class="planWrap fwidth">
+      <PriceCard></PriceCard>
+      {/* <div class="planWrap fwidth">
         <div id="grenPhn">
           <div id="prices"></div>
           <div class="container">
@@ -1484,7 +1512,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/*
       <div class="row">
         <div
@@ -1546,260 +1574,257 @@ function Home(props) {
               <div class="col-md-3"></div>
             </div>
           </div>
-
         </div>
-        
+
         <div class="card_Wrap">
-            <div class="step_card">
-              <div
-                class="card"
-                style={{
-                  width: "100%",
-                  borderRadius: "10px",
-                  boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
-                  border: "black",
-                }}
-              >
-                <img
-                  src="assets/images/S-1.png"
-                  width="30%"
-                  height="30%"
-                  alt="Image icon"
-                />
-                <br />
-                <div class="card-body">
-                  <h4 class="card-title">Step 1:</h4>
-                  <hr
-                    style={{
-                      width: "32%",
-                      border: "1px solid #ffcc33",
-                      backgroundColor: "#ffcc33",
-                      opacity: "1",
-                      marginTop: "-1%",
-                    }}
-                  ></hr>
-                  <p
-                    class="card-text"
-                    id="btmspace"
-                    style={{ fontWeight: "700", fontSize: "13px" }}
-                  >
-                    Sign In <br />{" "}
-                    <span style={{ color: "white" }}>
-                      preferred subscription
-                    </span>{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="step_card">
-              <div
-                class="card"
-                style={{
-                  width: "100%",
-                  borderRadius: "10px",
-                  boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
-                  border: "black",
-                }}
-              >
-                <img
-                  src="assets/images/S-2.png"
-                  width="30%"
-                  height="30%"
-                  alt="Image icon"
-                />
-                <br />
-                <div class="card-body">
-                  <h4 class="card-title">Step 2:</h4>
-                  <hr
-                    style={{
-                      width: "32%",
-                      border: "1px solid #ffcc33",
-                      backgroundColor: "#ffcc33",
-                      opacity: "1",
-                      marginTop: "-1%",
-                    }}
-                  ></hr>
-                  <p
-                    class="card-text"
-                    style={{ fontWeight: "700", fontSize: "13px" }}
-                  >
-                    Choose your
-                    <br />
-                    preferred subscription plan
-                    <span id="prefer" style={{ color: "white" }}>
-                      <br />
-                      preferred
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="step_card">
-              <div
-                class="card"
-                style={{
-                  width: "100%",
-                  borderRadius: "10px",
-                  boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
-                  border: "black",
-                }}
-              >
-                <img
-                  src="assets/images/S-3.png"
-                  width="30%"
-                  height="30%"
-                  alt="Image icon"
-                />
-                <br />
-
-                <div class="card-body">
-                  <h4 class="card-title">Step 3:</h4>
-                  <hr
-                    style={{
-                      width: "32%",
-                      border: "1px solid #ffcc33",
-                      backgroundColor: "#ffcc33",
-                      opacity: "1",
-                      marginTop: "-1%",
-                    }}
-                  ></hr>
-                  <p
-                    class="card-text"
-                    style={{ fontWeight: "700", fontSize: "13px" }}
-                  >
-                    Go to your
-                    <br />
-                    account to place an order
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="step_card">
-              <div
-                class="card"
-                style={{
-                  width: "100%",
-                  borderRadius: "10px",
-                  boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
-                  border: "black",
-                }}
-              >
-                <img
-                  src="assets/images/S-4.png"
-                  width="30%"
-                  height="30%"
-                  alt="Image icon"
-                />
-                <br />
-                <div class="card-body">
-                  <h4 class="card-title">Step 4:</h4>
-                  <hr
-                    style={{
-                      width: "32%",
-                      border: "1px solid #ffcc33",
-                      backgroundColor: "#ffcc33",
-                      opacity: "1",
-                      marginTop: "-1%",
-                    }}
-                  ></hr>
-                  <p
-                    class="card-text"
-                    style={{ fontWeight: "700", fontSize: "13px" }}
-                  >
-                    Upload the
-                    <br />
-                    images you want us to edit
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="step_card">
-              <div
-                class="card"
-                style={{
-                  width: "100%",
-                  borderRadius: "10px",
-                  boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
-                  border: "black",
-                }}
-              >
-                <img
-                  src="assets/images/S-5.png"
-                  width="30%"
-                  height="30%"
-                  alt="Image icon"
-                />
-                <br />
-                <div class="card-body">
-                  <h4 class="card-title">Step 5:</h4>
-                  <hr
-                    style={{
-                      width: "32%",
-                      border: "1px solid #ffcc33",
-                      backgroundColor: "#ffcc33",
-                      opacity: "1",
-                      marginTop: "-1%",
-                    }}
-                  ></hr>
-                  <p
-                    class="card-text"
-                    style={{ fontWeight: "700", fontSize: "13px" }}
-                  >
-                    The best photo editor
-                    <br />
-                    process the photos for you
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="step_card">
-              <div
-                class="card"
-                style={{
-                  width: "100%",
-                  borderRadius: "10px",
-                  boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
-                  border: "black",
-                }}
-              >
-                <img
-                  src="assets/images/S-6.png"
-                  width="30%"
-                  height="30%"
-                  alt="Image icon"
-                />
-                <br />
-                <div class="card-body">
-                  <h4 class="card-title">Step 6:</h4>
-                  <hr
-                    style={{
-                      width: "32%",
-                      border: "1px solid #ffcc33",
-                      backgroundColor: "#ffcc33",
-                      opacity: "1",
-                      marginTop: "-1%",
-                    }}
-                  ></hr>
-                  <p
-                    class="card-text"
-                    style={{ fontWeight: "700", fontSize: "13px" }}
-                  >
-                    Download
-                    <br />
-                    the edited photos
-                    <span id="prefer" style={{ color: "white" }}>
-                      for you
-                    </span>
-                  </p>
-                </div>
+          <div class="step_card">
+            <div
+              class="card"
+              style={{
+                width: "100%",
+                borderRadius: "10px",
+                boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
+                border: "black",
+              }}
+            >
+              <img
+                src="assets/images/S-1.png"
+                width="30%"
+                height="30%"
+                alt="Image icon"
+              />
+              <br />
+              <div class="card-body">
+                <h4 class="card-title">Step 1:</h4>
+                <hr
+                  style={{
+                    width: "32%",
+                    border: "1px solid #ffcc33",
+                    backgroundColor: "#ffcc33",
+                    opacity: "1",
+                    marginTop: "-1%",
+                  }}
+                ></hr>
+                <p
+                  class="card-text"
+                  id="btmspace"
+                  style={{ fontWeight: "700", fontSize: "13px" }}
+                >
+                  Sign In <br />{" "}
+                  <span style={{ color: "white" }}>preferred subscription</span>{" "}
+                </p>
               </div>
             </div>
           </div>
+
+          <div class="step_card">
+            <div
+              class="card"
+              style={{
+                width: "100%",
+                borderRadius: "10px",
+                boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
+                border: "black",
+              }}
+            >
+              <img
+                src="assets/images/S-2.png"
+                width="30%"
+                height="30%"
+                alt="Image icon"
+              />
+              <br />
+              <div class="card-body">
+                <h4 class="card-title">Step 2:</h4>
+                <hr
+                  style={{
+                    width: "32%",
+                    border: "1px solid #ffcc33",
+                    backgroundColor: "#ffcc33",
+                    opacity: "1",
+                    marginTop: "-1%",
+                  }}
+                ></hr>
+                <p
+                  class="card-text"
+                  style={{ fontWeight: "700", fontSize: "13px" }}
+                >
+                  Choose your
+                  <br />
+                  preferred subscription plan
+                  <span id="prefer" style={{ color: "white" }}>
+                    <br />
+                    preferred
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="step_card">
+            <div
+              class="card"
+              style={{
+                width: "100%",
+                borderRadius: "10px",
+                boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
+                border: "black",
+              }}
+            >
+              <img
+                src="assets/images/S-3.png"
+                width="30%"
+                height="30%"
+                alt="Image icon"
+              />
+              <br />
+
+              <div class="card-body">
+                <h4 class="card-title">Step 3:</h4>
+                <hr
+                  style={{
+                    width: "32%",
+                    border: "1px solid #ffcc33",
+                    backgroundColor: "#ffcc33",
+                    opacity: "1",
+                    marginTop: "-1%",
+                  }}
+                ></hr>
+                <p
+                  class="card-text"
+                  style={{ fontWeight: "700", fontSize: "13px" }}
+                >
+                  Go to your
+                  <br />
+                  account to place an order
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="step_card">
+            <div
+              class="card"
+              style={{
+                width: "100%",
+                borderRadius: "10px",
+                boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
+                border: "black",
+              }}
+            >
+              <img
+                src="assets/images/S-4.png"
+                width="30%"
+                height="30%"
+                alt="Image icon"
+              />
+              <br />
+              <div class="card-body">
+                <h4 class="card-title">Step 4:</h4>
+                <hr
+                  style={{
+                    width: "32%",
+                    border: "1px solid #ffcc33",
+                    backgroundColor: "#ffcc33",
+                    opacity: "1",
+                    marginTop: "-1%",
+                  }}
+                ></hr>
+                <p
+                  class="card-text"
+                  style={{ fontWeight: "700", fontSize: "13px" }}
+                >
+                  Upload the
+                  <br />
+                  images you want us to edit
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="step_card">
+            <div
+              class="card"
+              style={{
+                width: "100%",
+                borderRadius: "10px",
+                boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
+                border: "black",
+              }}
+            >
+              <img
+                src="assets/images/S-5.png"
+                width="30%"
+                height="30%"
+                alt="Image icon"
+              />
+              <br />
+              <div class="card-body">
+                <h4 class="card-title">Step 5:</h4>
+                <hr
+                  style={{
+                    width: "32%",
+                    border: "1px solid #ffcc33",
+                    backgroundColor: "#ffcc33",
+                    opacity: "1",
+                    marginTop: "-1%",
+                  }}
+                ></hr>
+                <p
+                  class="card-text"
+                  style={{ fontWeight: "700", fontSize: "13px" }}
+                >
+                  The best photo editor
+                  <br />
+                  process the photos for you
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="step_card">
+            <div
+              class="card"
+              style={{
+                width: "100%",
+                borderRadius: "10px",
+                boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
+                border: "black",
+              }}
+            >
+              <img
+                src="assets/images/S-6.png"
+                width="30%"
+                height="30%"
+                alt="Image icon"
+              />
+              <br />
+              <div class="card-body">
+                <h4 class="card-title">Step 6:</h4>
+                <hr
+                  style={{
+                    width: "32%",
+                    border: "1px solid #ffcc33",
+                    backgroundColor: "#ffcc33",
+                    opacity: "1",
+                    marginTop: "-1%",
+                  }}
+                ></hr>
+                <p
+                  class="card-text"
+                  style={{ fontWeight: "700", fontSize: "13px" }}
+                >
+                  Download
+                  <br />
+                  the edited photos
+                  <span id="prefer" style={{ color: "white" }}>
+                    for you
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Contact us */}
@@ -1831,17 +1856,13 @@ function Home(props) {
                 </a>
               </div>
               <div id="we-are-here">
-              <p
-                  style={{ fontSize: "38px", marginLeft: "2.4%" }}
-                >
+                <p style={{ fontSize: "38px", marginLeft: "2.4%" }}>
                   We are Here to
                 </p>
-                </div>
+              </div>
             </div>
 
-            <p id="we-are-here-sec" >
-                  Answer Your Every Query
-                </p>
+            <p id="we-are-here-sec">Answer Your Every Query</p>
           </div>
           <div id="blog"></div>
         </div>
@@ -1881,7 +1902,6 @@ function Home(props) {
               blogs
             </p>
           </div>
-
 
           <div class="container">
             <div class="row" id="back-last">
@@ -2019,7 +2039,7 @@ function Home(props) {
       <Map />
 
       {/* Footer */}
-          <Footer/>
+      <Footer />
     </div>
   );
 }
