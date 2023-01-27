@@ -23,7 +23,15 @@
 .pdfview_wrap {
 	width: 60%;
 	margin: auto;
+	opacity: 0;
+	transition: 2s;
+	visibility: hidden;
 }
+.pdfview_wrap.active {
+	opacity: 1;
+	visibility: visible;
+}
+
 .viewPdfBody {
 	display: flex;
 }
@@ -51,8 +59,8 @@
 }
 .pdf_nav {
 	display: grid;
-	grid-template-columns: 100px 100px 100px;
-    margin: auto;
+	grid-template-columns: 50px 70px 50px;
+	margin: auto;
 	text-align: center;
 }
 #pageInfo {
@@ -60,8 +68,21 @@
 	margin: 0px;
 	color: #ffff;
 }
+
+
 .pdfBtn {
+	background: none;
+	color: #fff !important;
+	transition: 0.5s;
 	border: none;
+}
+.pdfBtn i {
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+.pdfBtn:hover {
+	color:#778954 !important;
 }
 @keyframes formAnimCome {
     0%   {left: 200%;}

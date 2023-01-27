@@ -12,8 +12,8 @@ const ThankUPdf = () => {
 
                 <div class="row">
                     <p style={{ fontWeight: "700", fontSize: "100px", marginTop: "4%", color: "black", textAlign: "center" }}>Thank You</p>
-                    <div class="text-center" style={{ fontSize: "25px", color: "black", padding: "0 60px" }}><p>Thank you for downloading the Service Profile
-                        The file has been sent to your email! as a pdf. <br></br>Contact us for any more concerns! </p>
+                    <div class="text-center" style={{ fontSize: "25px", color: "black", padding: "0 60px" }}><p>Thank you for downloading our Service Profile! A download link has been sent to your email.
+Contact us to know more about our services! </p>
                         <br></br>
                         <p style={{ fontSize: "15px" }}>Sincerely,<br />
                             Team CutOutWiz</p>

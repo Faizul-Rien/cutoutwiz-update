@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import { pdfjs } from 'react-pdf';
 import pdfFile from './sample.pdf';
 import './style.css';
 import Button from 'react-bootstrap/Button';
@@ -7,6 +8,7 @@ import Form from 'react-bootstrap/Form';
 import emailjs from "emailjs-com";
 import { redirect, useNavigate } from "react-router-dom";
 import Loading from '../Loading/Loading';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 const PDFViewer = () => {
@@ -15,12 +17,10 @@ const PDFViewer = () => {
   const [pageNumber, setPageNumber] = useState(1);
   const [pageThumbnails, setPageThumbnails] = useState([]);
   const [formActive, setFormActive] = useState("");
-  const [getLoading, setLoading] = useState(false); 
+  const [getLoading, setLoading] = useState(true); 
+  const [pdfVisible, setPdfVisible] = useState(false);
   const defaultPageView = 3;
 
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
-  }
 
     let navigate = useNavigate();
 
@@ -52,38 +52,50 @@ const PDFViewer = () => {
     e.target.reset();
   }
 
+  const ld = ()=>{
+    setLoading(true)
+    setPdfVisible(false)
+  }
+
+  const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+    setLoading(false)
+    setPdfVisible(true)
+  }
 
   return (
     <div id='pdfViewBodyWrap' class="fwidth">
 
      {getLoading == true && <Loading/> } 
 
-      <div className='pdfview_wrap'>
+      <div className={`pdfview_wrap  ${pdfVisible == true && 'active'}`}>
         <div className='viewPdfBody fwidth'>
           <div className='viewPdf fwidth'>
-            <Document file={pdfFile} onLoadSuccess={onDocumentLoadSuccess} className="pdfViewcon_wrap">
-              <Page width={500} devicePixelRatio={2} pageNumber={pageNumber} renderTextLayer={false} className="pdfViewFile" />
-            </Document>
+              <Document file={pdfFile} onLoadSuccess={onDocumentLoadSuccess}  loading={ld} className="pdfViewcon_wrap">
+                <Page width={500} devicePixelRatio={2} pageNumber={pageNumber} renderTextLayer={false} className="pdfViewFile" />
+              </Document>
           </div>
         </div>
 
         <div className='pdf_nav_wrap fwidth'>
           <div className='pdf_nav'>
-            <button onClick={() => handlePageClick(pageNumber - 1)} className='pdfBtn'>Prev</button>
+            <button onClick={() => handlePageClick(pageNumber - 1)} className='pdfBtn'><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>
             <p id="pageInfo">
               {pageNumber} of <span class="glyphicon glyphicon-asterisk"></span> {numPages}
             </p>
-            <button onClick={() => handlePageClick(pageNumber + 1)} className='pdfBtn'>Next</button>
+            <button onClick={() => handlePageClick(pageNumber + 1)} className='pdfBtn'><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 
           </div>
         </div>
       </div>
+
+      
       <div id='submitInfoWrap' className={formActive}>
         <div className='pdfFormSubmit'>
 
           <Form onSubmit={functionsendEmail}>
             <Form.Text className="text-muted pdfInfoForm">
-              Submit following information for get full pdf on your email.
+              Please give us your Email Id to send you the Download Link!
             </Form.Text>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Full Name</Form.Label>
