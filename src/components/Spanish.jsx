@@ -237,9 +237,7 @@ function Spanish(props) {
 
   return (
     <div className="spain">
-      <Router>
-        <Navigationes />
-      </Router>
+
       <Helmet>
         <title>CutOutWiz : Image and Video Post Production</title>
         <meta

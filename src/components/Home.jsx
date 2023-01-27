@@ -1864,7 +1864,6 @@ function Home(props) {
 
             <p id="we-are-here-sec">Answer Your Every Query</p>
           </div>
-          <div id="blog"></div>
         </div>
       </div>
       {/*       
@@ -1883,7 +1882,7 @@ function Home(props) {
 
       {/* Blog Banner with blog section */}
 
-      <div class="blogBannerWrap fwidth">
+      <div id="blog" class="blogBannerWrap fwidth">
         <div id="blogphn">
           <div id="blog_heading">
             <h1

@@ -1642,6 +1642,9 @@ button:not(:disabled) {
   height: 100%;
   width: 135%;
 }
+.navbar-nav {
+	align-items: center;
+}
 @media print {
   html,
   body {
@@ -1808,6 +1811,21 @@ button:not(:disabled) {
   #we-are-here {
     width: 39%;
   }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav li,
+  .navbar-nav li a {
+    float: left;
+    width: 100%;
+  }
+  .navbar-nav li ul {
+    float: left !important;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 767px) {
   #countRecord {
@@ -1866,21 +1884,6 @@ button:not(:disabled) {
   }
   .blogBannerWrap {
     background-size: 100%;
-  }
-
-  .navbar-nav {
-    text-align: center;
-  }
-  .navbar-nav li,
-  .navbar-nav li a {
-    float: left;
-    width: 100%;
-  }
-  .navbar-nav li ul {
-    float: left !important;
-    width: 100%;
-    text-align: center;
-    padding: 0;
   }
 }
 @media only screen and (max-width: 575px) {

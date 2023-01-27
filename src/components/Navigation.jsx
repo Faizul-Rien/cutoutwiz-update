@@ -29,7 +29,7 @@ function Navigation(props) {
   }
   return (
     <div id="appWrap">
-    <Navbar collapseOnSelect sticky="top" expand="md" bg="black" variant="dark">
+    <Navbar collapseOnSelect sticky="top" expand="lg" bg="black" variant="dark">
       <Container>
         <div>
           <Link class="navbar-brand" to="/">
@@ -168,6 +168,9 @@ function Navigation(props) {
                 </Link>
               </li> */}
 
+
+              {/* language button */}
+              {/* 
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -257,6 +260,8 @@ function Navigation(props) {
                 </li>
               </ul>
             </li>
+            */}
+
           </ul>
         </div>
       </Container>
