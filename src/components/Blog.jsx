@@ -15,9 +15,6 @@ function Blog() {
       };
     return (
         <div className="blogs">
-         <Router >
-      <Navigation />
-      </Router>
             <Helmet>
                 <title>Image & Video Editing Company | Blogs | CutOutWiz</title>
                 <meta name="description" keywords= "product photo editing" content="By implementing product photo editing, you'll be able to be removing backgrounds, edit a photo and ensure professional retouching. " 
