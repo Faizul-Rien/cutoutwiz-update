@@ -400,7 +400,6 @@ input:checked {
   display: none;
 }
 
-
 .slick-next,
 .slick-prev {
   display: none !important;
@@ -1070,7 +1069,6 @@ input:checked {
   display: none;
 }
 
-
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled),
@@ -1395,43 +1393,45 @@ button:not(:disabled) {
   animation-direction: alternate;
 }
 
-
 /*shafayat start */
-#appWrap {float: left; width: 100%;}
-#sucRcd{
+#appWrap {
+  float: left;
+  width: 100%;
+}
+#sucRcd {
   text-align: center;
   font-size: 38px;
   font-family: Branch;
   font-weight: 700;
 }
 #countStartWrap {
-	margin-top: 37px;
+  margin-top: 37px;
 }
 .serviceTop_wrap {
-	background-color: rgb(227, 230, 216);
-	padding-top: 370px;
+  background-color: rgb(227, 230, 216);
+  padding-top: 370px;
 }
 #countRecord {
-	background-position: center center;
-	background-color: rgb(197, 218, 156);
-	background-size: cover;
-	margin-top: 0%;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 270px;
+  background-position: center center;
+  background-color: rgb(197, 218, 156);
+  background-size: cover;
+  margin-top: 0%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 270px;
 }
 .cardImage {
-	display: grid;
-	grid-template-columns: 60% 40%;
-	grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 20px;
 }
 .srvLeftSlide {
-	position: relative;
+  position: relative;
 }
 #service-left {
-	position: absolute;
-	top: 50px;
-	right: 30%;
+  position: absolute;
+  top: 50px;
+  right: 30%;
 }
 
 #photo4 {
@@ -1439,23 +1439,28 @@ button:not(:disabled) {
   height: 499px;
 }
 #photo6 {
-	width: 382px;
-	height: 450px;
-	top: 50px;
-	right: 34% !important;
+  width: 382px;
+  height: 450px;
+  top: 50px;
+  right: 34% !important;
 }
-#photo7, #photo8{
+#photo7,
+#photo8 {
   width: 460px;
   height: 323px;
 }
 #photo7 {
   top: 100px;
 }
-#photo8{
+#photo8 {
   top: 120px;
 }
-.sl_heading {font-size: 40px;}
-#forMobileCardImage {display: none;}
+.sl_heading {
+  font-size: 40px;
+}
+#forMobileCardImage {
+  display: none;
+}
 #video_service {
   background-color: rgb(255, 255, 255);
   background-size: cover;
@@ -1463,13 +1468,13 @@ button:not(:disabled) {
   width: 100%;
 }
 #video-editing-service {
-	height: 100vh;
-	position: relative;
+  height: 100vh;
+  position: relative;
 }
 #video_service {
-	top: 50%;
-	transform: translateY(-50%);
-	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
 }
 
 #vdo_des_wrap {
@@ -1480,78 +1485,78 @@ button:not(:disabled) {
   font-size: 46px;
 }
 .logopopWrap {
-	display: grid;
-	grid-template-columns: auto auto auto auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
 }
 #logo-big {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 .planWrap {
-	padding-top: 70px;
-	padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
-.plan_card{
-  background-image: url("../../assets/images/1.19back.png");
+.plan_card {
+  /* background-image: url("../../assets/images/1.19back.png"); */
   height: 100%;
   width: 250px;
   background-repeat: no-repeat;
   margin: auto;
 }
 .plan_card .card {
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .placeOrderWrap {
-	background-color: rgb(197, 218, 156);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	padding-bottom: 190px;
-	position: relative;
+  background-color: rgb(197, 218, 156);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 190px;
+  position: relative;
 }
 .card_Wrap {
-	display: grid;
-	float: left;
-	width: 100%;
-	grid-template-columns: auto auto auto auto auto auto;
-	grid-gap: 14px;
-	padding: 0 30px;
-	position: absolute;
-	bottom: -102px;
+  display: grid;
+  float: left;
+  width: 100%;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 14px;
+  padding: 0 30px;
+  position: absolute;
+  bottom: -102px;
 }
 .step_card .card {
-	min-height: 230px;
+  min-height: 230px;
 }
 .contactusWrap {
-	background-color: rgb(227, 230, 216);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	padding-bottom: 100px;
+  background-color: rgb(227, 230, 216);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 100px;
 }
 #contact_wrap_area {
-	float: left;
-	width: 100%;
+  float: left;
+  width: 100%;
 }
 #contactInfo {
-	float: left;
-	width: 100%;
-	position: relative;
+  float: left;
+  width: 100%;
+  position: relative;
 }
 .img_4 {
-	width: 570px;
-	position: relative;
-	margin: auto;
+  width: 570px;
+  position: relative;
+  margin: auto;
 }
 #we-are-here {
-	position: absolute;
-	width: 44%;
-	right: 0;
-	border-bottom: 4px solid #fff;
-	bottom: 0px;
+  position: absolute;
+  width: 44%;
+  right: 0;
+  border-bottom: 4px solid #fff;
+  bottom: 0px;
 }
 #we-are-here p {
-	margin: 0;
+  margin: 0;
 }
 #we-are-here-sec {
   font-size: 50px;
@@ -1561,57 +1566,60 @@ button:not(:disabled) {
   float: left;
   width: 100%;
 }
-.blogBannerWrap{
-background-image: url("../../assets/images/Last-part-Green.png");
-background-size: 100% 100%;
-background-repeat: no-repeat;
-width: 100%;
-padding-bottom: 60px;
+.blogBannerWrap {
+  background-image: url("../../assets/images/Last-part-Green.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 60px;
 }
 #blog_heading {
-	padding-bottom: 40px;
-	padding-top: 10px;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
-.card-img-hidden{overflow: hidden;position: relative;}
+.card-img-hidden {
+  overflow: hidden;
+  position: relative;
+}
 .srv_prt_btn {
-	text-align: center;
-	position: absolute;
-	bottom: 20px;
-	left: 50%;
-	transform: translateX(-50%);
-	cursor: pointer;
-	z-index: 2;
-	display: flex;
-	align-items: center;
-	align-content: center;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 .srv_prt_btn a {
-	color: #000006;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 13px 20px;
-	border: 2px solid #8fa369;
-	align-self: center;
-	border-radius: 4px;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	overflow: hidden;
-	z-index: 1;
-	box-shadow: 0px 1px 6px #8fa369;
+  color: #000006;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 13px 20px;
+  border: 2px solid #8fa369;
+  align-self: center;
+  border-radius: 4px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0px 1px 6px #8fa369;
 }
 .srv_prt_btn a:hover {
-	overflow: hidden;
-	position: relative;
-	z-index: 2;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
   color: #000006;
 }
 .srv_prt_btn a::before,
 .srv_prt_btn a::after {
   background-color: #8fa369;
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
@@ -1625,9 +1633,9 @@ padding-bottom: 60px;
   transform-origin: top left;
   width: 0;
   -webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
+  -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
-	transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .srv_prt_btn a:hover:after {
@@ -1660,9 +1668,7 @@ padding-bottom: 60px;
   }
 }
 
-
 @media only screen and (min-width: 1400px) {
-
   #countStartWrap {
     margin-top: 25px;
   }
@@ -1679,7 +1685,7 @@ padding-bottom: 60px;
   .card_Wrap {
     top: 130%;
     transform: translateY(-130%);
-    bottom: auto; 
+    bottom: auto;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -1721,19 +1727,23 @@ padding-bottom: 60px;
     margin-top: 36px;
   }
 
-.successTxt {
-	padding-top: 50px;
-}
+  .successTxt {
+    padding-top: 50px;
+  }
   .card {
     min-height: 215px;
   }
- 
+
   #service-left {
     margin: auto !important;
     right: auto !important;
   }
-  .cardImage{display: none;}
-  #forMobileCardImage{display: block;}
+  .cardImage {
+    display: none;
+  }
+  #forMobileCardImage {
+    display: block;
+  }
   #srv_heading {
     text-align: center;
   }
@@ -1785,8 +1795,12 @@ padding-bottom: 60px;
   #js-nametag1 {
     margin-top: 0% !important;
   }
-  .plan_card {width: 195px;}
-  .plan_card .card { font-size: 13px;}
+  .plan_card {
+    width: 195px;
+  }
+  .plan_card .card {
+    font-size: 13px;
+  }
   .card_Wrap {
     grid-template-columns: auto auto;
     position: relative;
@@ -1809,7 +1823,8 @@ padding-bottom: 60px;
   #sucRcd {
     margin-top: 100px !important;
   }
-  #countAnimFirst, #countAnim {
+  #countAnimFirst,
+  #countAnim {
     width: 360px;
     margin: auto;
     margin-top: 40px;
@@ -1843,33 +1858,34 @@ padding-bottom: 60px;
     padding-bottom: 20px;
   }
   #we-are-here-sec {
-	font-size: 40px;
-	float: left;
-	width: 100%;
-	margin: auto;
-	padding-top: 20px;
-}
-.blogBannerWrap {
-	background-size: 100%;
-}
+    font-size: 40px;
+    float: left;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .blogBannerWrap {
+    background-size: 100%;
+  }
 
-.navbar-nav {
-  text-align: center;
-}
-.navbar-nav li, .navbar-nav li a {
-	float: left;
-	width: 100%;
-}
-.navbar-nav li ul {
-	float: left !important;
-	width: 100%;
-	text-align: center;
-	padding: 0;
-}
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav li,
+  .navbar-nav li a {
+    float: left;
+    width: 100%;
+  }
+  .navbar-nav li ul {
+    float: left !important;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 575px) {
-
-  #countAnimFirst, #countAnim {
+  #countAnimFirst,
+  #countAnim {
     width: 300px;
   }
   #imgser {
@@ -1882,19 +1898,22 @@ padding-bottom: 60px;
     font-size: 45px;
     margin-top: 0px;
   }
-#service-left-2 {
-	width: 360px;
-}
-#photo4, #photo6, #photo7, #photo8{
-  max-width: 100%;
-  height: auto;
-}
-.plan_card {
-	width: 270px;
-}
-.img_4 {
-	width: 100%;
-}
+  #service-left-2 {
+    width: 360px;
+  }
+  #photo4,
+  #photo6,
+  #photo7,
+  #photo8 {
+    max-width: 100%;
+    height: auto;
+  }
+  .plan_card {
+    width: 270px;
+  }
+  .img_4 {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 360px) {
   #countAnim {
