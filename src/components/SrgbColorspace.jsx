@@ -3,17 +3,12 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
 
  function SrgbColorspace(props) {
 
     return(
         <div className="postphoto">
-                     <Router >
-      <Navigation />
-      </Router>
-
             {/* META TAG AND META TITTLE */}
 
               <Helmet>

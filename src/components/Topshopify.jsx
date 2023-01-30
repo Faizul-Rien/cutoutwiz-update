@@ -3,16 +3,13 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
 
  function Topshopify(props) {
-
+ 
     return(
         <div className="postphoto">
-    <Router >
-      <Navigation />
-      </Router>
+    
              <Helmet>
                 <title>Top Shopify Marketing Strategy for Sellers - CutOutWiz</title>
                 <meta name="description" keywords= "Shopify Sellers,Digital Marketing" content="Shopify marketing strategy includes getting best product photography, photo editing, ensure competitive pricing and SEO friendly website." 

@@ -3,15 +3,10 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
  function EcomToBrand(props) {
 
     return(
         <div className="postphoto">
-                          <Router >
-      <Navigation />
-      </Router>
              <Helmet>
                 <title></title>
                 <meta name="" keywords= "" content="" 

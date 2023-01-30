@@ -3,16 +3,13 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
 
  function Productphotography(props) {
 
     return(
-        <div className="postphoto">
-                                      <Router >
-      <Navigation />
-      </Router>
+        <div className="postphoto"> 
+                                      
                <Helmet>
                 <title>Product Photography: How to take photos for your E-commerce Business | cutoutwiz</title>
                 <meta name="description" keywords= "Product Photography" content="Creative product photography requires you have a suitable device, background, lights, removing backgrounds and photography retouching. " 

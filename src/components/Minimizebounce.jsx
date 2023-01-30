@@ -2,16 +2,11 @@ import React, { Component } from "react";
  
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
- 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function Minimizebounce(props) {
 
     return(
         <div className="postphoto">
-                          <Router >
-      <Navigation />
-      </Router>
              <Helmet>
                 <title>Minimize Your Bounce Rate CutOutWiz - CutOutWiz</title>
                 <meta name="description" keywords= "Bounce rate,Digital Marketing" content="Bounce rate means that users are not engaging with your website. Read more to know about the impacts and reasons of bounce rate." 

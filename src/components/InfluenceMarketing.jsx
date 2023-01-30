@@ -1,16 +1,11 @@
 import React, { Component } from "react";
  
 import { Link } from 'react-router-dom';
- 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function InfluenceMarketing(props) {
 
     return(
         <div className="postphoto">
-                     <Router >
-      <Navigation />
-      </Router>
             <div id="button_back"style={{marginTop:"9%", backgroundColor: "#211f40",height: "100%",width: "100%"}}> 
             <p id="headpost"style={{color: "white",textAlign: "center",fontSize: "50px",top: "50%",fontWeight: "200"}}>Influencer Marketing: How To Find The Right One</p>
             </div>

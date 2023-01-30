@@ -2,15 +2,12 @@ import React, { Component } from "react";
  
  
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function Privacypolicy(props) {
 
     return(
         <div className="privacy">
-                          <Router >
-      <Navigation />
-      </Router>
+                           
             <div class="container">
                 <div class="row"style={{marginTop:"9%"}}>
                 <img src="assets/images/cutoutwiz-privecypolicy.jpg"  width="100%" height="100%" alt=""/>

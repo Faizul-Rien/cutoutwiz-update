@@ -2,17 +2,12 @@ import React, { Component } from "react";
  
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
- 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function NotFound(props) {
 
     return(
 
     <div className="postphoto">
-                                  <Router >
-      <Navigation />
-      </Router>
          <Helmet>
                 <style>{'body { background-color: #c5da9c; }'}</style>
                 <meta name="robots" content="noindex"></meta>

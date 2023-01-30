@@ -1,16 +1,11 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
 
  function Softbox(props) {    
 
     return(
         <div className="postphoto">
-              <Router >
-      <Navigation />
-      </Router>
              <Helmet>
                 <title>Car Photography: A Beginner’s How-To Guide And Tips - CutOutWiz</title>
                 <meta name="description" keywords= "Car Photography" content="In order to master the art of car photography, you need to find the perfect location, shooting time, get the best angles and ensure story telling." 

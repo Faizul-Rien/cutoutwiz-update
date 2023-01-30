@@ -3,15 +3,12 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function Postphotography(props) {
 
     return(
         <div className="postphoto">
-                          <Router >
-      <Navigation />
-      </Router>
+                          
             <Helmet>
                 <title>5 Interesting Product Photography Facts |cutoutwiz</title>
                 <meta name="description" keywords= "Product Photography Tips" content="In product photography, it’s important to always shoot in raw, adjust exposure triangle effectively, follow the rules of thirds and adjust your on-camera flash." 

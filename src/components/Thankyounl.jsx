@@ -1,14 +1,9 @@
 import React, { Component } from "react";
 import {Helmet} from "react-helmet";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigationnl} from "./";
  function Thankyounl(props) {
 
     return(
         <div className="postphoto"style={{backgroundColor:"#c5da9c"}}>
-               <Router >
-      <Navigationnl />
-      </Router>
              <Helmet>
                 <style>{'body { background-color: #c5da9c; }'}</style>
                 <meta name="robots" content="noindex"></meta>

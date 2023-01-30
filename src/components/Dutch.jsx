@@ -10,8 +10,6 @@ import { Card, CardHeader, CardBody, CardFooter } from 'react-simple-card';
 import Slider from "react-slick";
  
 import Typical from 'react-typical';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigationnl} from ".";
 const $ = window.$;
 
 var c=1,p=1,o=1,timer;
@@ -283,9 +281,7 @@ function refreshPage(){
   return (
 
     <div className="home">
-      <Router >
-       <Navigationnl />
-      </Router>
+
       <Helmet>
                 <title>CutOutWiz : Image and Video Post Production</title>
                 <meta  name="description" keywords="Product photo edinting company" content="CutOutWiz is one of the leading image and video editing company for businesses all over the world. As the world moves towards a virtual business base, product photo editing has been a very important part for any E-commerce business "

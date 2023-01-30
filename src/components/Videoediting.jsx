@@ -3,16 +3,13 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
 
  function Videoediting(props) {
 
     return(
         <div className="postphoto">
-                          <Router >
-      <Navigation />
-      </Router>
+                          
               <Helmet>
                 <title>5 Interesting Product Video Editing Facts |cutoutwiz</title>
                 <meta name="description" keywords= "Product Video Editing" content="Product video editing is an art that you must master though experience, skill and practice, It's time consuming and require planning but it's worth it." 

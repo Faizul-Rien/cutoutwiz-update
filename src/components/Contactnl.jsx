@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import emailjs from "emailjs-com";
 import { Helmet } from "react-helmet";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigationnl } from ".";
 
 
 export default function Contactnl() {
@@ -41,9 +39,6 @@ export default function Contactnl() {
 
   return (
     <div className="containe">
-      <Router>
-        <Navigationnl />
-      </Router>
       <Helmet>
         <style>{"body { background-color: #c5da9c; }"}</style>
       </Helmet>

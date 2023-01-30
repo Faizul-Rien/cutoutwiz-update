@@ -3,16 +3,13 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
 
  function Wintermarketing(props) {
 
     return(
-        <div className="postphoto">
-       <Router >
-      <Navigation />
-      </Router>
+        <div className="postphoto"> 
+       
              <Helmet>
                 <title>7 Creative Winter Marketing Ideas for E-commerce Businesses - CutOutWiz</title>
                 <meta name="description" keywords= "Sales Tips,Digital Marketing" content="Embrace winter marketing ideas for e-commerce businesses by holding contests, surveys, and posting lifestyle photos with offers of discounts and sales." 

@@ -2,16 +2,10 @@ import React, { Component } from "react";
  
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
- 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
  function Softbox(props) {
 
     return(
         <div className="postphoto">
-                     <Router >
-      <Navigation />
-      </Router>
             <Helmet>
                 <title>A Beginner’s How-to Guide for Clothing Photography| cutoutwiz</title>
                 <meta name="description" keywords= "Clothing Photography" content="To take the perfect clothing photography for your e-store, you need to get realistic photos, plan the setup, get brighter lights and ensure multiple angles." 

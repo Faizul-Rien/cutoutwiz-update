@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
+
  function ArtInteli(props) {
 
     return(
@@ -16,10 +17,10 @@ import {Helmet} from "react-helmet";
             </div>
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
 
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="col-md-8" style={{height:"max-content"}}>
                 <img src="../../assets/images/AI Cover.jpg"  width="100%" height="20%" alt="Rectangle-image-blue-background-purple-highlight-info-artificial-intelligence"/>
 
                  <p style={{textAlign:"justify",marginTop:"4%",fontFamily:"poppins"}}>AI is the trending, phrase for all and business owners out there. It has special relevance in changing the way we capture moments in time and work our way to process them. Yes, I am talking about how AI can and is already revolutionizing the<b> image editing</b> industry.  
@@ -37,7 +38,7 @@ There are as of now many different styles of AI<b> image editing software</b> ac
 
 </p>
 
-<img src="../../assets/images/AI Process before after.jpeg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="AI Process before after"/>
+<img src="../../assets/images/AI Process before after.jpeg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="AI Process before after"/>
 <br/>
 
                <p style={{fontSize:"18px",fontWeight:"700"}}>So, what are the features of a basic AI image editor, you wonder?  </p>
@@ -58,7 +59,7 @@ There are as of now many different styles of AI<b> image editing software</b> ac
 
 <p style={{textAlign:"justify"}}>Changing the landscape of a bright and sunny day to a rainy one can be a very difficult process. Although, it takes time and process and more information to gather up for the perfect automated landscape weather changing. Once it has been processed into the system it can then turn images from snowy to sunny, day to night or even, fall to spring in an ease
 </p>
-<img src="../../assets/images/weather change before after.jpeg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="weather change before after"/>
+<img src="../../assets/images/weather change before after.jpeg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="weather change before after"/>
 <br/>
 
 
@@ -78,24 +79,24 @@ When you have lots of editing to do and have deadlines, AI can help spee
 
              <div className="col-md-4">
             
-            <div class="row">
-            <div class="col-4 col-md-4"> 
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4"> 
+                <div className="row-8">
             <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
             
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>    
@@ -103,20 +104,20 @@ When you have lots of editing to do and have deadlines, AI can help spee
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with 
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>    
@@ -125,48 +126,48 @@ When you have lots of editing to do and have deadlines, AI can help spee
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>    
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>    
@@ -174,24 +175,24 @@ When you have lots of editing to do and have deadlines, AI can help spee
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/a9579b1d-9fb5-43b2-b45f-7244173a4473.jpg"style={{marginTop:"7%"}}  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/product-photography-how-to-take-photos-for-your-e-commerce-business"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Product Photography: How to take photos for your E-commerce Business</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The first thing most people would do after entering an e-commerce business is go and checkout the products. Your products rule your site</p>
             </div>    
             </div>
@@ -202,16 +203,16 @@ When you have lots of editing to do and have deadlines, AI can help spee
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>

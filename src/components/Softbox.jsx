@@ -3,16 +3,12 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
 
-function Softbox(props) {
+
+function Softbox(props) { 
 
     return(
         <div className="postphoto">
-    <Router>
-      <Navigation />
-    </Router>
              <Helmet>
                 <title>How to make a Softbox for Product Photography | cutoutwiz</title>
                 <meta name="description" keywords= "Softbox" content="To create a softbox for product photoshoot, you need acquire the materials, measure and cut them, add it all up and place the light to diffuse it properly." 

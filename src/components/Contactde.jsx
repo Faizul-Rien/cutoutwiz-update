@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import emailjs from "emailjs-com";
 // import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigationde } from "./";
+
 const $ = window.$;
 // import Form from 'customisable-contact-form';
 // import {Heading, FirstName, LastName, Email, Message, SubmitButton} from 'customisable-contact-form'

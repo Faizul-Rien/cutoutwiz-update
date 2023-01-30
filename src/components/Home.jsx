@@ -249,12 +249,12 @@ function Home(props) {
 
       {/* Banner card section */}
 
-      <div class="cardid fwidth">
-        <div class="container" id="left-card">
-          <div class="row">
-            <div class="col-6 col-md-3 col-lg">
+      <div className="cardid fwidth">
+        <div className="container" id="left-card">
+          <div className="row">
+            <div className="col-6 col-md-3 col-lg">
               <div
-                class="card"
+                className="card"
                 style={{
                   border: "black",
                   width: "100%",
@@ -271,8 +271,8 @@ function Home(props) {
                   alt="Image icon"
                 />
                 <br />
-                <div class="card-body" style={{ marginTop: "-3%" }}>
-                  <h4 style={{ color: "#000000" }} class="card-title">
+                <div className="card-body" style={{ marginTop: "-3%" }}>
+                  <h4 style={{ color: "#000000" }} className="card-title">
                     16,500+
                   </h4>
                   <hr
@@ -285,7 +285,7 @@ function Home(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       marginTop: "-7%",
                       fontWeight: "500",
@@ -300,9 +300,9 @@ function Home(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md-3  col-lg">
+            <div className="col-6 col-md-3  col-lg">
               <div
-                class="card"
+                className="card"
                 style={{
                   border: "black",
                   width: "100%",
@@ -319,8 +319,8 @@ function Home(props) {
                   alt="Team icon"
                 />
                 <br />
-                <div class="card-body" style={{ marginTop: "-3%" }}>
-                  <h4 style={{ color: "#000000" }} class="card-title">
+                <div className="card-body" style={{ marginTop: "-3%" }}>
+                  <h4 style={{ color: "#000000" }} className="card-title">
                     500+
                   </h4>
                   <hr
@@ -333,7 +333,7 @@ function Home(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       marginTop: "-7%",
                       fontWeight: "500",
@@ -348,9 +348,9 @@ function Home(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md-3  col-lg">
+            <div className="col-6 col-md-3  col-lg">
               <div
-                class="card"
+                className="card"
                 style={{
                   border: "black",
                   width: "100%",
@@ -367,8 +367,8 @@ function Home(props) {
                   alt="Support icon"
                 />
                 <br />
-                <div class="card-body" style={{ marginTop: "-3%" }} id="text">
-                  <h4 style={{ color: "#000000" }} class="card-title">
+                <div className="card-body" style={{ marginTop: "-3%" }} id="text">
+                  <h4 style={{ color: "#000000" }} className="card-title">
                     365 Days
                   </h4>
                   <hr
@@ -381,7 +381,7 @@ function Home(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       marginTop: "-7%",
                       fontWeight: "500",
@@ -396,9 +396,9 @@ function Home(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md-3  col-lg">
+            <div className="col-6 col-md-3  col-lg">
               <div
-                class="card"
+                className="card"
                 style={{
                   border: "black",
                   width: "100%",
@@ -415,8 +415,8 @@ function Home(props) {
                   alt="clock icon"
                 />
                 <br />
-                <div class="card-body" style={{ marginTop: "-3%" }}>
-                  <h4 style={{ color: "#000000" }} class="card-title">
+                <div className="card-body" style={{ marginTop: "-3%" }}>
+                  <h4 style={{ color: "#000000" }} className="card-title">
                     12 Hours
                   </h4>
                   <hr
@@ -429,7 +429,7 @@ function Home(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       marginTop: "-7%",
                       fontWeight: "500",
@@ -444,10 +444,10 @@ function Home(props) {
               </div>
             </div>
 
-            <div class="col-md  col-lg">
-              <div class="card-hidden">
+            <div className="col-md  col-lg">
+              <div className="card-hidden">
                 <div
-                  class="card"
+                  className="card"
                   style={{
                     border: "black",
                     borderRadius: "10px",
@@ -464,8 +464,8 @@ function Home(props) {
                     alt="Free trial icon"
                   />
                   <br />
-                  <div class="card-body" style={{ marginTop: "-3%" }}>
-                    <h4 style={{ color: "#000000" }} class="card-title">
+                  <div className="card-body" style={{ marginTop: "-3%" }}>
+                    <h4 style={{ color: "#000000" }} className="card-title">
                       10+
                     </h4>
                     <hr
@@ -478,7 +478,7 @@ function Home(props) {
                       }}
                     ></hr>
                     <p
-                      class="card-text"
+                      className="card-text"
                       style={{
                         marginTop: "-7%",
                         fontWeight: "500",
@@ -496,7 +496,7 @@ function Home(props) {
           </div>
         </div>
 
-        <div class="container">
+        <div className="container">
           <p
             id="abtHd"
             style={{
@@ -537,10 +537,10 @@ function Home(props) {
 
       {/* Count Record */}
 
-      <div id="countRecord" class="spacew fwidth">
-        <div class="container">
-          <div class="row">
-            <div class="successTxt">
+      <div id="countRecord" className="spacew fwidth">
+        <div className="container">
+          <div className="row">
+            <div className="successTxt">
               <p id="sucRcd">Success Record</p>
               <p
                 style={{
@@ -554,9 +554,9 @@ function Home(props) {
             </div>
           </div>
           <div id="countStartWrap">
-            <div class="row">
-              <div class="col-md-3" id="countAnimFirst">
-                <div id="retouchCount" class="text-center">
+            <div className="row">
+              <div className="col-md-3" id="countAnimFirst">
+                <div id="retouchCount" className="text-center">
                   <img
                     id="sucphn"
                     src="assets/images/18m.png"
@@ -564,7 +564,7 @@ function Home(props) {
                     width="90%"
                   />
                 </div>
-                <div class="fade-in-text">
+                <div className="fade-in-text">
                   <p
                     style={{
                       fontSize: "17px",
@@ -574,7 +574,7 @@ function Home(props) {
                   >
                     IMAGE <br /> PRODUCTION
                   </p>
-                  <div class="text-center" style={{ marginTop: "-5%" }}>
+                  <div className="text-center" style={{ marginTop: "-5%" }}>
                     <button
                       id="rest"
                       style={{
@@ -590,8 +590,8 @@ function Home(props) {
                 </div>
               </div>
 
-              <div class="col-md-3" id="countAnim">
-                <div id="retouchCount" class="text-center">
+              <div className="col-md-3" id="countAnim">
+                <div id="retouchCount" className="text-center">
                   <img
                     id="sucphn"
                     src="assets/images/40k.png"
@@ -599,7 +599,7 @@ function Home(props) {
                     width="90%"
                   />
                 </div>
-                <div class="fade-in-text40k">
+                <div className="fade-in-text40k">
                   <p
                     style={{
                       fontSize: "17px",
@@ -609,7 +609,7 @@ function Home(props) {
                   >
                     IMAGE <br /> PRODUCTION
                   </p>
-                  <div class="text-center" style={{ marginTop: "-5%" }}>
+                  <div className="text-center" style={{ marginTop: "-5%" }}>
                     <button
                       id="rest"
                       style={{
@@ -625,8 +625,8 @@ function Home(props) {
                 </div>
               </div>
 
-              <div class="col-md-3" id="countAnim">
-                <div id="retouchCount" class="text-center">
+              <div className="col-md-3" id="countAnim">
+                <div id="retouchCount" className="text-center">
                   <img
                     id="sucphn"
                     src="assets/images/9.2k.png"
@@ -635,7 +635,7 @@ function Home(props) {
                   />
                 </div>
 
-                <div class="fade-in-text92k">
+                <div className="fade-in-text92k">
                   <p
                     style={{
                       fontSize: "17px",
@@ -645,7 +645,7 @@ function Home(props) {
                   >
                     VIDEO <br /> PRODUCTION
                   </p>
-                  <div class="text-center" style={{ marginTop: "-5%" }}>
+                  <div className="text-center" style={{ marginTop: "-5%" }}>
                     <button
                       id="rest"
                       style={{
@@ -661,8 +661,8 @@ function Home(props) {
                 </div>
               </div>
 
-              <div class="col-md-3" id="countAnim">
-                <div id="retouchCount" class="text-center">
+              <div className="col-md-3" id="countAnim">
+                <div id="retouchCount" className="text-center">
                   <img
                     id="sucphn"
                     src="assets/images/54k.png"
@@ -671,7 +671,7 @@ function Home(props) {
                   />
                 </div>
 
-                <div class="fade-in-text54k">
+                <div className="fade-in-text54k">
                   <p
                     style={{
                       fontSize: "17px",
@@ -681,7 +681,7 @@ function Home(props) {
                   >
                     VIDEO <br /> PRODUCTION
                   </p>
-                  <div class="text-center" style={{ marginTop: "-5%" }}>
+                  <div className="text-center" style={{ marginTop: "-5%" }}>
                     <button
                       id="rest"
                       style={{
@@ -703,12 +703,12 @@ function Home(props) {
 
       {/* Image editing service */}
 
-      <div class="serviceTop_wrap fwidth">
+      <div className="serviceTop_wrap fwidth">
         <div id="service-top">
           <div id="big-service">
             <div id="image-editing-service"></div>
 
-            <div class="card-img-hidden">
+            <div className="card-img-hidden">
               <div className="srv_prt_btn">
                 <Link to="/service-portfolio">Service Portfolio</Link>
               </div>
@@ -732,12 +732,12 @@ function Home(props) {
                     <div id="cf3">
                       <img
                         id="photo1"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Hair-Masking-after.png"
                       />
                       <img
                         id="photo1"
-                        class="top"
+                        className="top"
                         src="assets/images/Hair-Masking-before.png"
                       />
                     </div>
@@ -745,12 +745,12 @@ function Home(props) {
                     <div id="cf3">
                       <img
                         id="photo2"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Ghost manniquin-01.png"
                       />
                       <img
                         id="photo2"
-                        class="top"
+                        className="top"
                         src="assets/images/Ghost manniquin-02.png"
                       />
                     </div>
@@ -758,12 +758,12 @@ function Home(props) {
                     <div id="cf3">
                       <img
                         id="photo3"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/recolor-02.png"
                       />
                       <img
                         id="photo3"
-                        class="top"
+                        className="top"
                         src="assets/images/recolor-01.png"
                       />
                     </div>
@@ -771,13 +771,13 @@ function Home(props) {
                     <div id="cf3">
                       <img
                         id="photo4"
-                        class="top"
+                        className="top"
                         src="assets/images/Shadow creation-02.png"
                       />
 
                       <img
                         id="photo4"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Shadow creation-01.png"
                       />
                     </div>
@@ -785,12 +785,12 @@ function Home(props) {
                     <div id="cf3">
                       <img
                         id="photo5"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/prafter.png"
                       />
                       <img
                         id="photo5"
-                        class="top"
+                        className="top"
                         src="assets/images/prbefore.png"
                       />
                     </div>
@@ -798,12 +798,12 @@ function Home(props) {
                     <div id="cf3">
                       <img
                         id="photo6"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/color correction-01.png"
                       />
                       <img
                         id="photo6"
-                        class="top"
+                        className="top"
                         src="assets/images/color correction-02.png"
                       />
                     </div>
@@ -811,12 +811,12 @@ function Home(props) {
                     <div id="cf3">
                       <img
                         id="photo7"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/manipulation-before-1.png"
                       />
                       <img
                         id="photo7"
-                        class="top"
+                        className="top"
                         src="assets/images/manipulation-after-1.png"
                       />
                     </div>
@@ -824,12 +824,12 @@ function Home(props) {
                     <div id="cf3">
                       <img
                         id="photo8"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Background-remove-after.png"
                       />
                       <img
                         id="photo8"
-                        class="top"
+                        className="top"
                         src="assets/images/Background-remove-before.png"
                       />
                     </div>
@@ -855,57 +855,57 @@ function Home(props) {
                       autoplaySpeed={8000}
                     >
                       <div>
-                        <p class="sl_heading">IMAGE</p>
-                        <p class="sl_pr" id="testret-re">
+                        <p className="sl_heading">IMAGE</p>
+                        <p className="sl_pr" id="testret-re">
                           MASKING
                         </p>
                       </div>
 
                       <div>
-                        <p class="sl_heading">GHOST</p>
-                        <p class="sl_pr" id="testret-re">
+                        <p className="sl_heading">GHOST</p>
+                        <p className="sl_pr" id="testret-re">
                           MANNEQUIN
                         </p>
                       </div>
 
                       <div>
-                        <p class="sl_heading">PHOTO</p>
-                        <p class="sl_pr" id="testret-re">
+                        <p className="sl_heading">PHOTO</p>
+                        <p className="sl_pr" id="testret-re">
                           RECOLOR
                         </p>
                       </div>
 
                       <div>
-                        <p class="sl_heading">SHADOW</p>
-                        <p class="sl_pr" id="testret-re">
+                        <p className="sl_heading">SHADOW</p>
+                        <p className="sl_pr" id="testret-re">
                           CREATION
                         </p>
                       </div>
 
                       <div>
-                        <p class="sl_heading">PHOTO</p>
-                        <p class="sl_pr" id="testret-ret">
+                        <p className="sl_heading">PHOTO</p>
+                        <p className="sl_pr" id="testret-ret">
                           RETOUCH
                         </p>
                       </div>
 
                       <div>
-                        <p class="sl_heading">COLOR</p>
-                        <p class="sl_pr" id="testret-re">
+                        <p className="sl_heading">COLOR</p>
+                        <p className="sl_pr" id="testret-re">
                           CORRECTION
                         </p>
                       </div>
 
                       <div>
-                        <p class="sl_heading">IMAGE</p>
-                        <p class="sl_pr" id="testret-re">
+                        <p className="sl_heading">IMAGE</p>
+                        <p className="sl_pr" id="testret-re">
                           MANIPULATION
                         </p>
                       </div>
 
                       <div>
-                        <p class="sl_heading">BACKGROUND</p>
-                        <p class="sl_pr" id="testret">
+                        <p className="sl_heading">BACKGROUND</p>
+                        <p className="sl_pr" id="testret">
                           REMOVAL
                         </p>
                       </div>
@@ -936,170 +936,170 @@ function Home(props) {
                     ref={(slider3) => setNav3(slider3)}
                   >
                     <div id="cf3">
-                      <div class="sl_details">
-                        <p class="sl_heading">IMAGE</p>
-                        <p class="sl_pr" id="testret-re">
+                      <div className="sl_details">
+                        <p className="sl_heading">IMAGE</p>
+                        <p className="sl_pr" id="testret-re">
                           MASKING
                         </p>
                       </div>
-                      <div class="slImages">
+                      <div className="slImages">
                         <img
                           id="photo1"
-                          class="bottom"
+                          className="bottom"
                           src="assets/images/Hair-Masking-after.png"
                         />
 
                         <img
                           id="photo1"
-                          class="top"
+                          className="top"
                           src="assets/images/Hair-Masking-before.png"
                         />
                       </div>
                     </div>
 
                     <div id="cf3">
-                      <div class="sl_details">
-                        <p class="sl_heading">GHOST</p>
-                        <p class="sl_pr" id="testret-re">
+                      <div className="sl_details">
+                        <p className="sl_heading">GHOST</p>
+                        <p className="sl_pr" id="testret-re">
                           MANNEQUIN
                         </p>
                       </div>
-                      <div class="slImages">
+                      <div className="slImages">
                         <img
                           id="photo2"
-                          class="bottom"
+                          className="bottom"
                           src="assets/images/Ghost manniquin-01.png"
                         />
                         <img
                           id="photo2"
-                          class="top"
+                          className="top"
                           src="assets/images/Ghost manniquin-02.png"
                         />
                       </div>
                     </div>
 
                     <div id="cf3">
-                      <div class="sl_details">
-                        <p class="sl_heading">PHOTO</p>
-                        <p class="sl_pr" id="testret-re">
+                      <div className="sl_details">
+                        <p className="sl_heading">PHOTO</p>
+                        <p className="sl_pr" id="testret-re">
                           RECOLOR
                         </p>
                       </div>
-                      <div class="slImages">
+                      <div className="slImages">
                         <img
                           id="photo3"
-                          class="bottom"
+                          className="bottom"
                           src="assets/images/recolor-02.png"
                         />
                         <img
                           id="photo3"
-                          class="top"
+                          className="top"
                           src="assets/images/recolor-01.png"
                         />
                       </div>
                     </div>
 
                     <div id="cf3">
-                      <div class="sl_details">
-                        <p class="sl_heading">SHADOW</p>
-                        <p class="sl_pr" id="testret-re">
+                      <div className="sl_details">
+                        <p className="sl_heading">SHADOW</p>
+                        <p className="sl_pr" id="testret-re">
                           CREATION
                         </p>
                       </div>
-                      <div class="slImages">
+                      <div className="slImages">
                         <img
                           id="photo4"
-                          class="top"
+                          className="top"
                           src="assets/images/Shadow creation-02.png"
                         />
 
                         <img
                           id="photo4"
-                          class="bottom"
+                          className="bottom"
                           src="assets/images/Shadow creation-01.png"
                         />
                       </div>
                     </div>
 
                     <div id="cf3">
-                      <div class="sl_details">
-                        <p class="sl_heading">PHOTO</p>
-                        <p class="sl_pr" id="testret-ret">
+                      <div className="sl_details">
+                        <p className="sl_heading">PHOTO</p>
+                        <p className="sl_pr" id="testret-ret">
                           RETOUCH
                         </p>
                       </div>
-                      <div class="slImages">
+                      <div className="slImages">
                         <img
                           id="photo5"
-                          class="bottom"
+                          className="bottom"
                           src="assets/images/prafter.png"
                         />
                         <img
                           id="photo5"
-                          class="top"
+                          className="top"
                           src="assets/images/prbefore.png"
                         />
                       </div>
                     </div>
 
                     <div id="cf3">
-                      <div class="sl_details">
-                        <p class="sl_heading">COLOR</p>
-                        <p class="sl_pr" id="testret-re">
+                      <div className="sl_details">
+                        <p className="sl_heading">COLOR</p>
+                        <p className="sl_pr" id="testret-re">
                           CORRECTION
                         </p>
                       </div>
-                      <div class="slImages">
+                      <div className="slImages">
                         <img
                           id="photo6"
-                          class="bottom"
+                          className="bottom"
                           src="assets/images/color correction-01.png"
                         />
                         <img
                           id="photo6"
-                          class="top"
+                          className="top"
                           src="assets/images/color correction-02.png"
                         />
                       </div>
                     </div>
 
                     <div id="cf3">
-                      <div class="sl_details">
-                        <p class="sl_heading">IMAGE</p>
-                        <p class="sl_pr" id="testret-re">
+                      <div className="sl_details">
+                        <p className="sl_heading">IMAGE</p>
+                        <p className="sl_pr" id="testret-re">
                           MANIPULATION
                         </p>
                       </div>
-                      <div class="slImages">
+                      <div className="slImages">
                         <img
                           id="photo7"
-                          class="bottom"
+                          className="bottom"
                           src="assets/images/manipulation-before-1.png"
                         />
                         <img
                           id="photo7"
-                          class="top"
+                          className="top"
                           src="assets/images/manipulation-after-1.png"
                         />
                       </div>
                     </div>
 
                     <div id="cf3">
-                      <div class="sl_details">
-                        <p class="sl_heading">BACKGROUND</p>
-                        <p class="sl_pr" id="testret">
+                      <div className="sl_details">
+                        <p className="sl_heading">BACKGROUND</p>
+                        <p className="sl_pr" id="testret">
                           REMOVAL
                         </p>
                       </div>
-                      <div class="slImages">
+                      <div className="slImages">
                         <img
                           id="photo8"
-                          class="bottom"
+                          className="bottom"
                           src="assets/images/Background-remove-after.png"
                         />
                         <img
                           id="photo8"
-                          class="top"
+                          className="top"
                           src="assets/images/Background-remove-before.png"
                         />
                       </div>
@@ -1114,11 +1114,11 @@ function Home(props) {
 
       {/* Video editing service */}
 
-      <div id="video-editing-service" class="fwidth">
+      <div id="video-editing-service" className="fwidth">
         <div id="video_service">
-          <div class="container">
-            <div class="row">
-              <div id="vdo_des_wrap" class="col-md-12 col-lg-5">
+          <div className="container">
+            <div className="row">
+              <div id="vdo_des_wrap" className="col-md-12 col-lg-5">
                 <div id="vid_des">
                   <p id="servicePars"></p>
                   <p id="imgser">Video Editing Service</p>
@@ -1156,9 +1156,9 @@ function Home(props) {
                 </div>
               </div>
 
-              <div id="vdo-item" class="col-md-12 col-lg-7">
+              <div id="vdo-item" className="col-md-12 col-lg-7">
                 <br />
-                <div class="text-center" id="vdoSer">
+                <div className="text-center" id="vdoSer">
                   <div id="container-target">
                     <div id="video-size1">
                       {" "}
@@ -1216,7 +1216,7 @@ function Home(props) {
                   <input
                     name="origin"
                     style={{ height: "20px", width: "20px" }}
-                    class="btn1show"
+                    className="btn1show"
                     type="radio"
                     checked
                   ></input>
@@ -1224,7 +1224,7 @@ function Home(props) {
                   <input
                     name="origin"
                     style={{ height: "20px", width: "20px" }}
-                    class="btn2show"
+                    className="btn2show"
                     type="radio"
                     checked
                   ></input>
@@ -1232,7 +1232,7 @@ function Home(props) {
                   <input
                     name="origin"
                     style={{ height: "20px", width: "20px" }}
-                    class="btn3show"
+                    className="btn3show"
                     type="radio"
                     checked
                   ></input>
@@ -1240,7 +1240,7 @@ function Home(props) {
                   <input
                     name="origin"
                     style={{ height: "20px", width: "20px" }}
-                    class="btn4show"
+                    className="btn4show"
                     type="radio"
                     checked
                   ></input>
@@ -1259,10 +1259,10 @@ function Home(props) {
 
       {/* Plan  */}
       <PriceCard></PriceCard>
-      {/* <div class="planWrap fwidth">
+      {/* <div className="planWrap fwidth">
         <div id="grenPhn">
           <div id="prices"></div>
-          <div class="container">
+          <div className="container">
             <h1
               id="choose-plan"
               style={{
@@ -1284,7 +1284,7 @@ function Home(props) {
             </p>
             <br />
 
-            <div class="row">
+            <div className="row">
               <p style={{ textAlign: "center", fontWeight: "700" }}>
                 We offer multiple pricing options to choose from that will help
                 you achieve your goals. Choose the one that meets your demands
@@ -1294,13 +1294,13 @@ function Home(props) {
               </p>
             </div>
 
-            <div class="row" style={{ marginTop: "6%" }}>
-              <div class="col-md-4">
-                <div class="plan_card">
+            <div className="row" style={{ marginTop: "6%" }}>
+              <div className="col-md-4">
+                <div className="plan_card">
                   <br />
 
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "100%",
                       marginLeft: "11%",
@@ -1312,7 +1312,7 @@ function Home(props) {
                       boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
                     }}
                   >
-                    <div class="card-title">
+                    <div className="card-title">
                       <br />
                       <br />
                       <p
@@ -1335,17 +1335,17 @@ function Home(props) {
                         starts from
                       </p>
                     </div>
-                    <div class="card-body" style={{ marginTop: "-9%" }}>
+                    <div className="card-body" style={{ marginTop: "-9%" }}>
                       <img
                         src="assets/images/1.19.png"
-                        class="rounded mx-auto d-block"
+                        className="rounded mx-auto d-block"
                         width="100px"
                         height="113px"
                         alt=""
                       />
                     </div>
 
-                    <div class="text-center">
+                    <div className="text-center">
                       <p style={{ marginTop: "-3%" }}>1-100 IMAGES/ORDER</p>
                       <p style={{ marginTop: "-4%" }}>10 IMAGES-FREE</p>
                       <p style={{ marginTop: "-4%" }}>1 MONTH FREE STORAGE</p>
@@ -1363,12 +1363,12 @@ function Home(props) {
                 </div>
               </div>
 
-              <div class="col-md-4">
-              <div class="plan_card">
+              <div className="col-md-4">
+              <div className="plan_card">
                   <br />
 
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "100%",
                       marginLeft: "11%",
@@ -1380,7 +1380,7 @@ function Home(props) {
                       boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
                     }}
                   >
-                    <div class="card-title">
+                    <div className="card-title">
                       <br />
                       <br />
                       <p
@@ -1403,17 +1403,17 @@ function Home(props) {
                         starts from
                       </p>
                     </div>
-                    <div class="card-body" style={{ marginTop: "-9%" }}>
+                    <div className="card-body" style={{ marginTop: "-9%" }}>
                       <img
                         src="assets/images/0.99.png"
-                        class="rounded mx-auto d-block"
+                        className="rounded mx-auto d-block"
                         width="100px"
                         height="113px"
                         alt=""
                       />
                     </div>
 
-                    <div class="text-center">
+                    <div className="text-center">
                       <p style={{ marginTop: "-3%" }}>101-500 IMAGES/ORDER</p>
                       <p style={{ marginTop: "-4%" }}>10 IMAGES-FREE</p>
                       <p style={{ marginTop: "-4%" }}>2 MONTH FREE STORAGE</p>
@@ -1431,12 +1431,12 @@ function Home(props) {
                 </div>
               </div>
 
-              <div class="col-md-4">
-              <div class="plan_card" >
+              <div className="col-md-4">
+              <div className="plan_card" >
                   <br />
 
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "100%",
                       marginLeft: "11%",
@@ -1448,7 +1448,7 @@ function Home(props) {
                       boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
                     }}
                   >
-                    <div class="card-title">
+                    <div className="card-title">
                       <button
                         style={{
                           backgroundColor: "#c5da98",
@@ -1482,17 +1482,17 @@ function Home(props) {
                         starts from
                       </p>
                     </div>
-                    <div class="card-body" style={{ marginTop: "-9%" }}>
+                    <div className="card-body" style={{ marginTop: "-9%" }}>
                       <img
                         src="assets/images/contact-us.png"
-                        class="rounded mx-auto d-block"
+                        className="rounded mx-auto d-block"
                         width="100px"
                         height="113px"
                         alt=""
                       />
                     </div>
 
-                    <div class="text-center">
+                    <div className="text-center">
                       <p style={{ marginTop: "-3%" }}>500-ꝏ IMAGES/ORDER</p>
                       <p style={{ marginTop: "-4%" }}>10 IMAGES-FREE</p>
                       <p style={{ marginTop: "-4%" }}>3 MONTH FREE STORAGE</p>
@@ -1514,7 +1514,7 @@ function Home(props) {
         </div>
       </div> */}
       {/*
-      <div class="row">
+      <div className="row">
         <div
           id="priceColor"
           style={{
@@ -1528,7 +1528,7 @@ function Home(props) {
 */}
       {/* Place an order */}
 
-      <div class="placeOrderWrap fwidth">
+      <div className="placeOrderWrap fwidth">
         <div id="place-order">
           <div id="how-it-works"></div>
 
@@ -1556,10 +1556,10 @@ function Home(props) {
             </p>
           </div>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3"></div>
-              <div class="col-md-6">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3"></div>
+              <div className="col-md-6">
                 <video
                   height="100%"
                   width="100%"
@@ -1571,15 +1571,15 @@ function Home(props) {
                   <source src="assets/images/Key-features-Video.mp4"></source>
                 </video>
               </div>
-              <div class="col-md-3"></div>
+              <div className="col-md-3"></div>
             </div>
           </div>
         </div>
 
-        <div class="card_Wrap">
-          <div class="step_card">
+        <div className="card_Wrap">
+          <div className="step_card">
             <div
-              class="card"
+              className="card"
               style={{
                 width: "100%",
                 borderRadius: "10px",
@@ -1594,8 +1594,8 @@ function Home(props) {
                 alt="Image icon"
               />
               <br />
-              <div class="card-body">
-                <h4 class="card-title">Step 1:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 1:</h4>
                 <hr
                   style={{
                     width: "32%",
@@ -1606,7 +1606,7 @@ function Home(props) {
                   }}
                 ></hr>
                 <p
-                  class="card-text"
+                  className="card-text"
                   id="btmspace"
                   style={{ fontWeight: "700", fontSize: "13px" }}
                 >
@@ -1617,9 +1617,9 @@ function Home(props) {
             </div>
           </div>
 
-          <div class="step_card">
+          <div className="step_card">
             <div
-              class="card"
+              className="card"
               style={{
                 width: "100%",
                 borderRadius: "10px",
@@ -1634,8 +1634,8 @@ function Home(props) {
                 alt="Image icon"
               />
               <br />
-              <div class="card-body">
-                <h4 class="card-title">Step 2:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 2:</h4>
                 <hr
                   style={{
                     width: "32%",
@@ -1646,7 +1646,7 @@ function Home(props) {
                   }}
                 ></hr>
                 <p
-                  class="card-text"
+                  className="card-text"
                   style={{ fontWeight: "700", fontSize: "13px" }}
                 >
                   Choose your
@@ -1661,9 +1661,9 @@ function Home(props) {
             </div>
           </div>
 
-          <div class="step_card">
+          <div className="step_card">
             <div
-              class="card"
+              className="card"
               style={{
                 width: "100%",
                 borderRadius: "10px",
@@ -1679,8 +1679,8 @@ function Home(props) {
               />
               <br />
 
-              <div class="card-body">
-                <h4 class="card-title">Step 3:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 3:</h4>
                 <hr
                   style={{
                     width: "32%",
@@ -1691,7 +1691,7 @@ function Home(props) {
                   }}
                 ></hr>
                 <p
-                  class="card-text"
+                  className="card-text"
                   style={{ fontWeight: "700", fontSize: "13px" }}
                 >
                   Go to your
@@ -1702,9 +1702,9 @@ function Home(props) {
             </div>
           </div>
 
-          <div class="step_card">
+          <div className="step_card">
             <div
-              class="card"
+              className="card"
               style={{
                 width: "100%",
                 borderRadius: "10px",
@@ -1719,8 +1719,8 @@ function Home(props) {
                 alt="Image icon"
               />
               <br />
-              <div class="card-body">
-                <h4 class="card-title">Step 4:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 4:</h4>
                 <hr
                   style={{
                     width: "32%",
@@ -1731,7 +1731,7 @@ function Home(props) {
                   }}
                 ></hr>
                 <p
-                  class="card-text"
+                  className="card-text"
                   style={{ fontWeight: "700", fontSize: "13px" }}
                 >
                   Upload the
@@ -1742,9 +1742,9 @@ function Home(props) {
             </div>
           </div>
 
-          <div class="step_card">
+          <div className="step_card">
             <div
-              class="card"
+              className="card"
               style={{
                 width: "100%",
                 borderRadius: "10px",
@@ -1759,8 +1759,8 @@ function Home(props) {
                 alt="Image icon"
               />
               <br />
-              <div class="card-body">
-                <h4 class="card-title">Step 5:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 5:</h4>
                 <hr
                   style={{
                     width: "32%",
@@ -1771,7 +1771,7 @@ function Home(props) {
                   }}
                 ></hr>
                 <p
-                  class="card-text"
+                  className="card-text"
                   style={{ fontWeight: "700", fontSize: "13px" }}
                 >
                   The best photo editor
@@ -1782,9 +1782,9 @@ function Home(props) {
             </div>
           </div>
 
-          <div class="step_card">
+          <div className="step_card">
             <div
-              class="card"
+              className="card"
               style={{
                 width: "100%",
                 borderRadius: "10px",
@@ -1799,8 +1799,8 @@ function Home(props) {
                 alt="Image icon"
               />
               <br />
-              <div class="card-body">
-                <h4 class="card-title">Step 6:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 6:</h4>
                 <hr
                   style={{
                     width: "32%",
@@ -1811,7 +1811,7 @@ function Home(props) {
                   }}
                 ></hr>
                 <p
-                  class="card-text"
+                  className="card-text"
                   style={{ fontWeight: "700", fontSize: "13px" }}
                 >
                   Download
@@ -1828,16 +1828,16 @@ function Home(props) {
       </div>
 
       {/* Contact us */}
-      <div class="contactusWrap fwidth">
+      <div className="contactusWrap fwidth">
         <div id="blog-section-big">
           <div id="contact_wrap_area">
             <div id="contactInfo">
-              <div class="img_4">
+              <div className="img_4">
                 <img
                   src="assets/images/We are here illustration.png"
                   id="cont-pic"
                   style={{ marginTop: "31%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="70%"
                   height="70%"
                   alt=""
@@ -1867,7 +1867,7 @@ function Home(props) {
         </div>
       </div>
       {/*       
-      <div class="row">
+      <div className="row">
               <div
                 id="grensp"
                 style={{
@@ -1882,7 +1882,7 @@ function Home(props) {
 
       {/* Blog Banner with blog section */}
 
-      <div id="blog" class="blogBannerWrap fwidth">
+      <div id="blog" className="blogBannerWrap fwidth">
         <div id="blogphn">
           <div id="blog_heading">
             <h1
@@ -1902,16 +1902,16 @@ function Home(props) {
             </p>
           </div>
 
-          <div class="container">
-            <div class="row" id="back-last">
-              <div class="col-md-4">
+          <div className="container">
+            <div className="row" id="back-last">
+              <div className="col-md-4">
                 <Card
                   style={{
                     boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
                     border: "black",
                   }}
                 >
-                  <div class="containerback">
+                  <div className="containerback">
                     <Link to="/blog">
                       <img
                         src="assets/images/white-back642-863.png"
@@ -1920,7 +1920,7 @@ function Home(props) {
                         alt="Read Our Blogs photo"
                       />
 
-                      <div class="centered">
+                      <div className="centered">
                         <h2 style={{ color: "black" }}>Read Our</h2>
                         <h3
                           style={{
@@ -1937,7 +1937,7 @@ function Home(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card
                   style={{
                     height: "98%",
@@ -1973,7 +1973,7 @@ function Home(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card
                   style={{
                     height: "98%",
@@ -2014,7 +2014,7 @@ function Home(props) {
 
       {/* Ourr presence section */}
 
-      <div class="fwidth" id="big-scren-map">
+      <div className="fwidth" id="big-scren-map">
         <br />
         <br />
         <br />
