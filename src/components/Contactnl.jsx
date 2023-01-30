@@ -43,7 +43,7 @@ export default function Contactnl() {
         <style>{"body { background-color: #c5da9c; }"}</style>
       </Helmet>
 
-      {/* <div class="row">
+      {/* <div className="row">
         <div className="col-md-6">
           {image}
           <button
@@ -73,8 +73,8 @@ export default function Contactnl() {
         <div className="col-md-6"></div>
       </div> */}
 
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <div style={{ marginTop: "4%" }}>
             <p
               style={{
@@ -111,8 +111,8 @@ export default function Contactnl() {
                     required
                   />
                 </div>
-                <div class="col-8 form-group mx-auto">
-                  <select id="inputState" class="form-control" name="option">
+                <div className="col-8 form-group mx-auto">
+                  <select id="inputState" className="form-control" name="option">
                     <option selected> --Selecteer optie-- </option>
                     <option>Beeldbewerkingsservice</option>
                     <option>Videobewerkingsservice</option>
@@ -161,7 +161,7 @@ export default function Contactnl() {
                 </div>
 
                 <div className="col-8 pt-3 mx-auto">
-                  <div class="text-center">
+                  <div className="text-center">
                     <input
                       type="submit"
                       id="button-19"

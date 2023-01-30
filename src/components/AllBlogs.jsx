@@ -14,18 +14,18 @@ function AllBlogs(props) {
       <div style={{ backgroundColor: "#f3f5f7" }}>
         <br /><br />
         <div id="blogs">
-          <div class="container">
+          <div className="container">
 
             <h1 style={{ textAlign: "center" }}>All Blogs</h1>
 
             <p style={{ textAlign: "center", marginTop: "-1%", fontSize: "20px" }}>Learn more on different industry verticals and practices in our blogs</p>
 
           </div>
-          <div class="container">
-            <div class="row">
+          <div className="container">
+            <div className="row">
 
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blog banner.png" height="58%" width="100%" />
                   <div style={{ padding: "2%" }}>
@@ -36,7 +36,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/1.jpg" height="58%" width="100%" />
                   <div style={{ padding: "2%" }}>
@@ -50,7 +50,7 @@ function AllBlogs(props) {
 
 
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Bounce-Rate-cover2.jpg" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -62,9 +62,9 @@ function AllBlogs(props) {
               </div>
             </div>
 
-            <div class="row">
+            <div className="row">
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/types-of-photography.jpg" height="58%" width="100%" />
                   <div style={{ padding: "2%" }}>
@@ -75,7 +75,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/latestblog.jpg" height="58%" width="100%" />
                   <div style={{ padding: "2%" }}>
@@ -86,7 +86,7 @@ function AllBlogs(props) {
                   </div>
                 </Card>
               </div>
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blog-23.jpg" height="58%" width="100%" />
                   <div style={{ padding: "2%" }}>
@@ -101,9 +101,9 @@ function AllBlogs(props) {
             </div>
 
 
-            <div class="row">
+            <div className="row">
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/a9579b1d-9fb5-43b2-b45f-7244173a4473.jpg" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -114,7 +114,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Influencer_Marketing_2.jpg" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -124,7 +124,7 @@ function AllBlogs(props) {
                   </div>
                 </Card>
               </div>
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/MicrosoftTeams-image-1 (2).jpg" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -137,9 +137,9 @@ function AllBlogs(props) {
 
             </div>
 
-            <div class="row">
+            <div className="row">
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blog-21.jpg" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -151,7 +151,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blog-14-min.jpg" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -161,7 +161,7 @@ function AllBlogs(props) {
                   </div>
                 </Card>
               </div>
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blog-10-min.jpg" width="100%" height="58%" alt="T-shirt, jeans and boots on a white surface" />
                   <div style={{ padding: "2%" }}>
@@ -174,9 +174,9 @@ function AllBlogs(props) {
 
             </div>
 
-            <div class="row">
+            <div className="row">
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blogpost.jpg" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -187,7 +187,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blog-12-1-min.jpg" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -198,7 +198,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="assets/images/Blog 15.jpg" height="58%" width="100%" alt="sqaure-image-trolly-yellow-handle-wheels-cardboard-boxes-scaled" />
                   <div style={{ padding: "2%" }}>
@@ -213,9 +213,9 @@ function AllBlogs(props) {
 
 
 
-            <div class="row">
+            <div className="row">
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/ecomtobrand-blog-banner.png" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -226,7 +226,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/AI Cover.jpg" width="100%" height="58%" alt="Rectangle-image-blue-background-purple-highlight-info-artificial-intelligence" />
                   <div style={{ padding: "2%" }}>
@@ -237,7 +237,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="assets/images/Photography-Style-Guide-2-Cover.jpg" height="58%" width="100%" alt="photography-style-guide-info-poster-image-camera-lens" />
                   <div style={{ padding: "2%" }}>
@@ -252,9 +252,9 @@ function AllBlogs(props) {
             </div>
 
 
-            <div class="row">
+            <div className="row">
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/photography-style-guide-1-cover.jpg" width="100%" height="58%" alt="photography-style-guide-lens-info-marketing-camera-battery-black-yellow" />
                   <div style={{ padding: "2%" }}>
@@ -265,7 +265,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blog 9.jpg" width="100%" height="58%" alt="square-image-white-background-black-coffee-mug-with-coffee-glasses-on-keyboard-mouse-monochrome-screen-pair-of-shoe" />
                   <div style={{ padding: "2%" }}>
@@ -276,7 +276,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="assets/images/Bounce-Rate-2-cover.jpg" height="58%" width="100%" alt="rectangle-image-orange-annimation- smiley-emoji-happy-emoji-blue-monitor" />
                   <div style={{ padding: "2%" }}>
@@ -294,9 +294,9 @@ function AllBlogs(props) {
 
 
 
-            <div class="row">
+            <div className="row">
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Importance of Creativity in Image Editing_Cover.jpg" width="100%" height="58%" alt="" />
                   <div style={{ padding: "2%" }}>
@@ -307,7 +307,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blog 18.jpg" width="100%" height="58%" alt="sqaure-image-excited-man-with-camera-laptop-stationaries-blue-headphone-scissors-paper-clip-board" />
                   <div style={{ padding: "2%" }}>
@@ -318,7 +318,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="assets/images/Blog 19.jpg" height="58%" width="100%" />
                   <div style={{ padding: "2%" }}>
@@ -339,9 +339,9 @@ function AllBlogs(props) {
 
 
 
-            <div class="row">
+            <div className="row">
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Blog 13.jpg" width="100%" height="58%" alt="sqaure-image-centered-laptop-blue-background-screen-showing-color-chart" />
                   <div style={{ padding: "2%" }}>
@@ -352,7 +352,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="../../assets/images/Outsource-image-editing-Cover-Instagram.jpg" width="100%" height="58%" alt="sqaure-image-marketing-info-why-you-should-outsource-your-image-editing-blue-yellow-clock-busy-people" />
                   <div style={{ padding: "2%" }}>
@@ -363,7 +363,7 @@ function AllBlogs(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card style={{ height: "98%" }}>
                   <img src="assets/images/why-image-editing-services-are-important-for-e-commece-business-cover-instagram.jpg" height="58%" width="100%" alt="purple-square-info-chart-marketing-post-production" />
                   <div style={{ padding: "2%" }}>
@@ -386,7 +386,7 @@ function AllBlogs(props) {
         <br /><br />
       </div>
 
-      <div class="footer" style={{ backgroundColor: "#231f20" }}>
+      <div className="footer" style={{ backgroundColor: "#231f20" }}>
         <p style={{ textAlign: "center", color: "white", padding: "8px", backgroundColor: "black" }}>Designed And Developed By <Link to="/" target="_blank" style={{ textDecoration: "none", color: "white" }}>CutOutWiz</Link></p>
 
       </div>

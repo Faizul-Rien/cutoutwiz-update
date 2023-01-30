@@ -36,8 +36,8 @@ export default function Contactfr() {
             <Helmet>
                 <style>{'body { background-color: #c5da9c; }'}</style>
             </Helmet>
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <div style={{ marginTop: "4%" }}>
                         <p style={{ textAlign: "center", fontSize: "30px", fontFamily: "Branch", fontWeight: "700" }}>PRENEZ CONTACT AVEC NOUS</p>
 
@@ -52,8 +52,8 @@ export default function Contactfr() {
                                 <div id="nameid" className="col-8 form-group mx-auto">
                                     <input type="text" className="form-control" placeholder="Nom" name="name" required />
                                 </div>
-                                <div class="col-8 form-group mx-auto">
-                                    <select id="inputState" class="form-control" name="option">
+                                <div className="col-8 form-group mx-auto">
+                                    <select id="inputState" className="form-control" name="option">
                                         <option selected> --Sélectionnez Option-- </option>
                                         <option>Service d'édition d'images</option>
                                         <option>Service de montage vidéo</option>
@@ -79,7 +79,7 @@ export default function Contactfr() {
                                 <div className="col-8 pt-3 mx-auto">
 
 
-                                    <div class="text-center">
+                                    <div className="text-center">
                                         <input type="submit" id="button-19" className="btn btn-info" value="NOUS FAIRE PARVENIR"></input>
                                     </div>
 

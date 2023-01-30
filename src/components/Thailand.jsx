@@ -304,10 +304,10 @@ function refreshPage(){
         height: '100vh',
         marginTop:'-7%'}}>
       {/* <img src="assets/images/bannerpic.png"/> */}
-      <div class="container" style={{marginTop:"5%"}}>
-          <div class="row">
+      <div className="container" style={{marginTop:"5%"}}>
+          <div className="row">
 
-            <div id="type-text" class="col-md-5"style={{marginTop:"13%"}}>
+            <div id="type-text" className="col-md-5"style={{marginTop:"13%"}}>
                 <p id="we-do" style={{fontSize:"38px",fontFamily:"Branch",fontWeight:"700"}}>พวกเราทำ
 
 ภาพและวิดีโอ</p>
@@ -323,11 +323,11 @@ function refreshPage(){
                 <p style={{fontSize:"20px",fontFamily:"Poppins"}}>ที่เดียวของคุณ<br/>
                 โซลูชันหลังการผลิตเนื้อหา</p>
 
-                <div class="row">
-                  <div class="col-6 col-md-4">
-                  <a class="" href="https://app.cutoutwiz.com/"target="_blank"><button class="button1">ทดลองฟรี</button> </a></div>
+                <div className="row">
+                  <div className="col-6 col-md-4">
+                  <a className="" href="https://app.cutoutwiz.com/"target="_blank"><button className="button1">ทดลองฟรี</button> </a></div>
 
-                <div class="col-6 col-md-8">
+                <div className="col-6 col-md-8">
                 <Link to="/contact-us" ><button type="button" id="button2">ใบเสนอราคาฟรี</button></Link>
                 </div>
 
@@ -335,14 +335,14 @@ function refreshPage(){
 
               </div>
 
-              <div id="img-banner" class="col-md-7">
+              <div id="img-banner" className="col-md-7">
 <div style={{marginTop:"19%"}} >
                  <img id="back-cover"style={{}} src="assets/images/banner-model-before.png"height="100%" width="100%" /> 
 
                  {/* <div id="cf3s">
 
-<img id="back-cover" class="bottom" src="assets/images/banner-model-after.png"height="100%" width="100%" />
-<img id="back-cover" class="top" src="assets/images/banner-model-before.png" height="100%" width="100%"  />
+<img id="back-cover" className="bottom" src="assets/images/banner-model-after.png"height="100%" width="100%" />
+<img id="back-cover" className="top" src="assets/images/banner-model-before.png" height="100%" width="100%"  />
 
   </div> */}
 
@@ -350,7 +350,7 @@ function refreshPage(){
 
 
 
-                <div class="hide-large">
+                <div className="hide-large">
                  <div style={{marginTop:"10%"}}></div>
                  <img id="back-ban" src="assets/images/bannertest.png"style={{ position: "relative",
                 top: "27px"}} height="92%" width="92%"  />
@@ -370,7 +370,7 @@ function refreshPage(){
 
 {/* Banner card section */}
 
-<div class="cardid" style={{backgroundImage: `url('assets/images/CUTOUTWIZ WEBSITE LIGHT VERSION L-03.png')`, backgroundPosition: 'center',
+<div className="cardid" style={{backgroundImage: `url('assets/images/CUTOUTWIZ WEBSITE LIGHT VERSION L-03.png')`, backgroundPosition: 'center',
 backgroundColor:"#062220",
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -378,61 +378,61 @@ backgroundColor:"#062220",
         width:'100vw'
 }}>
 
-      <div class="container">
-      <div class="row">
-            <div class="col-6 col-md">
-          <div class="card" style={{border:"black",width: "100%",borderRadius:"10px",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
+      <div className="container">
+      <div className="row">
+            <div className="col-6 col-md">
+          <div className="card" style={{border:"black",width: "100%",borderRadius:"10px",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
               <img src="assets/images/image.png"  width="30%" height="10%" alt="Image icon"/><br/>
-              <div class="card-body"style={{marginTop:"-3%"}}>
-                <h4 style={{color:"#000000"}}  class="card-title">16,500+</h4>
+              <div className="card-body"style={{marginTop:"-3%"}}>
+                <h4 style={{color:"#000000"}}  className="card-title">16,500+</h4>
                 <hr style={{width:"32%",border:"1px solid #000000",backgroundColor:"#000000",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>ภาพ<br/>แปรรูปแล้ว รายวัน</p>
+                <p className="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>ภาพ<br/>แปรรูปแล้ว รายวัน</p>
               </div>
               </div>
           </div>
 
-          <div class="col-6 col-md">
-          <div class="card" style={{border:"black",width: "100%",borderRadius:"10px",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
+          <div className="col-6 col-md">
+          <div className="card" style={{border:"black",width: "100%",borderRadius:"10px",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
               <img src="assets/images/team.png" width="30%" height="10%" alt="Team icon"/><br/>
-              <div class="card-body"style={{marginTop:"-3%"}}>
-                <h4 style={{color:"#000000"}}  class="card-title">500+</h4>
+              <div className="card-body"style={{marginTop:"-3%"}}>
+                <h4 style={{color:"#000000"}}  className="card-title">500+</h4>
                 <hr style={{width:"32%",border:"1px solid #000000",backgroundColor:"#000000",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>ทีม<br/>Members</p>
+                <p className="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>ทีม<br/>Members</p>
               </div>
               </div>
           </div>
 
-          <div class="col-6 col-md">
-          <div class="card" style={{border:"black",width: "100%",borderRadius:"10px",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
+          <div className="col-6 col-md">
+          <div className="card" style={{border:"black",width: "100%",borderRadius:"10px",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
               <img src="assets/images/support.png"  width="30%" height="10%" alt="Support icon"/><br/>
-              <div class="card-body"style={{marginTop:"-3%"}}id="text">
-                <h4 style={{color:"#000000"}}  class="card-title">365 Days</h4>
+              <div className="card-body"style={{marginTop:"-3%"}}id="text">
+                <h4 style={{color:"#000000"}}  className="card-title">365 Days</h4>
                 <hr style={{width:"32%",border:"1px solid #000000",backgroundColor:"#000000",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>Customer<br/>Support
+                <p className="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>Customer<br/>Support
 </p>
               </div>
               </div>
           </div>
 
-          <div class="col-6 col-md">
-          <div class="card" style={{border:"black",width: "100%",borderRadius:"10px",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
+          <div className="col-6 col-md">
+          <div className="card" style={{border:"black",width: "100%",borderRadius:"10px",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
               <img src="assets/images/delivery.png"  width="30%" height="10%" alt="clock icon"/><br/>
-              <div class="card-body"style={{marginTop:"-3%"}}>
-                <h4 style={{color:"#000000"}}  class="card-title">12 Hours</h4>
+              <div className="card-body"style={{marginTop:"-3%"}}>
+                <h4 style={{color:"#000000"}}  className="card-title">12 Hours</h4>
                 <hr style={{width:"32%",border:"1px solid #000000",backgroundColor:"#000000",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>Or Less<br/>Delivery Time</p>
+                <p className="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>Or Less<br/>Delivery Time</p>
               </div>
               </div>
           </div>
 
-          <div class="col-md">
-          <div class="card-hidden">
-          <div class="card" style={{border:"black",borderRadius:"10px",width: "100%",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
+          <div className="col-md">
+          <div className="card-hidden">
+          <div className="card" style={{border:"black",borderRadius:"10px",width: "100%",backgroundColor:"#e3e6d8",color:"white",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
               <img src="assets/images/free-trial.png"  width="30%" height="10%" alt="Free trial icon"/><br/>
-              <div class="card-body"style={{marginTop:"-3%"}}>
-                <h4 style={{color:"#000000"}} class="card-title">10+</h4>
+              <div className="card-body"style={{marginTop:"-3%"}}>
+                <h4 style={{color:"#000000"}} className="card-title">10+</h4>
                 <hr style={{width:"32%",border:"1px solid #000000",backgroundColor:"#000000",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>Free<br/>Trial Images</p>
+                <p className="card-text"style={{marginTop:"-7%",fontWeight:"500",color:"#000000"}}>Free<br/>Trial Images</p>
               </div>
               </div>
               </div>
@@ -456,7 +456,7 @@ backgroundColor:"#062220",
 
 {/* Count Record */}
 
-<div class="spacew" style={{ backgroundPosition: 'center',
+<div className="spacew" style={{ backgroundPosition: 'center',
         backgroundColor:"#c5da9c",
         backgroundSize: 'cover',marginTop:'0%',
         backgroundRepeat: 'no-repeat',
@@ -465,16 +465,16 @@ backgroundColor:"#062220",
 
 
 
-<div class="container">
-<div class="row">
+<div className="container">
+<div className="row">
    
-       <div class="col-md-3" id="countAnimFirst" style={{marginTop:'12%'}}>
-        <div id="retouchCount" class="text-center">
+       <div className="col-md-3" id="countAnimFirst" style={{marginTop:'12%'}}>
+        <div id="retouchCount" className="text-center">
           <img id="sucphn" src="assets/images/18m.png" height="90%" width="90%" />
        </div>
-       <div class="fade-in-text">
+       <div className="fade-in-text">
        <p style={{fontSize:"17px",fontWeight:"700",textAlign:"center"}}>IMAGE <br/> PRODUCTION</p>
-       <div class="text-center"style={{marginTop:"-5%"}}>
+       <div className="text-center"style={{marginTop:"-5%"}}>
        <button id="rest" style={{backgroundColor:"#c5da9c",borderRadius:"20px",padding:"3px 21px",border:"none"}}>2020-2021</button>
        </div>
        </div>
@@ -482,40 +482,40 @@ backgroundColor:"#062220",
      </div>
 
 
-       <div class="col-md-3"id="countAnim" style={{marginTop:'12%'}}>
-       <div id="retouchCount" class="text-center">
+       <div className="col-md-3"id="countAnim" style={{marginTop:'12%'}}>
+       <div id="retouchCount" className="text-center">
        <img id="sucphn" src="assets/images/40k.png" height="90%" width="90%" />
        </div>
-       <div class="fade-in-text40k">
+       <div className="fade-in-text40k">
        <p style={{fontSize:"17px",fontWeight:"700",textAlign:"center"}}>IMAGE <br/> PRODUCTION</p>
-       <div class="text-center"style={{marginTop:"-5%"}}>
+       <div className="text-center"style={{marginTop:"-5%"}}>
        <button id="rest" style={{backgroundColor:"#c5da9c",borderRadius:"20px",padding:"3px 21px",border:"none"}}>PER DAY</button>
        </div>
        </div>
 
        </div>
 
-       <div class="col-md-3"id="countAnim" style={{marginTop:'12%'}}>
-       <div id="retouchCount" class="text-center">
+       <div className="col-md-3"id="countAnim" style={{marginTop:'12%'}}>
+       <div id="retouchCount" className="text-center">
        <img id="sucphn" src="assets/images/9.2k.png" height="90%" width="90%" />
        </div>
 
-       <div class="fade-in-text92k">
+       <div className="fade-in-text92k">
        <p style={{fontSize:"17px",fontWeight:"700",textAlign:"center"}}>VIDEO <br/> PRODUCTION</p>
-       <div class="text-center"style={{marginTop:"-5%"}}>
+       <div className="text-center"style={{marginTop:"-5%"}}>
        <button id="rest" style={{backgroundColor:"#c5da9c",borderRadius:"20px",padding:"3px 21px",border:"none"}}>2020-2021</button>
        </div>
        </div>
        </div>
 
-       <div class="col-md-3"id="countAnim" style={{marginTop:'12%'}}>
-       <div id="retouchCount" class="text-center">
+       <div className="col-md-3"id="countAnim" style={{marginTop:'12%'}}>
+       <div id="retouchCount" className="text-center">
        <img id="sucphn" src="assets/images/54k.png" height="90%" width="90%" />
        </div>
 
-       <div class="fade-in-text54k">
+       <div className="fade-in-text54k">
        <p style={{fontSize:"17px",fontWeight:"700",textAlign:"center"}}>VIDEO <br/> PRODUCTION</p>
-       <div class="text-center"style={{marginTop:"-5%"}}>
+       <div className="text-center"style={{marginTop:"-5%"}}>
        <button id="rest" style={{backgroundColor:"#c5da9c",borderRadius:"20px",padding:"3px 21px",border:"none"}}>FIVE YEAR</button>
        </div>
        </div>
@@ -532,7 +532,7 @@ backgroundColor:"#062220",
 </div>
 
 <br/>
-<div class="row">
+<div className="row">
 <div id="mobileViewOrange" style={{backgroundColor: '#c5da9c', backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -544,14 +544,14 @@ backgroundColor:"#062220",
 {/* Image editing service */}
 
 
-<div class="row">
+<div className="row">
  
 <div id="service-top" style={{backgroundColor:"#e3e6d8",width:"100vw",marginTop:"-2%"}}>
 
 
-   <div class="row"  style={{marginTop:"21%",marginBottom:"3%",height:"100vh"}}><div id="image-editing-service"></div>
-  <div class="col-md-7">
-    <div class="card-img-hidden">
+   <div className="row"  style={{marginTop:"21%",marginBottom:"3%",height:"100vh"}}><div id="image-editing-service"></div>
+  <div className="col-md-7">
+    <div className="card-img-hidden">
 
 
 
@@ -563,54 +563,54 @@ backgroundColor:"#062220",
               <Slider {...settingsimg}>
 
               <div id="cf3">
-              <img class="bottom" src="assets/images/Hair-Masking-after.png" height="100%" width="65%"style={{left:"7%" }}  />
-              <img class="top" src="assets/images/Hair-Masking-before.png"height="100%" width="65%"style={{left:"7%"}}  />
+              <img className="bottom" src="assets/images/Hair-Masking-after.png" height="100%" width="65%"style={{left:"7%" }}  />
+              <img className="top" src="assets/images/Hair-Masking-before.png"height="100%" width="65%"style={{left:"7%"}}  />
               </div>
 
 
               <div id="cf3">
-                <img class="bottom" src="assets/images/Ghost manniquin-01.png" height="100%" width="80%"  />
-                <img class="top" src="assets/images/Ghost manniquin-02.png"height="100%" width="80%" />
+                <img className="bottom" src="assets/images/Ghost manniquin-01.png" height="100%" width="80%"  />
+                <img className="top" src="assets/images/Ghost manniquin-02.png"height="100%" width="80%" />
                 </div>
 
               <div id="cf3">
-              <img class="bottom" src="assets/images/recolor-02.png"height="100%" width="80%" />
-                <img class="top" src="assets/images/recolor-01.png" height="100%" width="80%"   />
-
-                </div>
-
-
-              <div id="cf3">
-              <img class="top" src="assets/images/Shadow creation-02.png"height="80%" width="55%"style={{marginLeft:"18%",marginTop:"1%"}} />
-
-                <img class="bottom" src="assets/images/Shadow creation-01.png" height="80%" width="55%" style={{marginLeft:"18%",marginTop:"1%"}}  />
-              </div>
-
-
-              <div id="cf3">
-              <img class="bottom" src="assets/images/prafter.png"height="100%" width="70%" />
-              <img class="top" src="assets/images/prbefore.png" height="100%" width="70%"  />
+              <img className="bottom" src="assets/images/recolor-02.png"height="100%" width="80%" />
+                <img className="top" src="assets/images/recolor-01.png" height="100%" width="80%"   />
 
                 </div>
 
 
-
-
               <div id="cf3">
-              <img class="bottom" src="assets/images/color correction-01.png" height="80%" width="55%" style={{marginLeft:"17%",marginTop:"1%"}} />
-              <img class="top" src="assets/images/color correction-02.png"height="80%" width="55%"style={{marginLeft:"17%",marginTop:"1%"}} />
+              <img className="top" src="assets/images/Shadow creation-02.png"height="80%" width="55%"style={{marginLeft:"18%",marginTop:"1%"}} />
+
+                <img className="bottom" src="assets/images/Shadow creation-01.png" height="80%" width="55%" style={{marginLeft:"18%",marginTop:"1%"}}  />
               </div>
 
 
               <div id="cf3">
-              <img class="bottom" src="assets/images/manipulation-before-1.png" height="70%" width="70%" style={{left:"17%",top:"15%"}}/>
-              <img class="top" src="assets/images/manipulation-after-1.png"height="70%" width="70%" style={{left:"17%",top:"15%"}}/>
+              <img className="bottom" src="assets/images/prafter.png"height="100%" width="70%" />
+              <img className="top" src="assets/images/prbefore.png" height="100%" width="70%"  />
+
+                </div>
+
+
+
+
+              <div id="cf3">
+              <img className="bottom" src="assets/images/color correction-01.png" height="80%" width="55%" style={{marginLeft:"17%",marginTop:"1%"}} />
+              <img className="top" src="assets/images/color correction-02.png"height="80%" width="55%"style={{marginLeft:"17%",marginTop:"1%"}} />
               </div>
 
 
               <div id="cf3">
-              <img class="bottom" src="assets/images/Background-remove-after.png" height="70%" width="70%"style={{left:"17%",top:"13%"}}   />
-             <img class="top" src="assets/images/Background-remove-before.png"height="70%" width="70%" style={{left:"17%",top:"13%"}}/>
+              <img className="bottom" src="assets/images/manipulation-before-1.png" height="70%" width="70%" style={{left:"17%",top:"15%"}}/>
+              <img className="top" src="assets/images/manipulation-after-1.png"height="70%" width="70%" style={{left:"17%",top:"15%"}}/>
+              </div>
+
+
+              <div id="cf3">
+              <img className="bottom" src="assets/images/Background-remove-after.png" height="70%" width="70%"style={{left:"17%",top:"13%"}}   />
+             <img className="top" src="assets/images/Background-remove-before.png"height="70%" width="70%" style={{left:"17%",top:"13%"}}/>
 
               </div>
 
@@ -619,47 +619,47 @@ backgroundColor:"#062220",
     </div>
   </div>
 
-  <div class="col-md-5">
+  <div className="col-md-5">
   
     <p id="servicePar">Services</p>
     <p id="imgser" style={{marginTop:"-5%"}}>Image Editing Service</p>
     <hr  id="border10"/>
 
-    <div class="card-img-hidden">
+    <div className="card-img-hidden">
    <div id="text-changes-slider" >
 
 
-   <div class="quotea"><p style={{fontSize:"46px"}}>IMAGE</p>
+   <div className="quotea"><p style={{fontSize:"46px"}}>IMAGE</p>
     <p   id="testret-re">MASKING</p>
     </div>
 
 
-    <div class="quotea" ><p style={{fontSize:"46px"}}>GHOST</p>
+    <div className="quotea" ><p style={{fontSize:"46px"}}>GHOST</p>
     <p   id="testret-re">MANNEQUIN</p>
     </div>
 
-    <div class="quotea" ><p style={{fontSize:"46px"}}>PHOTO</p>
+    <div className="quotea" ><p style={{fontSize:"46px"}}>PHOTO</p>
     <p   id="testret-re">RECOLOR</p>
     </div>
 
-    <div class="quotea" ><p style={{fontSize:"46px"}}>SHADOW</p>
+    <div className="quotea" ><p style={{fontSize:"46px"}}>SHADOW</p>
     <p   id="testret-re">CREATION</p>
     </div>
 
-    <div class="quotea" ><p style={{fontSize:"46px"}}>PHOTO</p>
+    <div className="quotea" ><p style={{fontSize:"46px"}}>PHOTO</p>
     <p   id="testret-ret">RETOUCH</p>
     </div>
 
 
-    <div class="quotea"><p style={{fontSize:"46px"}}>COLOR</p>
+    <div className="quotea"><p style={{fontSize:"46px"}}>COLOR</p>
     <p   id="testret-re">CORRECTION</p>
     </div>
 
-    <div class="quotea"><p style={{fontSize:"46px"}}>IMAGE</p>
+    <div className="quotea"><p style={{fontSize:"46px"}}>IMAGE</p>
     <p   id="testret-re">MANIPULATION</p>
     </div>
 
-    <div class="quotea"><p style={{fontSize:"46px"}}>BACKGROUND</p>
+    <div className="quotea"><p style={{fontSize:"46px"}}>BACKGROUND</p>
     <p  id="testret">REMOVAL</p>
     </div>
 
@@ -674,8 +674,8 @@ backgroundColor:"#062220",
 
 
 <div id="refresh">
-  <div class="col-md-7" id="service-ipad">
-  <div class="large-screen-hidden">
+  <div className="col-md-7" id="service-ipad">
+  <div className="large-screen-hidden">
   {/* <button onClick={refreshPage}>Refresh</button> */}
 
   <img src="assets/images/bannertest.png"style={{ position: "absolute",
@@ -687,77 +687,77 @@ backgroundColor:"#062220",
 
 
             <div id="cf3">
-            <div class="quot"><p style={{fontSize:"46px",color:"#e4801c"}}>IMAGE</p>
+            <div className="quot"><p style={{fontSize:"46px",color:"#e4801c"}}>IMAGE</p>
              <p   id="testret-re">MASKING</p>
            </div>
-              <img class="bottom" src="assets/images/Hair-Masking-after.png" height="100%" width="65%"style={{left:"7%" }}  />
-              <img class="top" src="assets/images/Hair-Masking-before.png"height="100%" width="65%"style={{left:"7%"}}  />
+              <img className="bottom" src="assets/images/Hair-Masking-after.png" height="100%" width="65%"style={{left:"7%" }}  />
+              <img className="top" src="assets/images/Hair-Masking-before.png"height="100%" width="65%"style={{left:"7%"}}  />
               </div>
 
 
 
               <div id="cf3">
-              <div class="quot"><p style={{fontSize:"46px"}}>GHOST</p>
+              <div className="quot"><p style={{fontSize:"46px"}}>GHOST</p>
              <p   id="testret-re">MANNEQUIN</p>
            </div>
-                <img class="bottom" src="assets/images/Ghost manniquin-01.png" height="100%" width="80%"  />
-                <img class="top" src="assets/images/Ghost manniquin-02.png"height="100%" width="80%" />
+                <img className="bottom" src="assets/images/Ghost manniquin-01.png" height="100%" width="80%"  />
+                <img className="top" src="assets/images/Ghost manniquin-02.png"height="100%" width="80%" />
                 </div>
 
               <div id="cf3">
-              <div class="quot"><p style={{fontSize:"46px"}}>PHOTO</p>
+              <div className="quot"><p style={{fontSize:"46px"}}>PHOTO</p>
              <p   id="testret-re">RECOLOR</p>
            </div>
-              <img class="bottom" src="assets/images/recolor-02.png"height="100%" width="80%" />
-                <img class="top" src="assets/images/recolor-01.png" height="100%" width="80%"   />
+              <img className="bottom" src="assets/images/recolor-02.png"height="100%" width="80%" />
+                <img className="top" src="assets/images/recolor-01.png" height="100%" width="80%"   />
 
                 </div>
 
                 <div id="cf3">
-                <div class="quot"><p style={{fontSize:"46px"}}>SHADOW</p>
+                <div className="quot"><p style={{fontSize:"46px"}}>SHADOW</p>
                  <p   id="testret-re">CREATION</p>
                 </div>
-              <img class="top" src="assets/images/Shadow creation-02.png"height="65%" width="38%"style={{marginLeft:"10%",marginTop:"1%"}} />
+              <img className="top" src="assets/images/Shadow creation-02.png"height="65%" width="38%"style={{marginLeft:"10%",marginTop:"1%"}} />
 
-                <img class="bottom" src="assets/images/Shadow creation-01.png" height="65%" width="38%" style={{marginLeft:"10%",marginTop:"1%"}}  />
+                <img className="bottom" src="assets/images/Shadow creation-01.png" height="65%" width="38%" style={{marginLeft:"10%",marginTop:"1%"}}  />
               </div>
 
 
               <div id="cf3">
 
-              <div class="quot"><p style={{fontSize:"46px"}}>PHOTO</p>
+              <div className="quot"><p style={{fontSize:"46px"}}>PHOTO</p>
                 <p   id="testret-re">RETOUCH</p>
               </div>
-              <img class="bottom" src="assets/images/prafter.png"height="100%" width="70%" />
-              <img class="top" src="assets/images/prbefore.png" height="100%" width="70%"  />
+              <img className="bottom" src="assets/images/prafter.png"height="100%" width="70%" />
+              <img className="top" src="assets/images/prbefore.png" height="100%" width="70%"  />
 
                 </div>
 
               <div id="cf3">
-              <div class="quot"><p style={{fontSize:"46px"}}>COLOR</p>
+              <div className="quot"><p style={{fontSize:"46px"}}>COLOR</p>
                 <p   id="testret-re">CORRECTION</p>
               </div>
-              <img class="bottom" src="assets/images/color correction-01.png" height="80%" width="55%" style={{marginLeft:"10%",marginTop:"1%"}} />
-              <img class="top" src="assets/images/color correction-02.png"height="80%" width="55%"style={{marginLeft:"10%",marginTop:"1%"}} />
+              <img className="bottom" src="assets/images/color correction-01.png" height="80%" width="55%" style={{marginLeft:"10%",marginTop:"1%"}} />
+              <img className="top" src="assets/images/color correction-02.png"height="80%" width="55%"style={{marginLeft:"10%",marginTop:"1%"}} />
               </div>
 
 
               <div id="cf3">
-              <div class="quot"><p style={{fontSize:"46px"}}>IMAGE</p>
+              <div className="quot"><p style={{fontSize:"46px"}}>IMAGE</p>
                 <p   id="testret-remani  ">MANIPULATION</p>
               </div>
-              <img class="bottom" src="assets/images/manipulation-before-1.png" height="70%" width="70%" style={{left:"10%",top:"15%"}}/>
-              <img class="top" src="assets/images/manipulation-after-1.png"height="70%" width="70%" style={{left:"7%",top:"15%"}}/>
+              <img className="bottom" src="assets/images/manipulation-before-1.png" height="70%" width="70%" style={{left:"10%",top:"15%"}}/>
+              <img className="top" src="assets/images/manipulation-after-1.png"height="70%" width="70%" style={{left:"7%",top:"15%"}}/>
               </div>
 
 
 
             <div id="cf3">
-              <div class="quot"><p style={{fontSize:"46px"}}>BACKGROUND</p>
+              <div className="quot"><p style={{fontSize:"46px"}}>BACKGROUND</p>
                 <p   id="testret-re">REMOVAL</p>
               </div>
-              <img class="bottom" src="assets/images/Background-remove-after.png" height="70%" width="70%"style={{left:"10%",top:"18%"}} />
-             <img class="top" src="assets/images/Background-remove-before.png"height="70%" width="70%" style={{left:"10%",top:"18%"}}/>
+              <img className="bottom" src="assets/images/Background-remove-after.png" height="70%" width="70%"style={{left:"10%",top:"18%"}} />
+             <img className="top" src="assets/images/Background-remove-before.png"height="70%" width="70%" style={{left:"10%",top:"18%"}}/>
 
               </div>  
 
@@ -766,7 +766,7 @@ backgroundColor:"#062220",
   </div>
 </div>
 
-<div class="col-md-5">
+<div className="col-md-5">
 
 </div>
 
@@ -797,11 +797,11 @@ backgroundColor:"#062220",
 
 
 
-<div class="container">
-      <div class="row"style={{marginTop:"5%"}}>
+<div className="container">
+      <div className="row"style={{marginTop:"5%"}}>
     
 
-  <div id="vdo-item" class="col-md-5">
+  <div id="vdo-item" className="col-md-5">
         <p id="servicePar">Services</p>
     <p id="imgser" style={{marginTop:"-3%"}}>Video Editing Service</p>
     <hr  id="border11"/>
@@ -826,9 +826,9 @@ backgroundColor:"#062220",
 </div>
 
 
-  <div id="vdo-item" class="col-md-7">
+  <div id="vdo-item" className="col-md-7">
         <br/>
-   <div class="text-center" id="vdoSer" style={{marginTop:"9%"}}>
+   <div className="text-center" id="vdoSer" style={{marginTop:"9%"}}>
 
       <div id="container-target">
        <div id="video-size1" >  <video  height="80%" width="80%" controls="controls" poster="assets/images/cropping-large.png"alt="video-cropping-service-poster"> <source src="assets/images/Video_Cropping_Service_1.mp4"></source></video></div>
@@ -837,10 +837,10 @@ backgroundColor:"#062220",
        <div id="video-size4" style={{display:"none"}}>  <video  height="80%" width="80%" controls="controls" poster="assets/images/Screenshot (7).png"alt="video-cropping-service-poster"> <source src="assets/images/Audio_Editing_Service_1.mp4"></source></video></div>
        </div>
 
-       <input name="origin"style={{height:"20px", width:"20px"}} class="btn1show"type="radio" checked></input>&emsp;
-        <input name="origin"style={{height:"20px", width:"20px"}} class="btn2show"type="radio" checked></input>&emsp;
-        <input name="origin"style={{height:"20px", width:"20px"}} class="btn3show"type="radio" checked></input>&emsp;
-        <input name="origin"style={{height:"20px", width:"20px"}} class="btn4show"type="radio" checked></input>
+       <input name="origin"style={{height:"20px", width:"20px"}} className="btn1show"type="radio" checked></input>&emsp;
+        <input name="origin"style={{height:"20px", width:"20px"}} className="btn2show"type="radio" checked></input>&emsp;
+        <input name="origin"style={{height:"20px", width:"20px"}} className="btn3show"type="radio" checked></input>&emsp;
+        <input name="origin"style={{height:"20px", width:"20px"}} className="btn4show"type="radio" checked></input>
 
        </div>
    </div>
@@ -857,7 +857,7 @@ backgroundColor:"#062220",
 
 {/* Apps with testimonial slider */}
 
-<div class="row">
+<div className="row">
 <div id="apps-large" style={{backgroundColor:"#c5da9c",backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100vw',
@@ -870,93 +870,93 @@ backgroundColor:"#062220",
     </div>
 
 
-    <div class="container">
-    <div class="row">
+    <div className="container">
+    <div className="row">
 
-      <div class="col-md"id="logopop">
-      <a href="https://apps.shopify.com/cutoutwiz" target="_blank"><img src="assets/images/shopify-01.png" class="rounded mx-auto d-block" height="85px" width="220px" alt="Shopify logo"/>
+      <div className="col-md"id="logopop">
+      <a href="https://apps.shopify.com/cutoutwiz" target="_blank"><img src="assets/images/shopify-01.png" className="rounded mx-auto d-block" height="85px" width="220px" alt="Shopify logo"/>
      </a> </div>
 
-      <div class="col-md" id="logopop"style={{marginTop:"7px"}}>
-      <a href="https://sellercentral.amazon.com/gspn/provider-details/Imaging/284b7303-cec9-403e-b763-375399824520?ref_=sc_gspn_ilst_idt-284b7303&localeSelection=en_US&sellFrom=US&sellIn=US" target="_blank"><img src="assets/images/amazon-01.png" class="rounded mx-auto d-block" height="85px" width="220px" alt="Amazon logo"/>
+      <div className="col-md" id="logopop"style={{marginTop:"7px"}}>
+      <a href="https://sellercentral.amazon.com/gspn/provider-details/Imaging/284b7303-cec9-403e-b763-375399824520?ref_=sc_gspn_ilst_idt-284b7303&localeSelection=en_US&sellFrom=US&sellIn=US" target="_blank"><img src="assets/images/amazon-01.png" className="rounded mx-auto d-block" height="85px" width="220px" alt="Amazon logo"/>
       </a></div>
 
-      <div class="col-md"id="logopop">
-      <a href="https://app.cutoutwiz.com/" target="_blank"><img src="assets/images/cutoutwiz-01.png" class="rounded mx-auto d-block" height="85px" width="220px" alt="Cutoutwiz logo"/>
+      <div className="col-md"id="logopop">
+      <a href="https://app.cutoutwiz.com/" target="_blank"><img src="assets/images/cutoutwiz-01.png" className="rounded mx-auto d-block" height="85px" width="220px" alt="Cutoutwiz logo"/>
       </a></div>
 
-      <div class="col-md"id="logopop">
-      <a href="https://www.bigcommerce.com/apps/cutoutwiz/" target="_blank"><img src="assets/images/Big commerce-01.png"class="rounded mx-auto d-block" height="85px" width="220px" alt="Bigcommerce logo"/>
+      <div className="col-md"id="logopop">
+      <a href="https://www.bigcommerce.com/apps/cutoutwiz/" target="_blank"><img src="assets/images/Big commerce-01.png"className="rounded mx-auto d-block" height="85px" width="220px" alt="Bigcommerce logo"/>
       </a></div>
 
-      <div class="col-md"id="logopop">
-      <a href="https://www.shotflow.com/" target="_blank"><img src="assets/images/shotflow-01.png" class="rounded mx-auto d-block" height="85px" width="220px"  alt="Shotflow logo"/>
+      <div className="col-md"id="logopop">
+      <a href="https://www.shotflow.com/" target="_blank"><img src="assets/images/shotflow-01.png" className="rounded mx-auto d-block" height="85px" width="220px"  alt="Shotflow logo"/>
       </a></div>
 
     </div>
     </div>
 
-    <div class="container"id="overflow" style={{marginTop:"9%"}}>
+    <div className="container"id="overflow" style={{marginTop:"9%"}}>
 
         <Slider {...settings}>
-          <div class="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
-              <img src="assets/images/quotes.png" class="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
-              <div class="card-body">
-                <p class="card-text"style={{textAlign:"center",fontSize:"13px",fontWeight:"600"}}>I am very pleased with their work.
+          <div className="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
+              <img src="assets/images/quotes.png" className="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
+              <div className="card-body">
+                <p className="card-text"style={{textAlign:"center",fontSize:"13px",fontWeight:"600"}}>I am very pleased with their work.
                  The team is very patient and accommodating to all my requests. I will definitely work with them.</p>
                  <p style={{textAlign:"center",fontWeight:"700",color:"#ffcc33"}}>zasy chua</p>
               </div>
               <hr style={{width:"50%",margin: "auto",backgroundColor:"black",height:"2px",marginTop:"-5%"}}/>
-              <img src="assets/images/star5.png" style={{marginTop:"3%"}} class="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
+              <img src="assets/images/star5.png" style={{marginTop:"3%"}} className="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
               <br/><br/>
           </div>
 
 
-          <div class="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
-              <img src="assets/images/quotes.png" class="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
-              <div class="card-body">
-                <p class="card-text"style={{textAlign:"center",fontWeight:"200",fontSize:"13px",fontWeight:"600"}}>Very good service, was very
+          <div className="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
+              <img src="assets/images/quotes.png" className="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
+              <div className="card-body">
+                <p className="card-text"style={{textAlign:"center",fontWeight:"200",fontSize:"13px",fontWeight:"600"}}>Very good service, was very
                 patient with me in my back and fro amendments. I would say it's very affordable too. Jobs are delivered.</p>
                  <p style={{textAlign:"center",fontWeight:"700",color:"#ffcc33"}}>Jia Jia</p>
               </div>
               <hr style={{width:"50%",margin: "auto",backgroundColor:"black",marginTop:"-5%",height:"2px"}}/>
-              <img src="assets/images/star5.png" style={{marginTop:"3%"}} class="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
+              <img src="assets/images/star5.png" style={{marginTop:"3%"}} className="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
               <br/><br/>
           </div>
 
-          <div class="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
-              <img src="assets/images/quotes.png" class="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
-              <div class="card-body">
-                <p class="card-text"style={{textAlign:"center",fontWeight:"200",fontSize:"13px",fontWeight:"600"}}>I love this app. We've
+          <div className="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
+              <img src="assets/images/quotes.png" className="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
+              <div className="card-body">
+                <p className="card-text"style={{textAlign:"center",fontWeight:"200",fontSize:"13px",fontWeight:"600"}}>I love this app. We've
                  been using CutOutWiz for some time. I am continually impressed with the results and stellar customer support.</p>
                  <p style={{textAlign:"center",fontWeight:"700",color:"#ffcc33"}}>Kamo Fitness</p>
               </div>
               <hr style={{width:"50%",margin: "auto",backgroundColor:"black",marginTop:"-5%",height:"2px"}}/>
-              <img src="assets/images/star5.png" style={{marginTop:"3%"}} class="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
+              <img src="assets/images/star5.png" style={{marginTop:"3%"}} className="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
               <br/><br/>
           </div>
 
-          <div class="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
-              <img src="assets/images/quotes.png" class="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
-              <div class="card-body">
-                <p class="card-text"style={{textAlign:"center",fontWeight:"200",fontSize:"13px",fontWeight:"600"}}>I was having difficulties
+          <div className="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
+              <img src="assets/images/quotes.png" className="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
+              <div className="card-body">
+                <p className="card-text"style={{textAlign:"center",fontWeight:"200",fontSize:"13px",fontWeight:"600"}}>I was having difficulties
                  with proper images and quality but the Rep called and walked me through proper image sizing and lighting.</p>
                  <p style={{textAlign:"center",fontWeight:"700",color:"#ffcc33"}}>Bèl Bagay Swimwear</p>
               </div>
               <hr style={{width:"50%",margin: "auto",backgroundColor:"black",marginTop:"-5%",height:"2px"}}/>
-              <img src="assets/images/star5.png" style={{marginTop:"3%"}} class="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
+              <img src="assets/images/star5.png" style={{marginTop:"3%"}} className="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
               <br/><br/>
           </div>
 
-          <div class="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
-              <img src="assets/images/quotes.png" class="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
-              <div class="card-body">
-                <p class="card-text"style={{textAlign:"center",fontWeight:"200",fontSize:"13px",fontWeight:"600"}}>I have tried several image background removal services, some cheaper
+          <div className="card"id="cardBack" style={{borderRadius:"10px",border:"black"}}>
+              <img src="assets/images/quotes.png" className="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
+              <div className="card-body">
+                <p className="card-text"style={{textAlign:"center",fontWeight:"200",fontSize:"13px",fontWeight:"600"}}>I have tried several image background removal services, some cheaper
 than here. But remember you get what you pay.</p>
                  <p style={{textAlign:"center",fontWeight:"700",color:"#ffcc33"}}>General Unique</p>
               </div>
               <hr style={{width:"50%",margin: "auto",backgroundColor:"black",marginTop:"-5%",height:"2px"}}/>
-              <img src="assets/images/star5.png" style={{marginTop:"3%"}} class="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
+              <img src="assets/images/star5.png" style={{marginTop:"3%"}} className="rounded mx-auto d-block"  width="30%" height="30%" alt=""/>
               <br/><br/>
           </div>
 
@@ -968,19 +968,19 @@ than here. But remember you get what you pay.</p>
 
 
 {/* Plan  */}
-<div class="row">
+<div className="row">
 <div id="grenPhn" style={{backgroundColor:"#ffffff",backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100vw',
         height: '88vh'}}>
 <div id="prices"></div>
-<div class="container">
+<div className="container">
   <p style={{color:"#ffffff"}}>asdasdasda</p>
   <p style={{color:"#ffffff"}}>asdasdasda</p>
     <h1 id="choose-plan" style={{textAlign:"center",fontFamily:"Branch",fontWeight:"700"}}>Choose your plan</h1>
     <p style={{textAlign:"center",marginTop:"-1%",fontSize:"20px"}}>Our packages are just what your store needs</p><br/>
 
-    <div class="row">
+    <div className="row">
 
       <p style={{textAlign: "center",fontWeight:"700"}}>We offer multiple pricing options to choose
         from that will help you achieve your goals.
@@ -994,10 +994,10 @@ than here. But remember you get what you pay.</p>
 
 
 
-           <div class="row"style={{marginTop:"6%"}}>
+           <div className="row"style={{marginTop:"6%"}}>
 
 
-           <div class="col-md-4">
+           <div className="col-md-4">
 
 
           <div style={{backgroundImage: `url(assets/images/1.19back.png)`,height:"100%",width:"70%",
@@ -1005,17 +1005,17 @@ than here. But remember you get what you pay.</p>
           <br/>
 
 
-            <div class="card"style={{width: "100%",marginLeft:"11%",marginTop:"3%" ,borderRadius:"10px",backgroundColor:"#e3e6d8",fontWeight:"600" ,border:"black",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
-            <div class="card-title">
+            <div className="card"style={{width: "100%",marginLeft:"11%",marginTop:"3%" ,borderRadius:"10px",backgroundColor:"#e3e6d8",fontWeight:"600" ,border:"black",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
+            <div className="card-title">
               <br/><br/>
             <p style={{textAlign:"center",fontWeight:"700",fontSize:"23px",marginTop:"1%"}}>BASIC PLAN</p>
             <p style={{textAlign:"center",marginTop:"-5%",fontSize:"13px"}}>starts from</p>
             </div>
-              <div class="card-body"style={{marginTop:"-9%"}}>
-                 <img src="assets/images/1.19.png" class="rounded mx-auto d-block"  width="47%" height="47%" alt=""/>
+              <div className="card-body"style={{marginTop:"-9%"}}>
+                 <img src="assets/images/1.19.png" className="rounded mx-auto d-block"  width="47%" height="47%" alt=""/>
            </div>
 
-          <div class="text-center">
+          <div className="text-center">
             <p style={{marginTop:"-3%"}}>1-100 IMAGES/ORDER</p>
             <p style={{marginTop:"-4%"}}>10 IMAGES-FREE</p>
             <p style={{marginTop:"-4%"}}>1 MONTH FREE STORAGE</p>
@@ -1031,7 +1031,7 @@ than here. But remember you get what you pay.</p>
 
       </div>
 
-      <div class="col-md-4">
+      <div className="col-md-4">
 
 
 <div style={{backgroundImage: `url(assets/images/1.19back.png)`,height:"100%",width:"70%",
@@ -1039,17 +1039,17 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 <br/>
 
 
-  <div class="card"style={{width: "100%",marginLeft:"11%",marginTop:"3%" ,borderRadius:"10px",backgroundColor:"#e3e6d8",fontWeight:"600" ,border:"black",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
-  <div class="card-title">
+  <div className="card"style={{width: "100%",marginLeft:"11%",marginTop:"3%" ,borderRadius:"10px",backgroundColor:"#e3e6d8",fontWeight:"600" ,border:"black",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
+  <div className="card-title">
     <br/><br/>
   <p style={{textAlign:"center",fontWeight:"700",fontSize:"23px",marginTop:"1%"}}>STANDARD PLAN</p>
   <p style={{textAlign:"center",marginTop:"-5%",fontSize:"13px"}}>starts from</p>
   </div>
-    <div class="card-body"style={{marginTop:"-9%"}}>
-       <img src="assets/images/0.99.png" class="rounded mx-auto d-block"  width="47%" height="47%" alt=""/>
+    <div className="card-body"style={{marginTop:"-9%"}}>
+       <img src="assets/images/0.99.png" className="rounded mx-auto d-block"  width="47%" height="47%" alt=""/>
  </div>
 
-<div class="text-center">
+<div className="text-center">
   <p style={{marginTop:"-3%"}}>101-500 IMAGES/ORDER</p>
   <p style={{marginTop:"-4%"}}>10 IMAGES-FREE</p>
   <p style={{marginTop:"-4%"}}>2 MONTH FREE STORAGE</p>
@@ -1065,7 +1065,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 
 </div>
 
-<div class="col-md-4">
+<div className="col-md-4">
 
 
 <div style={{backgroundImage: `url(assets/images/1.19back.png)`,height:"100%",width:"70%",
@@ -1073,18 +1073,18 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 <br/>
 
 
-  <div class="card"style={{width: "100%",marginLeft:"11%",marginTop:"3%" ,borderRadius:"10px",backgroundColor:"#e3e6d8",fontWeight:"600" ,border:"black",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
-  <div class="card-title">
+  <div className="card"style={{width: "100%",marginLeft:"11%",marginTop:"3%" ,borderRadius:"10px",backgroundColor:"#e3e6d8",fontWeight:"600" ,border:"black",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)"}}>
+  <div className="card-title">
     <button style={{backgroundColor:"#c5da98",marginLeft:"60%",padding:"6px 5px",border:"none",borderRadius:"0px 0px 10px 10px"}}>POPULAR</button>
     
   <p style={{textAlign:"center",fontWeight:"700",fontSize:"23px",marginTop:"4%"}}>PREMIUM PLAN</p>
   <p style={{textAlign:"center",marginTop:"-5%",fontSize:"13px",color:"#e3e6d8"}}>starts from</p>
   </div>
-    <div class="card-body"style={{marginTop:"-9%"}}>
-       <img src="assets/images/contact-us.png" class="rounded mx-auto d-block"  width="47%" height="47%" alt=""/>
+    <div className="card-body"style={{marginTop:"-9%"}}>
+       <img src="assets/images/contact-us.png" className="rounded mx-auto d-block"  width="47%" height="47%" alt=""/>
  </div>
 
-<div class="text-center">
+<div className="text-center">
   <p style={{marginTop:"-3%"}}>500-ꝏ IMAGES/ORDER</p>
   <p style={{marginTop:"-4%"}}>10 IMAGES-FREE</p>
   <p style={{marginTop:"-4%"}}>3 MONTH FREE STORAGE</p>
@@ -1108,7 +1108,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 
 </div>
 </div>
-<div class="row">
+<div className="row">
 <div id="priceColor" style={{backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100vw',
@@ -1118,7 +1118,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 
 {/* Place an order */}
 
-<div class="row">
+<div className="row">
 <div id="place-order" style={{backgroundColor:"#c5da9c",backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100vw',
@@ -1130,83 +1130,83 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
              <p style={{fontSize:"20px",textAlign:"center",marginTop:"-1%"}}>Just follow these simple steps, and we will take it from there</p>
           </div>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3"></div>
-              <div class="col-md-6">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3"></div>
+              <div className="col-md-6">
               <video height="100%" width="100%"style={{marginTop:"2%"}}  controls autoplay> <source src="assets/images/Key-features-Video.mp4"></source></video>
               </div>
-              <div class="col-md-3"></div>
+              <div className="col-md-3"></div>
             </div>
           </div>
 
 
-          <div class="row" style={{paddingLeft:"2%",paddingRight:"2%",marginTop:"5%"}}>
-            <div class="col-6 col-md">
-          <div class="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
+          <div className="row" style={{paddingLeft:"2%",paddingRight:"2%",marginTop:"5%"}}>
+            <div className="col-6 col-md">
+          <div className="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
           <img src="assets/images/S-1.png"  width="30%" height="30%" alt="Image icon"/><br/>
-              <div class="card-body">
-                <h4 class="card-title">Step 1:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 1:</h4>
                 <hr style={{width:"32%",border:"1px solid #ffcc33",backgroundColor:"#ffcc33",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"id="btmspace" style={{fontWeight:"700",fontSize:"13px"}}>Sign In <br/> <span  style={{color:"white"}}>preferred subscription</span> </p>
+                <p className="card-text"id="btmspace" style={{fontWeight:"700",fontSize:"13px"}}>Sign In <br/> <span  style={{color:"white"}}>preferred subscription</span> </p>
               </div>
 
               </div>
           </div>
 
-          <div class="col-6 col-md">
-          <div class="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
+          <div className="col-6 col-md">
+          <div className="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
 
               <img src="assets/images/S-2.png"  width="30%" height="30%" alt="Image icon"/><br/>
-              <div class="card-body">
-                <h4 class="card-title">Step 2:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 2:</h4>
                 <hr style={{width:"32%",border:"1px solid #ffcc33",backgroundColor:"#ffcc33",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"style={{fontWeight:"700",fontSize:"13px"}}>Choose your<br/>preferred subscription plan<span id="prefer" style={{color:"white"}}><br/>preferred</span></p>
+                <p className="card-text"style={{fontWeight:"700",fontSize:"13px"}}>Choose your<br/>preferred subscription plan<span id="prefer" style={{color:"white"}}><br/>preferred</span></p>
               </div>
               </div>
           </div>
 
-          <div class="col-6 col-md">
-          <div class="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
+          <div className="col-6 col-md">
+          <div className="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
           <img src="assets/images/S-3.png"  width="30%" height="30%" alt="Image icon"/><br/>
 
-              <div class="card-body">
-                <h4 class="card-title">Step 3:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 3:</h4>
                 <hr style={{width:"32%",border:"1px solid #ffcc33",backgroundColor:"#ffcc33",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"style={{fontWeight:"700",fontSize:"13px"}}>Go to your<br/>account to place an order</p>
+                <p className="card-text"style={{fontWeight:"700",fontSize:"13px"}}>Go to your<br/>account to place an order</p>
               </div>
               </div>
           </div>
 
-          <div class="col-6 col-md">
-          <div class="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
+          <div className="col-6 col-md">
+          <div className="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
           <img src="assets/images/S-4.png"  width="30%" height="30%" alt="Image icon"/><br/>
-              <div class="card-body">
-                <h4 class="card-title">Step 4:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 4:</h4>
                 <hr style={{width:"32%",border:"1px solid #ffcc33",backgroundColor:"#ffcc33",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"style={{fontWeight:"700",fontSize:"13px"}}>Upload the<br/>images you want us to edit</p>
+                <p className="card-text"style={{fontWeight:"700",fontSize:"13px"}}>Upload the<br/>images you want us to edit</p>
               </div>
               </div>
           </div>
 
-          <div class="col-6 col-md">
-          <div class="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
+          <div className="col-6 col-md">
+          <div className="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
           <img src="assets/images/S-5.png"  width="30%" height="30%" alt="Image icon"/><br/>
-              <div class="card-body">
-                <h4 class="card-title">Step 5:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 5:</h4>
                 <hr style={{width:"32%",border:"1px solid #ffcc33",backgroundColor:"#ffcc33",opacity:"1",marginTop:"-1%"}}></hr>
-                <p class="card-text"style={{fontWeight:"700",fontSize:"13px"}}>The best photo editor<br/>process the photos for you</p>
+                <p className="card-text"style={{fontWeight:"700",fontSize:"13px"}}>The best photo editor<br/>process the photos for you</p>
               </div>
               </div>
           </div>
 
-          <div class="col-6 col-md">
-          <div class="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
+          <div className="col-6 col-md">
+          <div className="card" style={{width: "100%",borderRadius:"10px",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
           <img src="assets/images/S-6.png"  width="30%" height="30%" alt="Image icon"/><br/>
-              <div class="card-body">
-                <h4 class="card-title">Step 6:</h4>
+              <div className="card-body">
+                <h4 className="card-title">Step 6:</h4>
                 <hr style={{width:"32%",border:"1px solid #ffcc33",backgroundColor:"#ffcc33",opacity:"1",marginTop:"-1%"}}></hr>
-                <p  class="card-text"style={{fontWeight:"700",fontSize:"13px"}}>Download<br/>the edited photos<span id="prefer"  style={{color:"white"}}>for you</span></p>
+                <p  className="card-text"style={{fontWeight:"700",fontSize:"13px"}}>Download<br/>the edited photos<span id="prefer"  style={{color:"white"}}>for you</span></p>
               </div>
               </div>
           </div>
@@ -1222,17 +1222,17 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 
 
 {/* Contact us */}
-<div class="row">
+<div className="row">
 <div style={{backgroundColor:"#e3e6d8",backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100vw',
         height: '114vh'}}>
 
 
-      <div class="row"id="hidecol3">
-        <div  class="col-md-3"></div>
-        <div class="col-md-5">
-        <img src="assets/images/We are here illustration.png" id="cont-pic"style={{marginTop:"31%"}} class="rounded mx-auto d-block" width="70%" height="70%" alt=""/>
+      <div className="row"id="hidecol3">
+        <div  className="col-md-3"></div>
+        <div className="col-md-5">
+        <img src="assets/images/We are here illustration.png" id="cont-pic"style={{marginTop:"31%"}} className="rounded mx-auto d-block" width="70%" height="70%" alt=""/>
 
         <a href="/contact-us" target="_blank"><img id="iconPM" src="assets/images/contact us-01.png"  style={{marginTop:"-57%",position:"absolute",left:"57%"}}/></a>
 
@@ -1240,33 +1240,33 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
         </div>
 
 
-        <div class="col-md-4"></div>
+        <div className="col-md-4"></div>
       </div>
 
 
-      <div class="row"id="hide-on-large-col3">
-        <img src="assets/images/We are here illustration.png" id="cont-pic"style={{position:"relative"}} class="rounded mx-auto d-block" width="70%" height="70%" alt=""/>
+      <div className="row"id="hide-on-large-col3">
+        <img src="assets/images/We are here illustration.png" id="cont-pic"style={{position:"relative"}} className="rounded mx-auto d-block" width="70%" height="70%" alt=""/>
         <a href="/contact-us" target="_blank"><img id="iconPM" src="assets/images/contact us-01.png"  style={{marginTop:"-52%",position:"absolute",left:"57%"}}/></a>
       </div>
 
 
 
 
-        <div class="row" style={{marginTop:"-2%"}}>
-          <div class="col-md-6"></div>
-          <div class="col-md-6">
+        <div className="row" style={{marginTop:"-2%"}}>
+          <div className="col-md-6"></div>
+          <div className="col-md-6">
             <p id="we-are-here" style={{fontSize:"38px"}}>We are Here to</p>
           </div>
           </div>
           <div id="blogs-id"></div>
-          <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
+          <div className="row">
+          <div className="col-md-3"></div>
+          <div className="col-md-6">
           <p id="we-are-here-sec" style={{fontSize:"45px",fontWeight:"700",textAlign:"center",marginTop:"-4%",fontFamily:"Branch"}}>Answer Your Every Query</p>
 
           </div>
 
-          <div class="col-md-3"></div>
+          <div className="col-md-3"></div>
 
 
           </div>
@@ -1277,14 +1277,14 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
  </div>
 
 
- <div class="row">
+ <div className="row">
         <div id="grensp" style={{backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',height:'39vh',width:'100vw'}}></div>
 </div>
 
 {/* Blog Banner with blog section */}
 
-<div class="row">
+<div className="row">
         <div id="blogphn" style={{backgroundImage: `url(assets/images/Last-part-Green.png)`,backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',height:'130vh',width:'100vw'}}>
 
@@ -1295,17 +1295,17 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 <p style={{fontSize:"20px",textAlign:"center"}}>Learn more on different industry verticals and practices in our blogs</p>
 
 
-            <div class="container">
-              <div class="row" style={{marginTop:"6%"}}>
-                <div class="col-md-4">
+            <div className="container">
+              <div className="row" style={{marginTop:"6%"}}>
+                <div className="col-md-4">
 
         <Card style={{boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
-          <div class="containerback">
+          <div className="containerback">
 
           <Link to='/blog'>
           <img src="assets/images/white-back642-863.png" width="100%" height="100%" alt="Read Our Blogs photo"/>
 
-        <div class="centered">
+        <div className="centered">
           <h2 style={{color:"black"}}>Read Our</h2>
           <h3 style={{color:"black",fontWeight:"600",fontSize:"35px"}}>BLOGS</h3>
 
@@ -1316,7 +1316,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
                 </div>
 
 
-                <div class="col-md-4">
+                <div className="col-md-4">
       <Card  style={{height:"98%",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
         <img src="assets/images/types-of-photography.jpg" height="58%" width="100%" alt="Celebratory lights and decorations on a yellow background"/>
         <div style={{padding:"2%"}}>
@@ -1328,7 +1328,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
       </div>
 
 
-      <div class="col-md-4">
+      <div className="col-md-4">
       <Card  style={{height:"98%",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
         <img src="assets/images/Blog-23.jpg" height="58%" width="100%" alt="Celebratory lights and decorations on a yellow background"/>
         <div style={{padding:"2%"}}>
@@ -1343,9 +1343,9 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 
               </div>
 
-<div class="only-large">
-              <div class="row" style={{marginTop:"6%"}}>
-              <div class="col-md-4">
+<div className="only-large">
+              <div className="row" style={{marginTop:"6%"}}>
+              <div className="col-md-4">
       <Card  style={{height:"98%",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
         <img src="assets/images/1.jpg" height="58%" width="100%" alt="Celebratory lights and decorations on a yellow background"/>
         <div style={{padding:"2%"}}>
@@ -1358,7 +1358,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 
 
 
-                <div class="col-md-4">
+                <div className="col-md-4">
       <Card  style={{height:"98%",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
         <img src="assets/images/Blog-14-min.jpg" height="58%" width="100%" alt="Celebratory lights and decorations on a yellow background"/>
         <div style={{padding:"2%"}}>
@@ -1370,7 +1370,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
       </div>
 
 
-      <div class="col-md-4">
+      <div className="col-md-4">
       <Card  style={{height:"98%",boxShadow:"1px 2px 3px 4px rgba(12,12,12,0.2)",border:"black"}}>
         <img src="assets/images/Blog-21.jpg" height="58%" width="100%" alt="Celebratory lights and decorations on a yellow background"/>
         <div style={{padding:"2%"}}>
@@ -1395,7 +1395,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 {/* Ourr presence section */}
 
 
-<div class="row">
+<div className="row">
 
 
           <br/><br/><br/><br/>
@@ -1407,13 +1407,13 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 
 {/* map */}
 
-<div class="containerss" >
-<div class="row">
+<div className="containerss" >
+<div className="row">
 <div id="fotphn" >
 
-        <img  id="map-img-phn" src="assets/images/map.png" class="rounded mx-auto d-block" width="100%" height="100%" alt=""/>
+        <img  id="map-img-phn" src="assets/images/map.png" className="rounded mx-auto d-block" width="100%" height="100%" alt=""/>
         
-       <img class="rounded mx-auto d-block" width="100%" height="100%" src="assets/images/map-(1871-900).png" />
+       <img className="rounded mx-auto d-block" width="100%" height="100%" src="assets/images/map-(1871-900).png" />
 
 
       </div>
@@ -1425,22 +1425,22 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 
 {/* Footer */}
 
-<div class="row" id="fot-phn">
-        <div class="footer"style={{backgroundColor:"#e3e6d8",width:"100vw",marginTop:"0%"}}>
-    <div class="container">
-    <div class="row">
-    <div class="col-md-3"style={{marginTop:"4%"}}>
+<div className="row" id="fot-phn">
+        <div className="footer"style={{backgroundColor:"#e3e6d8",width:"100vw",marginTop:"0%"}}>
+    <div className="container">
+    <div className="row">
+    <div className="col-md-3"style={{marginTop:"4%"}}>
     <Link to="/" target="_blank"><img src="assets/images/logo-footer.png"style={{marginTop:"3%"}} width="170" height="40" alt=""/></Link>
 
     <p style={{textAlign:"justify",color:"#01302b",marginTop:"4%",fontWeight:"500"}}>CutOutWiz is one of the leading image and video editing company for businesses all over the world.</p>
-    <a href="https://www.facebook.com/cutoutwiz"target="_blank" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/cut_wiz?s=09"target="_blank" class="fa fa-twitter"></a>
-    <a href="https://www.linkedin.com/company/cutoutwiz-ltd"target="_blank" class="fa fa-linkedin"></a>
-    <a href="https://www.youtube.com/channel/UClIkCcEBksZigP56p593fDQ"target="_blank" class="fa fa-youtube"></a>
-    <a href="https://www.instagram.com/accounts/login/"target="_blank" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/cutoutwiz"target="_blank" className="fa fa-facebook"></a>
+    <a href="https://twitter.com/cut_wiz?s=09"target="_blank" className="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/company/cutoutwiz-ltd"target="_blank" className="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/channel/UClIkCcEBksZigP56p593fDQ"target="_blank" className="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/accounts/login/"target="_blank" className="fa fa-instagram"></a>
     </div>
 
-        <div class="col-6 col-md-2"style={{marginTop:"5%"}}>
+        <div className="col-6 col-md-2"style={{marginTop:"5%"}}>
             <b style={{color:"#01302b",fontSize:"20px"}}>Menu</b>
 
             <p style={{color:"#b7b9bb",marginTop:"8%"}}>
@@ -1452,7 +1452,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
             </p>
         </div>
 
-        <div class="col-6 col-md-2"style={{marginTop:"5%"}}>
+        <div className="col-6 col-md-2"style={{marginTop:"5%"}}>
         <b style={{color:"#01302b",fontSize:"20px"}}>Features</b>
             <p style={{color:"#01302b",marginTop:"8%"}}>
             <a href="https://apps.shopify.com/cutoutwiz" target="_blank"  style={{textDecoration:"none",color:"#01302b"}}>Shoppify App</a> <br/>
@@ -1463,7 +1463,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
             </p>
         </div>
 
-        <div class="col-6 col-md-2"style={{marginTop:"5%"}}>
+        <div className="col-6 col-md-2"style={{marginTop:"5%"}}>
         <b style={{color:"#01302b",fontSize:"20px"}}>Useful Links</b>
 
           <p style={{color:"#01302b",marginTop:"8%"}}>
@@ -1475,7 +1475,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
         </div>
 
 
-      <div class="col-6 col-md-3"style={{marginTop:"5%"}}>
+      <div className="col-6 col-md-3"style={{marginTop:"5%"}}>
       <b style={{color:"#01302b",fontSize:"20px"}}>Our Address</b> <br/>   <br/>
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10329.283883735325!2d90.39304891556642!3d23.749043274767246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1fb12dbea63beca!2sCutOutWiz!5e0!3m2!1sbn!2sbd!4v1639129804206!5m2!1sbn!2sbd"
       width="70%" height="50%" style={{border:"0"}} allowfullscreen="" loading="lazy"></iframe>

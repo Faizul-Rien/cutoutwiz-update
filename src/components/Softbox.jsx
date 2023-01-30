@@ -19,10 +19,10 @@ function Softbox(props) {
             </div>
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
 
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="col-md-8" style={{height:"max-content"}}>
                 <img src="../../assets/images/MicrosoftTeams-image-1 (2).jpg"  width="100%" height="20%" alt="A grey bag on a wood table with a lit softbox pointed towards it"/>
 
                  <p style={{textAlign:"justify",marginTop:"4%",fontFamily:"poppins"}}>As an e-commerce store owner, you know how important it is to upload high quality product photos to attract customers. Lighting plays an integral role in ensuring you get that right and bright color of your product on camera. But getting the right amount of light is not that easy. Often, when natural lights are not good enough, we end up relying on artificial lights and adjusting them according to our convenience. But high quality lighting equipment can be quite expensive and may end up creating a hole in your pocket as well as business.
@@ -36,7 +36,7 @@ For a small e-store owner, dilemma between maintaining a budget and making sales
 Softbox ensures uniform display of light all over your studio and gets your product that perfect brightness required to attract targeted customers.  The price of softboxes can start from $100 and can end up being more than $200. The expense can be even greater if you decide to go for multiple lights to cover all parts of your studio. Although integral, lighting is just one part of a photo shoot. Spending such a big amount only on lighting can seem burdensome for a small e-store owner. The good news is you can make softboxes on your own using DIY tools and techniques with a budget lower than $20! Now let’s move on the how-to part of this blog where we provide step-by-step guideline about creating softboxes.</p>
 
 
-        <img src="../../assets/images/pexels-alexander-dummer-134469-2-600x337.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="pexels-alexander-dummer"/>        
+        <img src="../../assets/images/pexels-alexander-dummer-134469-2-600x337.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="pexels-alexander-dummer"/>        
            <br/>
            <p style={{fontSize:"20px",fontWeight:"700"}}>Steps to Follow</p>
            <p style={{fontSize:"18px",fontWeight:"700"}}>Step 1: Material Management</p>
@@ -79,7 +79,7 @@ Softbox ensures uniform display of light all over your studio and gets your prod
 
 
 
-                 <img src="../../assets/images/product-photography-shoot-shoes-600x421.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="product-photography-shoot-shoes"/>
+                 <img src="../../assets/images/product-photography-shoot-shoes-600x421.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="product-photography-shoot-shoes"/>
 <br/>
                  <p style={{fontSize:"18px",fontWeight:"700"}}>Step 6: Place the light</p>
 
@@ -108,24 +108,24 @@ Lights not only help understand the color of your product, they highlight the in
 
              <div className="col-md-4">
             
-            <div class="row">
-            <div class="col-4 col-md-4"> 
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4"> 
+                <div className="row-8">
             <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
             
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>    
@@ -133,20 +133,20 @@ Lights not only help understand the color of your product, they highlight the in
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with 
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>    
@@ -155,48 +155,48 @@ Lights not only help understand the color of your product, they highlight the in
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>    
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>    
@@ -208,16 +208,16 @@ Lights not only help understand the color of your product, they highlight the in
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>

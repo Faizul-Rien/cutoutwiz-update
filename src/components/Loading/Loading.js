@@ -5,7 +5,7 @@ const Loading = () => {
         <>
         <div id="loading_spin_wrap">
             <div className='loading_spin'>
-            <span class="loader"></span>
+            <span className="loader"></span>
             </div>
         </div>
         </>

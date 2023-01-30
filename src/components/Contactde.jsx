@@ -35,19 +35,19 @@ export default function Contactde() {
                 <style>{'body { background-color: #c5da9c; }'}</style>
             </Helmet>
 
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <div style={{ marginTop: "4%" }}>
                         <p style={{ textAlign: "center", fontSize: "30px", fontFamily: "poppins" }}>NEHMEN SIE MIT UNS KONTAKT AUF</p>
-                        <div class="text-center" style={{ marginBottom: "-2%" }}><button id="button-20">KONTAKTIERE UNS</button></div>
+                        <div className="text-center" style={{ marginBottom: "-2%" }}><button id="button-20">KONTAKTIERE UNS</button></div>
                         <form onSubmit={sendEmail}>
                             {/* {renderAlert()} */}
                             <div className="row pt-5 mx-auto">
                                 <div className="col-8 form-group mx-auto">
                                     <input type="text" className="form-control" placeholder="Name" name="name" required />
                                 </div>
-                                <div class="col-8 form-group mx-auto">
-                                    <select id="inputState" class="form-control" name="option">
+                                <div className="col-8 form-group mx-auto">
+                                    <select id="inputState" className="form-control" name="option">
                                         <option selected> --Wähle eine Option-- </option>
                                         <option>Bild Bearbeitung Service</option>
                                         <option>Video Bearbeitung Service</option>
@@ -68,7 +68,7 @@ export default function Contactde() {
                                 </div>
 
                                 <div className="col-8 pt-3 mx-auto">
-                                    <div class="text-center">
+                                    <div className="text-center">
                                         <input type="submit" id="button-19" className="btn btn-info" value="EINREICHEN"></input>
                                     </div>
                                 </div>

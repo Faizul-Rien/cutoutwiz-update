@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
     return(
         <div className="privacy">
                            
-            <div class="container">
-                <div class="row"style={{marginTop:"9%"}}>
+            <div className="container">
+                <div className="row"style={{marginTop:"9%"}}>
                 <img src="assets/images/cutoutwiz-privecypolicy.jpg"  width="100%" height="100%" alt=""/>
                 
                 <h1 style={{textAlign:"center",marginTop:"3%"}}>PRIVACY POLICY</h1>

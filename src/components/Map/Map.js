@@ -6,10 +6,10 @@ import './style.css';
 
 const Map = () => {
     return (
-        <div id='mapArea' class="fwidth">
+        <div id='mapArea' className="fwidth">
             <div className='mapWrap'>
                 <img
-                    class="rounded mx-auto d-block"
+                    className="rounded mx-auto d-block"
                     width="100%"
                     src="assets/images/addressIcon_2.png"
                 />

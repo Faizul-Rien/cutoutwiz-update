@@ -43,7 +43,7 @@ const Reviews = () => {
 
   return (
     <div>
-        <div class="reviewWrap fwidth">
+        <div className="reviewWrap fwidth">
         <div id="apps-large">
           <div>
             <p style={{ color: "#c5da9c" }}>sadasd</p>
@@ -71,7 +71,7 @@ const Reviews = () => {
             <br />
           </div>
 
-          <div class="logopopWrap">
+          <div className="logopopWrap">
             <div id="logopop">
               <a
                 href="https://apps.shopify.com/cutoutwiz"
@@ -81,7 +81,7 @@ const Reviews = () => {
                 <img
                   id="logo-big"
                   src="assets/images/shopify-01.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   height="85px"
                   width="220px"
                   alt="Shopify logo"
@@ -98,7 +98,7 @@ const Reviews = () => {
                 <img
                   id="logo-big"
                   src="assets/images/amazon-01.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   height="85px"
                   width="220px"
                   alt="Amazon logo"
@@ -115,7 +115,7 @@ const Reviews = () => {
                 <img
                   id="logo-big"
                   src="assets/images/cutoutwiz-01.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   height="85px"
                   width="220px"
                   alt="Cutoutwiz logo"
@@ -132,7 +132,7 @@ const Reviews = () => {
                 <img
                   id="logo-big"
                   src="assets/images/Big commerce-01.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   height="85px"
                   width="220px"
                   alt="Bigcommerce logo"
@@ -149,7 +149,7 @@ const Reviews = () => {
                 <img
                   id="logo-big"
                   src="assets/images/shotflow-01.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   height="85px"
                   width="220px"
                   alt="Shotflow logo"
@@ -158,10 +158,10 @@ const Reviews = () => {
             </div>
           </div>
 
-          <div class="container" id="overflow" style={{ marginTop: "60px" }}>
+          <div className="container" id="overflow" style={{ marginTop: "60px" }}>
             <Slider {...settings}>
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{
                   borderRadius: "10px",
@@ -170,16 +170,16 @@ const Reviews = () => {
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
                       fontSize: "13px",
@@ -212,7 +212,7 @@ const Reviews = () => {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""
@@ -222,22 +222,22 @@ const Reviews = () => {
               </div>
 
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{ borderRadius: "10px", border: "black" }}
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
                       fontSize: "13px",
@@ -270,7 +270,7 @@ const Reviews = () => {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""
@@ -280,22 +280,22 @@ const Reviews = () => {
               </div>
 
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{ borderRadius: "10px", border: "black" }}
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
 
@@ -329,7 +329,7 @@ const Reviews = () => {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""
@@ -339,22 +339,22 @@ const Reviews = () => {
               </div>
 
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{ borderRadius: "10px", border: "black" }}
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
                       fontSize: "13px",
@@ -387,7 +387,7 @@ const Reviews = () => {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""
@@ -397,22 +397,22 @@ const Reviews = () => {
               </div>
 
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{ borderRadius: "10px", border: "black" }}
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
                       fontSize: "13px",
@@ -445,7 +445,7 @@ const Reviews = () => {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""

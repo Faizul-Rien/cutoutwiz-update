@@ -28,9 +28,9 @@ import {Helmet} from "react-helmet";
 
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
+            <div className="col-md-8" style={{height:"max-content"}}>
 
 
 
@@ -80,7 +80,7 @@ To know more about the basics of Photography Style Guide and how to achieve your
        <p style={{textAlign:"justify"}}> Photos that aren’t sharp and lack detail is a bit like a blurred image but here the whole image lack details event the focused areas as well. There is still a lot of work to be done to get good details in the photos. You need good lighting to get your details right, and of course keep the camera is focus too! In the image below you can see the slight difference between the sharpness. This causes the image hard to work with while post-processing. 
    </p>
 
-   <img src="../../assets/images/Image-sharpness.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="smiling-girl-short-brown-curly-hair-white-t-shirt-collage-image"/>
+   <img src="../../assets/images/Image-sharpness.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="smiling-girl-short-brown-curly-hair-white-t-shirt-collage-image"/>
 <br/>
     </li>
 
@@ -104,7 +104,7 @@ To know more about the basics of Photography Style Guide and how to achieve your
        <p style={{textAlign:"justify"}}> If your exposure is too bright, your highlights will be blown out and the detail won’t be recoverable when processing. On the other hand, if your exposure is too dark, the shadows will be grainy and discolored when you bring them up in processing. This image is an example of a bright exposure  
    </p>
 
-   <img src="../../assets/images/High exposure.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="happy-smiling-girl-with-brown-hair-blurred-background"/>
+   <img src="../../assets/images/High exposure.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="happy-smiling-girl-with-brown-hair-blurred-background"/>
 <br/>
 
 <p style={{textAlign:"justify"}}>To avoid this, you can use the exposure compensation adjustment along with any of your camera's exposure modes. Or manually adjust your ISO setting while adjusting your focus. 
@@ -155,7 +155,7 @@ Avoiding these common mistakes, while using tips from our<a href="https://www.cu
        <p style={{textAlign:"justify"}}> Choose the color you want to highlight in your work from two to five colors. This may seem limited at first glance, but it is very effective in maintaining the integrity of the subject. Remember: not all colors must appear in all images. You can include at least two color tones from your palette to maintain your style. Another way can be choosing one color to include in every photo, so that this becomes the dominant color of your shoot. Take a look at the images bellow and how the color yellow is used as the dominant color of the feed.  
    </p>
 
-   <img src="../../assets/images/color-palette.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="collage-three-images-sunflower-girl-lying-on-flower-with-yellow-pants-white-shoes-yellow-flower-mirror"/>
+   <img src="../../assets/images/color-palette.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="collage-three-images-sunflower-girl-lying-on-flower-with-yellow-pants-white-shoes-yellow-flower-mirror"/>
 <br/>
 
     </li>
@@ -199,24 +199,24 @@ Avoiding these common mistakes, while using tips from our<a href="https://www.cu
 
              <div className="col-md-4">
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>
@@ -224,20 +224,20 @@ Avoiding these common mistakes, while using tips from our<a href="https://www.cu
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>
@@ -246,48 +246,48 @@ Avoiding these common mistakes, while using tips from our<a href="https://www.cu
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>
@@ -299,16 +299,16 @@ Avoiding these common mistakes, while using tips from our<a href="https://www.cu
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="    https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>

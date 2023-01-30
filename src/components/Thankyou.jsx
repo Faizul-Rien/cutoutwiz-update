@@ -10,9 +10,9 @@ import {Helmet} from "react-helmet";
                 <meta name="robots" content="noindex"></meta>
             </Helmet>
 
-            <div class="row">
+            <div className="row">
                 <p style={{fontWeight:"700",fontSize:"100px",marginTop:"4%",color:"black",textAlign:"center"}}>Thank You</p>
-                <p class="text-center"style={{fontSize:"25px",color:"black"}}>Thank you for getting in touch.
+                <p className="text-center"style={{fontSize:"25px",color:"black"}}>Thank you for getting in touch.
                  One of our team members will reach<br/> out to you within the shortest possible time.
                   If you need project<br/> assistance, you can contact us at:<br/><br/><u>info@cutoutwiz.com</u></p>
             </div>

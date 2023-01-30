@@ -9,9 +9,9 @@ const TopBanner = () => {
   return (
     <>
       <div id="toppart_wrap">
-        <div class="container">
-          <div class="row">
-            <div id="type-text" class="col-md-6 col-sm-12">
+        <div className="container">
+          <div className="row">
+            <div id="type-text" className="col-md-6 col-sm-12">
               <p
                 id="we-do"
                 style={{
@@ -53,19 +53,19 @@ const TopBanner = () => {
                 content post production solution
               </p>
 
-              <div class="row">
-                <div class="col-6 col-md-4">
+              <div className="row">
+                <div className="col-6 col-md-4">
                   <a
-                    class=""
+                    className=""
                     href="https://app.cutoutwiz.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button class="button1">FREE TRIAL</button>
+                    <button className="button1">FREE TRIAL</button>
                   </a>
                 </div>
 
-                <div class="col-6 col-md-8">
+                <div className="col-6 col-md-8">
                   <Link to="/contact-us">
                     <button type="button" id="button2">
                       FREE QUOTE

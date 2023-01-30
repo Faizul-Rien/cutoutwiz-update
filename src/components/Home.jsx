@@ -1218,7 +1218,7 @@ function Home(props) {
                     style={{ height: "20px", width: "20px" }}
                     className="btn1show"
                     type="radio"
-                    checked
+                    defaultChecked
                   ></input>
                   &emsp;
                   <input
@@ -1226,7 +1226,6 @@ function Home(props) {
                     style={{ height: "20px", width: "20px" }}
                     className="btn2show"
                     type="radio"
-                    checked
                   ></input>
                   &emsp;
                   <input
@@ -1234,7 +1233,6 @@ function Home(props) {
                     style={{ height: "20px", width: "20px" }}
                     className="btn3show"
                     type="radio"
-                    checked
                   ></input>
                   &emsp;
                   <input
@@ -1242,7 +1240,6 @@ function Home(props) {
                     style={{ height: "20px", width: "20px" }}
                     className="btn4show"
                     type="radio"
-                    checked
                   ></input>
                 </div>
               </div>
@@ -1565,7 +1562,7 @@ function Home(props) {
                   width="100%"
                   style={{ marginTop: "2%" }}
                   controls
-                  autoplay
+                  autoPlay
                 >
                   {" "}
                   <source src="assets/images/Key-features-Video.mp4"></source>

@@ -17,10 +17,10 @@ import {Helmet} from "react-helmet";
             </div>
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
 
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="col-md-8" style={{height:"max-content"}}>
                 <img src="../../assets/images/ecomtobrand-blog-banner.png"  width="100%" height="20%" alt="Celebratory lights and decorations on a yellow background"/>
 
                  <p style={{textAlign:"justify",marginTop:"4%",fontFamily:"poppins"}}>If we observe our shopping habits a little carefully, it seems obvious that we focus more on buying from big brands and ignore the smaller unknown ones. Ever wondered why such ignorance towards small business occur? It’s because even if we do not know much about the product line, word of mouth from friends and family or increased visibility of those brands make them seem more reliable to us.
@@ -36,7 +36,7 @@ Businesses</p>
 
       <p style={{textAlign:"justify"}}>In such a fast moving world as today, people want to be both confident about their choices and get things done fast as well. The easiest way to achieve both of these goals is to trust brands that are more knowable and likable by the general mass. As an e-commerce business owner, your goal should be to become the knowable and likeable brand that pops into one’s head when they’re thinking of buying the product you sell. And we’re here to enlighten you with tips and tricks that would help you achieve this goal.  </p>
 
-      <img src="../../assets/images/confident-cafe-owner-writing-register-book.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="confident-cafe-owner-writing-register-book"/>
+      <img src="../../assets/images/confident-cafe-owner-writing-register-book.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="confident-cafe-owner-writing-register-book"/>
 <br/>
 
            <p style={{fontSize:"20px",fontWeight:"700"}}>Tips and Tricks to turn your e-commerce business into a brand: </p>
@@ -52,14 +52,14 @@ Businesses</p>
 
            <p style={{textAlign:"justify"}}>Before making or implementing any plan, it’s important to have clarity about both yourself and your customers. While figuring out the target audience provides you clarity about your potentials customers, your mission and vision helps create clarity about your business and yourself. Think about why you started the business in the first place. The motives that made your think about the need of the product and the feelings you want to convey to your customers through the products constitute your vision. Missions, on the other hand, are more specific. The represent your long term goals and describe the benefits and values the product will be adding to your customers lives. Visions create an emotional connection and missions provides a more strategies angle of the business and defines your brand. Plan them properly and keep them concise and easy to understand. All this is to create a connection with your audience, so there should be an alignment between your business goals and what the customers believes in. Also, it’s important not to exaggerate or lie about your business ideals, as customers will be able to see through if your actions don’t match your words.  </p>
 
-           <img src="../../assets/images/business-strategy-success-target-goals.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="business-strategy-success-target-goals"/>
+           <img src="../../assets/images/business-strategy-success-target-goals.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="business-strategy-success-target-goals"/>
 <br/>
            <p style={{fontSize:"18px",fontWeight:"700"}}>Content Marketing Strategy </p>
 
 
 <p style={{textAlign:"justify"}}>Anything and everything your write on your website is a part of your content marketing strategy. In a physical store, you have the luxury to use spoken words to attract your customers. In online, the persuasion is done more through the written contents on your website and this is why, it’s important that you stand out. Start with the basics. The banner text, the page and service descriptions should be to the point and they should be reviewed and updated on a regular basis. Surely pictures speak a thousand words but that never vaporizes the importance of written words. So make sure you write realistic product descriptions including all perks and quarks of the product as customers today admire realism rather than having false hope. It’s also a good idea to have a blog page where you would publish writings related to your line of work and industry as blog pages work great as traffic drivers and generate organic leads.</p>
 
-<img src="../../assets/images/MicrosoftTeams-image (58).png" class="rounded mx-auto d-block"  width="80%" height="20%" alt="objects-on-blue-table-laptop-coffee-cup-papers-stationeries-tablet-plant"/>
+<img src="../../assets/images/MicrosoftTeams-image (58).png" className="rounded mx-auto d-block"  width="80%" height="20%" alt="objects-on-blue-table-laptop-coffee-cup-papers-stationeries-tablet-plant"/>
 <br/>
 
 <p style={{fontSize:"18px",fontWeight:"700"}}>Visualize your Business!  </p>
@@ -78,7 +78,7 @@ Focus on creating a logo that represents your business and your ideals as logo i
 
 
 
-                 <img src="../../assets/images/MicrosoftTeams-image 3.png" class="rounded mx-auto d-block"  width="80%" height="20%" alt="square-image-camera-girl-with-bun-behind-camera-yellow-turtleneck-sweater "/>
+                 <img src="../../assets/images/MicrosoftTeams-image 3.png" className="rounded mx-auto d-block"  width="80%" height="20%" alt="square-image-camera-girl-with-bun-behind-camera-yellow-turtleneck-sweater "/>
 <br/>
 <p style={{textAlign:"justify"}}>Simply making these contents is not enough. You need to market them properly as well. Regularly post about them on your social media (Facebook, Instagram, Twitter etc.) as maintaining your visibility is a big part of branding. Keeping this in mind, only market your brand in those platforms where your customers are present. Always keep the “out of sight, out of mind” concept in head.  
 </p>
@@ -94,7 +94,7 @@ Focus on creating a logo that represents your business and your ideals as logo i
                  <p style={{textAlign:"justify"}}>The tips and hacks we’ve discussed till now are for attracting customers to your website. But the way to making them into permanent ones is a whole another job. In a fast and fierce e-commerce world as today, there’s always competitors with substitute products who are fighting to take away your customers. This is why, you must serve your customers well.  Always be active and try to respond to their queries within 24 hours. Provide an active email address and keep a Chabot too for people who prefer chatting over a long and formal email. Be it review or any other social media mention, always reply when you’re tagged in social media. Hold contests and lotteries often as these are the things that gets people excited and brings you closer to them. Being kind and polite can never serve you wrong.  
 </p>
 
-<img src="../../assets/images/MicrosoftTeams-image 2.png" class="rounded mx-auto d-block"  width="80%" height="20%" alt="bearded-man-white-shirt-blue-shirt-woman-short-hair-laptop-headphones-working"/>
+<img src="../../assets/images/MicrosoftTeams-image 2.png" className="rounded mx-auto d-block"  width="80%" height="20%" alt="bearded-man-white-shirt-blue-shirt-woman-short-hair-laptop-headphones-working"/>
 <br/>
 <p style={{textAlign:"justify"}}>
 The journey from being an online business to being a brand that’s knowable and likable by everyone is not easy. Then again, what’s fun about achieving things that are easy? The learnings and thrill you’ll enjoy while overcoming the challenges and becoming a known face from an unknown one will surely be worthwhile of all the troubles.  
@@ -104,24 +104,24 @@ The journey from being an online business to being a brand that’s knowable and
 
              <div className="col-md-4">
             
-            <div class="row">
-            <div class="col-4 col-md-4"> 
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4"> 
+                <div className="row-8">
             <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
             
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>    
@@ -129,20 +129,20 @@ The journey from being an online business to being a brand that’s knowable and
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with 
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>    
@@ -151,48 +151,48 @@ The journey from being an online business to being a brand that’s knowable and
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>    
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>    
@@ -200,24 +200,24 @@ The journey from being an online business to being a brand that’s knowable and
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/a9579b1d-9fb5-43b2-b45f-7244173a4473.jpg"style={{marginTop:"7%"}}  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/product-photography-how-to-take-photos-for-your-e-commerce-business"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Product Photography: How to take photos for your E-commerce Business</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The first thing most people would do after entering an e-commerce business is go and checkout the products. Your products rule your site</p>
             </div>    
             </div>
@@ -228,16 +228,16 @@ The journey from being an online business to being a brand that’s knowable and
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>

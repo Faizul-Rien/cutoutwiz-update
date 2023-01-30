@@ -19,10 +19,10 @@ import {Helmet} from "react-helmet";
             </div>
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
 
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="col-md-8" style={{height:"max-content"}}>
                 <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="20%" alt="Photographer standing on a mountain with a camera on hard ready to capture the nature and mountains"/>
 
                  <p style={{textAlign:"justify",marginTop:"4%",fontFamily:"poppins"}}>Photographs are our way 
@@ -36,7 +36,7 @@ the level of growth and knowledge this field offers you is astounding as well. T
  the world of photography, it’s important to equip yourself with knowledge of different types of 
  photography before you go for the chosen one. </p>
          
-    <img src="../../assets/images/handsome-african-guy-with-stylish-haircut-taking-photo-digital-camera.jpg" class="rounded mx-auto d-block"  width="100%" height="20%" alt="handsome-african-guy-with-stylish-haircut-taking-photo-digital-camera"/>           
+    <img src="../../assets/images/handsome-african-guy-with-stylish-haircut-taking-photo-digital-camera.jpg" className="rounded mx-auto d-block"  width="100%" height="20%" alt="handsome-african-guy-with-stylish-haircut-taking-photo-digital-camera"/>           
 <br/>
 
 
@@ -52,11 +52,11 @@ the level of growth and knowledge this field offers you is astounding as well. T
             here you have an all-in-one role as chef, photographer and decorator. But once you strike the balance, 
             it becomes all about playing with food and giving a whirl on your creative spin.</p>
 
-            <div class="row">
-                <div class="col-md-6">
+            <div className="row">
+                <div className="col-md-6">
                     <img src="../../assets/images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg"width="100%" height="100%" alt="penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table"/>
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                     <img src="../../assets/images/delicious-vietnamese-food-including-pho-ga-noodles-spring-rolls-white-table.jpg"width="100%" height="100%" alt="delicious-vietnamese-food-including-pho-ga-noodles-spring-rolls-white-table"/>
                 </div>
 
@@ -78,11 +78,11 @@ the level of growth and knowledge this field offers you is astounding as well. T
               <p>Read More: Product Photography: How to take photos for your E-commerce Business</p>
 
 
-              <div class="row">
-                <div class="col-md-6">
+              <div className="row">
+                <div className="col-md-6">
                     <img src="../../assets/images/online-seller-owner-take-photo-product-upload-website-online-shop-online-selling-online-shopping-e-commerce-concept-1024x683.jpg"width="100%" height="100%" alt="online-seller-owner-take-photo-product-upload-website-online-shop-online-selling-online-shopping-e-commerce-concept"/>
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                     <img src="../../assets/images/online-seller-owner-take-photo-product-upload-website-online-shop-online-selling-online-shopping-e-commerce-concept-1-1024x683.jpg"width="100%" height="100%" alt="online-seller-owner-take-photo-product-upload-website-online-shop-online-selling-online-shopping-e-commerce-concept"/>
                 </div>
 
@@ -104,7 +104,7 @@ the level of growth and knowledge this field offers you is astounding as well. T
 Read More: A Beginner’s How-To Guide For Clothing Photography</p>
 
 
-<img src="../../assets/images/female-model-closed-her-eyes-from-pleasure-dancing-with-smile-white-wall-with-falling-confetti-photo-lady-red-dress-768x512 (1).jpg" class="rounded mx-auto d-block"  width="100%" height="20%" alt="female-model-closed-her-eyes-from-pleasure-dancing-with-smile-white-wall-with-falling-confetti-photo-lady-red-dress"/>
+<img src="../../assets/images/female-model-closed-her-eyes-from-pleasure-dancing-with-smile-white-wall-with-falling-confetti-photo-lady-red-dress-768x512 (1).jpg" className="rounded mx-auto d-block"  width="100%" height="20%" alt="female-model-closed-her-eyes-from-pleasure-dancing-with-smile-white-wall-with-falling-confetti-photo-lady-red-dress"/>
 <br/>
            <p style={{fontSize:"18px",fontWeight:"700"}}>Car Photography</p>
 
@@ -124,11 +124,11 @@ such flashy and exquisite machinery seems intriguing, getting it fully in frame 
 Read more: Car Photography: A Beginner’s How-To Guide And Tips</p>
 
 
-            <div class="row">
-                <div class="col-md-6">
+            <div className="row">
+                <div className="col-md-6">
                     <img src="../../assets/images/blue-sport-sedan-parked-yard-1024x683.jpg"width="100%" height="100%" alt="blue-sport-sedan-parked-yard"/>
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                     <img src="../../assets/images/MicrosoftTeams-image.jpg"width="100%" height="100%" alt="Electric car interior details door handle with windows controls adjustments inside car interior with front seat driver passenger "/>
                 </div>
 
@@ -159,7 +159,7 @@ Read More: Real Estate Photography: Tips And Tricks For Beginners
 
 </p>
 
-                 <img src="../../assets/images/mumbai-city-skyline-aerial-panorama-768x396.jpg" class="rounded mx-auto d-block"  width="100%" height="20%" alt="mumbai-city-skyline-aerial-panorama"/>
+                 <img src="../../assets/images/mumbai-city-skyline-aerial-panorama-768x396.jpg" className="rounded mx-auto d-block"  width="100%" height="20%" alt="mumbai-city-skyline-aerial-panorama"/>
 <br/>
                  <p style={{fontSize:"18px",fontWeight:"700"}}>Newborn Photography</p>
 
@@ -177,11 +177,11 @@ Capturing pictures of newborn requires both you be a skilled photographer and a 
 <br/><br/>
  Read More: A Complete Guide To Newborn Baby Photography</p>
 
- <div class="row">
-                <div class="col-md-6">
+ <div className="row">
+                <div className="col-md-6">
                     <img src="../../assets/images/newborn-baby-with-white-beret-wrapped-with-blue-shawl-1024x683.jpg"width="100%" height="100%" alt="newborn-baby-with-white-beret-wrapped-with-blue-shawl"/>
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                     <img src="../../assets/images/cute-little-baby-with-colorful-easter-eggs-toy-rabbit-lying-nest.jpg"width="100%" height="100%" alt="cute-little-baby-with-colorful-easter-eggs-toy-rabbit-lying-nest"/>
                 </div>
 
@@ -200,24 +200,24 @@ Capturing pictures of newborn requires both you be a skilled photographer and a 
 
             <div className="col-md-4">
             
-                <div class="row">
-                <div class="col-4 col-md-4"> 
-                    <div class="row-8">
+                <div className="row">
+                <div className="col-4 col-md-4"> 
+                    <div className="row-8">
                 <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                     </div>
                 
-                {/* <div class="row-4"style={{marginTop:"37%"}}>
+                {/* <div className="row-4"style={{marginTop:"37%"}}>
                 <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div> */}
                 </div>
                 
-                <div class="col-8 col-md-8">
-                <div class="row-4">
+                <div className="col-8 col-md-8">
+                <div className="row-4">
                 <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                     <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                     </Link>
                     </div>
-                <div class="row-8">
+                <div className="row-8">
                     <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                          expressing our inner thoughts and holding onto memories close</p>
                 </div>    
@@ -225,20 +225,20 @@ Capturing pictures of newborn requires both you be a skilled photographer and a 
                 </div>
 
 
-                <div class="row">
-                <div class="col-4 col-md-4">
-                    <div class="row-8">
+                <div className="row">
+                <div className="col-4 col-md-4">
+                    <div className="row-8">
                 <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                     </div>
                 </div>
 
-                <div class="col-8 col-md-8">
-                <div class="row-4">
+                <div className="col-8 col-md-8">
+                <div className="row-4">
                 <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                     <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                    </Link>
                     </div>
-                <div class="row-8">
+                <div className="row-8">
                     <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with 
                     numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
                 </div>    
@@ -247,48 +247,48 @@ Capturing pictures of newborn requires both you be a skilled photographer and a 
 
 
 
-                <div class="row">
-                <div class="col-4 col-md-4">
-                    <div class="row-8">
+                <div className="row">
+                <div className="col-4 col-md-4">
+                    <div className="row-8">
                 <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                     </div>
                 
-                {/* <div class="row-4"style={{marginTop:"37%"}}>
+                {/* <div className="row-4"style={{marginTop:"37%"}}>
                 <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div> */}
                 </div>
 
-                <div class="col-8 col-md-8">
-                <div class="row-4">
+                <div className="col-8 col-md-8">
+                <div className="row-4">
                 <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                     <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
                 </Link>
                     </div>
-                <div class="row-8">
+                <div className="row-8">
                     <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                      friends of small business owners. The platform allows you to build your own website and shine in the world</p>
                 </div>    
                 </div>
                 </div>
 
-                <div class="row">
-                <div class="col-4 col-md-4">
-                    <div class="row-8">
+                <div className="row">
+                <div className="col-4 col-md-4">
+                    <div className="row-8">
                 <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                     </div>
                 
-                {/* <div class="row-4"style={{marginTop:"37%"}}>
+                {/* <div className="row-4"style={{marginTop:"37%"}}>
                 <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div> */}
                 </div>
 
-                <div class="col-8 col-md-8">
-                <div class="row-4">
+                <div className="col-8 col-md-8">
+                <div className="row-4">
                 <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                     <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                     </Link>
                     </div>
-                <div class="row-8">
+                <div className="row-8">
                     <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                     certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
                 </div>    
@@ -300,16 +300,16 @@ Capturing pictures of newborn requires both you be a skilled photographer and a 
                <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-               <div class="row">
-         <div class="col-4 col-md-4">
+               <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="    https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>

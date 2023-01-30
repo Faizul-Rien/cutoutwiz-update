@@ -36,8 +36,8 @@ import { Link } from 'react-router-dom';
                {items}; */}
                
 
-            <div class="container">
-                <div class="row"style={{marginTop:"9%"}}>
+            <div className="container">
+                <div className="row"style={{marginTop:"9%"}}>
                 <img src="assets/images/terms-banner.jpg"  width="100%" height="100%" alt=""/>
                 <h1 style={{textAlign:"center"}}>Terms & Conditions</h1>
                 <br/><br/>
