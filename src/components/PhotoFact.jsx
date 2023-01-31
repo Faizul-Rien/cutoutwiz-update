@@ -3,17 +3,12 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
 
  function PhotoFact(props) {
 
     return(
         <div className="postphoto">
-                     <Router >
-      <Navigation />
-      </Router>
-
             {/* META TAG AND META TITTLE */}
 
               <Helmet>
@@ -33,9 +28,9 @@ import { Navigation} from "./";
 
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
+            <div className="col-md-8" style={{height:"max-content"}}>
 
 
 
@@ -50,7 +45,7 @@ import { Navigation} from "./";
 <br/><br/>
 We often perceive editing as a way to distort viewers from the reality and present them with something fake instead. Well, this blog is here to get rid of all your misconceptions and present you with some interesting facts about photo editing. So buckle up and get ready to be amazed! </p>
 
-<img src="../../assets/images/computer-laptop-research-working-desk-concept.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="computer-laptop-research-working-desk-concept"/>
+<img src="../../assets/images/computer-laptop-research-working-desk-concept.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="computer-laptop-research-working-desk-concept"/>
 <br/>
 
 
@@ -92,7 +87,7 @@ Product photos are the heart of an e-commerce website. Ensuring perfection in pr
 
            <p style={{textAlign:"justify"}}>Many e-commerce store owners worry that photo editing will turn their product photos into something it’s not. Maybe the color will become too bright or the photo will be manipulated to the extent of changing it overall. So ultimately, when customers receive the product, they’ll be disappointed as it’s different from what they saw in the picture. As a result, product returns will increase. While editing is capable of doing all that, the main purpose of editing is not to distort the originality of your photo but to enhance it. Editing will provide you room to make mistakes while photographing it. Photo editing will help you get rid of that wrinkle you didn't notice, or the lights you couldn't brighten, and retouch any other flaws that could make your clients leave your page without hitting on the buy button. </p>
 
-           <img src="../../assets/images/professional-editor-doing-retouching-work-image.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="professional-editor-doing-retouching-work-image"/>
+           <img src="../../assets/images/professional-editor-doing-retouching-work-image.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="professional-editor-doing-retouching-work-image"/>
 <br/>
 
 <p style={{fontSize:"18px",fontWeight:"700"}}>Fact 2: Outsourcing Photo editing don’t have to be expensive </p>
@@ -116,7 +111,7 @@ Product photos are the heart of an e-commerce website. Ensuring perfection in pr
 
    <p style={{textAlign:"justify"}}>As we emphasized earlier, photo editing can only help enhance the originality of your photo and not make it into something different. So it’s our duty that the photographs are taken professionally and we try to maintain as much precision as possible. For example- if it’s a cloth, wash and iron it properly. Editing won’t help if the entire cloth is full of wrinkles and dust. FOr examplle, you cannot expect to take a photo in a dark room and hope for the editing to bring it to its original color. At the same time, you can’t take a blurry photo and expect editing to clear it out. These are not reasonable expectations at all. If areas to fix aren’t clearly visible, there isn’t much the editor can do anyways.   </p>
 
-   <img src="../../assets/images/tattoed-photographer-his-creative-studio-choosing-photos-hipster-man-work-editing-shooted-images-job-trends-fashion-technology-concept-focus-hands.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="tattoed-photographer-his-creative-studio-choosing-photos-hipster-man-work-editing-shooted-images-job-trends-fashion-technology-concept-focus-hands"/>
+   <img src="../../assets/images/tattoed-photographer-his-creative-studio-choosing-photos-hipster-man-work-editing-shooted-images-job-trends-fashion-technology-concept-focus-hands.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="tattoed-photographer-his-creative-studio-choosing-photos-hipster-man-work-editing-shooted-images-job-trends-fashion-technology-concept-focus-hands"/>
 <br/>
 
 
@@ -152,24 +147,24 @@ Photographing a product provides you only with half of the picture that can’t 
 
              <div className="col-md-4">
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>
@@ -177,20 +172,20 @@ Photographing a product provides you only with half of the picture that can’t 
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>
@@ -199,48 +194,48 @@ Photographing a product provides you only with half of the picture that can’t 
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>
@@ -252,16 +247,16 @@ Photographing a product provides you only with half of the picture that can’t 
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="    https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>

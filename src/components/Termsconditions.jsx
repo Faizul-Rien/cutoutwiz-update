@@ -2,13 +2,12 @@ import React, { Component } from "react";
  
  
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function Termsconditions(props) {
     
 
   // const a=351;
-  // const mArr=[1,2,3,4]
+  // const mArr=[1,2,3,4] 
 
   // const mObj={
   //   name:'ashik',
@@ -22,9 +21,7 @@ import { Navigation} from "./";
     return(
 
         <div className="terms">
-             <Router >
-      <Navigation />
-      </Router>
+             
                {/* <p> {a} <br/>
                
                {mArr[3]} <br/> </p>
@@ -39,8 +36,8 @@ import { Navigation} from "./";
                {items}; */}
                
 
-            <div class="container">
-                <div class="row"style={{marginTop:"9%"}}>
+            <div className="container">
+                <div className="row"style={{marginTop:"9%"}}>
                 <img src="assets/images/terms-banner.jpg"  width="100%" height="100%" alt=""/>
                 <h1 style={{textAlign:"center"}}>Terms & Conditions</h1>
                 <br/><br/>

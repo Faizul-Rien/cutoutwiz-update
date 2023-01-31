@@ -64,7 +64,7 @@ const PDFViewer = () => {
   }
 
   return (
-    <div id='pdfViewBodyWrap' class="fwidth">
+    <div id='pdfViewBodyWrap' className="fwidth">
 
      {getLoading == true && <Loading/> } 
 
@@ -79,11 +79,11 @@ const PDFViewer = () => {
 
         <div className='pdf_nav_wrap fwidth'>
           <div className='pdf_nav'>
-            <button onClick={() => handlePageClick(pageNumber - 1)} className='pdfBtn'><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>
+            <button onClick={() => handlePageClick(pageNumber - 1)} className='pdfBtn'><i className="fa fa-long-arrow-left" aria-hidden="true"></i></button>
             <p id="pageInfo">
-              {pageNumber} of <span class="glyphicon glyphicon-asterisk"></span> {numPages}
+              {pageNumber} of <span className="glyphicon glyphicon-asterisk"></span> {numPages}
             </p>
-            <button onClick={() => handlePageClick(pageNumber + 1)} className='pdfBtn'><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+            <button onClick={() => handlePageClick(pageNumber + 1)} className='pdfBtn'><i className="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 
           </div>
         </div>

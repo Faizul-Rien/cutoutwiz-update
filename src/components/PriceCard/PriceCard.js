@@ -5,10 +5,10 @@ import "./PriceCard.css";
 const PriceCard = () => {
   return (
     <div>
-      <div class="planWrap fwidth">
+      <div className="planWrap fwidth">
         <div id="grenPhn">
           <div id="prices"></div>
-          <div class="container">
+          <div className="container">
             <h1
               id="choose-plan"
               style={{
@@ -30,7 +30,7 @@ const PriceCard = () => {
             </p>
             <br />
 
-            <div class="row">
+            <div className="row">
               <p style={{ textAlign: "center", fontWeight: "700" }}>
                 We offer multiple pricing options to choose from that will help
                 you achieve your goals. Choose the one that meets your demands
@@ -40,13 +40,13 @@ const PriceCard = () => {
               </p>
             </div>
 
-            <div class="row" style={{ marginTop: "6%" }}>
-              <div class="col-md-4">
-                <div class="plan_card">
+            <div className="row" style={{ marginTop: "6%" }}>
+              <div className="col-md-4">
+                <div className="plan_card">
                   <br />
                   <div className="cube" id="animation-cube"></div>
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "100%",
                       marginLeft: "11%",
@@ -58,7 +58,7 @@ const PriceCard = () => {
                       boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
                     }}
                   >
-                    <div class="card-title">
+                    <div className="card-title">
                       <br />
                       <br />
                       <p
@@ -81,17 +81,17 @@ const PriceCard = () => {
                         starts from
                       </p>
                     </div>
-                    <div class="card-body" style={{ marginTop: "-9%" }}>
+                    <div className="card-body" style={{ marginTop: "-9%" }}>
                       <img
                         src="assets/images/1.19.png"
-                        class="rounded mx-auto d-block"
+                        className="rounded mx-auto d-block"
                         width="100px"
                         height="113px"
                         alt=""
                       />
                     </div>
 
-                    <div class="text-center">
+                    <div className="text-center">
                       <p style={{ marginTop: "-3%" }}>1-100 IMAGES/ORDER</p>
                       <p style={{ marginTop: "-4%" }}>10 IMAGES-FREE</p>
                       <p style={{ marginTop: "-4%" }}>1 MONTH FREE STORAGE</p>
@@ -113,12 +113,12 @@ const PriceCard = () => {
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="plan_card">
+              <div className="col-md-4">
+                <div className="plan_card">
                   <br />
                   <div className="cube" id="animation-cube"></div>
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "100%",
                       marginLeft: "11%",
@@ -130,7 +130,7 @@ const PriceCard = () => {
                       boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
                     }}
                   >
-                    <div class="card-title">
+                    <div className="card-title">
                       <br />
                       <br />
                       <p
@@ -153,17 +153,17 @@ const PriceCard = () => {
                         starts from
                       </p>
                     </div>
-                    <div class="card-body" style={{ marginTop: "-9%" }}>
+                    <div className="card-body" style={{ marginTop: "-9%" }}>
                       <img
                         src="assets/images/0.99.png"
-                        class="rounded mx-auto d-block"
+                        className="rounded mx-auto d-block"
                         width="100px"
                         height="113px"
                         alt=""
                       />
                     </div>
 
-                    <div class="text-center">
+                    <div className="text-center">
                       <p style={{ marginTop: "-3%" }}>101-500 IMAGES/ORDER</p>
                       <p style={{ marginTop: "-4%" }}>10 IMAGES-FREE</p>
                       <p style={{ marginTop: "-4%" }}>2 MONTH FREE STORAGE</p>
@@ -185,12 +185,12 @@ const PriceCard = () => {
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="plan_card">
+              <div className="col-md-4">
+                <div className="plan_card">
                   <br />
                   <div className="cube" id="animation-cube"></div>
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "100%",
                       marginLeft: "11%",
@@ -202,7 +202,7 @@ const PriceCard = () => {
                       boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
                     }}
                   >
-                    <div class="card-title">
+                    <div className="card-title">
                       <button
                         style={{
                           backgroundColor: "#c5da98",
@@ -236,17 +236,17 @@ const PriceCard = () => {
                         starts from
                       </p>
                     </div>
-                    <div class="card-body" style={{ marginTop: "-9%" }}>
+                    <div className="card-body" style={{ marginTop: "-9%" }}>
                       <img
                         src="assets/images/contact-us.png"
-                        class="rounded mx-auto d-block"
+                        className="rounded mx-auto d-block"
                         width="100px"
                         height="113px"
                         alt=""
                       />
                     </div>
 
-                    <div class="text-center">
+                    <div className="text-center">
                       <p style={{ marginTop: "-3%" }}>500-ꝏ IMAGES/ORDER</p>
                       <p style={{ marginTop: "-4%" }}>10 IMAGES-FREE</p>
                       <p style={{ marginTop: "-4%" }}>3 MONTH FREE STORAGE</p>

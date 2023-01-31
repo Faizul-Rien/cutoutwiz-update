@@ -14,9 +14,9 @@ import { Navigationfr} from "./";
                 <meta name="robots" content="noindex"></meta>
             </Helmet>
 
-            <div class="row">
+            <div className="row">
                 <p style={{fontWeight:"700",fontSize:"100px",marginTop:"4%",color:"black",textAlign:"center"}}>Merci</p>
-                <p class="text-center"style={{fontSize:"25px",color:"black"}}>Merci de rester en contact.
+                <p className="text-center"style={{fontSize:"25px",color:"black"}}>Merci de rester en contact.
                   L'un des membres de notre équipe atteindra<br/> à vous dans les plus brefs délais.
                    Si vous avez besoin d'un projet<br/>assistance, vous pouvez nous contacter au :<br/><br/><u>info@cutoutwiz.com</u></p>
             </div>

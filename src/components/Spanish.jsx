@@ -51,7 +51,7 @@ function Spanish(props) {
   $.ajax({
     type: "GET",
     dataType: "json",
-    url: "https://ip-api.io/json?api_key=ceae0f9fbb24a7f45f12d479595194fc",
+    url: "https://ip-api.io/json?api_key="+process.env.REACT_APP_IPAPI,
     success: function (data) {
       console.log(
         "Your ip address is " +
@@ -262,9 +262,9 @@ function Spanish(props) {
         }}
       >
         {/* <img src="assets/images/bannerpic.png"/> */}
-        <div class="container" style={{ marginTop: "5%" }}>
-          <div class="row">
-            <div id="type-text" class="col-md-6" style={{ marginTop: "17%" }}>
+        <div className="container" style={{ marginTop: "5%" }}>
+          <div className="row">
+            <div id="type-text" className="col-md-6" style={{ marginTop: "17%" }}>
               <p
                 id="we-do"
                 style={{
@@ -306,14 +306,14 @@ function Spanish(props) {
                 solución de postproducción de contenidos
               </p>
 
-              <div class="row">
-                <div class="col-6 col-md-4">
-                  <a class="" href="https://app.cutoutwiz.com/" target="_blank">
-                    <button class="button1">PRUEBA GRATIS</button>{" "}
+              <div className="row">
+                <div className="col-6 col-md-4">
+                  <a className="" href="https://app.cutoutwiz.com/" target="_blank">
+                    <button className="button1">PRUEBA GRATIS</button>{" "}
                   </a>
                 </div>
 
-                <div class="col-6 col-md-8">
+                <div className="col-6 col-md-8">
                   <Link to="/es/contact-us">
                     <button type="button" id="button2">
                       COTIZACIÓN GRATIS
@@ -323,7 +323,7 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div id="img-banner" class="col-md-6">
+            <div id="img-banner" className="col-md-6">
               <div style={{ marginTop: "29%" }}>
                 <img
                   id="back-cover"
@@ -333,7 +333,7 @@ function Spanish(props) {
                 />
               </div>
 
-              <div class="hide-large">
+              <div className="hide-large">
                 <div style={{ marginTop: "10%" }}></div>
                 <img
                   id="back-ban"
@@ -364,7 +364,7 @@ function Spanish(props) {
       {/* Banner card section */}
 
       <div
-        class="cardid"
+        className="cardid"
         style={{
           backgroundImage: `url('assets/images/CUTOUTWIZ WEBSITE LIGHT VERSION L-03.png')`,
           backgroundPosition: "center",
@@ -375,11 +375,11 @@ function Spanish(props) {
           width: "100vw",
         }}
       >
-        <div class="container" id="left-card">
-          <div class="row">
-            <div class="col-6 col-md">
+        <div className="container" id="left-card">
+          <div className="row">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   border: "black",
                   width: "100%",
@@ -396,8 +396,8 @@ function Spanish(props) {
                   alt="Image icon"
                 />
                 <br />
-                <div class="card-body" style={{ marginTop: "-3%" }}>
-                  <h4 style={{ color: "#000000" }} class="card-title">
+                <div className="card-body" style={{ marginTop: "-3%" }}>
+                  <h4 style={{ color: "#000000" }} className="card-title">
                     16,500+
                   </h4>
                   <hr
@@ -410,7 +410,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       marginTop: "-7%",
                       fontWeight: "500",
@@ -425,9 +425,9 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   border: "black",
                   width: "100%",
@@ -444,8 +444,8 @@ function Spanish(props) {
                   alt="Team icon"
                 />
                 <br />
-                <div class="card-body" style={{ marginTop: "-3%" }}>
-                  <h4 style={{ color: "#000000" }} class="card-title">
+                <div className="card-body" style={{ marginTop: "-3%" }}>
+                  <h4 style={{ color: "#000000" }} className="card-title">
                     500+
                   </h4>
                   <hr
@@ -458,7 +458,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       marginTop: "-7%",
                       fontWeight: "500",
@@ -472,9 +472,9 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   border: "black",
                   width: "100%",
@@ -491,8 +491,8 @@ function Spanish(props) {
                   alt="Support icon"
                 />
                 <br />
-                <div class="card-body" style={{ marginTop: "-3%" }} id="text">
-                  <h4 style={{ color: "#000000" }} class="card-title">
+                <div className="card-body" style={{ marginTop: "-3%" }} id="text">
+                  <h4 style={{ color: "#000000" }} className="card-title">
                     365 Días
                   </h4>
                   <hr
@@ -505,7 +505,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       marginTop: "-7%",
                       fontWeight: "500",
@@ -519,9 +519,9 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   border: "black",
                   width: "100%",
@@ -538,8 +538,8 @@ function Spanish(props) {
                   alt="clock icon"
                 />
                 <br />
-                <div class="card-body" style={{ marginTop: "-3%" }}>
-                  <h4 style={{ color: "#000000" }} class="card-title">
+                <div className="card-body" style={{ marginTop: "-3%" }}>
+                  <h4 style={{ color: "#000000" }} className="card-title">
                     12 Horas
                   </h4>
                   <hr
@@ -552,7 +552,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       marginTop: "-7%",
                       fontWeight: "500",
@@ -567,10 +567,10 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-md">
-              <div class="card-hidden">
+            <div className="col-md">
+              <div className="card-hidden">
                 <div
-                  class="card"
+                  className="card"
                   style={{
                     border: "black",
                     borderRadius: "10px",
@@ -587,8 +587,8 @@ function Spanish(props) {
                     alt="Free trial icon"
                   />
                   <br />
-                  <div class="card-body" style={{ marginTop: "-3%" }}>
-                    <h4 style={{ color: "#000000" }} class="card-title">
+                  <div className="card-body" style={{ marginTop: "-3%" }}>
+                    <h4 style={{ color: "#000000" }} className="card-title">
                       10+
                     </h4>
                     <hr
@@ -601,7 +601,7 @@ function Spanish(props) {
                       }}
                     ></hr>
                     <p
-                      class="card-text"
+                      className="card-text"
                       style={{
                         marginTop: "-7%",
                         fontWeight: "500",
@@ -678,7 +678,7 @@ function Spanish(props) {
       {/* Count Record */}
 
       <div
-        class="spacew"
+        className="spacew"
         style={{
           backgroundPosition: "center",
           backgroundColor: "#c5da9c",
@@ -689,14 +689,14 @@ function Spanish(props) {
           height: "45vh",
         }}
       >
-        <div class="container">
-          <div class="row">
+        <div className="container">
+          <div className="row">
             <div
-              class="col-md-3"
+              className="col-md-3"
               id="countAnimFirst"
               style={{ marginTop: "14%" }}
             >
-              <div id="retouchCount" class="text-center">
+              <div id="retouchCount" className="text-center">
                 <img
                   id="sucphn"
                   src="assets/images/18m.png"
@@ -704,7 +704,7 @@ function Spanish(props) {
                   width="90%"
                 />
               </div>
-              <div class="fade-in-text">
+              <div className="fade-in-text">
                 <p
                   style={{
                     fontSize: "17px",
@@ -714,7 +714,7 @@ function Spanish(props) {
                 >
                   IMAGE <br /> PRODUCTION
                 </p>
-                <div class="text-center" style={{ marginTop: "-5%" }}>
+                <div className="text-center" style={{ marginTop: "-5%" }}>
                   <button
                     id="rest"
                     style={{
@@ -730,8 +730,8 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-md-3" id="countAnim" style={{ marginTop: "14%" }}>
-              <div id="retouchCount" class="text-center">
+            <div className="col-md-3" id="countAnim" style={{ marginTop: "14%" }}>
+              <div id="retouchCount" className="text-center">
                 <img
                   id="sucphn"
                   src="assets/images/40k.png"
@@ -739,7 +739,7 @@ function Spanish(props) {
                   width="90%"
                 />
               </div>
-              <div class="fade-in-text40k">
+              <div className="fade-in-text40k">
                 <p
                   style={{
                     fontSize: "17px",
@@ -749,7 +749,7 @@ function Spanish(props) {
                 >
                   IMAGE <br /> PRODUCTION
                 </p>
-                <div class="text-center" style={{ marginTop: "-5%" }}>
+                <div className="text-center" style={{ marginTop: "-5%" }}>
                   <button
                     id="rest"
                     style={{
@@ -765,8 +765,8 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-md-3" id="countAnim" style={{ marginTop: "14%" }}>
-              <div id="retouchCount" class="text-center">
+            <div className="col-md-3" id="countAnim" style={{ marginTop: "14%" }}>
+              <div id="retouchCount" className="text-center">
                 <img
                   id="sucphn"
                   src="assets/images/9.2k.png"
@@ -775,7 +775,7 @@ function Spanish(props) {
                 />
               </div>
 
-              <div class="fade-in-text92k">
+              <div className="fade-in-text92k">
                 <p
                   style={{
                     fontSize: "17px",
@@ -785,7 +785,7 @@ function Spanish(props) {
                 >
                   VIDEO <br /> PRODUCTION
                 </p>
-                <div class="text-center" style={{ marginTop: "-5%" }}>
+                <div className="text-center" style={{ marginTop: "-5%" }}>
                   <button
                     id="rest"
                     style={{
@@ -801,8 +801,8 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-md-3" id="countAnim" style={{ marginTop: "14%" }}>
-              <div id="retouchCount" class="text-center">
+            <div className="col-md-3" id="countAnim" style={{ marginTop: "14%" }}>
+              <div id="retouchCount" className="text-center">
                 <img
                   id="sucphn"
                   src="assets/images/54k.png"
@@ -811,7 +811,7 @@ function Spanish(props) {
                 />
               </div>
 
-              <div class="fade-in-text54k">
+              <div className="fade-in-text54k">
                 <p
                   style={{
                     fontSize: "17px",
@@ -821,7 +821,7 @@ function Spanish(props) {
                 >
                   VIDEO <br /> PRODUCTION
                 </p>
-                <div class="text-center" style={{ marginTop: "-5%" }}>
+                <div className="text-center" style={{ marginTop: "-5%" }}>
                   <button
                     id="rest"
                     style={{
@@ -841,7 +841,7 @@ function Spanish(props) {
       </div>
 
       <br />
-      <div class="row">
+      <div className="row">
         <div
           id="mobileViewOrange"
           style={{
@@ -858,7 +858,7 @@ function Spanish(props) {
 
       {/* Image editing service */}
 
-      <div class="row">
+      <div className="row">
         <div
           id="service-top"
           style={{
@@ -869,12 +869,12 @@ function Spanish(props) {
         >
           <div
             id="big-service"
-            class="row"
+            className="row"
             style={{ marginTop: "21%", height: "100vh" }}
           >
             <div id="image-editing-service"></div>
 
-            <div class="card-img-hidden">
+            <div className="card-img-hidden">
               <div className="row">
                 <div className="col-7">
                   <img
@@ -903,7 +903,7 @@ function Spanish(props) {
                     <div id="cf3">
                       <img
                         id="photo1"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Hair-Masking-after.png"
                         height="556px"
                         width="534px"
@@ -911,7 +911,7 @@ function Spanish(props) {
                       />
                       <img
                         id="photo1"
-                        class="top"
+                        className="top"
                         src="assets/images/Hair-Masking-before.png"
                         height="556px"
                         width="534px"
@@ -922,7 +922,7 @@ function Spanish(props) {
                     <div id="cf3">
                       <img
                         id="photo2"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Ghost manniquin-01.png"
                         height="556px"
                         width="534px"
@@ -930,7 +930,7 @@ function Spanish(props) {
                       />
                       <img
                         id="photo2"
-                        class="top"
+                        className="top"
                         src="assets/images/Ghost manniquin-02.png"
                         height="556px"
                         width="534px"
@@ -941,7 +941,7 @@ function Spanish(props) {
                     <div id="cf3">
                       <img
                         id="photo3"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/recolor-02.png"
                         height="556px"
                         width="534px"
@@ -949,7 +949,7 @@ function Spanish(props) {
                       />
                       <img
                         id="photo3"
-                        class="top"
+                        className="top"
                         src="assets/images/recolor-01.png"
                         height="556px"
                         width="534px"
@@ -960,7 +960,7 @@ function Spanish(props) {
                     <div id="cf3">
                       <img
                         id="photo4"
-                        class="top"
+                        className="top"
                         src="assets/images/Shadow creation-02.png"
                         height="499px"
                         width="425px"
@@ -969,7 +969,7 @@ function Spanish(props) {
 
                       <img
                         id="photo4"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Shadow creation-01.png"
                         height="499px"
                         width="425px"
@@ -980,7 +980,7 @@ function Spanish(props) {
                     <div id="cf3">
                       <img
                         id="photo5"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/prafter.png"
                         height="556px"
                         width="534px"
@@ -988,7 +988,7 @@ function Spanish(props) {
                       />
                       <img
                         id="photo5"
-                        class="top"
+                        className="top"
                         src="assets/images/prbefore.png"
                         height="556px"
                         width="534px"
@@ -999,7 +999,7 @@ function Spanish(props) {
                     <div id="cf3">
                       <img
                         id="photo6"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/color correction-01.png"
                         height="450px"
                         width="382px"
@@ -1007,7 +1007,7 @@ function Spanish(props) {
                       />
                       <img
                         id="photo6"
-                        class="top"
+                        className="top"
                         src="assets/images/color correction-02.png"
                         height="450px"
                         width="382px"
@@ -1018,7 +1018,7 @@ function Spanish(props) {
                     <div id="cf3">
                       <img
                         id="photo7"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/manipulation-before-1.png"
                         height="323px"
                         width="460px"
@@ -1026,7 +1026,7 @@ function Spanish(props) {
                       />
                       <img
                         id="photo7"
-                        class="top"
+                        className="top"
                         src="assets/images/manipulation-after-1.png"
                         height="323px"
                         width="460px"
@@ -1037,7 +1037,7 @@ function Spanish(props) {
                     <div id="cf3">
                       <img
                         id="photo8"
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Background-remove-after.png"
                         height="323px"
                         width="460px"
@@ -1045,7 +1045,7 @@ function Spanish(props) {
                       />
                       <img
                         id="photo8"
-                        class="top"
+                        className="top"
                         src="assets/images/Background-remove-before.png"
                         height="323px"
                         width="460px"
@@ -1119,8 +1119,8 @@ function Spanish(props) {
             </div>
 
             <div id="refresh">
-              <div class="col-md-7" id="service-ipad">
-                <div class="large-screen-hidden">
+              <div className="col-md-7" id="service-ipad">
+                <div className="large-screen-hidden">
                   {/* <button onClick={refreshPage}>Refresh</button> */}
 
                   <p id="servicePar">Services</p>
@@ -1142,21 +1142,21 @@ function Spanish(props) {
 
                   <Slider {...settingsimg}>
                     <div id="cf3">
-                      <div class="quot">
+                      <div className="quot">
                         <p style={{ fontSize: "46px", color: "#e4801c" }}>
                           IMAGEN
                         </p>
                         <p id="testret-res">ENMASCARAMIENTO</p>
                       </div>
                       <img
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Hair-Masking-after.png"
                         height="100%"
                         width="65%"
                         style={{ left: "7%" }}
                       />
                       <img
-                        class="top"
+                        className="top"
                         src="assets/images/Hair-Masking-before.png"
                         height="100%"
                         width="65%"
@@ -1165,18 +1165,18 @@ function Spanish(props) {
                     </div>
 
                     <div id="cf3">
-                      <div class="quot">
+                      <div className="quot">
                         <p style={{ fontSize: "46px" }}>FANTASMA</p>
                         <p id="testret-re">MANIQUÍ</p>
                       </div>
                       <img
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Ghost manniquin-01.png"
                         height="100%"
                         width="80%"
                       />
                       <img
-                        class="top"
+                        className="top"
                         src="assets/images/Ghost manniquin-02.png"
                         height="100%"
                         width="80%"
@@ -1184,18 +1184,18 @@ function Spanish(props) {
                     </div>
 
                     <div id="cf3">
-                      <div class="quot">
+                      <div className="quot">
                         <p style={{ fontSize: "46px" }}>FOTO</p>
                         <p id="testret-re">RECOLORAR</p>
                       </div>
                       <img
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/recolor-02.png"
                         height="100%"
                         width="80%"
                       />
                       <img
-                        class="top"
+                        className="top"
                         src="assets/images/recolor-01.png"
                         height="100%"
                         width="80%"
@@ -1203,12 +1203,12 @@ function Spanish(props) {
                     </div>
 
                     <div id="cf3">
-                      <div class="quot">
+                      <div className="quot">
                         <p style={{ fontSize: "46px" }}>SOMBRA</p>
                         <p id="testret-re">CREACIÓN</p>
                       </div>
                       <img
-                        class="top"
+                        className="top"
                         src="assets/images/Shadow creation-02.png"
                         height="65%"
                         width="38%"
@@ -1216,7 +1216,7 @@ function Spanish(props) {
                       />
 
                       <img
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Shadow creation-01.png"
                         height="65%"
                         width="38%"
@@ -1225,18 +1225,18 @@ function Spanish(props) {
                     </div>
 
                     <div id="cf3">
-                      <div class="quot">
+                      <div className="quot">
                         <p style={{ fontSize: "46px" }}>FOTO</p>
                         <p id="testret-re">RETOCAR</p>
                       </div>
                       <img
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/prafter.png"
                         height="100%"
                         width="70%"
                       />
                       <img
-                        class="top"
+                        className="top"
                         src="assets/images/prbefore.png"
                         height="100%"
                         width="70%"
@@ -1244,19 +1244,19 @@ function Spanish(props) {
                     </div>
 
                     <div id="cf3">
-                      <div class="quot">
+                      <div className="quot">
                         <p style={{ fontSize: "46px" }}>COLOR</p>
                         <p id="testret-re">CORRECCIÓN</p>
                       </div>
                       <img
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/color correction-01.png"
                         height="80%"
                         width="55%"
                         style={{ marginLeft: "10%", marginTop: "1%" }}
                       />
                       <img
-                        class="top"
+                        className="top"
                         src="assets/images/color correction-02.png"
                         height="80%"
                         width="55%"
@@ -1265,19 +1265,19 @@ function Spanish(props) {
                     </div>
 
                     <div id="cf3">
-                      <div class="quot">
+                      <div className="quot">
                         <p style={{ fontSize: "46px" }}>IMAGEN</p>
                         <p id="testret-remani  ">MANIPULATION</p>
                       </div>
                       <img
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/manipulation-before-1.png"
                         height="70%"
                         width="70%"
                         style={{ left: "10%", top: "15%" }}
                       />
                       <img
-                        class="top"
+                        className="top"
                         src="assets/images/manipulation-after-1.png"
                         height="70%"
                         width="70%"
@@ -1286,19 +1286,19 @@ function Spanish(props) {
                     </div>
 
                     <div id="cf3">
-                      <div class="quot">
+                      <div className="quot">
                         <p style={{ fontSize: "46px" }}>ANTECEDENTES</p>
                         <p id="testret-re">ELIMINACIÓN</p>
                       </div>
                       <img
-                        class="bottom"
+                        className="bottom"
                         src="assets/images/Background-remove-after.png"
                         height="70%"
                         width="70%"
                         style={{ left: "10%", top: "18%" }}
                       />
                       <img
-                        class="top"
+                        className="top"
                         src="assets/images/Background-remove-before.png"
                         height="70%"
                         width="70%"
@@ -1309,7 +1309,7 @@ function Spanish(props) {
                 </div>
               </div>
 
-              <div class="col-md-5"></div>
+              <div className="col-md-5"></div>
             </div>
           </div>
         </div>
@@ -1328,9 +1328,9 @@ function Spanish(props) {
             marginTop: "-6%",
           }}
         >
-          <div class="container">
-            <div class="row" style={{ marginTop: "5%" }}>
-              <div id="vdo-item" class="col-md-5">
+          <div className="container">
+            <div className="row" style={{ marginTop: "5%" }}>
+              <div id="vdo-item" className="col-md-5">
                 <p id="servicePar">Servicios</p>
                 <p id="imgser" style={{ marginTop: "-3%" }}>
                   Vídeos edición Servicios
@@ -1369,10 +1369,10 @@ function Spanish(props) {
                 </div>
               </div>
 
-              <div id="vdo-item" class="col-md-7">
+              <div id="vdo-item" className="col-md-7">
                 <br />
                 <div
-                  class="text-center"
+                  className="text-center"
                   id="vdoSer"
                   style={{ marginTop: "9%" }}
                 >
@@ -1433,7 +1433,7 @@ function Spanish(props) {
                   <input
                     name="origin"
                     style={{ height: "20px", width: "20px" }}
-                    class="btn1show"
+                    className="btn1show"
                     type="radio"
                     checked
                   ></input>
@@ -1441,7 +1441,7 @@ function Spanish(props) {
                   <input
                     name="origin"
                     style={{ height: "20px", width: "20px" }}
-                    class="btn2show"
+                    className="btn2show"
                     type="radio"
                     checked
                   ></input>
@@ -1449,7 +1449,7 @@ function Spanish(props) {
                   <input
                     name="origin"
                     style={{ height: "20px", width: "20px" }}
-                    class="btn3show"
+                    className="btn3show"
                     type="radio"
                     checked
                   ></input>
@@ -1457,7 +1457,7 @@ function Spanish(props) {
                   <input
                     name="origin"
                     style={{ height: "20px", width: "20px" }}
-                    class="btn4show"
+                    className="btn4show"
                     type="radio"
                     checked
                   ></input>
@@ -1472,7 +1472,7 @@ function Spanish(props) {
 
       {/* Apps with testimonial slider */}
 
-      <div class="row">
+      <div className="row">
         <div
           id="apps-large"
           style={{
@@ -1510,13 +1510,13 @@ function Spanish(props) {
             <br />
           </div>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-md" id="logopop">
+          <div className="container">
+            <div className="row">
+              <div className="col-md" id="logopop">
                 <a href="https://apps.shopify.com/cutoutwiz" target="_blank">
                   <img
                     src="assets/images/shopify-01.png"
-                    class="rounded mx-auto d-block"
+                    className="rounded mx-auto d-block"
                     height="85px"
                     width="220px"
                     alt="Shopify logo"
@@ -1524,14 +1524,14 @@ function Spanish(props) {
                 </a>{" "}
               </div>
 
-              <div class="col-md" id="logopop" style={{ marginTop: "7px" }}>
+              <div className="col-md" id="logopop" style={{ marginTop: "7px" }}>
                 <a
                   href="https://sellercentral.amazon.com/gspn/provider-details/Imaging/284b7303-cec9-403e-b763-375399824520?ref_=sc_gspn_ilst_idt-284b7303&localeSelection=en_US&sellFrom=US&sellIn=US"
                   target="_blank"
                 >
                   <img
                     src="assets/images/amazon-01.png"
-                    class="rounded mx-auto d-block"
+                    className="rounded mx-auto d-block"
                     height="85px"
                     width="220px"
                     alt="Amazon logo"
@@ -1539,11 +1539,11 @@ function Spanish(props) {
                 </a>
               </div>
 
-              <div class="col-md" id="logopop">
+              <div className="col-md" id="logopop">
                 <a href="https://app.cutoutwiz.com/" target="_blank">
                   <img
                     src="assets/images/cutoutwiz-01.png"
-                    class="rounded mx-auto d-block"
+                    className="rounded mx-auto d-block"
                     height="85px"
                     width="220px"
                     alt="Cutoutwiz logo"
@@ -1551,14 +1551,14 @@ function Spanish(props) {
                 </a>
               </div>
 
-              <div class="col-md" id="logopop">
+              <div className="col-md" id="logopop">
                 <a
                   href="https://www.bigcommerce.com/apps/cutoutwiz/"
                   target="_blank"
                 >
                   <img
                     src="assets/images/Big commerce-01.png"
-                    class="rounded mx-auto d-block"
+                    className="rounded mx-auto d-block"
                     height="85px"
                     width="220px"
                     alt="Bigcommerce logo"
@@ -1566,11 +1566,11 @@ function Spanish(props) {
                 </a>
               </div>
 
-              <div class="col-md" id="logopop">
+              <div className="col-md" id="logopop">
                 <a href="https://www.shotflow.com/" target="_blank">
                   <img
                     src="assets/images/shotflow-01.png"
-                    class="rounded mx-auto d-block"
+                    className="rounded mx-auto d-block"
                     height="85px"
                     width="220px"
                     alt="Shotflow logo"
@@ -1580,25 +1580,25 @@ function Spanish(props) {
             </div>
           </div>
 
-          <div class="container" id="overflow" style={{ marginTop: "9%" }}>
+          <div className="container" id="overflow" style={{ marginTop: "9%" }}>
             <Slider {...settings}>
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{ borderRadius: "10px", border: "black" }}
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
                       fontSize: "13px",
@@ -1631,7 +1631,7 @@ function Spanish(props) {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""
@@ -1641,22 +1641,22 @@ function Spanish(props) {
               </div>
 
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{ borderRadius: "10px", border: "black" }}
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
                       fontWeight: "200",
@@ -1690,7 +1690,7 @@ function Spanish(props) {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""
@@ -1700,22 +1700,22 @@ function Spanish(props) {
               </div>
 
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{ borderRadius: "10px", border: "black" }}
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
                       fontWeight: "200",
@@ -1749,7 +1749,7 @@ function Spanish(props) {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""
@@ -1759,22 +1759,22 @@ function Spanish(props) {
               </div>
 
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{ borderRadius: "10px", border: "black" }}
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
                       fontWeight: "200",
@@ -1808,7 +1808,7 @@ function Spanish(props) {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""
@@ -1818,22 +1818,22 @@ function Spanish(props) {
               </div>
 
               <div
-                class="card"
+                className="card"
                 id="cardBack"
                 style={{ borderRadius: "10px", border: "black" }}
               >
                 <img
                   src="assets/images/quotes.png"
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="60"
                   height="40"
                   alt=""
                   style={{ marginTop: "11%" }}
                 />
                 <br />
-                <div class="card-body">
+                <div className="card-body">
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{
                       textAlign: "center",
                       fontWeight: "200",
@@ -1866,7 +1866,7 @@ function Spanish(props) {
                 <img
                   src="assets/images/star5.png"
                   style={{ marginTop: "3%" }}
-                  class="rounded mx-auto d-block"
+                  className="rounded mx-auto d-block"
                   width="30%"
                   height="30%"
                   alt=""
@@ -1880,7 +1880,7 @@ function Spanish(props) {
       </div>
 
       {/* Plan  */}
-      <div class="row">
+      <div className="row">
         <div
           id="grenPhn"
           style={{
@@ -1892,7 +1892,7 @@ function Spanish(props) {
           }}
         >
           <div id="prices"></div>
-          <div class="container">
+          <div className="container">
             <p style={{ color: "#ffffff" }}>asdasdasda</p>
             <p style={{ color: "#ffffff" }}>asdasdasda</p>
             <h1
@@ -1916,7 +1916,7 @@ function Spanish(props) {
             </p>
             <br />
 
-            <div class="row">
+            <div className="row">
               <p style={{ textAlign: "center", fontWeight: "700" }}>
                 Ofrecemos múltiples opciones de precios para que usted elija
                 para ayudarlo a alcanzar sus objetivos. Elige el que mejor se
@@ -1927,8 +1927,8 @@ function Spanish(props) {
               </p>
             </div>
 
-            <div class="row" style={{ marginTop: "6%" }}>
-              <div class="col-md-4">
+            <div className="row" style={{ marginTop: "6%" }}>
+              <div className="col-md-4">
                 <div
                   style={{
                     backgroundImage: `url(assets/images/1.19back.png)`,
@@ -1941,7 +1941,7 @@ function Spanish(props) {
                   <br />
 
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "100%",
                       marginLeft: "11%",
@@ -1952,7 +1952,7 @@ function Spanish(props) {
                       border: "black",
                     }}
                   >
-                    <div class="card-title">
+                    <div className="card-title">
                       <br />
                       <p
                         style={{
@@ -1973,17 +1973,17 @@ function Spanish(props) {
                         Desde
                       </p>
                     </div>
-                    <div class="card-body" style={{ marginTop: "-9%" }}>
+                    <div className="card-body" style={{ marginTop: "-9%" }}>
                       <img
                         src="assets/images/1.19es.png"
-                        class="rounded mx-auto d-block"
+                        className="rounded mx-auto d-block"
                         width="47%"
                         height="47%"
                         alt=""
                       />
                     </div>
 
-                    <div class="text-center">
+                    <div className="text-center">
                       <p style={{ marginTop: "-3%" }}>1-100 IMÁGENES/PEDIDO</p>
                       <p style={{ marginTop: "-4%" }}>10 IMÁGENES-GRATIS</p>
                       <p style={{ marginTop: "-4%" }}>
@@ -2005,7 +2005,7 @@ function Spanish(props) {
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <div
                   style={{
                     backgroundImage: `url(assets/images/1.19back.png)`,
@@ -2018,7 +2018,7 @@ function Spanish(props) {
                   <br />
 
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "100%",
                       marginLeft: "11%",
@@ -2029,7 +2029,7 @@ function Spanish(props) {
                       border: "black",
                     }}
                   >
-                    <div class="card-title">
+                    <div className="card-title">
                       <br />
                       <p
                         style={{
@@ -2050,17 +2050,17 @@ function Spanish(props) {
                         Desde
                       </p>
                     </div>
-                    <div class="card-body" style={{ marginTop: "-9%" }}>
+                    <div className="card-body" style={{ marginTop: "-9%" }}>
                       <img
                         src="assets/images/0.99es.png"
-                        class="rounded mx-auto d-block"
+                        className="rounded mx-auto d-block"
                         width="47%"
                         height="47%"
                         alt=""
                       />
                     </div>
 
-                    <div class="text-center">
+                    <div className="text-center">
                       <p style={{ marginTop: "-3%" }}>
                         101-500 IMÁGENES/PEDIDO
                       </p>
@@ -2084,7 +2084,7 @@ function Spanish(props) {
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <div
                   style={{
                     backgroundImage: `url(assets/images/1.19back.png)`,
@@ -2097,7 +2097,7 @@ function Spanish(props) {
                   <br />
 
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "100%",
                       marginLeft: "11%",
@@ -2108,7 +2108,7 @@ function Spanish(props) {
                       border: "black",
                     }}
                   >
-                    <div class="card-title">
+                    <div className="card-title">
                       <br />
                       <p
                         style={{
@@ -2130,17 +2130,17 @@ function Spanish(props) {
                         Premium
                       </p>
                     </div>
-                    <div class="card-body" style={{ marginTop: "-9%" }}>
+                    <div className="card-body" style={{ marginTop: "-9%" }}>
                       <img
                         src="assets/images/contact-uses.png"
-                        class="rounded mx-auto d-block"
+                        className="rounded mx-auto d-block"
                         width="47%"
                         height="47%"
                         alt=""
                       />
                     </div>
 
-                    <div class="text-center">
+                    <div className="text-center">
                       <p style={{ marginTop: "-3%" }}>500-ꝏ IMÁGENES/PEDIDO</p>
                       <p style={{ marginTop: "-4%" }}>10 IMÁGENES-GRATIS</p>
                       <p style={{ marginTop: "-4%" }}>
@@ -2165,7 +2165,7 @@ function Spanish(props) {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div className="row">
         <div
           id="priceColor"
           style={{
@@ -2179,7 +2179,7 @@ function Spanish(props) {
 
       {/* Place an order */}
 
-      <div class="row">
+      <div className="row">
         <div
           id="place-order"
           style={{
@@ -2217,10 +2217,10 @@ function Spanish(props) {
             </p>
           </div>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3"></div>
-              <div class="col-md-6">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3"></div>
+              <div className="col-md-6">
                 <video
                   height="100%"
                   width="100%"
@@ -2232,17 +2232,17 @@ function Spanish(props) {
                   <source src="assets/images/Key-features-Video.mp4"></source>
                 </video>
               </div>
-              <div class="col-md-3"></div>
+              <div className="col-md-3"></div>
             </div>
           </div>
 
           <div
-            class="row"
+            className="row"
             style={{ paddingLeft: "2%", paddingRight: "2%", marginTop: "5%" }}
           >
-            <div class="col-6 col-md">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   width: "100%",
                   borderRadius: "10px",
@@ -2257,8 +2257,8 @@ function Spanish(props) {
                   alt="Image icon"
                 />
                 <br />
-                <div class="card-body">
-                  <h4 class="card-title">Paso 1:</h4>
+                <div className="card-body">
+                  <h4 className="card-title">Paso 1:</h4>
                   <hr
                     style={{
                       width: "32%",
@@ -2269,7 +2269,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     id="btmspace"
                     style={{ fontWeight: "700", fontSize: "13px" }}
                   >
@@ -2279,9 +2279,9 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   width: "100%",
                   borderRadius: "10px",
@@ -2296,8 +2296,8 @@ function Spanish(props) {
                   alt="Image icon"
                 />
                 <br />
-                <div class="card-body">
-                  <h4 class="card-title">Paso 2:</h4>
+                <div className="card-body">
+                  <h4 className="card-title">Paso 2:</h4>
                   <hr
                     style={{
                       width: "32%",
@@ -2308,7 +2308,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{ fontWeight: "700", fontSize: "13px" }}
                   >
                     Elija su plan de
@@ -2323,9 +2323,9 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   width: "100%",
                   borderRadius: "10px",
@@ -2341,8 +2341,8 @@ function Spanish(props) {
                 />
                 <br />
 
-                <div class="card-body">
-                  <h4 class="card-title">Paso 3:</h4>
+                <div className="card-body">
+                  <h4 className="card-title">Paso 3:</h4>
                   <hr
                     style={{
                       width: "32%",
@@ -2353,7 +2353,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{ fontWeight: "700", fontSize: "13px" }}
                   >
                     Vaya a su cuenta para
@@ -2364,9 +2364,9 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   width: "100%",
                   borderRadius: "10px",
@@ -2381,8 +2381,8 @@ function Spanish(props) {
                   alt="Image icon"
                 />
                 <br />
-                <div class="card-body">
-                  <h4 class="card-title">Paso 4:</h4>
+                <div className="card-body">
+                  <h4 className="card-title">Paso 4:</h4>
                   <hr
                     style={{
                       width: "32%",
@@ -2393,7 +2393,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{ fontWeight: "700", fontSize: "13px" }}
                   >
                     Upload las imágenes que
@@ -2404,9 +2404,9 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   width: "100%",
                   borderRadius: "10px",
@@ -2421,8 +2421,8 @@ function Spanish(props) {
                   alt="Image icon"
                 />
                 <br />
-                <div class="card-body">
-                  <h4 class="card-title">Paso 5:</h4>
+                <div className="card-body">
+                  <h4 className="card-title">Paso 5:</h4>
                   <hr
                     style={{
                       width: "32%",
@@ -2433,7 +2433,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{ fontWeight: "700", fontSize: "13px" }}
                   >
                     Procesaremos las
@@ -2444,9 +2444,9 @@ function Spanish(props) {
               </div>
             </div>
 
-            <div class="col-6 col-md">
+            <div className="col-6 col-md">
               <div
-                class="card"
+                className="card"
                 style={{
                   width: "100%",
                   borderRadius: "10px",
@@ -2461,8 +2461,8 @@ function Spanish(props) {
                   alt="Image icon"
                 />
                 <br />
-                <div class="card-body">
-                  <h4 class="card-title">Paso 6:</h4>
+                <div className="card-body">
+                  <h4 className="card-title">Paso 6:</h4>
                   <hr
                     style={{
                       width: "32%",
@@ -2473,7 +2473,7 @@ function Spanish(props) {
                     }}
                   ></hr>
                   <p
-                    class="card-text"
+                    className="card-text"
                     style={{ fontWeight: "700", fontSize: "13px" }}
                   >
                     Descarga las
@@ -2492,7 +2492,7 @@ function Spanish(props) {
 
       {/* Contact us */}
 
-      <div class="row">
+      <div className="row">
         <div
           id="blog-section-big"
           style={{
@@ -2503,14 +2503,14 @@ function Spanish(props) {
             height: "134vh",
           }}
         >
-          <div class="row" id="hidecol3">
-            <div class="col-md-3"></div>
-            <div class="col-md-5">
+          <div className="row" id="hidecol3">
+            <div className="col-md-3"></div>
+            <div className="col-md-5">
               <img
                 src="assets/images/We are here illustration.png"
                 id="cont-pic"
                 style={{ marginTop: "31%" }}
-                class="rounded mx-auto d-block"
+                className="rounded mx-auto d-block"
                 width="70%"
                 height="70%"
                 alt=""
@@ -2529,15 +2529,15 @@ function Spanish(props) {
               </a>
             </div>
 
-            <div class="col-md-4"></div>
+            <div className="col-md-4"></div>
           </div>
 
-          <div class="row" id="hide-on-large-col3">
+          <div className="row" id="hide-on-large-col3">
             <img
               src="assets/images/We are here illustration.png"
               id="cont-pic"
               style={{ position: "relative" }}
-              class="rounded mx-auto d-block"
+              className="rounded mx-auto d-block"
               width="70%"
               height="70%"
               alt=""
@@ -2551,9 +2551,9 @@ function Spanish(props) {
             </a>
           </div>
 
-          <div class="row" style={{ marginTop: "-3%" }}>
-            <div class="col-md-6"></div>
-            <div class="col-md-6">
+          <div className="row" style={{ marginTop: "-3%" }}>
+            <div className="col-md-6"></div>
+            <div className="col-md-6">
               <p
                 id="we-are-here"
                 style={{ fontSize: "38px", marginLeft: "2.4%" }}
@@ -2564,9 +2564,9 @@ function Spanish(props) {
             </div>
           </div>
           <div id="blogs-id"></div>
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-3"></div>
+            <div className="col-md-6">
               <p
                 id="we-are-here-sec"
                 style={{
@@ -2581,7 +2581,7 @@ function Spanish(props) {
               </p>
             </div>
 
-            <div class="col-md-3"></div>
+            <div className="col-md-3"></div>
           </div>
 
           <div id="blog"></div>
@@ -2604,7 +2604,7 @@ function Spanish(props) {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div className="row">
         <div
           id="grensp"
           style={{
@@ -2618,7 +2618,7 @@ function Spanish(props) {
 
       {/* Blog Banner with blog section */}
 
-      <div class="row">
+      <div className="row">
         <div
           id="blogphn"
           style={{
@@ -2652,16 +2652,16 @@ function Spanish(props) {
             <br />
           </p>
 
-          <div class="container">
-            <div class="row" id="back-last">
-              <div class="col-md-4">
+          <div className="container">
+            <div className="row" id="back-last">
+              <div className="col-md-4">
                 <Card
                   style={{
                     boxShadow: "1px 2px 3px 4px rgba(12,12,12,0.2)",
                     border: "black",
                   }}
                 >
-                  <div class="containerback">
+                  <div className="containerback">
                     <Link to="/blog">
                       <img
                         src="assets/images/white-back642-863.png"
@@ -2670,7 +2670,7 @@ function Spanish(props) {
                         alt="Read Our Blogs photo"
                       />
 
-                      <div class="centered">
+                      <div className="centered">
                         <h2 style={{ color: "black" }}>Read Our</h2>
                         <h3
                           style={{
@@ -2687,7 +2687,7 @@ function Spanish(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card
                   style={{
                     height: "98%",
@@ -2723,7 +2723,7 @@ function Spanish(props) {
                 </Card>
               </div>
 
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Card
                   style={{
                     height: "98%",
@@ -2758,9 +2758,9 @@ function Spanish(props) {
                 </Card>
               </div>
             </div>
-            <div class="only-large">
-              <div class="row" style={{ marginTop: "6%" }}>
-                <div class="col-md-4">
+            <div className="only-large">
+              <div className="row" style={{ marginTop: "6%" }}>
+                <div className="col-md-4">
                   <Card
                     style={{
                       height: "98%",
@@ -2793,7 +2793,7 @@ function Spanish(props) {
                   </Card>
                 </div>
 
-                <div class="col-md-4">
+                <div className="col-md-4">
                   <Card
                     style={{
                       height: "98%",
@@ -2828,7 +2828,7 @@ function Spanish(props) {
                   </Card>
                 </div>
 
-                <div class="col-md-4">
+                <div className="col-md-4">
                   <Card
                     style={{
                       height: "98%",
@@ -2868,7 +2868,7 @@ function Spanish(props) {
 
       {/* Ourr presence section */}
 
-      <div class="row" id="big-scren-map">
+      <div className="row" id="big-scren-map">
         <br />
         <br />
         <br />
@@ -2889,20 +2889,20 @@ function Spanish(props) {
 
       {/* map */}
 
-      <div class="containerss">
-        <div class="row">
+      <div className="containerss">
+        <div className="row">
           <div id="fotphn">
             <img
               id="map-img-phn"
               src="assets/images/map.png"
-              class="rounded mx-auto d-block"
+              className="rounded mx-auto d-block"
               width="100%"
               height="100%"
               alt=""
             />
 
             <img
-              class="rounded mx-auto d-block"
+              className="rounded mx-auto d-block"
               width="100%"
               height="100%"
               src="assets/images/map-(1871-900).png"
@@ -2913,18 +2913,18 @@ function Spanish(props) {
 
       {/* Footer */}
 
-      <div class="row" id="fot-phn">
+      <div className="row" id="fot-phn">
         <div
-          class="footer"
+          className="footer"
           style={{
             backgroundColor: "#e3e6d8",
             width: "100vw",
             marginTop: "0%",
           }}
         >
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3" style={{ marginTop: "4%" }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3" style={{ marginTop: "4%" }}>
                 <Link to="/" target="_blank">
                   <img
                     src="assets/images/logo-footer.png"
@@ -2949,31 +2949,31 @@ function Spanish(props) {
                 <a
                   href="https://www.facebook.com/cutoutwiz"
                   target="_blank"
-                  class="fa fa-facebook"
+                  className="fa fa-facebook"
                 ></a>
                 <a
                   href="https://twitter.com/cut_wiz?s=09"
                   target="_blank"
-                  class="fa fa-twitter"
+                  className="fa fa-twitter"
                 ></a>
                 <a
                   href="https://www.linkedin.com/company/cutoutwiz-ltd"
                   target="_blank"
-                  class="fa fa-linkedin"
+                  className="fa fa-linkedin"
                 ></a>
                 <a
                   href="https://www.youtube.com/channel/UClIkCcEBksZigP56p593fDQ"
                   target="_blank"
-                  class="fa fa-youtube"
+                  className="fa fa-youtube"
                 ></a>
                 <a
                   href="https://www.instagram.com/accounts/login/"
                   target="_blank"
-                  class="fa fa-instagram"
+                  className="fa fa-instagram"
                 ></a>
               </div>
 
-              <div class="col-6 col-md-2" style={{ marginTop: "5%" }}>
+              <div className="col-6 col-md-2" style={{ marginTop: "5%" }}>
                 <b style={{ color: "#01302b", fontSize: "20px" }}>Menú</b>
 
                 <p style={{ color: "#b7b9bb", marginTop: "8%" }}>
@@ -3019,7 +3019,7 @@ function Spanish(props) {
                 </p>
               </div>
 
-              <div class="col-6 col-md-2" style={{ marginTop: "5%" }}>
+              <div className="col-6 col-md-2" style={{ marginTop: "5%" }}>
                 <b style={{ color: "#01302b", fontSize: "20px" }}>
                   Características
                 </b>
@@ -3070,7 +3070,7 @@ function Spanish(props) {
                 </p>
               </div>
 
-              <div class="col-6 col-md-2" style={{ marginTop: "5%" }}>
+              <div className="col-6 col-md-2" style={{ marginTop: "5%" }}>
                 <b style={{ color: "#01302b", fontSize: "20px" }}>
                   Enlaces útiles
                 </b>
@@ -3113,7 +3113,7 @@ function Spanish(props) {
                 </p>
               </div>
 
-              <div class="col-6 col-md-3" style={{ marginTop: "5%" }}>
+              <div className="col-6 col-md-3" style={{ marginTop: "5%" }}>
                 <b style={{ color: "#01302b", fontSize: "20px" }}>
                   Nuestra dirección
                 </b>{" "}

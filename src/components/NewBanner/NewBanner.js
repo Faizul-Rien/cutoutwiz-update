@@ -9,9 +9,9 @@ const NewBanner = () => {
   return (
     <>
       <div id="toppart_wrap">
-        <div class="container">
-          <div class="row">
-            <div id="type-text" class="col-md-6 col-sm-12">
+        <div className="container">
+          <div className="row">
+            <div id="type-text" className="col-md-6 col-sm-12">
               <p
                 id="we-do"
                 style={{
@@ -22,7 +22,7 @@ const NewBanner = () => {
               >
                 We do Image & Video
               </p>
-              <p
+              <div
                 id="we-doI"
                 style={{
                   fontSize: "38px",
@@ -45,7 +45,7 @@ const NewBanner = () => {
                   loop={Infinity}
                   wrapper="p"
                 />
-              </p>
+              </div>
 
               <p style={{ fontSize: "20px", fontFamily: "Poppins" }}>
                 Your one-stop
@@ -53,21 +53,21 @@ const NewBanner = () => {
                 content post production solution
               </p>
 
-              <div class="row">
-                <div class="col-6 col-sm-6 col-md-5 col-xl-4">
+              <div className="row">
+                <div className="col-6 col-sm-6 col-md-5 col-xl-4">
                   <a
-                    class=""
+                    className=""
                     href="https://app.cutoutwiz.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button class="button1">FREE TRIAL</button>
+                    <button className="button1">FREE TRIAL</button>
                   </a>
                 </div>
 
-                <div class="col-6 col-sm-6 col-md-7 col-xl-8">
+                <div className="col-6 col-sm-6 col-md-7 col-xl-8">
                   <Link to="/contact-us">
-                    <button type="button" id="button2" class="button2">
+                    <button type="button" id="button2" className="button2">
                       FREE QUOTE
                     </button>
                   </Link>

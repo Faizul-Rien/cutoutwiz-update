@@ -40,8 +40,8 @@ export default function Contactth() {
 
 
 
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <div style={{ marginTop: "4%" }}>
                         <p style={{ textAlign: "center", fontSize: "30px", fontFamily: "Branch", fontWeight: "700" }}>ติดต่อกับพวกเรา</p>
 
@@ -56,8 +56,8 @@ export default function Contactth() {
                                 <div id="nameid" className="col-8 form-group mx-auto">
                                     <input type="text" className="form-control" placeholder="ชื่อ" name="name" required />
                                 </div>
-                                <div class="col-8 form-group mx-auto">
-                                    <select id="inputState" class="form-control" name="option">
+                                <div className="col-8 form-group mx-auto">
+                                    <select id="inputState" className="form-control" name="option">
                                         <option selected> --เลือกตัวเลือก-- </option>
                                         <option>บริการแก้ไขภาพ</option>
                                         <option>บริการตัดต่อวิดีโอ</option>
@@ -83,7 +83,7 @@ export default function Contactth() {
                                 <div className="col-8 pt-3 mx-auto">
 
 
-                                    <div class="text-center">
+                                    <div className="text-center">
                                         <input type="submit" id="button-19" className="btn btn-info" value="ส่ง"></input>
                                     </div>
 
