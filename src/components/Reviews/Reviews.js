@@ -43,7 +43,7 @@ const Reviews = () => {
 
   return (
     <div>
-        <div className="reviewWrap fwidth">
+        <div   id="apps" className="reviewWrap fwidth">
         <div id="apps-large">
           <div>
             <p style={{ color: "#c5da9c" }}>sadasd</p>

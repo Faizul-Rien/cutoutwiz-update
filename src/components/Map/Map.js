@@ -6,6 +6,26 @@ import './style.css';
 
 const Map = () => {
     return (
+        <>
+        
+      <div className="fwidth" id="big-scren-map">
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <p
+          id="mapid"
+          style={{
+            fontSize: "45px",
+            fontWeight: "700",
+            textAlign: "center",
+            fontFamily: "Branch",
+          }}
+        >
+          Our Presence
+        </p>
+      </div>
         <div id='mapArea' className="fwidth">
             <div className='mapWrap'>
                 <img
@@ -37,6 +57,7 @@ const Map = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

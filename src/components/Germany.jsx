@@ -46,7 +46,7 @@ const settingsimg = {
 $.ajax({
   type: "GET",
   dataType: "json",
-  url: 'https://ip-api.io/json?api_key=ceae0f9fbb24a7f45f12d479595194fc',
+  url: "https://ip-api.io/json?api_key="+process.env.REACT_APP_IPAPI,
   success: function(data) {
     console.log(
       'Your ip address is ' + data.ip
