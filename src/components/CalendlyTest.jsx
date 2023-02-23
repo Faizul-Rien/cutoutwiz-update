@@ -3,7 +3,7 @@ import { InlineWidget } from "react-calendly";
 function CalendlyTest() {
   return (
     <div className="calendly">
-      <InlineWidget url="https://calendly.com/ashikahmedfifa/test" />
+      <InlineWidget url="https://calendly.com/cutoutwiz/discussion-call-with-cutoutwiz" />
     </div>
   );
 }

@@ -134,6 +134,11 @@ function Navigation(props) {
               </a>
             </li>
 
+            <li className="nav-item">
+                <Link className="nav-link" to="/book-a-call">
+                  <button className="button9">BOOK A CALL</button>
+                </Link>
+              </li>
             {/* <li className="nav-item">
               <Link className="nav-link"onClick={refreshPagees}>
                    <img src="../../assets/images/spain-flag.png" width="20" height="20" alt=""/>
