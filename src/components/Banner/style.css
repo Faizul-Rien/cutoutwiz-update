@@ -22,6 +22,7 @@
         transform: translate(0,0%);
     }
 }
+
 @keyframes banneWrapAnim {
     0% {
         opacity: 0.6;
@@ -32,6 +33,38 @@
     }
 }
 
+@keyframes banneWrapAnimOpen {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
+}
+
+@keyframes buttonOpen {
+    0% {
+        opacity: 0;
+        bottom: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 20px;
+    }
+}
+@keyframes buttonClose {
+    0% {
+        opacity: 1;
+        bottom: 20px;
+    }
+
+    100% {
+        opacity: 0;
+        bottom: -100px;
+    }
+}
 #popupBannerWrapper {
     position: fixed;
     width: 100%;
@@ -53,6 +86,13 @@
     animation: popupAnimClose 2s;
 }
 
+#popupBannerWrapper.activeBanner .bgshadow{
+    animation: banneWrapAnimOpen 2s;
+}
+#popupBannerWrapper.activeBanner .bannerWrap{
+    animation: popupAnim 2s;
+}
+
 .bannerWrap {
 	position: fixed;
 	top: 50%;
@@ -61,6 +101,7 @@
     z-index: 9;
     animation: popupAnim 2s;
 }
+
 .popupBanner span{
     position: absolute;
     right: 8px;
@@ -74,6 +115,31 @@
 .mob_banner {
     display: none;
 }
+#popupIcon {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    bottom: -100px;
+    animation: buttonOpen 2s;
+    z-index: 1;
+}
+#popupIcon.closeBanner {
+    display: flex;
+    animation: buttonOpen 2s;
+    bottom: 20px;
+}
+#popupIcon.activeBanner {
+animation: buttonClose 2s;
+}
+
+#popupIcon img {
+    width: 100%;
+    border-radius: 50%;
+}
+
 @media only screen and (max-width: 575px) {
 .mob_banner {display: block;}
 .web_banner {display: none;}

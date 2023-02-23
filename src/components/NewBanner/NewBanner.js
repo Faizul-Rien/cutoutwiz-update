@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import Typical from "react-typical";
 import { Link } from "react-router-dom";
 import model from "./img/model_2.png";
 import round from "./img/round_y.png";
 import "./nstyle.css";
+import { ManageContext } from "../../App";
 
 const NewBanner = () => {
+  
+  const [localData, getUserLocation] = useContext(ManageContext); 
+
   return (
     <>
       <div id="toppart_wrap">
