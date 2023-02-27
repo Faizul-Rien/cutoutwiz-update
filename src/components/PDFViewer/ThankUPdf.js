@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
+import { redirect, useNavigate } from "react-router-dom";
 
 const ThankUPdf = () => {
+
+    let navigate = useNavigate();
+
+    function redirectAfterSubmit() {
+        navigate('/')
+      }
+
+      useEffect(()=>{
+
+        setTimeout(()=>{
+            redirectAfterSubmit()
+        },20000)
+
+      },[])
+      
     return (
         <div className="postphoto" style={{ backgroundColor: "#c5da9c" }}>
             <Helmet>
@@ -18,10 +35,10 @@ Contact us to know more about our services! </p>
                         <p style={{ fontSize: "15px" }}>Sincerely,<br />
                             Team CutOutWiz</p>
                     </div>
+                    <Link to="/" style={{textAlign: "center", fontSize: "18px", textDecoration: "none"}}>Continue to website <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                 </div>
 
             </div>
-
 
         </div>
     );
