@@ -135,9 +135,9 @@ function Navigation(props) {
             </li>
 
             <li className="nav-item">
-                <Link className="nav-link" to="/book-a-call">
+                <a className="nav-link" href="/book-a-call">
                   <button className="button9">BOOK A CALL</button>
-                </Link>
+                </a>
               </li>
             {/* <li className="nav-item">
               <Link className="nav-link"onClick={refreshPagees}>
