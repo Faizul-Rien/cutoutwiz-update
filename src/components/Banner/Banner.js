@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import bannerImage from './img/banner_2.jpg';
-import banner_mobImage from './img/banner_mob_2.jpg';
+import bannerImage from './img/banner_3.png';
+import banner_mobImage from './img/banner_mob_3.png';
 import paperPlane from './img/plane_2.png';
 
 import './bstyle.css';

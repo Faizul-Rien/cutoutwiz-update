@@ -36,7 +36,7 @@ function Navigation(props) {
             <img
               id="logowiz"
               src="../../assets/images/ailogo.png"
-              width="170"
+              width="190"
               height="40"
               alt=""
             />

@@ -21,7 +21,7 @@ const Footer = () => {
                   <img
                     src="assets/images/logo-footer.png"
                     style={{ marginTop: "3%" }}
-                    width="170"
+                    width="190"
                     height="40"
                     alt=""
                   />
@@ -228,13 +228,13 @@ const Footer = () => {
               backgroundColor: "black",
             }}
           >
-            Designed And Developed By{" "}
+            Designed & Developed :
             <Link
               to="/"
               target="_blank"
               style={{ textDecoration: "none", color: "white" }}
-            >
-              CutOutWiz
+            > {" "}
+              CutOutWiz by The KOW Company
             </Link>
           </p>
         </div>

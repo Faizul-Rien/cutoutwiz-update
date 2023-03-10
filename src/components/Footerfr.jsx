@@ -8,7 +8,7 @@ function Footerfr() {
 <div className="container">
 <div className="row">
 <div className="col-md-3"style={{marginTop:"4%"}}>
-<img src="assets/images/ailogo.png"style={{marginTop:"3%"}} width="170" height="40" alt=""/>
+<img src="assets/images/ailogo.png"style={{marginTop:"3%"}} width="190" height="40" alt=""/>
 
 <p style={{textAlign:"justify",color:"white",marginTop:"4%"}}>CutOutWiz is one of the leading image and video editing company for businesses all over the world.</p>
 <a href="https://www.facebook.com/cutoutwiz"target="_blank" className="fa fa-facebook"></a>
