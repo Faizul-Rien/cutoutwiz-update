@@ -65,7 +65,7 @@ const NewBanner = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="button1">FREE TRIAL</button>
+                    <button className="button2">FREE TRIAL</button>
                   </a>
                 </div>
 
@@ -75,6 +75,17 @@ const NewBanner = () => {
                       FREE QUOTE
                     </button>
                   </Link>
+                </div>
+                
+                <div className="col-6 col-sm-6 col-md-5 col-xl-4">
+                  <a
+                    className=""
+                    href="https://kowstudios.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="button1">KOW CGI</button>
+                  </a>
                 </div>
               </div>
               {/* circle animation  */}

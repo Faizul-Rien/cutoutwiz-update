@@ -190,6 +190,12 @@ animation: buttonClose 1s;
 	padding: 3px 8px 3px 19px;
 	margin-left: -14px;
 }
+
+.bannerCigWrap{
+    width: 600px;
+    position: relative;
+    margin: auto;
+}
 @media only screen and (max-width: 575px) {
 .mob_banner {display: block;}
 .web_banner {display: none;}
