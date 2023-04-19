@@ -674,7 +674,7 @@ input:checked {
 }
 
 .button2 {
-  background-color: #fff;
+  background-color: transparent;
   color: black;
   padding: 8px 26px;
   border-radius: 5px;

@@ -36,13 +36,16 @@ const BannerCGI = () => {
 
                     <div className='popupBanner mob_banner'>
                         <span onClick={closeBanner}>X</span>
+                        <a href='https://kowstudios.com/' target='_blank'>
                         <img src={bannerImage} />
+                        </a>
+
                     </div>
                 </div>
             </div>
-            {/* <div onClick={openBannerBtn} id='popupIcon' className={getClose}>
-                <img src={paperPlane}/> <a href='https://kowstudios.com/' target='_blank'>Visit To KowStudios.com</a>
-            </div> */}
+            <div onClick={openBannerBtn} id='popupIcon' className={getClose}>
+                 <a className='btncgi' href='https://kowstudios.com/' target='_blank'>Visit our CGI Website</a>
+            </div>
         </>
     );
 };
