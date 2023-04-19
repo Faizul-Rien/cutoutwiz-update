@@ -24,7 +24,8 @@ const NewBanner = () => {
                   fontWeight: "700",
                 }}
               >
-                We do Image & Video
+                Elevate your visuals with our:
+                {/* We do Image & Video */}
               </p>
               <div
                 id="we-doI"
@@ -35,7 +36,18 @@ const NewBanner = () => {
                   fontWeight: "700",
                 }}
               >
+                
                 <Typical
+                  steps={[
+                    "3D Modeling",
+                    1000,
+                    " ",
+                    500,
+                  ]}
+                  loop={Infinity} 
+                  wrapper="p"
+                />
+                {/* <Typical
                   steps={[
                     "Editing",
                     1000,
@@ -48,7 +60,7 @@ const NewBanner = () => {
                   ]}
                   loop={Infinity}
                   wrapper="p"
-                />
+                /> */}
               </div>
 
               <p style={{ fontSize: "20px", fontFamily: "Poppins" }}>
