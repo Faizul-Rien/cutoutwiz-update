@@ -10,7 +10,7 @@ import {Helmet} from "react-helmet";
         <div className="postphoto">
                                       
              <Helmet> 
-                <title>Product Reselling Photography: Why and how to do it | cutoutwiz</title>
+                <title>Product Reselling Photography: Why and how to do it | The KOW company</title>
                 <meta name="description" keywords= "Product reselling photography" content="In order to perfectly photograph your old staff for reselling, you need to clean the products, accept the vintage look and maintain consistency." 
                 />
             </Helmet>
@@ -209,7 +209,7 @@ Another way to go with old product is donating them to luxury item reseller’s 
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

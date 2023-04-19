@@ -12,7 +12,7 @@ import {Helmet} from "react-helmet";
             {/* META TAG AND META TITTLE */}
 
               <Helmet>
-                <title>Top 8 Food Photography Tips for Beginners - CutOutWiz</title>
+                <title>Top 8 Food Photography Tips for Beginners - The KOW company</title>
                 <meta name="description" keywords= "Food Photography, Beginner photography" content="Photographing food lets you play with the ingredients and design the setting that would be most appealing to you. Food photographs bring great joy to both the photographer and the viewer."
                 />
             </Helmet>
@@ -426,7 +426,7 @@ While photographing delicious looking food is one of the most fun things you’l
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

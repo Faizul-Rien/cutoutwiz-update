@@ -10,7 +10,7 @@ function Softbox(props) {
     return(
         <div className="postphoto">
              <Helmet>
-                <title>How to make a Softbox for Product Photography | cutoutwiz</title>
+                <title>How to make a Softbox for Product Photography | The KOW company</title>
                 <meta name="description" keywords= "Softbox" content="To create a softbox for product photoshoot, you need acquire the materials, measure and cut them, add it all up and place the light to diffuse it properly." 
                 />
             </Helmet>
@@ -230,7 +230,7 @@ Lights not only help understand the color of your product, they highlight the in
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

@@ -274,7 +274,7 @@ const BannerCard = () => {
               fontSize: "19px",
             }}
           >
-            CutOutWiz is one of the leading image and video editing company for
+            The KOW Company is one of the leading image and video editing company for
             businesses all over the world. As the world moves towards a virtual
             future, with online product photo editing becoming more and more
             accessible, HD product pictures are what essentially drive sales. We

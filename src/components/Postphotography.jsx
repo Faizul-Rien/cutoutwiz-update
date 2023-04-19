@@ -10,7 +10,7 @@ import {Helmet} from "react-helmet";
         <div className="postphoto">
                           
             <Helmet>
-                <title>5 Interesting Product Photography Facts |cutoutwiz</title>
+                <title>5 Interesting Product Photography Facts |The KOW company</title>
                 <meta name="description" keywords= "Product Photography Tips" content="In product photography, it’s important to always shoot in raw, adjust exposure triangle effectively, follow the rules of thirds and adjust your on-camera flash." 
                 />
             </Helmet>
@@ -259,7 +259,7 @@ in a day or a week. You’re bound to get blur, shaky and overexposed photos in 
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

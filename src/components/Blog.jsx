@@ -15,7 +15,7 @@ function Blog() {
     return (
         <div className="blogs">
             <Helmet>
-                <title>Image & Video Editing Company | Blogs | CutOutWiz</title>
+                <title>Image & Video Editing Company | Blogs | The KOW company</title>
                 <meta name="description" keywords= "product photo editing" content="By implementing product photo editing, you'll be able to be removing backgrounds, edit a photo and ensure professional retouching. " 
                 />
             </Helmet>

@@ -47,7 +47,7 @@ function Spanish(props) {
       },
     ],
   };
-
+/*
   $.ajax({
     type: "GET",
     dataType: "json",
@@ -80,7 +80,7 @@ function Spanish(props) {
       }
     },
   });
-
+*/
   $(document).ready(function () {
     $(".btn1show").click(function () {
       $("#js-nametag1").show();
@@ -239,11 +239,11 @@ function Spanish(props) {
     <div className="spain">
 
       <Helmet>
-        <title>CutOutWiz : Image and Video Post Production</title>
+        <title>The KOW Company : Image and Video Post Production</title>
         <meta
           name="description"
           keywords="Product photo edinting company"
-          content="CutOutWiz is one of the leading image and video editing company for businesses all over the world. As the world moves towards a virtual business base, product photo editing has been a very important part for any E-commerce business "
+          content="The KOW Company is one of the leading image and video editing company for businesses all over the world. As the world moves towards a virtual business base, product photo editing has been a very important part for any E-commerce business "
         />
       </Helmet>
 
@@ -252,7 +252,7 @@ function Spanish(props) {
       <div
         id="homeid"
         style={{
-          backgroundImage: `url('assets/images/CUTOUTWIZ WEBSITE LIGHT VERSION L-02.png')`,
+          backgroundImage: `url('assets/images/The KOW Company WEBSITE LIGHT VERSION L-02.png')`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -366,7 +366,7 @@ function Spanish(props) {
       <div
         className="cardid"
         style={{
-          backgroundImage: `url('assets/images/CUTOUTWIZ WEBSITE LIGHT VERSION L-03.png')`,
+          backgroundImage: `url('assets/images/The KOW Company WEBSITE LIGHT VERSION L-03.png')`,
           backgroundPosition: "center",
           backgroundColor: "#062220",
           backgroundSize: "cover",
@@ -639,7 +639,7 @@ function Spanish(props) {
               fontSize: "19px",
             }}
           >
-            CutOutWiz es una de las principales empresas de edición de imágenes
+            The KOW Company es una de las principales empresas de edición de imágenes
             y videos para empresas de todo el mundo. A medida que el mundo
             avanza hacia un futuro virtual, con la edición de fotografías de
             productos en línea cada vez más accesible, las imágenes de productos
@@ -1546,7 +1546,7 @@ function Spanish(props) {
                     className="rounded mx-auto d-block"
                     height="85px"
                     width="220px"
-                    alt="Cutoutwiz logo"
+                    alt="The KOW Company logo"
                   />
                 </a>
               </div>
@@ -1723,7 +1723,7 @@ function Spanish(props) {
                       fontWeight: "600",
                     }}
                   >
-                    I love this app. We've been using CutOutWiz for some time. I
+                    I love this app. We've been using The KOW Company for some time. I
                     am continually impressed with the results and stellar
                     customer support.
                   </p>
@@ -2943,7 +2943,7 @@ function Spanish(props) {
                     fontWeight: "500",
                   }}
                 >
-                  CutOutWiz es una de las principales empresas de edición de
+                  The KOW Company es una de las principales empresas de edición de
                   imágenes y videos para empresas de todo el mundo.
                 </p>
                 <a
@@ -3137,7 +3137,7 @@ function Spanish(props) {
               backgroundColor: "black",
             }}
           >
-            Designed And Developed By{" "}
+            Designed & Developed By{" "}
             <Link
               to="/"
               target="_blank"

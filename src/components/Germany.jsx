@@ -42,7 +42,7 @@ const settingsimg = {
     }
   }]
 };
-
+/*
 $.ajax({
   type: "GET",
   dataType: "json",
@@ -72,7 +72,7 @@ $.ajax({
 
   }
 });
-
+*/
 $(document).ready(function() {
 
 
@@ -287,8 +287,8 @@ function refreshPage(){
        <Navigationde />
       </Router>
       <Helmet>
-                <title>CutOutWiz : Image and Video Post Production</title>
-                <meta  name="description" keywords="Product photo edinting company" content="CutOutWiz is one of the leading image and video editing company for businesses all over the world. As the world moves towards a virtual business base, product photo editing has been a very important part for any E-commerce business "
+                <title>The KOW Company : Image and Video Post Production</title>
+                <meta  name="description" keywords="Product photo edinting company" content="The KOW Company is one of the leading image and video editing company for businesses all over the world. As the world moves towards a virtual business base, product photo editing has been a very important part for any E-commerce business "
                 />
      </Helmet>
 
@@ -297,7 +297,7 @@ function refreshPage(){
 {/*Banner section */}
 
 
-<div id="homeid" style={{backgroundImage: `url('assets/images/CUTOUTWIZ WEBSITE LIGHT VERSION L-02.png')`, backgroundPosition: 'center',
+<div id="homeid" style={{backgroundImage: `url('assets/images/The KOW Company WEBSITE LIGHT VERSION L-02.png')`, backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100vw',
@@ -369,7 +369,7 @@ Bild & Video</p>
 
 {/* Banner card section */}
 
-<div className="cardid" style={{backgroundImage: `url('assets/images/CUTOUTWIZ WEBSITE LIGHT VERSION L-03.png')`, backgroundPosition: 'center',
+<div className="cardid" style={{backgroundImage: `url('assets/images/The KOW Company WEBSITE LIGHT VERSION L-03.png')`, backgroundPosition: 'center',
 backgroundColor:"#062220",
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -440,7 +440,7 @@ backgroundColor:"#062220",
           </div>
         <p id="abtHd" style={{textAlign:"center",fontFamily:"Branch",marginTop:"7%",fontSize:"38px",fontWeight:"700"}}>Über uns</p>
 
-        <p id="ab" style={{textAlign:"justify",marginTop:"4%", textAlignLast: "center",fontSize:"19px"}}>CutOutWiz ist eines der führenden Bild- und Videobearbeitungsunternehmen für Unternehmen auf der ganzen Welt. Da sich die Welt auf eine virtuelle Zukunft zubewegt und die Online-Bearbeitung von Produktfotos immer zugänglicher wird, sind HD-Produktbilder das, was den Umsatz im Wesentlichen ankurbelt. Wir sind der vertrauenswürdige Online-Bildbearbeitungspartner für viele renommierte E-Commerce-Unternehmen auf der ganzen Welt in den unterschiedlichsten Branchen. Wir bieten jeden möglichen Bildbearbeitungsdienst (Bearbeitung) an, von häufig verwendeten Diensten wie Hintergrundbildentfernung, Farbkorrektur, Bildretusche, unsichtbare Schaufensterpuppe bis hin zu komplexen Diensten wie Bildbearbeitung. Der Grund für unseren Erfolg ist, dass wir an den Kunden glauben und den besten Service bieten.</p>
+        <p id="ab" style={{textAlign:"justify",marginTop:"4%", textAlignLast: "center",fontSize:"19px"}}>The KOW Company ist eines der führenden Bild- und Videobearbeitungsunternehmen für Unternehmen auf der ganzen Welt. Da sich die Welt auf eine virtuelle Zukunft zubewegt und die Online-Bearbeitung von Produktfotos immer zugänglicher wird, sind HD-Produktbilder das, was den Umsatz im Wesentlichen ankurbelt. Wir sind der vertrauenswürdige Online-Bildbearbeitungspartner für viele renommierte E-Commerce-Unternehmen auf der ganzen Welt in den unterschiedlichsten Branchen. Wir bieten jeden möglichen Bildbearbeitungsdienst (Bearbeitung) an, von häufig verwendeten Diensten wie Hintergrundbildentfernung, Farbkorrektur, Bildretusche, unsichtbare Schaufensterpuppe bis hin zu komplexen Diensten wie Bildbearbeitung. Der Grund für unseren Erfolg ist, dass wir an den Kunden glauben und den besten Service bieten.</p>
 
 
 
@@ -892,7 +892,7 @@ backgroundColor:"#062220",
       </a></div>
 
       <div className="col-md"id="logopop">
-      <a href="https://app.cutoutwiz.com/" target="_blank"><img src="assets/images/cutoutwiz-01.png" className="rounded mx-auto d-block" height="85px" width="220px" alt="Cutoutwiz logo"/>
+      <a href="https://app.cutoutwiz.com/" target="_blank"><img src="assets/images/cutoutwiz-01.png" className="rounded mx-auto d-block" height="85px" width="220px" alt="The KOW Company logo"/>
       </a></div>
 
       <div className="col-md"id="logopop">
@@ -938,7 +938,7 @@ backgroundColor:"#062220",
               <img src="assets/images/quotes.png" className="rounded mx-auto d-block"  width="60" height="40" alt=""style={{marginTop:"11%"}}/><br/>
               <div className="card-body">
                 <p className="card-text"style={{textAlign:"center",fontWeight:"200",fontSize:"13px",fontWeight:"600"}}>I love this app. We've
-                 been using CutOutWiz for some time. I am continually impressed with the results and stellar customer support.</p>
+                 been using The KOW Company for some time. I am continually impressed with the results and stellar customer support.</p>
                  <p style={{textAlign:"center",fontWeight:"700",color:"#ffcc33"}}>Kamo Fitness</p>
               </div>
               <hr style={{width:"50%",margin: "auto",backgroundColor:"black",marginTop:"-5%",height:"2px"}}/>
@@ -1400,7 +1400,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
     <div className="col-md-3"style={{marginTop:"4%"}}>
     <Link to="/" target="_blank"><img src="assets/images/logo-footer.png"style={{marginTop:"3%"}} width="170" height="40" alt=""/></Link>
 
-    <p style={{textAlign:"justify",color:"#01302b",marginTop:"4%",fontWeight:"500"}}>CutOutWiz ist eines der führenden Bild- und Videobearbeitungsunternehmen für Unternehmen auf der ganzen Welt.</p>
+    <p style={{textAlign:"justify",color:"#01302b",marginTop:"4%",fontWeight:"500"}}>The KOW Company ist eines der führenden Bild- und Videobearbeitungsunternehmen für Unternehmen auf der ganzen Welt.</p>
     <a href="https://www.facebook.com/cutoutwiz"target="_blank" className="fa fa-facebook"></a>
     <a href="https://twitter.com/cut_wiz?s=09"target="_blank" className="fa fa-twitter"></a>
     <a href="https://www.linkedin.com/company/cutoutwiz-ltd"target="_blank" className="fa fa-linkedin"></a>
@@ -1452,7 +1452,7 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
 
       </div>
     </div>
-    <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Entworfen und entwickelt von <Link to="/" target="_blank"  style={{textDecoration:"none",color:"white"}}>CutOutWiz</Link></p>
+    <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Entworfen und entwickelt von <Link to="/" target="_blank"  style={{textDecoration:"none",color:"white"}}>The KOW Company</Link></p>
 
   </div>
   </div>

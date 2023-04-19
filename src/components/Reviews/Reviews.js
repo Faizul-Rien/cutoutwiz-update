@@ -118,7 +118,7 @@ const Reviews = () => {
                   className="rounded mx-auto d-block"
                   height="85px"
                   width="220px"
-                  alt="Cutoutwiz logo"
+                  alt="The KOW Company logo"
                 />
               </a>
             </div>
@@ -303,7 +303,7 @@ const Reviews = () => {
                       fontWeight: "600",
                     }}
                   >
-                    I love this app. We've been using CutOutWiz for some time. I
+                    I love this app. We've been using The KOW Company for some time. I
                     am continually impressed with the results and stellar
                     customer support.
                   </p>

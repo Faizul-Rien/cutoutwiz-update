@@ -7,7 +7,7 @@ import {Helmet} from "react-helmet";
     return(
         <div className="postphoto">
              <Helmet>
-                <title>Car Photography: A Beginner’s How-To Guide And Tips - CutOutWiz</title>
+                <title>Car Photography: A Beginner’s How-To Guide And Tips - The KOW company</title>
                 <meta name="description" keywords= "Car Photography" content="In order to master the art of car photography, you need to find the perfect location, shooting time, get the best angles and ensure story telling." 
                 />
             </Helmet>
@@ -225,7 +225,7 @@ A car is something you’ll use for many years. It will become a partner in your
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

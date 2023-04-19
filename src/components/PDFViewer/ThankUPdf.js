@@ -33,7 +33,7 @@ const ThankUPdf = () => {
 Contact us to know more about our services! </p>
                         <br></br>
                         <p style={{ fontSize: "15px" }}>Sincerely,<br />
-                            Team CutOutWiz</p>
+                            Team The KOW company</p>
                     </div>
                     <Link to="/" style={{textAlign: "center", fontSize: "18px", textDecoration: "none"}}>Continue to website <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                 </div>

@@ -10,7 +10,7 @@ function Footer() {
 <div className="col-md-3"style={{marginTop:"4%"}}>
 <img src="assets/images/ailogo.png"style={{marginTop:"3%"}} width="190" height="40" alt=""/>
 
-<p style={{textAlign:"justify",color:"white",marginTop:"4%"}}>CutOutWiz is one of the leading image and video editing company for businesses all over the world.</p>
+<p style={{textAlign:"justify",color:"white",marginTop:"4%"}}>The KOW Company is one of the leading image and video editing company for businesses all over the world.</p>
 <a href="https://www.facebook.com/cutoutwiz"target="_blank" className="fa fa-facebook"></a>
 <a href="https://twitter.com/cut_wiz?s=09"target="_blank" className="fa fa-twitter"></a>
 <a href="https://www.linkedin.com/company/cutoutwiz-ltd"target="_blank" className="fa fa-linkedin"></a>
@@ -62,7 +62,7 @@ function Footer() {
   
   </div> 
 </div>
-<p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+<p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
 </div>
     );
 }

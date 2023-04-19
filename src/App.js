@@ -68,7 +68,7 @@ export const  ManageContext = createContext();
 export default function App() {
   const [localData, setLocalData] = useState(FakeData); 
   const [getUserLocation, setUserLocation] = useState(); 
-
+  /*
   const userLocation = ()=> {
     fetch("https://ip-api.io/json?api_key="+process.env.REACT_APP_IPAPI)
     .then(res => res.json())
@@ -85,7 +85,7 @@ export default function App() {
       );
       setUserLocation(data.country_name); 
 
-      /*
+    
       if (data.country_name == "France") {
         window.location.href = "https://cutoutwiz.com/fr";
       }
@@ -101,11 +101,11 @@ export default function App() {
       if (data.country_name == "Thailand") {
         window.location.href = "https://cutoutwiz.com/th";
       }
-      */
+      
     })
-  }
+  }*/
   useEffect(()=>{
-    userLocation()
+   // userLocation()
   },[])
   return (
     <ManageContext.Provider value={[localData, getUserLocation, setUserLocation]}>
