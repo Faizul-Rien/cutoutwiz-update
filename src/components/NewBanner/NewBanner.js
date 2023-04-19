@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Typical from "react-typical";
 import { Link } from "react-router-dom";
 import model from "./img/model_2.png";
@@ -7,36 +7,96 @@ import "./nstyle.css";
 import { ManageContext } from "../../App";
 
 const NewBanner = () => {
-  
-  const [localData, getUserLocation] = useContext(ManageContext); 
 
+  const [localData, getUserLocation] = useContext(ManageContext);
+  const [switchBool, setSwithBool] = useState(true)
+
+  var myLoop = true;
+  const switchingFunc = () => {
+    const elemntOne = document.getElementById("animText_1");
+    const elemntTow = document.getElementById("animText_2");
+
+      setInterval(() => {
+          elemntOne.style.display =myLoop ? 'none' : 'block';
+          elemntTow.style.display =myLoop ? 'block' : 'none';
+          myLoop = !myLoop;
+          console.log(myLoop)
+      }, 7000)
+
+    
+  }
+  let i = 0 ; 
+  useEffect(() => {
+    i++; 
+
+   i == 1 && switchingFunc()
+  }, [])
   return (
     <>
+      {console.log(switchBool)}
       <div id="toppart_wrap">
         <div className="container">
           <div className="row">
             <div id="type-text" className="col-md-6 col-sm-12">
-              <p
-                id="we-do"
-                style={{
-                  fontSize: "38px",
-                  fontFamily: "Branch",
-                  fontWeight: "700",
-                }}
-              >
-                Elevate your visuals with our:
-                {/* We do Image & Video */}
-              </p>
-              <div
-                id="we-doI"
-                style={{
-                  fontSize: "38px",
-                  fontFamily: "Branch",
-                  marginTop: "-30px",
-                  fontWeight: "700",
-                }}
-              >
-                
+              <div id="animText_1">
+                <p
+                  id="we-do"
+                  style={{
+                    fontSize: "38px",
+                    fontFamily: "Branch",
+                    fontWeight: "700",
+                  }}
+                >
+                  We do Image & Video
+                </p>
+                <div
+                  id="we-doI"
+                  style={{
+                    fontSize: "38px",
+                    fontFamily: "Branch",
+                    marginTop: "-30px",
+                    fontWeight: "700",
+                  }}
+                >
+
+                  <Typical
+                    steps={[
+                      "Editing",
+                      1000,
+                      "Recoloring",
+                      500,
+                      "Retouching",
+                      500,
+                      "Automation",
+                      500,
+                    ]}
+                    loop={Infinity}
+                    wrapper="p"
+                  />
+                </div>
+              </div>
+              <div id="animText_2" style={{display:"none"}}>
+                <p
+                  id="we-do"
+                  style={{
+                    fontSize: "38px",
+                    fontFamily: "Branch",
+                    fontWeight: "700",
+                    
+                  }}
+                >
+                  Elevate your visuals with our:
+                </p>
+                <div
+                  id="we-doI"
+                  style={{
+                    fontSize: "38px",
+                    fontFamily: "Branch",
+                    marginTop: "-30px",
+                    fontWeight: "700",
+                  }}
+                >
+                                  
                 <Typical
                   steps={[
                     "3D Modeling",
@@ -47,22 +107,8 @@ const NewBanner = () => {
                   loop={Infinity} 
                   wrapper="p"
                 />
-                {/* <Typical
-                  steps={[
-                    "Editing",
-                    1000,
-                    "Recoloring",
-                    500,
-                    "Retouching",
-                    500,
-                    "Automation",
-                    500,
-                  ]}
-                  loop={Infinity}
-                  wrapper="p"
-                /> */}
+                </div>
               </div>
-
               <p style={{ fontSize: "20px", fontFamily: "Poppins" }}>
                 Your one-stop
                 <br />
@@ -70,7 +116,7 @@ const NewBanner = () => {
               </p>
 
               <div className="row">
-                <div className="col-6 col-sm-6 col-md-5 col-xl-4">
+                <div className="col-4 col-sm-4 col-md-4 col-xl-4">
                   <a
                     className=""
                     href="https://app.cutoutwiz.com/"
@@ -81,7 +127,7 @@ const NewBanner = () => {
                   </a>
                 </div>
 
-                <div className="col-6 col-sm-6 col-md-7 col-xl-8">
+                <div className="col-4 col-sm-4 col-md-4 col-xl-4">
                   <Link to="/contact-us">
                     <button type="button" id="button1" className="button2">
                       FREE QUOTE
@@ -89,6 +135,13 @@ const NewBanner = () => {
                   </Link>
                 </div>
                 
+                <div className="col-4 col-sm-4 col-md-4 col-xl-4">
+                  <Link to="/contact-us">
+                    <button type="button" id="button2" className="button2">
+                        KOW CGI
+                    </button>
+                  </Link>
+                </div>
               </div>
               {/* circle animation  */}
               <div className="circle-animation ">

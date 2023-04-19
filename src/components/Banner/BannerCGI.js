@@ -36,7 +36,10 @@ const BannerCGI = () => {
 
                     <div className='popupBanner mob_banner'>
                         <span onClick={closeBanner}>X</span>
+                        <a href='https://kowstudios.com/' target='_blank'>
                         <img src={bannerImage} />
+                        </a>
+
                     </div>
                 </div>
             </div>
