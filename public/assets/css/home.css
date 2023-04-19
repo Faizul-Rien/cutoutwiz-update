@@ -673,8 +673,8 @@ input:checked {
   font-weight: 200;
 }
 
-#button2 {
-  background-color: transparent;
+.button2 {
+  background-color: #fff;
   color: black;
   padding: 8px 26px;
   border-radius: 5px;
@@ -684,7 +684,7 @@ input:checked {
   border: 1px solid black;
   font-weight: 600;
 }
-#button2:hover {
+.button2:hover {
   background-color: #c5da9c;
   color: black;
   border: none;

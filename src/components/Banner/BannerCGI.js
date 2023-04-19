@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import bannerImage from './img/banner_3.png';
+import bannerImage from './img/cgi.png';
 import banner_mobImage from './img/banner_mob_3.png';
 import paperPlane from './img/plane_2.png';
 
@@ -27,22 +27,22 @@ const BannerCGI = () => {
             <div id='popupBannerWrapper' style={{ display: getDisplay }} className={getClose + ' fwidth'}>
                 <div onClick={closeBanner} className='bgshadow'></div>
                 <div className='bannerWrap'>
-                    <div className='popupBanner web_banner'>
+                    <div className='popupBanner web_banner bannerCigWrap'>
                         <span onClick={closeBanner}>X</span>
-                        <a href='https://kowstudios.com/' target='_blank'>
+                        <a href='https://kowstudios.com/' target='_blank' className='bannerCgi'>
                              <img src={bannerImage} />
                         </a>
                     </div>
 
                     <div className='popupBanner mob_banner'>
                         <span onClick={closeBanner}>X</span>
-                        <img src={banner_mobImage} />
+                        <img src={bannerImage} />
                     </div>
                 </div>
             </div>
-            <div onClick={openBannerBtn} id='popupIcon' className={getClose}>
+            {/* <div onClick={openBannerBtn} id='popupIcon' className={getClose}>
                 <img src={paperPlane}/> <a href='https://kowstudios.com/' target='_blank'>Visit To KowStudios.com</a>
-            </div>
+            </div> */}
         </>
     );
 };
