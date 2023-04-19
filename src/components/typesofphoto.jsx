@@ -10,7 +10,7 @@ import {Helmet} from "react-helmet";
         <div className="postphoto">
 
              <Helmet>
-                <title>Types of Photography: Which one drives your inner passion most? - CutOutWiz</title>
+                <title>Types of Photography: Which one drives your inner passion most? - The KOW company</title>
                 <meta name="description" keywords= "Car Photography,Food Photography,Cloth Photography,Real Estate Photography,Types of Photography,Promoted Content" content="Photographs are our way of capturing the world as we see it. It’s a medium of expressing our inner thoughts and holding onto memories close to our heart." 
                 />
             </Helmet>
@@ -322,7 +322,7 @@ Capturing pictures of newborn requires both you be a skilled photographer and a 
      </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

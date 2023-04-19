@@ -124,7 +124,7 @@ Parties agree to hold all Confidential Information of the other in trust and con
 
                 </div>
             </div>
-            <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By <Link to="/" target="_blank"  style={{textDecoration:"none",color:"white"}}>CutOutWiz</Link></p>
+            <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By <Link to="/" target="_blank"  style={{textDecoration:"none",color:"white"}}>The KOW Company</Link></p>
         
             
         </div>

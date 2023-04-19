@@ -11,7 +11,7 @@ import {Helmet} from "react-helmet";
         <div className="postphoto"> 
                                       
                <Helmet>
-                <title>Product Photography: How to take photos for your E-commerce Business | cutoutwiz</title>
+                <title>Product Photography: How to take photos for your E-commerce Business | The KOW company</title>
                 <meta name="description" keywords= "Product Photography" content="Creative product photography requires you have a suitable device, background, lights, removing backgrounds and photography retouching. " 
                 />
             </Helmet>
@@ -108,7 +108,7 @@ United States </p>
 <br/>
 <p style={{fontSize:"18px",fontWeight:"700"}}>Ensure Proper Product Photo Editing </p>
 
-<p style={{textAlign:"justify"}}>If you have completed all five steps described till now, you already have a decent looking picture of your product. But they are still raw images that need to be processed to increase their visibility and attractiveness. There might be wrinkles in your product photo and faults in the background which will hinder its appeal. Product photo editing measures will help you remove these faults and shift the core focus on your product. You can try editing the images yourself but the best practice would be to take professional help from image editing company like – CutOutWiz to get an expert support.  
+<p style={{textAlign:"justify"}}>If you have completed all five steps described till now, you already have a decent looking picture of your product. But they are still raw images that need to be processed to increase their visibility and attractiveness. There might be wrinkles in your product photo and faults in the background which will hinder its appeal. Product photo editing measures will help you remove these faults and shift the core focus on your product. You can try editing the images yourself but the best practice would be to take professional help from image editing company like – The KOW Company to get an expert support.  
 <br/><br/>
 Around 25% of returns happen because the products match their picture. This is mostly because consumers place their orders based on a vague idea and unclear pictures. In order to survive in this competitive e-commerce business world, you need to ensure best quality product photographs and following the six steps described above will help you do that. There’s clearly no alternative for creative product photography to reach that sales volume you’re targeting.  </p>
 
@@ -239,7 +239,7 @@ Around 25% of returns happen because the products match their picture. This is m
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

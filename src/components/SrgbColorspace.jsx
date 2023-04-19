@@ -12,7 +12,7 @@ import {Helmet} from "react-helmet";
             {/* META TAG AND META TITTLE */}
 
               <Helmet>
-                <title>sRGB Colorspace- The journey from introduction to importance - CutOutWiz</title>
+                <title>sRGB Colorspace- The journey from introduction to importance - The KOW company</title>
                 <meta name="description" keywords= "Food Photography, Beginner photography" content="Photographing food lets you play with the ingredients and design the setting that would be most appealing to you. Food photographs bring great joy to both the photographer and the viewer."
                 />
             </Helmet>
@@ -252,7 +252,7 @@ Technology has surely come a long way and we have had to update ourselves along 
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

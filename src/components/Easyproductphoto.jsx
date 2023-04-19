@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
     return(
         <div className="postphoto">
             <Helmet>
-                <title>Easy Product Photography Solutions for Small Business - CutOutWiz</title>
+                <title>Easy Product Photography Solutions for Small Business - The KOW company</title>
                 <meta name="description" keywords= "Product Photography Tips" content="Some easy photography solutions for small business include- getting expert opinion, use home studio, flat lay photography, use of softbox etc." 
                 />
             </Helmet>
@@ -281,7 +281,7 @@ While owning a small business has its struggles, it provides immense rewards as 
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

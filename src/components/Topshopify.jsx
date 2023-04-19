@@ -11,7 +11,7 @@ import {Helmet} from "react-helmet";
         <div className="postphoto">
     
              <Helmet>
-                <title>Top Shopify Marketing Strategy for Sellers - CutOutWiz</title>
+                <title>Top Shopify Marketing Strategy for Sellers - The KOW company</title>
                 <meta name="description" keywords= "Shopify Sellers,Digital Marketing" content="Shopify marketing strategy includes getting best product photography, photo editing, ensure competitive pricing and SEO friendly website." 
                 />
             </Helmet>
@@ -274,7 +274,7 @@ Making it as a top seller of Shopify will require you complete concentration, pa
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

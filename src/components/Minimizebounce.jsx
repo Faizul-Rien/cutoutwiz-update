@@ -8,7 +8,7 @@ import {Helmet} from "react-helmet";
     return(
         <div className="postphoto">
              <Helmet>
-                <title>Minimize Your Bounce Rate CutOutWiz - CutOutWiz</title>
+                <title>Minimize Your Bounce Rate The KOW Company - The KOW company</title>
                 <meta name="description" keywords= "Bounce rate,Digital Marketing" content="Bounce rate means that users are not engaging with your website. Read more to know about the impacts and reasons of bounce rate." 
                 />
             </Helmet>
@@ -232,7 +232,7 @@ Wondering what steps to take to minimize your bounce rate? Don’t worry, for we
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

@@ -21,7 +21,7 @@ const Footer = () => {
                   <img
                     src="assets/images/logo-footer.png"
                     style={{ marginTop: "3%" }}
-                    width="190"
+                    width="100"
                     height="40"
                     alt=""
                   />
@@ -35,7 +35,7 @@ const Footer = () => {
                     fontWeight: "500",
                   }}
                 >
-                  CutOutWiz is one of the leading image and video editing
+                  The KOW Company is one of the leading image and video editing
                   company for businesses all over the world.
                 </p>
                 <a
@@ -228,13 +228,13 @@ const Footer = () => {
               backgroundColor: "black",
             }}
           >
-            Designed & Developed :
+            Designed & Developed by
             <Link
               to="/"
               target="_blank"
               style={{ textDecoration: "none", color: "white" }}
             > {" "}
-              CutOutWiz by The KOW Company
+              The KOW Company
             </Link>
           </p>
         </div>

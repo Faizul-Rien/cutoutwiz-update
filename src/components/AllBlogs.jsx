@@ -7,8 +7,8 @@ function AllBlogs(props) {
 
     <div className="postphoto">
       <Helmet>
-        <title>CutOutWiz : Image and Video Post Production</title>
-        <meta name="description" keywords="Product photo edinting company" content="CutOutWiz is one of the leading image and video editing company for businesses all over the world. As the world moves towards a virtual business base, product photo editing has been a very important part for any E-commerce business "
+        <title>The KOW Company : Image and Video Post Production</title>
+        <meta name="description" keywords="Product photo edinting company" content="The KOW Company is one of the leading image and video editing company for businesses all over the world. As the world moves towards a virtual business base, product photo editing has been a very important part for any E-commerce business "
         />
       </Helmet>
       <div style={{ backgroundColor: "#f3f5f7" }}>
@@ -387,7 +387,7 @@ function AllBlogs(props) {
       </div>
 
       <div className="footer" style={{ backgroundColor: "#231f20" }}>
-        <p style={{ textAlign: "center", color: "white", padding: "8px", backgroundColor: "black" }}>Designed And Developed By <Link to="/" target="_blank" style={{ textDecoration: "none", color: "white" }}>CutOutWiz</Link></p>
+        <p style={{ textAlign: "center", color: "white", padding: "8px", backgroundColor: "black" }}>Designed & Developed By <Link to="/" target="_blank" style={{ textDecoration: "none", color: "white" }}>The KOW Company</Link></p>
 
       </div>
 

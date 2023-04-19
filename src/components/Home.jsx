@@ -15,6 +15,7 @@ import VideoEditing from "./VideoEditing/VideoEditing";
 import PlaceOrder from "./PlaceOrder/PlaceOrder";
 import Contact from "./Contact/Contact";
 import Blog from "./Blog/Blog";
+import BannerCGI from "./Banner/BannerCGI";
 const $ = window.$;
 
 var c = 1,
@@ -23,7 +24,7 @@ var c = 1,
   timer;
 
 function Home(props) {
-
+/*
   $.ajax({
     type: "GET",
     dataType: "json",
@@ -56,7 +57,7 @@ function Home(props) {
       }
     },
   });
-
+*/
   $(document).ready(function () {
     $(".btn1show").click(function () {
       $("#js-nametag1").show();
@@ -204,14 +205,15 @@ function Home(props) {
   return (
     <div className="home fwidth">
       <Helmet>
-        <title>CutOutWiz : Image and Video Post Production</title>
+        <title>The KOW Company : Image and Video Post Production</title>
         <meta
           name="description"
           keywords="Product photo edinting company"
-          content="CutOutWiz is one of the leading image and video editing company for businesses all over the world. As the world moves towards a virtual business base, product photo editing has been a very important part for any E-commerce business "
+          content="The KOW Company is one of the leading image and video editing company for businesses all over the world. As the world moves towards a virtual business base, product photo editing has been a very important part for any E-commerce business "
         />
       </Helmet>
-      <Banner />
+      <BannerCGI/>
+    {/* <Banner /> */}  
       {/*Banner section */}
       <NewBanner />
       {/* Banner card section */}

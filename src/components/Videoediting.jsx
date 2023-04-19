@@ -11,7 +11,7 @@ import {Helmet} from "react-helmet";
         <div className="postphoto">
                           
               <Helmet>
-                <title>5 Interesting Product Video Editing Facts |cutoutwiz</title>
+                <title>5 Interesting Product Video Editing Facts |The KOW company</title>
                 <meta name="description" keywords= "Product Video Editing" content="Product video editing is an art that you must master though experience, skill and practice, It's time consuming and require planning but it's worth it." 
                 />
             </Helmet>
@@ -218,7 +218,7 @@ Video production and processing is an intricate and extensive work involving mul
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

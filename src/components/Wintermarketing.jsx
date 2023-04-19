@@ -11,7 +11,7 @@ import {Helmet} from "react-helmet";
         <div className="postphoto"> 
        
              <Helmet>
-                <title>7 Creative Winter Marketing Ideas for E-commerce Businesses - CutOutWiz</title>
+                <title>7 Creative Winter Marketing Ideas for E-commerce Businesses - The KOW company</title>
                 <meta name="description" keywords= "Sales Tips,Digital Marketing" content="Embrace winter marketing ideas for e-commerce businesses by holding contests, surveys, and posting lifestyle photos with offers of discounts and sales." 
                 />
             </Helmet>
@@ -286,7 +286,7 @@ Winter is the season of joy- for both consumers and sellers. It’s full of fest
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

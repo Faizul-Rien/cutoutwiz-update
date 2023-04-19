@@ -12,7 +12,7 @@ import {Helmet} from "react-helmet";
             {/* META TAG AND META TITTLE */}
 
               <Helmet>
-                <title>Photography Style Guide - CutOutWiz</title>
+                <title>Photography Style Guide - The KOW company</title>
                 <meta name="description" keywords= "Food Photography, Beginner photography" content="Photographing food lets you play with the ingredients and design the setting that would be most appealing to you. Food photographs bring great joy to both the photographer and the viewer."
                 />
             </Helmet>
@@ -310,7 +310,7 @@ We adapt to visual images and process them quickly and profoundly. Style guide i
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 
