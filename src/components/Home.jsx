@@ -231,7 +231,7 @@ function Home(props) {
       {/* Image editing service */}
 
 
-      <ImageService></ImageService>
+      {/* <ImageService></ImageService> */}
 
 
       <ImageEditing/>

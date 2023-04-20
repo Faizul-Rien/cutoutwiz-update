@@ -99,11 +99,11 @@ const NewBanner = () => {
 
                   <Typical
                     steps={[
-                      "Texture Creation",
-                      1000,
-                      "Architectural Visualization",
-                      500,
                       "3D modeling",
+                      1000,
+                      "Texture Creation",
+                      500,
+                      "Architectural Visualization",
                       500,
 
                     ]}
