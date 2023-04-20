@@ -2,13 +2,12 @@ import React, { Component } from "react";
  
  
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function Termsconditions(props) {
     
 
   // const a=351;
-  // const mArr=[1,2,3,4]
+  // const mArr=[1,2,3,4] 
 
   // const mObj={
   //   name:'ashik',
@@ -22,9 +21,7 @@ import { Navigation} from "./";
     return(
 
         <div className="terms">
-             <Router >
-      <Navigation />
-      </Router>
+             
                {/* <p> {a} <br/>
                
                {mArr[3]} <br/> </p>
@@ -39,8 +36,8 @@ import { Navigation} from "./";
                {items}; */}
                
 
-            <div class="container">
-                <div class="row"style={{marginTop:"9%"}}>
+            <div className="container">
+                <div className="row"style={{marginTop:"9%"}}>
                 <img src="assets/images/terms-banner.jpg"  width="100%" height="100%" alt=""/>
                 <h1 style={{textAlign:"center"}}>Terms & Conditions</h1>
                 <br/><br/>
@@ -127,7 +124,7 @@ Parties agree to hold all Confidential Information of the other in trust and con
 
                 </div>
             </div>
-            <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By <Link to="/" target="_blank"  style={{textDecoration:"none",color:"white"}}>CutOutWiz</Link></p>
+            <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By <Link to="/" target="_blank"  style={{textDecoration:"none",color:"white"}}>The KOW Company</Link></p>
         
             
         </div>

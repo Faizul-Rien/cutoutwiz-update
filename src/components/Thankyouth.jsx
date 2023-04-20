@@ -14,9 +14,9 @@ import { Navigationth} from "./";
                 <meta name="robots" content="noindex"></meta>
             </Helmet>
 
-            <div class="row">
+            <div className="row">
                 <p style={{fontWeight:"700",fontSize:"100px",marginTop:"4%",color:"black",textAlign:"center"}}>ขอบคุณ</p>
-                <p class="text-center"style={{fontSize:"25px",color:"black"}}>ขอบคุณสำหรับการติดต่อ.
+                <p className="text-center"style={{fontSize:"25px",color:"black"}}>ขอบคุณสำหรับการติดต่อ.
                  หนึ่งในสมาชิกในทีมของเราจะไปถึง<br/> ออกไปให้คุณภายในเวลาที่สั้นที่สุด
                   หากคุณต้องการโครงการ<br/> ความช่วยเหลือ คุณสามารถติดต่อเราได้ที่:<br/><br/><u>info@cutoutwiz.com</u></p>
             </div>

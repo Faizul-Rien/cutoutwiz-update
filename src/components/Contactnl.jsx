@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import emailjs from "emailjs-com";
 import { Helmet } from "react-helmet";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigationnl } from ".";
 
 
 export default function Contactnl() {
@@ -41,14 +39,11 @@ export default function Contactnl() {
 
   return (
     <div className="containe">
-      <Router>
-        <Navigationnl />
-      </Router>
       <Helmet>
         <style>{"body { background-color: #c5da9c; }"}</style>
       </Helmet>
 
-      {/* <div class="row">
+      {/* <div className="row">
         <div className="col-md-6">
           {image}
           <button
@@ -78,8 +73,8 @@ export default function Contactnl() {
         <div className="col-md-6"></div>
       </div> */}
 
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <div style={{ marginTop: "4%" }}>
             <p
               style={{
@@ -116,8 +111,8 @@ export default function Contactnl() {
                     required
                   />
                 </div>
-                <div class="col-8 form-group mx-auto">
-                  <select id="inputState" class="form-control" name="option">
+                <div className="col-8 form-group mx-auto">
+                  <select id="inputState" className="form-control" name="option">
                     <option selected> --Selecteer optie-- </option>
                     <option>Beeldbewerkingsservice</option>
                     <option>Videobewerkingsservice</option>
@@ -166,7 +161,7 @@ export default function Contactnl() {
                 </div>
 
                 <div className="col-8 pt-3 mx-auto">
-                  <div class="text-center">
+                  <div className="text-center">
                     <input
                       type="submit"
                       id="button-19"

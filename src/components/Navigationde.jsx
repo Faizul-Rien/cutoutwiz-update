@@ -12,13 +12,13 @@ function Navigationde(props) {
     <Navbar collapseOnSelect sticky='top' expand='sm' bg='dark' variant='dark'>
     <Container>
 
-    <div class="" onClick={refreshPage}>
-    <Link class="navbar-brand" to="/de">
+    <div className="" onClick={refreshPage}>
+    <Link className="navbar-brand" to="/de">
       <img src="../../assets/images/ailogo.png" width="170" height="40" alt=""/>
     </Link>
     </div>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -26,70 +26,70 @@ function Navigationde(props) {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="mx-auto"></div>
-        <ul class="navbar-nav">
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="mx-auto"></div>
+        <ul className="navbar-nav">
 
 
 
-              {/* <li class="nav-item">
-                <Link class="nav-link" to="/services">
+              {/* <li className="nav-item">
+                <Link className="nav-link" to="/services">
                   Tools & API
                 </Link>
               </li> */}
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="../../de#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="../../de#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           LEISTUNGEN
           </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="./de#image-editing-service">BILDER</a></li>
-            <li><a class="dropdown-item" href="./de#video-editing-service">VIDEO</a></li>
+          <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a className="dropdown-item" href="./de#image-editing-service">BILDER</a></li>
+            <li><a className="dropdown-item" href="./de#video-editing-service">VIDEO</a></li>
           </ul>
         </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="./de#apps">
+              <li className="nav-item">
+                <a className="nav-link" href="./de#apps">
                 APPS
                 </a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="./de#prices">
+              <li className="nav-item">
+                <a className="nav-link" href="./de#prices">
                 PREIS
                 </a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="./de#how-it-works">
+              <li className="nav-item">
+                <a className="nav-link" href="./de#how-it-works">
                 WIE FUNKTIONIERT'S
                 </a>
               </li>
 
-               <li class="nav-item">
-                <a class="nav-link" href="./de#blog">
+               <li className="nav-item">
+                <a className="nav-link" href="./de#blog">
                     BLOGS
                 </a>
               </li> 
               
-              {/* <li class="nav-item">
-                <a class="nav-link" href="#contactus">
+              {/* <li className="nav-item">
+                <a className="nav-link" href="#contactus">
                   
                   CONTACT
                 </a>
               </li> */}
 
-              <li class="nav-item">
-              <Link class="nav-link"target="_blank" to="/de/contact-us">
+              <li className="nav-item">
+              <Link className="nav-link"target="_blank" to="/de/contact-us">
               CONTACT
                 </Link>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="https://app.cutoutwiz.com/"target="_blank"><button id="button9">
+              <li className="nav-item">
+                <a className="nav-link" href="https://app.cutoutwiz.com/"target="_blank"><button id="button9">
                 ANMELDEN</button>
                 </a>
               </li>

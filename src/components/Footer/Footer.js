@@ -5,23 +5,23 @@ const Footer = () => {
     return (
         <>
            
-      <div class="fwidth"  id="fot-phn">
+      <div className="fwidth"  id="fot-phn">
         <div
-          class="footer"
+          className="footer"
           style={{
             backgroundColor: "#e3e6d8",
             width: "100%",
             marginTop: "0%",
           }}
         >
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3" style={{ marginTop: "4%" }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3" style={{ marginTop: "4%" }}>
                 <Link to="/" target="_blank">
                   <img
                     src="assets/images/logo-footer.png"
                     style={{ marginTop: "3%" }}
-                    width="170"
+                    width="100"
                     height="40"
                     alt=""
                   />
@@ -35,37 +35,37 @@ const Footer = () => {
                     fontWeight: "500",
                   }}
                 >
-                  CutOutWiz is one of the leading image and video editing
+                  The KOW Company is one of the leading image and video editing
                   company for businesses all over the world.
                 </p>
                 <a
                   href="https://www.facebook.com/cutoutwiz"
                   target="_blank"
-                  class="fa fa-facebook"
+                  className="fa fa-facebook"
                 ></a>
                 <a
                   href="https://twitter.com/cut_wiz?s=09"
                   target="_blank"
-                  class="fa fa-twitter"
+                  className="fa fa-twitter"
                 ></a>
                 <a
                   href="https://www.linkedin.com/company/cutoutwiz-ltd"
                   target="_blank"
-                  class="fa fa-linkedin"
+                  className="fa fa-linkedin"
                 ></a>
                 <a
                   href="https://www.youtube.com/channel/UClIkCcEBksZigP56p593fDQ"
                   target="_blank"
-                  class="fa fa-youtube"
+                  className="fa fa-youtube"
                 ></a>
                 <a
                   href="https://www.instagram.com/accounts/login/"
                   target="_blank"
-                  class="fa fa-instagram"
+                  className="fa fa-instagram"
                 ></a>
               </div>
 
-              <div class="col-6 col-md-2" style={{ marginTop: "5%" }}>
+              <div className="col-6 col-md-2" style={{ marginTop: "5%" }}>
                 <b style={{ color: "#01302b", fontSize: "20px" }}>Menu</b>
 
                 <p style={{ color: "#b7b9bb", marginTop: "8%" }}>
@@ -111,7 +111,7 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div class="col-6 col-md-2" style={{ marginTop: "5%" }}>
+              <div className="col-6 col-md-2" style={{ marginTop: "5%" }}>
                 <b style={{ color: "#01302b", fontSize: "20px" }}>Features</b>
                 <p style={{ color: "#01302b", marginTop: "8%" }}>
                   <a
@@ -160,7 +160,7 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div class="col-6 col-md-2" style={{ marginTop: "5%" }}>
+              <div className="col-6 col-md-2" style={{ marginTop: "5%" }}>
                 <b style={{ color: "#01302b", fontSize: "20px" }}>
                   Useful Links
                 </b>
@@ -203,7 +203,7 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div class="col-6 col-md-3" style={{ marginTop: "5%" }}>
+              <div className="col-6 col-md-3" style={{ marginTop: "5%" }}>
                 <b style={{ color: "#01302b", fontSize: "20px" }}>
                   Our Address
                 </b>{" "}
@@ -213,7 +213,7 @@ const Footer = () => {
                   width="70%"
                   height="50%"
                   style={{ border: "0" }}
-                  allowfullscreen=""
+                  allowFullScreen={true}
                   loading="lazy"
                 ></iframe>
               </div>
@@ -228,13 +228,13 @@ const Footer = () => {
               backgroundColor: "black",
             }}
           >
-            Designed And Developed By{" "}
+            Designed & Developed by
             <Link
               to="/"
               target="_blank"
               style={{ textDecoration: "none", color: "white" }}
-            >
-              CutOutWiz
+            > {" "}
+              The KOW Company
             </Link>
           </p>
         </div>

@@ -2,18 +2,13 @@ import React, { Component } from "react";
  
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
- 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function Minimizebounce(props) {
 
     return(
         <div className="postphoto">
-                          <Router >
-      <Navigation />
-      </Router>
              <Helmet>
-                <title>Minimize Your Bounce Rate CutOutWiz - CutOutWiz</title>
+                <title>Minimize Your Bounce Rate The KOW Company - The KOW company</title>
                 <meta name="description" keywords= "Bounce rate,Digital Marketing" content="Bounce rate means that users are not engaging with your website. Read more to know about the impacts and reasons of bounce rate." 
                 />
             </Helmet>
@@ -22,10 +17,10 @@ import { Navigation} from "./";
             </div>
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
 
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="col-md-8" style={{height:"max-content"}}>
                 <img src="../../assets/images/Bounce-Rate-cover2.jpg"  width="100%" height="20%" alt="minimize your bounce rate banner"/>
 
                  <p style={{textAlign:"justify",marginTop:"4%",fontFamily:"poppins"}}>If you have dipped your toe into what is called the ocean of digital marketing, you have probably heard that high bounce rates are a menace to your SEO ratings. But, what is a bounce rate? And more importantly, how do we reduce them?</p>
@@ -35,14 +30,14 @@ import { Navigation} from "./";
 
            <p style={{textAlign:"justify"}}>According to Google, “A bounce is a single-page session on your site.” In other words, a bounce is when a visitor exits your page without engaging with any element. Such as clicking on any image or link or browsing further. A high bounce rate means that users are not engaging with your website. This can happen either because your website is not relevant to what the users are searching for, or because it is not engaging enough to keep user attention for long.</p>
 
-        <div class="row">
-        <div class="col-md-1">
+        <div className="row">
+        <div className="col-md-1">
                 
                 </div>
-            <div class="col-md-7">
+            <div className="col-md-7">
             <p style={{textAlign:"justify",fontSize:"14px"}}>To calculate we can take help from Google Analytics. You can see The Bounce Rate Equation as per the Google analytics from the given image. In simpler terms, Google divides your bounced (single-page) visits by the total number of visits (sessions) to your website (or page).</p>
             </div>
-            <div class="col-md-4">
+            <div className="col-md-4">
             <img src="../../assets/images/Bounce-rate-equation.jpeg"  width="100%" height="100%" alt="Bounce-rate-equation"/>
             </div>
         </div>
@@ -68,7 +63,7 @@ import { Navigation} from "./";
 
 <p style={{textAlign:"justify"}}>Chances are that the people who are visiting your site are not the ones you want to attract. Maybe your advertisement got placed incorrectly, or is being shown to the wrong target audience. Keeping tabs on your bounce rate helps to ensure that you are knocking on the right doors with your ad campaigns.</p>
 
-                 <img src="../../assets/images/Bounce-rate-Chart.-519x649.jpeg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="Bounce-rate-Chart"/>
+                 <img src="../../assets/images/Bounce-rate-Chart.-519x649.jpeg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="Bounce-rate-Chart"/>
 <br/>
 
                  <p style={{textAlign:"justify"}}>Before you decide how to fix your bounce rate, you have to know whether your bounce rates are high or not. Because, of the varying nature of how different users search based on what they are looking for. Bounce rates are different for different industry verticals. A high bounce rate in one industry may be very well within the limit for another. The chart below will help you understand whether you need to be at all worried about your bounce rates or not.
@@ -115,24 +110,24 @@ Wondering what steps to take to minimize your bounce rate? Don’t worry, for we
 
              <div className="col-md-4">
             
-            <div class="row">
-            <div class="col-4 col-md-4"> 
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4"> 
+                <div className="row-8">
             <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
             
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>    
@@ -140,20 +135,20 @@ Wondering what steps to take to minimize your bounce rate? Don’t worry, for we
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with 
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>    
@@ -162,48 +157,48 @@ Wondering what steps to take to minimize your bounce rate? Don’t worry, for we
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>    
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>    
@@ -215,16 +210,16 @@ Wondering what steps to take to minimize your bounce rate? Don’t worry, for we
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="    https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>
@@ -237,7 +232,7 @@ Wondering what steps to take to minimize your bounce rate? Don’t worry, for we
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

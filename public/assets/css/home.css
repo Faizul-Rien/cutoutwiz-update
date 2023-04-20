@@ -673,7 +673,7 @@ input:checked {
   font-weight: 200;
 }
 
-#button2 {
+.button2 {
   background-color: transparent;
   color: black;
   padding: 8px 26px;
@@ -684,7 +684,7 @@ input:checked {
   border: 1px solid black;
   font-weight: 600;
 }
-#button2:hover {
+.button2:hover {
   background-color: #c5da9c;
   color: black;
   border: none;
@@ -741,6 +741,22 @@ input:checked {
   border: none;
 }
 
+.button9 {
+  background-color: white;
+  color: black;
+  padding: 3px 16px;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.button9:hover {
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  border: 1px solid white;
+}
 #button-19 {
   background-color: #ff9900;
   border: none;
@@ -1642,6 +1658,9 @@ button:not(:disabled) {
   height: 100%;
   width: 135%;
 }
+.navbar-nav {
+	align-items: center;
+}
 @media print {
   html,
   body {
@@ -1808,6 +1827,21 @@ button:not(:disabled) {
   #we-are-here {
     width: 39%;
   }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav li,
+  .navbar-nav li a {
+    float: left;
+    width: 100%;
+  }
+  .navbar-nav li ul {
+    float: left !important;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 767px) {
   #countRecord {
@@ -1866,21 +1900,6 @@ button:not(:disabled) {
   }
   .blogBannerWrap {
     background-size: 100%;
-  }
-
-  .navbar-nav {
-    text-align: center;
-  }
-  .navbar-nav li,
-  .navbar-nav li a {
-    float: left;
-    width: 100%;
-  }
-  .navbar-nav li ul {
-    float: left !important;
-    width: 100%;
-    text-align: center;
-    padding: 0;
   }
 }
 @media only screen and (max-width: 575px) {

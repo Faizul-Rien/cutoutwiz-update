@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext, useEffect, useState } from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import {
   Navigation,
@@ -61,9 +61,55 @@ import Test from "./components/Test";
 import Calendly from "./components/CalendlyTest";
 import PDFViewer from "./components/PDFViewer/PDFViewer";
 import ThankUPdf from "./components/PDFViewer/ThankUPdf";
+import { FakeData } from "./components/FakeData/FakeData";
+
+export const  ManageContext = createContext(); 
 
 export default function App() {
+  const [localData, setLocalData] = useState(FakeData); 
+  const [getUserLocation, setUserLocation] = useState(); 
+  /*
+  const userLocation = ()=> {
+    fetch("https://ip-api.io/json?api_key="+process.env.REACT_APP_IPAPI)
+    .then(res => res.json())
+    .then(data => {
+      console.log(
+        "Your ip address is " +
+          data.ip +
+          " city: " +
+          data.city +
+          " region: " +
+          data.region_name +
+          " country: " +
+          data.country_name
+      );
+      setUserLocation(data.country_name); 
+
+    
+      if (data.country_name == "France") {
+        window.location.href = "https://cutoutwiz.com/fr";
+      }
+      if (data.country_name == "Spain") {
+        window.location.href = "https://cutoutwiz.com/es";
+      }
+      if (data.country_name == "Germany") {
+        window.location.href = "https://cutoutwiz.com/de";
+      }
+      if (data.country_name == "Netherlands") {
+        window.location.href = "https://cutoutwiz.com/nl";
+      }
+      if (data.country_name == "Thailand") {
+        window.location.href = "https://cutoutwiz.com/th";
+      }
+      
+    })
+  }*/
+  useEffect(()=>{
+   // userLocation()
+  },[])
   return (
+    <ManageContext.Provider value={[localData, getUserLocation, setUserLocation]}>
+
     <div className="App">
       <ScrollToTop/>
      <Routes>
@@ -73,7 +119,7 @@ export default function App() {
           <Route path="/contact-us" element={ <Contact />} />
           <Route path="/blog" element={ <Blog />} />
           <Route path="/footer" element={ <Footer />} />
-          <Route path="/calendly" element={ <Calendly />} />
+          <Route path="/book-a-call" element={<Calendly />} />
           <Route path="/thank-you-for-download" element={ <ThankUPdf />} />
 
           <Route
@@ -270,6 +316,9 @@ export default function App() {
         </Route>
       </Routes>
     </div>
+
+    </ManageContext.Provider>
+
   );
 }
 

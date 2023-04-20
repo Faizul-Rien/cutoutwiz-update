@@ -1,15 +1,11 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function AmazonImage(props) {
 
     return(
         <div className="postphoto">
-      <Router >
-      <Navigation />
-      </Router>
              <Helmet>
                 <title></title>
                 <meta name="" keywords= "" content="" 
@@ -20,16 +16,16 @@ import { Navigation} from "./";
             </div>
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
 
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="col-md-8" style={{height:"max-content"}}>
                 <img src="../../assets/images/Blog 15.jpg"  width="100%" height="20%" alt="sqaure-image-trolly-yellow-handle-wheels-cardboard-boxes-scaled"/>
 
                  <p style={{textAlign:"justify",marginTop:"4%",fontFamily:"poppins"}}>Surviving as an Amazon seller is like going for trekking in the Amazon Rainforest. Although you’re thrilled to be a part of this exotic adventure, the unpredictable weather, fearful wildlife and the pathway filled with obstacles and thrones naturally scare you. Similarly, for an Amazon seller, the unpredictable weather mirror the constantly changing consumer demand; fearful wildlife seem similar to the surviving in the competitive market of 9.7 million Amazon sellers and obstacle full pathway represent the struggles and challenges sellers face.
 </p>
 
-<img src="../../assets/images/explorer-traveler-observing-trees-amazon.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="explorer-traveler-observing-trees-amazon"/>
+<img src="../../assets/images/explorer-traveler-observing-trees-amazon.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="explorer-traveler-observing-trees-amazon"/>
 <br/>
          
            <p style={{textAlign:"justify"}}> Being an Amazon seller, you‘re are able to become your own boss and earn financial freedom through dropshipping, retailing and selling your own designed products. Now, the question becomes how you can achieve this success.  In order to stand out from your competitors, you need to take the best quality product photos and in this blog; we’ll be educating you about the guidelines and tips that are sure to increase your conversion.
@@ -71,11 +67,11 @@ When you look around you in the seller central, you’ll see so many sellers mar
 </p>
 
 
-<div class="row">
-<div class="col-md-6">
+<div className="row">
+<div className="col-md-6">
 <img src="../../assets/images/recording-human-icon-stereo-wireless.jpg"  width="100%" height="100%" alt="recording-human-icon-stereo-wireless"/>
 </div>
-<div class="col-md-6">
+<div className="col-md-6">
 <img src="../../assets/images/smartphone-with-earphone-isolated-white-background.jpg"  width="100%" height="100%" alt="smartphone-with-earphone-isolated-white-background"/>
 </div>
 </div>
@@ -85,7 +81,7 @@ When you look around you in the seller central, you’ll see so many sellers mar
 
 <p style={{textAlign:"justify"}}>While the main photo brings the entire product in one frame, the additional ones help your customers imagine their life with that product. Therefore, try capturing at least one product photo with a relevant background. For example- if it’s an oven or freeze, set it up in the kitchen (with necessary props) as if it always belonged there. It’s even better if you can add a model aka a smiling face using that freeze or oven. Seeing the product in action and in a relevant environment will aid the imagination of your customer and they’ll be more drawn to it.</p>
 
-<img src="../../assets/images/modern-contemporary-stylish-kitchen-room-interior.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="modern-contemporary-stylish-kitchen-room-interior"/>
+<img src="../../assets/images/modern-contemporary-stylish-kitchen-room-interior.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="modern-contemporary-stylish-kitchen-room-interior"/>
 <br/>
 
 
@@ -115,7 +111,7 @@ When you look around you in the seller central, you’ll see so many sellers mar
 <p style={{textAlign:"justify"}}>As emphasized earlier, surviving as an Amazon seller is not easy. There are thousands of sellers under each category and you must prove yourself to be unique in order to succeed.  Posting raw images on their store is one of main mistakes Amazon sellers make. Regardless of the type of industry you belong to, color correction, background removal, image retouching etc. are important for all. You can either do this yourself or save time by outsourcing.  
 </p>
 
-<img src="../../assets/images/best-seller-certificate-stamp-concept.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="best-seller-certificate-stamp-concept"/>
+<img src="../../assets/images/best-seller-certificate-stamp-concept.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="best-seller-certificate-stamp-concept"/>
 <br/>
 
 <p style={{textAlign:"justify"}}>Products photos bring a product to life and fill the void of touching it with own hands. Just like the trees, flowers and beautiful lakes work as the jewels of Amazon rainforest, the product photos are the jewels of an Amazon store. In order to succeed as an Amazon seller, make your product photos your shield and protect yourself against low sales.
@@ -124,24 +120,24 @@ When you look around you in the seller central, you’ll see so many sellers mar
 
              <div className="col-md-4">
             
-            <div class="row">
-            <div class="col-4 col-md-4"> 
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4"> 
+                <div className="row-8">
             <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
             
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>    
@@ -149,20 +145,20 @@ When you look around you in the seller central, you’ll see so many sellers mar
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with 
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>    
@@ -171,48 +167,48 @@ When you look around you in the seller central, you’ll see so many sellers mar
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>    
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>    
@@ -220,24 +216,24 @@ When you look around you in the seller central, you’ll see so many sellers mar
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/a9579b1d-9fb5-43b2-b45f-7244173a4473.jpg"style={{marginTop:"7%"}}  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/product-photography-how-to-take-photos-for-your-e-commerce-business"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Product Photography: How to take photos for your E-commerce Business</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The first thing most people would do after entering an e-commerce business is go and checkout the products. Your products rule your site</p>
             </div>    
             </div>
@@ -248,16 +244,16 @@ When you look around you in the seller central, you’ll see so many sellers mar
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>
@@ -270,7 +266,7 @@ When you look around you in the seller central, you’ll see so many sellers mar
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

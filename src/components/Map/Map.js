@@ -6,10 +6,30 @@ import './style.css';
 
 const Map = () => {
     return (
-        <div id='mapArea' class="fwidth">
+        <>
+        
+      <div className="fwidth" id="big-scren-map">
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <p
+          id="mapid"
+          style={{
+            fontSize: "45px",
+            fontWeight: "700",
+            textAlign: "center",
+            fontFamily: "Branch",
+          }}
+        >
+          Our Presence
+        </p>
+      </div>
+        <div id='mapArea' className="fwidth">
             <div className='mapWrap'>
                 <img
-                    class="rounded mx-auto d-block"
+                    className="rounded mx-auto d-block"
                     width="100%"
                     src="assets/images/addressIcon_2.png"
                 />
@@ -37,6 +57,7 @@ const Map = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

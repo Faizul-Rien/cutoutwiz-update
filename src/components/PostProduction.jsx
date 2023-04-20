@@ -3,21 +3,18 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
 
  function PostProduction(props) {
 
     return(
         <div className="postphoto">
-    <Router >
-      <Navigation />
-      </Router>
+    
 
             {/* META TAG AND META TITTLE */}
 
               <Helmet>
-                <title>Why Post-Production Services Are Important for E-commerce Businesses   - CutOutWiz</title>
+                <title>Why Post-Production Services Are Important for E-commerce Businesses   - The KOW company</title>
                 <meta name="description" keywords= "Food Photography, Beginner photography" content="Photographing food lets you play with the ingredients and design the setting that would be most appealing to you. Food photographs bring great joy to both the photographer and the viewer."
                 />
             </Helmet>
@@ -33,9 +30,9 @@ import { Navigation} from "./";
 
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
+            <div className="col-md-8" style={{height:"max-content"}}>
 
 
 
@@ -122,24 +119,24 @@ It is absolutely necessary to invest in good post-production services because th
 
              <div className="col-md-4">
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>
@@ -147,20 +144,20 @@ It is absolutely necessary to invest in good post-production services because th
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>
@@ -169,48 +166,48 @@ It is absolutely necessary to invest in good post-production services because th
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>
@@ -222,16 +219,16 @@ It is absolutely necessary to invest in good post-production services because th
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="    https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>
@@ -244,7 +241,7 @@ It is absolutely necessary to invest in good post-production services because th
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

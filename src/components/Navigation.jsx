@@ -29,22 +29,22 @@ function Navigation(props) {
   }
   return (
     <div id="appWrap">
-    <Navbar collapseOnSelect sticky="top" expand="md" bg="black" variant="dark">
+    <Navbar collapseOnSelect sticky="top" expand="lg" bg="black" variant="dark">
       <Container>
         <div>
-          <Link class="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/">
             <img
               id="logowiz"
               src="../../assets/images/ailogo.png"
-              width="170"
+              width="100"
               height="40"
-              alt=""
+              alt="thekow_logo"
             />
           </Link>
         </div>
 
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -52,15 +52,15 @@ function Navigation(props) {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="mx-auto"></div>
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="mx-auto"></div>
+          <ul className="navbar-nav">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDarkDropdownMenuLink"
                 role="button"
@@ -70,63 +70,63 @@ function Navigation(props) {
                 SERVICE
               </a>
               <ul
-                class="dropdown-menu dropdown-menu-dark"
+                className="dropdown-menu dropdown-menu-dark"
                 aria-labelledby="navbarDarkDropdownMenuLink"
               >
                 <li>
-                  <a class="dropdown-item" href="/#image-editing-service">
+                  <a className="dropdown-item" href="/#image-editing-service">
                     IMAGES
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/#video-editing-service">
+                  <a className="dropdown-item" href="/#video-editing-service">
                     VIDEOS
                   </a>
                 </li>
               </ul>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/#apps">
+            <li className="nav-item">
+              <a className="nav-link" href="/#apps">
                 APPS
               </a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/#prices">
+            <li className="nav-item">
+              <a className="nav-link" href="/#prices">
                 PRICE
               </a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/#how-it-works">
+            <li className="nav-item">
+              <a className="nav-link" href="/#how-it-works">
                 HOW IT WORKS
               </a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/#blog">
+            <li className="nav-item">
+              <a className="nav-link" href="/#blog">
                 BLOGS
               </a>
             </li>
 
-            <div class="">
-              <li class="nav-item">
-                <Link class="nav-link" to="/explore-our-services">
+            <div className="">
+              <li className="nav-item">
+                <Link className="nav-link" to="/explore-our-services">
                   EXPLORE
                 </Link>
               </li>
             </div>
 
-            <li class="nav-item">
-              <Link class="nav-link" target="_blank" to="/contact-us">
+            <li className="nav-item">
+              <Link className="nav-link" target="_blank" to="/contact-us">
                 CONTACT
               </Link>
             </li>
 
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link"
+                className="nav-link"
                 href="https://app.cutoutwiz.com/"
                 target="_blank"
               >
@@ -134,43 +134,51 @@ function Navigation(props) {
               </a>
             </li>
 
-            {/* <li class="nav-item">
-              <Link class="nav-link"onClick={refreshPagees}>
+            <li className="nav-item">
+                <a className="nav-link" href="/book-a-call">
+                  <button className="button9">BOOK A CALL</button>
+                </a>
+              </li>
+            {/* <li className="nav-item">
+              <Link className="nav-link"onClick={refreshPagees}>
                    <img src="../../assets/images/spain-flag.png" width="20" height="20" alt=""/>
                 </Link>
               </li>
 
               
 
-              <li class="nav-item">
-              <Link class="nav-link"  to="./fr"onClick={refreshPagefr}>
+              <li className="nav-item">
+              <Link className="nav-link"  to="./fr"onClick={refreshPagefr}>
               <img src="../../assets/images/france-flag.png" width="20" height="20" alt=""/>
                 </Link>
               </li>
 
-              <li class="nav-item">
-              <Link class="nav-link" to="./nl"onClick={refreshPagenl}>
+              <li className="nav-item">
+              <Link className="nav-link" to="./nl"onClick={refreshPagenl}>
               <img src="../../assets/images/netherland-flag.png" width="20" height="20" alt=""/>
                 </Link>
               </li>
 
              
 
-              <li class="nav-item">
-              <Link class="nav-link" to="./th"onClick={refreshPageth}>
+              <li className="nav-item">
+              <Link className="nav-link" to="./th"onClick={refreshPageth}>
               <img src="../../assets/images/thailand-flag.png" width="20" height="13.5" alt=""/>
                 </Link>
               </li>
 
-              <li class="nav-item">
-              <Link class="nav-link" to="./de"onClick={refreshPagede}>
+              <li className="nav-item">
+              <Link className="nav-link" to="./de"onClick={refreshPagede}>
               <img src="../../assets/images/germany-flag.png" width="20" height="20" alt=""/>
                 </Link>
               </li> */}
 
-            <li class="nav-item dropdown">
+
+              {/* language button */}
+              {/* 
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDarkDropdownMenuLink"
                 role="button"
@@ -186,11 +194,11 @@ function Navigation(props) {
                 English
               </a>
               <ul
-                class="dropdown-menu dropdown-menu-dark"
+                className="dropdown-menu dropdown-menu-dark"
                 aria-labelledby="navbarDarkDropdownMenuLink"
               >
                 <li onClick={refreshPage}>
-                  <a class="dropdown-item" href="/#images">
+                  <a className="dropdown-item" href="/#images">
                     <img
                       src="../../assets/images/uk-flag.png"
                       width="20"
@@ -201,7 +209,7 @@ function Navigation(props) {
                   </a>
                 </li>
                 <li onClick={refreshPagefr}>
-                  <a class="dropdown-item" href="/#images">
+                  <a className="dropdown-item" href="/#images">
                     <img
                       src="../../assets/images/france-flag.png"
                       width="20"
@@ -212,7 +220,7 @@ function Navigation(props) {
                   </a>
                 </li>
                 <li onClick={refreshPagede}>
-                  <a class="dropdown-item" href="/#images">
+                  <a className="dropdown-item" href="/#images">
                     <img
                       src="../../assets/images/germany-flag.png"
                       width="20"
@@ -223,7 +231,7 @@ function Navigation(props) {
                   </a>
                 </li>
                 <li onClick={refreshPagees}>
-                  <a class="dropdown-item" href="/#images">
+                  <a className="dropdown-item" href="/#images">
                     <img
                       src="../../assets/images/spain-flag.png"
                       width="20"
@@ -234,7 +242,7 @@ function Navigation(props) {
                   </a>
                 </li>
                 <li onClick={refreshPage}>
-                  <a class="dropdown-item" href="/#images">
+                  <a className="dropdown-item" href="/#images">
                     <img
                       src="../../assets/images/thailand-flag.png"
                       width="20"
@@ -245,7 +253,7 @@ function Navigation(props) {
                   </a>
                 </li>
                 <li onClick={refreshPagenl}>
-                  <a class="dropdown-item" href="/#images">
+                  <a className="dropdown-item" href="/#images">
                     <img
                       src="../../assets/images/netherland-flag.png"
                       width="20"
@@ -257,6 +265,8 @@ function Navigation(props) {
                 </li>
               </ul>
             </li>
+            */}
+
           </ul>
         </div>
       </Container>

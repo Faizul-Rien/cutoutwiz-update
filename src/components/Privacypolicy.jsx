@@ -2,17 +2,14 @@ import React, { Component } from "react";
  
  
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
  function Privacypolicy(props) {
 
     return(
         <div className="privacy">
-                          <Router >
-      <Navigation />
-      </Router>
-            <div class="container">
-                <div class="row"style={{marginTop:"9%"}}>
+                           
+            <div className="container">
+                <div className="row"style={{marginTop:"9%"}}>
                 <img src="assets/images/cutoutwiz-privecypolicy.jpg"  width="100%" height="100%" alt=""/>
                 
                 <h1 style={{textAlign:"center",marginTop:"3%"}}>PRIVACY POLICY</h1>
@@ -82,7 +79,7 @@ Where we disclose your personal information to third parties for these purposes,
                 </div>
                 <br/>
             </div>
-            <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By <Link to="/" target="_blank"  style={{textDecoration:"none",color:"white"}}>CutOutWiz</Link></p>
+            <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By <Link to="/" target="_blank"  style={{textDecoration:"none",color:"white"}}>The KOW Company</Link></p>
         
         </div>
 

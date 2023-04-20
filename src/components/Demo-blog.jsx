@@ -12,7 +12,7 @@ import {Helmet} from "react-helmet";
             {/* META TAG AND META TITTLE */}
 
               <Helmet>
-                <title>Top 8 Food Photography Tips for Beginners - CutOutWiz</title>
+                <title>Top 8 Food Photography Tips for Beginners - The KOW company</title>
                 <meta name="description" keywords= "Food Photography, Beginner photography" content="Photographing food lets you play with the ingredients and design the setting that would be most appealing to you. Food photographs bring great joy to both the photographer and the viewer."
                 />
             </Helmet>
@@ -28,9 +28,9 @@ import {Helmet} from "react-helmet";
 
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
+            <div className="col-md-8" style={{height:"max-content"}}>
 
 
 
@@ -83,7 +83,7 @@ import {Helmet} from "react-helmet";
 
         {/* IMAGE */}
 
-    <img src="../../assets/images/happy-young-group-having-lunch-home-asia-family-party-eating-pizza-food-making-selfie-with-her-friends-birthday-party-dining-table-together-house-celebration-holiday-togetherness-768x43.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt=""/>
+    <img src="../../assets/images/happy-young-group-having-lunch-home-asia-family-party-eating-pizza-food-making-selfie-with-her-friends-birthday-party-dining-table-together-house-celebration-holiday-togetherness-768x43.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt=""/>
 <br/>
 
 
@@ -149,14 +149,14 @@ Take experimental pictures to figure out the best angles for photographing the p
 {/* PASPASHI DUITA IMAGE DITE CHAILE */}
 
 
-                <div class="row">
-                <div class="col-md-6">
+                <div className="row">
+                <div className="col-md-6">
 
                     {/* 1ST IMAGE */}
 
                     <img src="../../assets/images/top-view-meat-soup-with-greens-seasonings-dark-background.jpg"width="100%" height="100%" alt=""/>
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
 
                     {/* 2ND IMAGE */}
 
@@ -183,8 +183,8 @@ Take experimental pictures to figure out the best angles for photographing the p
 
 {/* PASPASHI DUITA IMAGE DITE CHAILE */}
 
-         <div class="row">
-                <div class="col-md-6">
+         <div className="row">
+                <div className="col-md-6">
 
                     {/* 1ST IMAGE */}
 
@@ -195,7 +195,7 @@ Take experimental pictures to figure out the best angles for photographing the p
 
                 {/* 2ND IMAGE */}
 
-                <div class="col-md-6">
+                <div className="col-md-6">
                     <img src="../../assets/images/grilled-chicken-legs-barbecue-sauce-with-pepper-seeds-parsley-salt-black-stone-plate-black-stone-table-1024x684.jpg"width="100%" height="100%" alt=""/>
                 </div>
 
@@ -224,14 +224,14 @@ a food photograph that doesn’t speak to its viewers. Look at the two pictures 
 
 {/* PASPASHI DUITA IMAGE DITE CHAILE */}
 
-<div class="row">
-                <div class="col-md-6">
+<div className="row">
+                <div className="col-md-6">
 
                      {/* 1ST IMAGE */}
 
                     <img src="../../assets/images/MicrosoftTeams-image-1 (3).jpg"width="100%" height="100%" alt=""/>
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
 
                      {/* 2ND IMAGE */}
 
@@ -263,7 +263,7 @@ a food photograph that doesn’t speak to its viewers. Look at the two pictures 
 {/* SINGLE IMAGE */}
 
 
-        <img src="../../assets/images/6159822-768x432.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt=""/>
+        <img src="../../assets/images/6159822-768x432.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt=""/>
            <br/>
 
 
@@ -279,13 +279,13 @@ a food photograph that doesn’t speak to its viewers. Look at the two pictures 
 
 
 {/* PASPASHI DUITA IMAGE DITE CHAILE */}
-           <div class="row">
-                <div class="col-md-6">
+           <div className="row">
+                <div className="col-md-6">
 
                     
                     <img src="../../assets/images/top-view-vegetable-soup-with-meat-inside-plate-grey-1024x684.jpg"width="100%" height="100%" alt=""/>
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                     <img src="../../assets/images/top-view-delicious-vegetable-soup-with-seasonings-grey-space-1024x684.jpg"width="100%" height="100%" alt=""/>
                 </div>
 
@@ -304,24 +304,24 @@ While photographing delicious looking food is one of the most fun things you’l
 
              <div className="col-md-4">
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>
@@ -329,20 +329,20 @@ While photographing delicious looking food is one of the most fun things you’l
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>
@@ -351,48 +351,48 @@ While photographing delicious looking food is one of the most fun things you’l
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="../../assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
 
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>
@@ -404,16 +404,16 @@ While photographing delicious looking food is one of the most fun things you’l
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="../../assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="../../assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="    https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="../../assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>
@@ -426,7 +426,7 @@ While photographing delicious looking food is one of the most fun things you’l
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 

@@ -3,18 +3,15 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
  
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation} from "./";
+
 
  function Videoediting(props) {
 
     return(
         <div className="postphoto">
-                          <Router >
-      <Navigation />
-      </Router>
+                          
               <Helmet>
-                <title>5 Interesting Product Video Editing Facts |cutoutwiz</title>
+                <title>5 Interesting Product Video Editing Facts |The KOW company</title>
                 <meta name="description" keywords= "Product Video Editing" content="Product video editing is an art that you must master though experience, skill and practice, It's time consuming and require planning but it's worth it." 
                 />
             </Helmet>
@@ -23,10 +20,10 @@ import { Navigation} from "./";
             </div>
 
 
-            <div class="container" style={{marginTop:"4%"}}>
-            <div class="row">
+            <div className="container" style={{marginTop:"4%"}}>
+            <div className="row">
 
-            <div class="col-md-8" style={{height:"max-content"}}>
+            <div className="col-md-8" style={{height:"max-content"}}>
                 <img src="assets/images/Blog-19.jpg"  width="100%" height="20%" alt="square-image-monitor-keyboard-phone-charging-speaker-on-wooden-table"/>
 
                  <p style={{textAlign:"justify",marginTop:"4%",fontFamily:"poppins"}}>Whether it’s the shows
@@ -50,7 +47,7 @@ import { Navigation} from "./";
                  demonstrations, videos have been an integrate part of promotional activities since their inception.
                   It’s hard to make do with just static contents. Videos generate greater engagement rates.</p>
          
-    <img src="assets/images/male-producer-edit-video-his-laptop-studio-600x401.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="male-producer-edit-video-his-laptop-studio"/>           
+    <img src="assets/images/male-producer-edit-video-his-laptop-studio-600x401.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="male-producer-edit-video-his-laptop-studio"/>           
 <br/>
            
            <p style={{fontSize:"20px",fontWeight:"700"}}>Interesting Facts about Video Editing</p>
@@ -69,7 +66,7 @@ import { Navigation} from "./";
          <p style={{textAlign:"justify"}}>Video editing isn’t a skill you can master just by taking a course. It doesn’t come to you overnight as well. It’s rather an art form. The courses and basics you learn merely provide you a base to start with. As an editor you’ll need to trust your instinct or gut feeling before making a decision. Editors’ needs to think about the pattern of the video, figure out pieces that fit together better, the sequence that makes a transition feel smoother. All this requires judgment call to be made by the editor which will come with months of practice and experience.</p>
         
       
-         <img src="assets/images/man-recording-studio-music-production-600x401.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="man-recording-studio-music-production"/>           
+         <img src="assets/images/man-recording-studio-music-production-600x401.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="man-recording-studio-music-production"/>           
 <br/>
 
 
@@ -82,7 +79,7 @@ import { Navigation} from "./";
 
 <p style={{textAlign:"justify"}}>Editing takes more time than shooting the video itself. Shots need to be perfected, compiled, dialogues and background sounds have to be added, colors need to be corrected – there are endless things to be done and the editors needs to be aware of all of them. Even an ad or a short instructional view may take hours to be perfected. An editor needs to have endless patience, a keen eye and a little bit of OCD to get the perfect edit. </p>
 
-        <img src="assets/images/scenes-filming-films-video-products-film-crew-film-crew-set-pavilion-film-studio-600x400.jpg" class="rounded mx-auto d-block"  width="80%" height="20%" alt="scenes-filming-films-video-products-film-crew-film-crew-set-pavilion-film-studio"/>        
+        <img src="assets/images/scenes-filming-films-video-products-film-crew-film-crew-set-pavilion-film-studio-600x400.jpg" className="rounded mx-auto d-block"  width="80%" height="20%" alt="scenes-filming-films-video-products-film-crew-film-crew-set-pavilion-film-studio"/>        
            <br/>
 
            <p style={{fontSize:"18px",fontWeight:"700"}}>Fact 5: Video Editing can’t fix everything</p>
@@ -100,24 +97,24 @@ Video production and processing is an intricate and extensive work involving mul
 
              <div className="col-md-4">
             
-            <div class="row">
-            <div class="col-4 col-md-4"> 
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4"> 
+                <div className="row-8">
             <img src="assets/images/types-of-photography.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
             
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/types-of-photography-which-one-drive-your-inner-passion-most"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Types Of Photography: Which One Drives Your Inner Passion Most?</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs are our way of capturing the world as we see it. It’s a medium of
                      expressing our inner thoughts and holding onto memories close</p>
             </div>    
@@ -125,20 +122,20 @@ Video production and processing is an intricate and extensive work involving mul
             </div>
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/7-creative-winter-marketing-ideas-for-e-commerce-businesses"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>7 Creative Winter Marketing Ideas For E-Commerce Businesses</p>
                </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>The beginning of winter fills our minds with 
                 numerous excitements. It’s the season of Christmas, snowfall, and New Year. With a sudden change in weather</p>
             </div>    
@@ -147,48 +144,48 @@ Video production and processing is an intricate and extensive work involving mul
 
 
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="assets/images/Blog-21.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/top-shopify-marketing-strategy-for-sellers"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>Top Shopify Marketing Strategy For Sellers</p>
             </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>E-commerce platforms like Shopify are ultimate
                  friends of small business owners. The platform allows you to build your own website and shine in the world</p>
             </div>    
             </div>
             </div>
 
-            <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="row-8">
+            <div className="row">
+            <div className="col-4 col-md-4">
+                <div className="row-8">
             <img src="assets/images/Blogpost.jpg"  width="100%" height="100%" alt=""/>
                 </div>
             
-            {/* <div class="row-4"style={{marginTop:"37%"}}>
+            {/* <div className="row-4"style={{marginTop:"37%"}}>
             <img src="assets/images/latestblog.jpg"  width="100%" height="100%" alt=""/>
             </div> */}
             </div>
 
-            <div class="col-8 col-md-8">
-            <div class="row-4">
+            <div className="col-8 col-md-8">
+            <div className="row-4">
             <Link to="/5-important-photography-tips-for-beginners"style={{textDecoration:"none"}}>
                 <p style={{fontSize:"18px",fontFamily:"poppins",color:"black"}}>5 Important Photography Tips For Beginners</p>
                 </Link>
                 </div>
-            <div class="row-8">
+            <div className="row-8">
                 <p style={{fontSize:"14px",fontWeight:"100",opacity:"0.6"}}>Photographs help us freeze a
                 certain moment and then relive it again and again. It enables us to capture our happiest memories into a frame</p>
             </div>    
@@ -200,16 +197,16 @@ Video production and processing is an intricate and extensive work involving mul
            <hr style={{width:"80%",border:"3px solid",backgroundColor:"black",opacity:"1",marginTop:"-3%"}}></hr>
 
 
-           <div class="row">
-         <div class="col-4 col-md-4">
+           <div className="row">
+         <div className="col-4 col-md-4">
            <a href="https://www.facebook.com/sharer.php?u=https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"><img src="assets/images/facebookblack.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="https://twitter.com/intent/tweet?text=%20https://cutoutwiz.com/5-important-photography-tips-for-beginners/"target="_blank"> <img src="assets/images/twit.png"height="100%" width="50%" alt=""/></a>
         </div>
 
-        <div class="col-4 col-md-4">
+        <div className="col-4 col-md-4">
           <a href="    https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F%26title%3D5%2520Important%2520Photography%2520Tips%2520for%2520Beginners%2520%25E2%2580%2593%2520CutOutWiz%26summary%3D%26source%3Dhttps%3A%2F%2Fcutoutwiz.com%2F5-important-photography-tips-for-beginners%2F"target="_blank"> <img src="assets/images/linkdn.png"height="100%" width="50%" alt=""/></a>
         </div>
     </div>
@@ -221,7 +218,7 @@ Video production and processing is an intricate and extensive work involving mul
             </div>
         </div>
         <br/><br/>
-        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed And Developed By CutOutWiz</p>
+        <p style={{textAlign:"center",color:"white",padding:"8px",backgroundColor:"black"}}>Designed & Developed By The KOW Company</p>
         </div>
     );
 
