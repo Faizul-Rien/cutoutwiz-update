@@ -8,6 +8,8 @@ import PriceCard from "./PriceCard/PriceCard";
 import Map from "./Map/Map";
 import Reviews from "./Reviews/Reviews";
 import Footer from "./Footer/Footer";
+
+import ImageService from "./ImageService/ImageService";
 import BannerCard from "./BannerCard/BannerCard";
 import CountRecord from "./CountRecord/CountRecord";
 import ImageEditing from "./ImageEditing/ImageEditing";
@@ -24,7 +26,35 @@ var c = 1,
   timer;
 
 function Home(props) {
+
+  const settingsimg = {
+    dots: false,
+    swipe: false,
+    pauseOnHover: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    breakpoint: 0,
+    speed: 4000,
+    autoplaySpeed: 8000,
+
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          speed: 2700,
+          autoplaySpeed: 7000,
+        },
+      },
+    ],
+  };
+
 /*
+
   $.ajax({
     type: "GET",
     dataType: "json",
@@ -132,28 +162,6 @@ function Home(props) {
     window.location.reload("/");
   }
 
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   slidesToShow: 4,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   speed: 1000,
-  //   autoplaySpeed: 4000,
-  //   cssEase: "linear",
-
-  //   responsive: [
-  //     {
-  //       breakpoint: 600,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         initialSlide: 1,
-  //       },
-  //     },
-  //   ],
-  // };
-
   window.addEventListener("scroll", () => {
     let content = document.querySelector(".fade-in-text");
     let contentPosition = content.getBoundingClientRect().top;
@@ -221,13 +229,23 @@ function Home(props) {
       {/* Count Record */}
       <CountRecord/>
       {/* Image editing service */}
+
+
+      <ImageService></ImageService>
+
+
       <ImageEditing/>
+
       {/* Video editing service */}
       <VideoEditing/>
       {/* Apps with testimonial slider */}
       <Reviews></Reviews>
       {/* Plan  */}
       <PriceCard></PriceCard>
+
+
+
+
       {/* Place an order */}
       <PlaceOrder/>
       {/* Contact us */}
