@@ -331,15 +331,14 @@
     font-weight: 600;
   }
   .button2 {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
-    width: 130px;
+    width: 100px;
+    min-width: 120px;
+
   }
   .button1 {
     border: thin solid #000000;
-    min-width: 148px;
-  }
-  .button2{
     min-width: 148px;
   }
 }
