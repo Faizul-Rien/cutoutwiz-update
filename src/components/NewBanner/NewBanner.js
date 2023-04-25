@@ -16,20 +16,20 @@ const NewBanner = () => {
     const elemntOne = document.getElementById("animText_1");
     const elemntTow = document.getElementById("animText_2");
 
-      setInterval(() => {
-          elemntOne.style.display =myLoop ? 'none' : 'block';
-          elemntTow.style.display =myLoop ? 'block' : 'none';
-          myLoop = !myLoop;
-          console.log(myLoop)
-      }, 7000)
+    setInterval(() => {
+      elemntOne.style.display = myLoop ? 'none' : 'block';
+      elemntTow.style.display = myLoop ? 'block' : 'none';
+      myLoop = !myLoop;
+      console.log(myLoop)
+    }, 7000)
 
-    
+
   }
-  let i = 0 ; 
+  let i = 0;
   useEffect(() => {
-    i++; 
+    i++;
 
-   i == 1 && switchingFunc()
+    i == 1 && switchingFunc()
   }, [])
   return (
     <>
@@ -75,14 +75,14 @@ const NewBanner = () => {
                   />
                 </div>
               </div>
-              <div id="animText_2" style={{display:"none"}}>
+              <div id="animText_2" style={{ display: "none" }}>
                 <p
                   id="we-do"
                   style={{
                     fontSize: "38px",
                     fontFamily: "Branch",
                     fontWeight: "700",
-                    
+
                   }}
                 >
                   Elevate your visuals with our:
@@ -96,17 +96,20 @@ const NewBanner = () => {
                     fontWeight: "700",
                   }}
                 >
-                                  
-                <Typical
-                  steps={[
-                    "3D Modeling",
-                    1000,
-                    " ",
-                    500,
-                  ]}
-                  loop={Infinity} 
-                  wrapper="p"
-                />
+
+                  <Typical
+                    steps={[
+                      "3D modeling",
+                      1000,
+                      "Texture Creation",
+                      500,
+                      "Architectural Visualization",
+                      500,
+
+                    ]}
+                    loop={Infinity}
+                    wrapper="p"
+                  />
                 </div>
               </div>
               <p style={{ fontSize: "20px", fontFamily: "Poppins" }}>
@@ -134,13 +137,13 @@ const NewBanner = () => {
                     </button>
                   </Link>
                 </div>
-                
+
                 <div className="col-4 col-sm-4 col-md-4 col-xl-4">
-                  <Link to="/contact-us">
+                  <a href="https://kowstudios.com/" target="_blank">
                     <button type="button" id="button2" className="button2">
-                        KOW CGI
+                      KOW CGI
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
               {/* circle animation  */}
