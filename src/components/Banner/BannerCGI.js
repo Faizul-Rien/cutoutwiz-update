@@ -17,9 +17,9 @@ const BannerCGI = () => {
         }, 900);
     }
 
-    const openBannerBtn =() =>{
-       // setDisplay('block')
-      //  setClose('activeBanner')
+    const openBannerBtn = () => {
+        // setDisplay('block')
+        //  setClose('activeBanner')
     }
 
     return (
@@ -30,21 +30,21 @@ const BannerCGI = () => {
                     <div className='popupBanner web_banner bannerCigWrap'>
                         <span onClick={closeBanner}>X</span>
                         <a href='https://kowstudios.com/' target='_blank' className='bannerCgi'>
-                             <img src={bannerImage} />
+                            <img src={bannerImage} />
                         </a>
                     </div>
 
                     <div className='popupBanner mob_banner'>
                         <span onClick={closeBanner}>X</span>
                         <a href='https://kowstudios.com/' target='_blank'>
-                        <img src={bannerImage} />
+                            <img src={bannerImage} />
                         </a>
 
                     </div>
                 </div>
             </div>
             <div onClick={openBannerBtn} id='popupIcon' className={getClose}>
-                 <a className='btncgi' href='https://kowstudios.com/' target='_blank'>Visit our CGI Website</a>
+                <a className='btncgi' style={{ textDecoration: "none" }} href='https://kowstudios.com/' target='_blank'><span className='text-anim'>Visit our CGI Website</span></a>
             </div>
         </>
     );
