@@ -195,7 +195,7 @@
     font-size: 12px;
     text-align: center;
     align-self: center;
-    background: #ffff;
+    /* background: #ffff; */
     border-radius: 0 5px 4px 0;
     padding: 3px 8px 3px 19px;
     margin-left: -14px;
@@ -232,3 +232,55 @@
         display: none;
     }
 }
+
+
+
+
+.text-anim{
+
+    font-size: 100px;
+    font-weight: 700;
+     animation: Color 4s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+ 
+  }
+  
+  @keyframes Color{
+    0%{
+      color:White;
+    }
+    
+   50%{
+    color:blue;
+   }
+    
+    100%{
+        color:White;
+    }
+  }
+  
+  /* @keyframes Color{
+    0%{
+      color:#A0D468;
+    }
+    
+    20%{
+      color:#4FC1E9;
+    }
+    
+    40%{
+      color:#FFCE54;
+    }
+    
+    60%{
+      color:#FC6E51;
+    }
+    
+    80%{
+      color:#ED5565;
+    }
+    
+    100%{
+      color:#AC92EC;
+    }
+  } */
