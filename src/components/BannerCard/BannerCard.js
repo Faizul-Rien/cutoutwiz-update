@@ -1,9 +1,9 @@
 import React from 'react';
 
 const BannerCard = () => {
-    return (
-        <>
-           
+  return (
+    <>
+
       <div className="cardid fwidth">
         <div className="container" id="left-card">
           <div className="row">
@@ -28,7 +28,7 @@ const BannerCard = () => {
                 <br />
                 <div className="card-body" style={{ marginTop: "-3%" }}>
                   <h4 style={{ color: "#000000" }} className="card-title">
-                    16,500+
+                    45,000+
                   </h4>
                   <hr
                     style={{
@@ -289,9 +289,9 @@ const BannerCard = () => {
           </p>
         </div>
       </div>
- 
-        </>
-    );
+
+    </>
+  );
 };
 
 export default BannerCard;
