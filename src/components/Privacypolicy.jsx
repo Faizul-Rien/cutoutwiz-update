@@ -70,7 +70,7 @@ Where we disclose your personal information to third parties for these purposes,
 
             <b style={{fontSize:"20px"}}>  How to make Complaint about a breach in privacy?  </b>
             <br/><br/>
-<p>If you have any questions, comments or complaints regarding our practices, or if you are of the view that we have not adhered to this privacy policy, you can contact us by email to info@cutoutwiz.com. </p>
+<p>If you have any questions, comments or complaints regarding our practices, or if you are of the view that we have not adhered to this privacy policy, you can contact us by email to info@thekowcompany.com. </p>
 
 <b style={{fontSize:"20px"}}>Changes/Amendments to this Policy  </b>
 <br/><br/>

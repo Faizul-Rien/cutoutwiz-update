@@ -1401,11 +1401,11 @@ backgroundRepeat: 'no-repeat',marginLeft:"11%"}}>
     <Link to="/" target="_blank"><img src="assets/images/logo-footer.png"style={{marginTop:"3%"}} width="170" height="40" alt=""/></Link>
 
     <p style={{textAlign:"justify",color:"#01302b",marginTop:"4%",fontWeight:"500"}}>The KOW Company ist eines der führenden Bild- und Videobearbeitungsunternehmen für Unternehmen auf der ganzen Welt.</p>
-    <a href="https://www.facebook.com/cutoutwiz"target="_blank" className="fa fa-facebook"></a>
-    <a href="https://twitter.com/cut_wiz?s=09"target="_blank" className="fa fa-twitter"></a>
-    <a href="https://www.linkedin.com/company/cutoutwiz-ltd"target="_blank" className="fa fa-linkedin"></a>
-    <a href="https://www.youtube.com/channel/UClIkCcEBksZigP56p593fDQ"target="_blank" className="fa fa-youtube"></a>
-    <a href="https://www.instagram.com/accounts/login/"target="_blank" className="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/KOWCompany"target="_blank" className="fa fa-facebook"></a>
+    <a href="https://twitter.com/the_kow_company"target="_blank" className="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/company/the-kow-company/"target="_blank" className="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/channel/UCCXAA-Q_f0uuvG8RqW0HRYQ"target="_blank" className="fa fa-youtube"></a>
+    {/* <a href="https://www.instagram.com/accounts/login/"target="_blank" className="fa fa-instagram"></a> */}
     </div>
 
         <div className="col-6 col-md-2"style={{marginTop:"5%"}}>

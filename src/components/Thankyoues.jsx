@@ -18,7 +18,7 @@ import { Navigationes} from "./";
                 <p style={{fontWeight:"700",fontSize:"100px",marginTop:"4%",color:"black",textAlign:"center"}}>Gracias</p>
                 <p className="text-center"style={{fontSize:"25px",color:"black"}}>Gracias por ponerse en contacto.
                   Uno de los miembros de nuestro equipo llegará<br/> a usted en el menor tiempo posible.
-                  Si necesitas un proyecto<br/> asistencia, puede contactarnos en:<br/><br/><u>info@cutoutwiz.com</u></p>
+                  Si necesitas un proyecto<br/> asistencia, puede contactarnos en:<br/><br/><u>info@thekowcompany.com</u></p>
             </div>
         </div>
         );

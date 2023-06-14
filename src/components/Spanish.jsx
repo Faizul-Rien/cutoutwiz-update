@@ -2947,30 +2947,30 @@ function Spanish(props) {
                   imágenes y videos para empresas de todo el mundo.
                 </p>
                 <a
-                  href="https://www.facebook.com/cutoutwiz"
+                  href="https://www.facebook.com/KOWCompany"
                   target="_blank"
                   className="fa fa-facebook"
                 ></a>
                 <a
-                  href="https://twitter.com/cut_wiz?s=09"
+                  href="https://twitter.com/the_kow_company"
                   target="_blank"
                   className="fa fa-twitter"
                 ></a>
                 <a
-                  href="https://www.linkedin.com/company/cutoutwiz-ltd"
+                  href="https://www.linkedin.com/company/the-kow-company/"
                   target="_blank"
                   className="fa fa-linkedin"
                 ></a>
                 <a
-                  href="https://www.youtube.com/channel/UClIkCcEBksZigP56p593fDQ"
+                  href="https://www.youtube.com/channel/UCCXAA-Q_f0uuvG8RqW0HRYQ"
                   target="_blank"
                   className="fa fa-youtube"
                 ></a>
-                <a
+                {/* <a
                   href="https://www.instagram.com/accounts/login/"
                   target="_blank"
                   className="fa fa-instagram"
-                ></a>
+                ></a> */}
               </div>
 
               <div className="col-6 col-md-2" style={{ marginTop: "5%" }}>
