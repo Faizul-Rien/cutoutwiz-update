@@ -13,7 +13,7 @@ import {Helmet} from "react-helmet";
                 <p style={{fontWeight:"700",fontSize:"100px",marginTop:"4%",color:"black",textAlign:"center"}}>Bedankt</p>
                 <p className="text-center"style={{fontSize:"25px",color:"black"}}>Bedankt dat u contact heeft opgenomen.
                   Een van onze teamleden zal bereiken<br/>binnen de kortst mogelijke tijd naar u toe.
-                   Als je een project nodig hebt:<br/>hulp kunt u contact met ons opnemen via:<br/><br/><u>info@cutoutwiz.com</u></p>
+                   Als je een project nodig hebt:<br/>hulp kunt u contact met ons opnemen via:<br/><br/><u>info@thekowcompany.com</u></p>
             </div>
         </div>
         );

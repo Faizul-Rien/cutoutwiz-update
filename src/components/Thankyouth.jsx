@@ -18,7 +18,7 @@ import { Navigationth} from "./";
                 <p style={{fontWeight:"700",fontSize:"100px",marginTop:"4%",color:"black",textAlign:"center"}}>ขอบคุณ</p>
                 <p className="text-center"style={{fontSize:"25px",color:"black"}}>ขอบคุณสำหรับการติดต่อ.
                  หนึ่งในสมาชิกในทีมของเราจะไปถึง<br/> ออกไปให้คุณภายในเวลาที่สั้นที่สุด
-                  หากคุณต้องการโครงการ<br/> ความช่วยเหลือ คุณสามารถติดต่อเราได้ที่:<br/><br/><u>info@cutoutwiz.com</u></p>
+                  หากคุณต้องการโครงการ<br/> ความช่วยเหลือ คุณสามารถติดต่อเราได้ที่:<br/><br/><u>info@thekowcompany.com</u></p>
             </div>
         </div>
         );
