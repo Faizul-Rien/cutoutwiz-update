@@ -43,7 +43,7 @@ const Reviews = () => {
 
   return (
     <div>
-        <div   id="apps" className="reviewWrap fwidth">
+      <div id="apps" className="reviewWrap fwidth">
         <div id="apps-large">
           <div>
             <p style={{ color: "#c5da9c" }}>sadasd</p>
@@ -140,7 +140,7 @@ const Reviews = () => {
               </a>
             </div>
 
-            <div id="logopop">
+            {/* <div id="logopop">
               <a
                 href="https://www.shotflow.com/"
                 target="_blank"
@@ -155,7 +155,7 @@ const Reviews = () => {
                   alt="Shotflow logo"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div className="container" id="overflow" style={{ marginTop: "60px" }}>

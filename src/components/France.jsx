@@ -906,9 +906,9 @@ backgroundColor:"#062220",
       <a href="https://www.bigcommerce.com/apps/cutoutwiz/" target="_blank"><img src="assets/images/Big commerce-01.png"className="rounded mx-auto d-block" height="85px" width="220px" alt="Bigcommerce logo"/>
       </a></div>
 
-      <div className="col-md"id="logopop">
+      {/* <div className="col-md"id="logopop">
       <a href="https://www.shotflow.com/" target="_blank"><img src="assets/images/shotflow-01.png" className="rounded mx-auto d-block" height="85px" width="220px"  alt="Shotflow logo"/>
-      </a></div>
+      </a></div> */}
 
     </div>
     </div>
