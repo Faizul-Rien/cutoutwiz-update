@@ -156,6 +156,22 @@ const Reviews = () => {
                 />
               </a>
             </div> */}
+            <div id="logopop">
+              <a
+                href="https://www.covisionlab.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  id="logo-lab"
+                  src="assets/images/convision-lab.png"
+                  className="rounded mx-auto mt-2 d-block "
+                  height="45px"
+                  width="120px"
+                  alt="convision lab"
+                />
+              </a>
+            </div>
           </div>
 
           <div className="container" id="overflow" style={{ marginTop: "60px" }}>
