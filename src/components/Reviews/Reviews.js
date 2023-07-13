@@ -43,7 +43,7 @@ const Reviews = () => {
 
   return (
     <div>
-        <div   id="apps" className="reviewWrap fwidth">
+      <div id="apps" className="reviewWrap fwidth">
         <div id="apps-large">
           <div>
             <p style={{ color: "#c5da9c" }}>sadasd</p>
@@ -140,7 +140,7 @@ const Reviews = () => {
               </a>
             </div>
 
-            <div id="logopop">
+            {/* <div id="logopop">
               <a
                 href="https://www.shotflow.com/"
                 target="_blank"
@@ -153,6 +153,22 @@ const Reviews = () => {
                   height="85px"
                   width="220px"
                   alt="Shotflow logo"
+                />
+              </a>
+            </div> */}
+            <div id="logopop">
+              <a
+                href="https://www.covisionlab.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  id="logo-lab"
+                  src="assets/images/convision-lab.png"
+                  className="rounded mx-auto mt-2 d-block "
+                  height="45px"
+                  width="120px"
+                  alt="convision lab"
                 />
               </a>
             </div>

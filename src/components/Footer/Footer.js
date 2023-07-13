@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-    return (
-        <>
-           
-      <div className="fwidth"  id="fot-phn">
+  return (
+    <>
+
+      <div className="fwidth" id="fot-phn">
         <div
           className="footer"
           style={{
@@ -150,12 +150,12 @@ const Footer = () => {
                   </a>
                   <br />
                   <a
-                    href="https://www.shotflow.com/"
+                    href="https://www.covisionlab.com/"
                     target="_blank"
                     style={{ textDecoration: "none", color: "#01302b" }}
                   >
                     {" "}
-                    Shotflow
+                    Covision Lab
                   </a>
                 </p>
               </div>
@@ -238,9 +238,9 @@ const Footer = () => {
             </Link>
           </p>
         </div>
-      </div> 
-        </>
-    );
+      </div>
+    </>
+  );
 };
 
 export default Footer;
