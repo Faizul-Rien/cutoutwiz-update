@@ -54,9 +54,9 @@ function Shoe() {
         cursor
       )}'), auto`;
       return () =>
-        (document.body.style.cursor = `url('data:image/svg+xml;base64,${btoa(
-          auto
-        )}'), auto`);
+      (document.body.style.cursor = `url('data:image/svg+xml;base64,${btoa(
+        auto
+      )}'), auto`);
     }
   }, [hovered]);
 
@@ -217,7 +217,7 @@ export default function Test() {
 
           <Suspense fallback={null}>
             <Shoe />
-            <Environment preset="city" />
+            {/* <Environment preset="city" /> */}
             <ContactShadows
               position={[0, -0.8, 0]}
               opacity={0.25}
