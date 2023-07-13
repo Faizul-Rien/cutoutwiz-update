@@ -62,6 +62,7 @@ import Calendly from "./components/CalendlyTest";
 import PDFViewer from "./components/PDFViewer/PDFViewer";
 import ThankUPdf from "./components/PDFViewer/ThankUPdf";
 import { FakeData } from "./components/FakeData/FakeData";
+import VirtualTour from "./components/VitualTour/VirtualTour";
 
 export const  ManageContext = createContext(); 
 
@@ -312,6 +313,8 @@ export default function App() {
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
                 routes for. */}
+          <Route path="virtual-tour" element={<VirtualTour />} />
+
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>

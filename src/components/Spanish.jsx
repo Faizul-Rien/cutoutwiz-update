@@ -1565,7 +1565,7 @@ function Spanish(props) {
                   />
                 </a>
               </div>
-
+{/* 
               <div className="col-md" id="logopop">
                 <a href="https://www.shotflow.com/" target="_blank">
                   <img
@@ -1576,7 +1576,7 @@ function Spanish(props) {
                     alt="Shotflow logo"
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 

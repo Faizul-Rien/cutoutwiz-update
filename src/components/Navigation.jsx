@@ -117,7 +117,13 @@ function Navigation(props) {
                 </Link>
               </li>
             </div>
-
+            <div className="">
+              <li className="nav-item">
+                <Link className="nav-link" to="/virtual-tour">
+                 VIRTUAL TOUR
+                </Link>
+              </li>
+            </div>
             <li className="nav-item">
               <Link className="nav-link" target="_blank" to="/contact-us">
                 CONTACT
