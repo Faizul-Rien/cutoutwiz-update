@@ -1,0 +1,42 @@
+.partnership-background{
+    background-size: cover;
+    height: 100vh;
+    background-image: url("./image/bg.png");
+}
+
+.p-i-h-a img{
+    height: 310px;
+    width: 210px;
+}
+.p-i-h-b img{
+    height: 270px;
+    width: 250px;
+}
+.p-i-h-c img{
+    height: 280px;
+    width: 240px;
+}
+
+.p-i-container{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.partnership-heading{
+
+}
+.partnership-heading h1{
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.partnership-heading p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
