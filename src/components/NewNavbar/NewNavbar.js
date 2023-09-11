@@ -9,8 +9,8 @@ const $ = window.$;
 function NewNavbar() {
 
     return (
-        <div id="new-navbar" className="new-navbar">
-            <Navbar collapseOnSelect sticky="top" expand="lg" className="navbar-bg" >
+        <div id="new-navbar" className="new-navbar nav-sticky">
+            <Navbar collapseOnSelect expand="lg" className="navbar-bg " >
                 <Container>
                     <div>
                         <Link className="navbar-brand" to="/">
