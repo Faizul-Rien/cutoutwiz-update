@@ -172,6 +172,13 @@ font-weight: 500;
     box-shadow: 0px 0px 10px 5px #bac0c9 ;
 }
 
+.nav-sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+   
+  }
+
 
 
 @media screen and (max-width: 992px){
