@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 .partnership-background{
+    font-family: 'Poppins', sans-serif;
     background-size: 100% 100%;
     height: 100vh;
     background-image: url("./image/bg.jpg");
