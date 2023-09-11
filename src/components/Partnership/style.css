@@ -98,6 +98,7 @@
 .second-section-text p{
 text-align: center;
 font-size: 14px;
+font-weight: 500;
 }
 
 
@@ -116,6 +117,7 @@ font-size: 14px;
     font-size: 14px;
     text-align: justify;
     margin-top: 30px;
+    font-weight: 500;
 }
 /* .third-section-photo-3{
     width: 50%;
@@ -134,14 +136,21 @@ font-size: 14px;
     margin-bottom: 60px;
 }
 
-/* .fourth-section-button a{
-    border:none;
-    padding:;
-} */
+.fourth-section-button a{
+    background-image: linear-gradient(#D0D4DE,#A4ABBE);
+    padding: 7px 5px 7px 5px;
+    border-radius: 5px;
+    
+   
+}
 
 .fourth-section-button{
     border-radius: 30px;
     background-color: #A6ADC0;
-    padding: 20px;
+    border: 2px solid white;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    font-weight: 600;
         
+    box-shadow: #bac0c9 0px 10px 5px;
 }
