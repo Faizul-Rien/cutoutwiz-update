@@ -64,6 +64,7 @@ import ThankUPdf from "./components/PDFViewer/ThankUPdf";
 import { FakeData } from "./components/FakeData/FakeData";
 import VirtualTour from "./components/VitualTour/VirtualTour";
 import Partnership from "./components/Partnership/Partnership";
+import NewNavbar from "./components/NewNavbar/NewNavbar";
 
 export const ManageContext = createContext();
 
@@ -115,10 +116,11 @@ export default function App() {
       <div className="App">
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Navigation />}>
+          <Route path="/partnership" element={<Partnership />} />
+          <Route path="/" element={<NewNavbar />}>
             <Route index element={<Home />} />
             <Route path="/service-portfolio" element={<PDFViewer />} />
-            <Route path="/partnership" element={<Partnership />} />
+
             <Route path="/contact-us" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/footer" element={<Footer />} />
