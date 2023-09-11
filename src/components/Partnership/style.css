@@ -175,6 +175,7 @@ font-weight: 500;
 
 
 @media screen and (max-width: 992px){
+    .partnership-background {background-size: cover;}
     .p-i-container{
         padding-top: 30px;
         display: flex;

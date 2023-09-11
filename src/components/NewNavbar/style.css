@@ -8,6 +8,9 @@
     /* background-color: #DADFEA; */
     color: black;
 }
+.new-navbar .navbar-nav .dropdown-menu {
+  background: #d5dbe5 !important;
+}
 .new-navbar .nav-item a {
   color: black !important;
 }
