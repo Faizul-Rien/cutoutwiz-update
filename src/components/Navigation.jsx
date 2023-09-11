@@ -7,7 +7,7 @@ function Navigation(props) {
   function refreshPage() {
     window.location.reload("/");
   }
- 
+
   function refreshPagees() {
     window.location.href = "./es";
   }
@@ -29,123 +29,124 @@ function Navigation(props) {
   }
   return (
     <div id="appWrap">
-    <Navbar collapseOnSelect sticky="top" expand="lg" bg="black" variant="dark">
-      <Container>
-        <div>
-          <Link className="navbar-brand" to="/">
-            <img
-              id="logowiz"
-              src="../../assets/images/ailogo.png"
-              width="100"
-              height="40"
-              alt="thekow_logo"
-            />
-          </Link>
-        </div>
+      <div className="nav-sticky"> 
+      <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
+        <Container>
+          <div>
+            <Link className="navbar-brand" to="/">
+              <img
+                id="logowiz"
+                src="../../assets/images/ailogo.png"
+                width="100"
+                height="40"
+                alt="thekow_logo"
+              />
+            </Link>
+          </div>
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <div className="mx-auto"></div>
-          <ul className="navbar-nav">
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDarkDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                SERVICE
-              </a>
-              <ul
-                className="dropdown-menu dropdown-menu-dark"
-                aria-labelledby="navbarDarkDropdownMenuLink"
-              >
-                <li>
-                  <a className="dropdown-item" href="/#image-editing-service">
-                    IMAGES
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/#video-editing-service">
-                    VIDEOS
-                  </a>
-                </li>
-              </ul>
-            </li>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <div className="mx-auto"></div>
+            <ul className="navbar-nav">
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SERVICE
+                </a>
+                <ul
+                  className="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li>
+                    <a className="dropdown-item" href="/#image-editing-service">
+                      IMAGES
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/#video-editing-service">
+                      VIDEOS
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-            <li className="nav-item">
-              <a className="nav-link" href="/#apps">
-                APPS
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="/#prices">
-                PRICE
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="/#how-it-works">
-                HOW IT WORKS
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="/#blog">
-                BLOGS
-              </a>
-            </li>
-
-            <div className="">
               <li className="nav-item">
-                <Link className="nav-link" to="/explore-our-services">
-                  EXPLORE
+                <a className="nav-link" href="/#apps">
+                  APPS
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="/#prices">
+                  PRICE
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="/#how-it-works">
+                  HOW IT WORKS
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="/#blog">
+                  BLOGS
+                </a>
+              </li>
+
+              <div className="">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/explore-our-services">
+                    EXPLORE
+                  </Link>
+                </li>
+              </div>
+              <div className="">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/virtual-tour">
+                    VIRTUAL TOUR
+                  </Link>
+                </li>
+              </div>
+              <li className="nav-item">
+                <Link className="nav-link" target="_blank" to="/contact-us">
+                  CONTACT
                 </Link>
               </li>
-            </div>
-            <div className="">
+
               <li className="nav-item">
-                <Link className="nav-link" to="/virtual-tour">
-                 VIRTUAL TOUR
-                </Link>
+                <a
+                  className="nav-link"
+                  href="https://app.cutoutwiz.com/"
+                  target="_blank"
+                >
+                  <button id="button9">SIGN UP</button>
+                </a>
               </li>
-            </div>
-            <li className="nav-item">
-              <Link className="nav-link" target="_blank" to="/contact-us">
-                CONTACT
-              </Link>
-            </li>
 
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href="https://app.cutoutwiz.com/"
-                target="_blank"
-              >
-                <button id="button9">SIGN UP</button>
-              </a>
-            </li>
-
-            {/* <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/book-a-call">
                   <button className="button9">BOOK A CALL</button>
                 </a>
               </li> */}
-            {/* <li className="nav-item">
+              {/* <li className="nav-item">
               <Link className="nav-link"onClick={refreshPagees}>
                    <img src="../../assets/images/spain-flag.png" width="20" height="20" alt=""/>
                 </Link>
@@ -273,11 +274,20 @@ function Navigation(props) {
             </li>
             */}
 
-          </ul>
-        </div>
-      </Container>
-    </Navbar>
-    <Outlet />
+            </ul>
+          </div>
+        </Container>
+      </Navbar>
+      <div className="partnarship-nav">
+            <div className="container">
+              <div className="row">
+              <Link to="partnership">3D VISIONARIES UNITE FOR EVOLUTION!</Link>
+              </div>
+            </div>
+      </div>
+      </div>
+      <Outlet />
+
 
     </div>
 

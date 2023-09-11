@@ -11,10 +11,10 @@ const Partnership = () => {
         <>
             <div className='partnership-background'>
                 <NewNavbar></NewNavbar>
-                <FirstSection/>
-                <SecondSection/>
-                <ThirdSection/>
-                <FourthSection/>
+                <FirstSection />
+                <SecondSection />
+                <ThirdSection />
+                <FourthSection />
             </div>
         </>
     );

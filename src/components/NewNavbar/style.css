@@ -1,11 +1,15 @@
 .new-navbar {
   box-shadow: #bac0c9 0px 3px 3px;
+  position: sticky;
 }
 .navbar-bg{
   background: rgb(255,255,255);
   background: radial-gradient(circle, rgba(255,255,255,1) 11%, rgba(209,215,227,1) 100%);
     /* background-color: #DADFEA; */
     color: black;
+}
+.new-navbar .navbar-nav .dropdown-menu {
+  background: #d5dbe5 !important;
 }
 .new-navbar .nav-item a {
   color: black !important;
@@ -40,4 +44,11 @@
 }
 .nav-home a img {
   width: 20px;
+}
+
+.nav-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+ 
 }
