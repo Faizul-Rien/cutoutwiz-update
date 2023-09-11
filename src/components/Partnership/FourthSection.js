@@ -6,17 +6,13 @@ const FourthSection = () => {
             <div className='row ' style={{ marginTop: "110px", }}>
                 <div className='fourth-section-container'>
                     <div className='fourth-section-button'>
-                        <a>Visit KOW Studio</a>
+                        <a href='https://kowstudios.com/' target='_blank'>Visit KOW Studio</a>
                     </div>
                     <div className='fourth-section-button'>
                         <a>Request a Quote</a>
                     </div>
-
                 </div>
-
-
             </div>
-
         </div>
     );
 };
