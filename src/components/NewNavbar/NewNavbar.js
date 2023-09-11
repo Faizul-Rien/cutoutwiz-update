@@ -3,14 +3,13 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { Outlet, Link } from "react-router-dom";
 import './style.css'
 import logo from "./images/logo.png"
-import { AiFillHome } from "react-icons/ai";
 const $ = window.$;
 
 
 function NewNavbar() {
 
     return (
-        <div id="appWrap">
+        <div id="new-navbar" className="new-navbar">
             <Navbar collapseOnSelect sticky="top" expand="lg" className="navbar-bg" >
                 <Container>
                     <div>
@@ -39,6 +38,7 @@ function NewNavbar() {
 
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <div className="mx-auto"></div>
+
                         <div>
                             <ul className="navbar-nav " style={{ fontSize: "14px" }}>
                                 <li className="nav-item dropdown">
@@ -112,24 +112,27 @@ function NewNavbar() {
                                         CONTACT
                                     </Link>
                                 </li>
+                            </ul>
+                        </div>
+                        <div className="mx-auto"></div>
 
+                        <div className="nav-home-wrap">
+                            <ul className="navbar-nav ">
                                 <li className="nav-item">
                                     <a
-                                        className="nav-link"
+                                        className="nav-link sign-up"
                                         href="https://app.cutoutwiz.com/"
                                         target="_blank"
                                     >
-                                        <button className="button-new-nav" >SIGN UP</button>
+                                        <button className="button-new-nav" >Sign Up</button>
                                     </a>
                                 </li>
-                                <li className="nav-item">
-
-                                    <div>
-                                        <AiFillHome className="home-icon" />
-                                    </div>
+                                <li className="nav-item nav-home">
+                                    <a href="/">
+                                        <img src={require('./images/home.png')} />
+                                    </a>
 
                                 </li>
-
                             </ul>
                         </div>
                     </div>

@@ -1,8 +1,18 @@
+.new-navbar {
+  box-shadow: #bac0c9 0px 3px 3px;
+}
 .navbar-bg{
-    background-color: #DADFEA;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 11%, rgba(209,215,227,1) 100%);
+    /* background-color: #DADFEA; */
     color: black;
 }
-
+.new-navbar .nav-item a {
+  color: black !important;
+}
+.new-navbar .navbar-nav {
+  font-size: 14px;
+}
 .button-new-nav {
   background-color: white;
   color: black;
@@ -17,4 +27,18 @@
     height: 24px;
     width: 24px;
     margin-left: 20px;
+}
+.nav-home-wrap .navbar-nav {
+  display: flex;
+  gap: 50px;
+}
+.sign-up .button-new-nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.nav-home a img {
+  width: 20px;
 }
