@@ -8,10 +8,10 @@ const FirstSection = () => {
         <div className='container'>
         <div className='row'>
             <div className='p-i-container'>
-                <div className='p-i-h-a'>
+                <div className='p-i-h-a light-divider'>
                     <img src={a} />
                 </div>
-                <div className='p-i-h-b'>
+                <div className='p-i-h-b light-divider'>
                     <img src={b} />
                 </div>
                 <div className='p-i-h-c'>
