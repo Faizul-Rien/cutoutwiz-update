@@ -50,3 +50,79 @@
 
     
 }
+
+.second-section-image-container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 70px;
+}
+
+.second-section-photo-1 img{
+    height: 230px;
+    width: 235px;
+}
+.second-section-photo-2 img{
+    height: 262px;
+    width: 260px;
+    margin-top: -15px;
+}
+.second-section-photo-3 img{
+    height: 230px;
+    width: 235px;
+}
+
+.second-section-text{
+    margin-bottom: 120px;
+}
+.second-section-text p{
+text-align: center;
+font-size: 14px;
+}
+
+
+.third-section-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 70px;
+    
+}
+.third-section-text{
+    width: 40%;
+}
+
+.third-section-text p{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 30px;
+}
+/* .third-section-photo-3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+} */
+.third-section-photo-3 img{
+    height: 450px;
+    width: 470px;
+}
+
+.fourth-section-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+/* .fourth-section-button a{
+    border:none;
+    padding:;
+} */
+
+.fourth-section-button{
+    border-radius: 30px;
+    background-color: #A6ADC0;
+    padding: 20px;
+    
+    
+}
