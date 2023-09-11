@@ -3,6 +3,9 @@ import './style.css'
 import a from './image/1.png'
 import b from './image/2.png'
 import c from './image/3.png'
+import photo1 from './image/p1.jpg'
+import photo2 from './image/p2.jpg'
+import photo3 from './image/p3.jpg'
 import NewNavbar from '../NewNavbar/NewNavbar';
 
 const Partnership = () => {
@@ -34,7 +37,57 @@ const Partnership = () => {
                         </div>
                     </div>
                 </div>
+                <div className='container'>
+                    <div className='row ' style={{ marginTop: "110px", }}>
+                        <div className='second-section-image-container'>
+                            <div className='second-section-photo-1'>
+                                <img src={photo1} />
+                            </div>
+                            <div className='second-section-photo-2'>
+                                <img src={photo2} />
+                            </div>
+                            <div className='second-section-photo-3'>
+                                <img src={photo3} />
+                            </div>
+                        </div>
 
+                        <div className='second-section-text'>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet <br /> dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper sus-<br />cipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div className='container'>
+                    <div className='row ' style={{ marginTop: "110px", }}>
+                        <div className='third-section-container'>
+                            <div className='third-section-text'>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in</p>
+                            </div>
+                            <div className='third-section-photo-3'>
+                                <img src={photo3} />
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div className='container'>
+                    <div className='row ' style={{ marginTop: "110px", }}>
+                        <div className='fourth-section-container'>
+                            <div className='fourth-section-button'>
+                                <a>Visit KOW Studio</a>
+                            </div>
+                            <div className='fourth-section-button'>
+                                <a>Request a Quote</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
             </div>
         </>
     );
