@@ -56,7 +56,7 @@
 }
 
 .partnership-heading h1 span {
-    z-index: 9999;
+    z-index: 99;
     position: relative;
 }
 .partnership-heading h1::after {
