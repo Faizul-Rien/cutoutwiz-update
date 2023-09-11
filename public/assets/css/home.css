@@ -663,6 +663,15 @@ input:checked {
   font-weight: 600;
   border-radius: 4px;
 }
+.button-new-nav {
+  background-color: white;
+  color: black;
+  padding: 3px 16px;
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  border-radius: 30px;
+}
 
 #headpost {
   color: white;

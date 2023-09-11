@@ -117,7 +117,7 @@ export default function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/partnership" element={<Partnership />} />
-          <Route path="/" element={<NewNavbar />}>
+          <Route path="/" element={<Navigation/>}>
             <Route index element={<Home />} />
             <Route path="/service-portfolio" element={<PDFViewer />} />
 
