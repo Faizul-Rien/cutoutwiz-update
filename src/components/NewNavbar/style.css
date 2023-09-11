@@ -1,5 +1,6 @@
 .new-navbar {
   box-shadow: #bac0c9 0px 3px 3px;
+  position: sticky;
 }
 .navbar-bg{
   background: rgb(255,255,255);
