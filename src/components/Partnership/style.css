@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-.partnership-background{
+.partnership-background {
     font-family: 'Poppins', sans-serif;
     background-size: 100% 100%;
     /* height: 100vh; */
@@ -8,19 +8,22 @@
     background-image: url("./image/bg.jpg");
 }
 
-.p-i-h-a img{
+.p-i-h-a img {
     height: 270px;
     width: 180px;
 }
-.p-i-h-b img{
+
+.p-i-h-b img {
     height: 235px;
     width: 210px;
 }
-.p-i-h-c img{
+
+.p-i-h-c img {
     margin-top: -10px;
     height: 255px;
     width: 205px;
 }
+
 .light-divider {
     position: relative;
 }
@@ -37,15 +40,16 @@
     opacity: 0.9;
     transform: rotate(5deg);
 }
-.p-i-container{
+
+.p-i-container {
     padding-top: 30px;
     display: flex;
     justify-content: center;
     gap: 130px;
 }
-.partnership-heading{
 
-}
+.partnership-heading {}
+
 .partnership-heading h1 {
     margin-top: 40px;
     font-weight: bolder;
@@ -59,6 +63,7 @@
     z-index: 99;
     position: relative;
 }
+
 .partnership-heading h1::after {
     content: "";
     position: absolute;
@@ -72,151 +77,222 @@
     z-index: 1;
     opacity: 0.9;
 }
-.partnership-heading p{
+
+.partnership-heading p {
     text-align: center;
     font-weight: 500;
     font-size: 14px;
-    
+
 }
-.partnership-heading p span{
- 
+
+.partnership-heading p span {
+
     font-weight: 700;
 
 }
 
-.second-section-image-container{
+.second-section-image-container {
     display: flex;
     justify-content: center;
     gap: 5px;
     margin-bottom: 70px;
 }
 
-.second-section-photo-1 img{
+.second-section-photo-1 img {
     height: 230px;
     width: 235px;
 }
-.second-section-photo-2 img{
+
+.second-section-photo-2 img {
     height: 262px;
     width: 260px;
     margin-top: -15px;
 }
-.second-section-photo-3 img{
+
+.second-section-photo-3 img {
     height: 230px;
     width: 235px;
 }
 
-.second-section-text{
+.second-section-text {
     margin-bottom: 120px;
 }
-.second-section-text p{
-text-align: center;
-font-size: 14px;
-font-weight: 500;
+
+.second-section-text p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 
-.third-section-container{
+.third-section-container {
     display: flex;
     justify-content: space-between;
-   
+
     margin-bottom: 70px;
-    
+
 }
-.third-section-text{
+
+.third-section-text {
     width: 40%;
 }
 
-.third-section-text p{
+.third-section-text p {
     font-size: 14px;
     text-align: justify;
     margin-top: 30px;
     font-weight: 500;
 }
+
 /* .third-section-photo-3{
     width: 50%;
     display: flex;
     justify-content: center;
 } */
-.third-section-photo-3 img{
+.third-section-photo-3 img {
     height: 450px;
     width: 470px;
 }
 
-.fourth-section-container{
+.fourth-section-container {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin-bottom: 90px;
 }
 
-.fourth-section-button a{
-    background-image: linear-gradient(#dfe3eb,#949db6);
+.fourth-section-button a {
+    background-image: linear-gradient(#dfe3eb, #949db6);
     padding: 7px 5px 7px 5px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
-   
+
 }
-.fourth-section-button a:hover{
+
+.fourth-section-button a:hover {
     color: #f1f3f5;
 }
 
-.fourth-section-button{
+.fourth-section-button {
     border-radius: 30px;
     background-color: #A6ADC0;
     border: 2px solid white;
     padding: 10px 15px 10px 15px;
     color: white;
     font-weight: 600;
-    cursor: pointer;    
-    box-shadow: 0px 0px 10px 5px #bac0c9 ;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px #bac0c9;
 }
 
 .nav-sticky {
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
-   
-  }
 
+}
 
+/* for menu sections */
+.for-menu-secttion {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url("./image/bg.jpg");
+}
 
-@media screen and (max-width: 992px){
-    .partnership-background {background-size: cover;}
-    .p-i-container{
+.partnarship-nav .p-i-h-a img {
+    height: auto;
+    width: 87px;
+}
+
+.partnarship-nav .p-i-h-b img {
+    height: auto;
+    width: 102px;
+}
+
+.partnarship-nav .p-i-h-c img {
+    margin-top: -10px;
+    height: auto;
+    width: 100px;
+}
+
+.partnarship-nav .partnership-heading h1 {
+    margin-top: 23px;
+    font-size: 20px;
+}
+
+.partnarship-nav .partnership-heading h1::after {
+    top: 10px;
+}
+
+/* end For menu sections */
+
+@media screen and (max-width: 992px) {
+    .partnership-background {
+        background-size: cover;
+    }
+
+    .p-i-container {
         padding-top: 30px;
         display: flex;
         flex-direction: column;
-      align-items: center;
-      gap: 85px;
+        align-items: center;
+        gap: 85px;
     }
 
-    .second-section-image-container{
+    /* For menu sections */
+
+    .partnarship-nav .p-i-h-a img {
+        width: 60px;
+    }
+    
+    .partnarship-nav .p-i-h-b img {
+        width: 70px;
+    }
+    
+    .partnarship-nav .p-i-h-c img {
+        width: 69px;
+    }
+
+    
+    .partnarship-nav .p-i-container {
+        flex-direction: row;
+        gap: 10%;
+    }
+
+    .partnarship-nav .light-divider::after {
+        display: none;
+    }
+
+    /* end For menu sections */
+
+    .second-section-image-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 30px;
         margin-bottom: 40px;
     }
-    
-    .second-section-text{
+
+    .second-section-text {
         margin-bottom: 20px;
     }
 
-    .third-section-photo-3 img{
+    .third-section-photo-3 img {
         height: 350px;
         width: 340px;
     }
 
-    .third-section-container{
+    .third-section-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-       gap: 30px;
+        gap: 30px;
         margin-bottom: 10px;
-        
+
     }
-    .third-section-text{
+
+    .third-section-text {
         width: 100%;
     }
 
@@ -233,7 +309,7 @@ font-weight: 500;
         transform: rotate(60deg);
     }
 
-    .fourth-section-container{
+    .fourth-section-container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -243,13 +319,13 @@ font-weight: 500;
 }
 
 @media screen and (max-width: 576px) {
-    .third-section-photo-3 img{
+    .third-section-photo-3 img {
         height: auto;
         width: 100%;
     }
+
     .second-section-photo-2 img {
         max-width: 100%;
         height: auto;
     }
-  }
-  
+}
