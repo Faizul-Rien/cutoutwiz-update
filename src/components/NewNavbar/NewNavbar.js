@@ -50,7 +50,7 @@ function NewNavbar() {
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        SERVICE
+                                       Service
                                     </a>
                                     <ul
                                         className="dropdown-menu dropdown-menu-dark"
@@ -58,12 +58,12 @@ function NewNavbar() {
                                     >
                                         <li>
                                             <a className="dropdown-item" href="/#image-editing-service">
-                                                IMAGES
+                                              Images
                                             </a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item" href="/#video-editing-service">
-                                                VIDEOS
+                                               Videos
                                             </a>
                                         </li>
                                     </ul>
@@ -71,45 +71,45 @@ function NewNavbar() {
 
                                 <li className="nav-item">
                                     <a className="nav-link" href="/#apps">
-                                        APPS
+                                       Apps
                                     </a>
                                 </li>
 
                                 <li className="nav-item">
                                     <a className="nav-link" href="/#prices">
-                                        PRICE
+                                      Price
                                     </a>
                                 </li>
 
                                 <li className="nav-item">
                                     <a className="nav-link" href="/#how-it-works">
-                                        HOW IT WORKS
+                                     How it works
                                     </a>
                                 </li>
 
                                 <li className="nav-item">
                                     <a className="nav-link" href="/#blog">
-                                        BLOGS
+                                        Blogs
                                     </a>
                                 </li>
 
                                 <div className="">
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/virtual-tour">
-                                            VIRTUAL TOUR
+                                          Virtual Tour
                                         </Link>
                                     </li>
                                 </div>
                                 <div className="">
-                                    <li className="nav-item">
+                                    <li className="nav-item active">
                                         <Link className="nav-link" to="/partnership">
-                                            PARTNERSHIP
+                                          Partnership
                                         </Link>
                                     </li>
                                 </div>
                                 <li className="nav-item">
                                     <Link className="nav-link" target="_blank" to="/contact-us">
-                                        CONTACT
+                                        Contact
                                     </Link>
                                 </li>
                             </ul>
