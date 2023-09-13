@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FourthSection = () => {
     return (
@@ -9,7 +10,7 @@ const FourthSection = () => {
                         <a href='https://kowstudios.com/' target='_blank'>Visit KOW Studio</a>
                     </div>
                     <div className='fourth-section-button'>
-                        <a>Request a Quote</a>
+                        <Link to='/contact-us' target="_blank">Request a Quote</Link>
                     </div>
                 </div>
             </div>

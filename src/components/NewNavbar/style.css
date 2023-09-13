@@ -13,7 +13,42 @@
 }
 .new-navbar .nav-item a {
   color: black !important;
+  /* position: relative; */
 }
+.new-navbar .nav-item, .new-navbar .nav-item.active {
+  position: relative;
+}
+.new-navbar .nav-item::after, .new-navbar .nav-item.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.new-navbar .nav-item.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  opacity: 1;
+}
+.new-navbar .nav-item.active {
+  color: #333333;
+  font-weight: bold;
+}
+.new-navbar .nav-item:hover a, .new-navbar .nav-item.active {
+  color: #333333;
+}
+.new-navbar .nav-item:hover::after {
+  opacity: 1;
+}
+
+
 .new-navbar .navbar-nav {
   font-size: 14px;
 }
