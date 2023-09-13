@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import bannerImage from './img/banner_3.png';
+import bannerImage from './img/p-banner.png';
 import banner_mobImage from './img/banner_mob_3.png';
 import paperPlane from './img/plane_2.png';
 
-import './bstyle.css';
+import './pstyle.css';
 
-const Banner = () => {
+const PartnerBanner = () => {
     const [getClose, setClose] = useState('activeBanner')
     const [getDisplay, setDisplay] = useState('block')
 
@@ -26,23 +26,27 @@ const Banner = () => {
         <>
             <div id='popupBannerWrapper' style={{ display: getDisplay }} className={getClose + ' fwidth'}>
                 <div onClick={closeBanner} className='bgshadow'></div>
-                <div className='bannerWrap'>
-                    <div className='popupBanner web_banner'>
-                        <span onClick={closeBanner}>X</span>
-                        <img src={bannerImage} />
+                <div className='bannerWrap' style={{ height: "100%" }}>
+                    <div className='popupBanner web_banner' style={{ height: "100%" }}>
+                        <span className='partner-close-btn' onClick={closeBanner}>Close</span>
+                        <img style={{ height: "100%" }} src={bannerImage} />
+                        <div className='partnership-button-banner'>
+                            <a href='/partnership' target="_blank">Exploring Partnership</a>
+                        </div>
                     </div>
 
-                    <div className='popupBanner mob_banner'>
+
+                    {/* <div className='popupBanner mob_banner'>
                         <span onClick={closeBanner}>X</span>
                         <img src={banner_mobImage} />
-                    </div>
+                    </div> */}
                 </div>
             </div>
-            <div onClick={openBannerBtn} id='popupIcon' className={getClose}>
+            {/* <div onClick={openBannerBtn} id='popupIcon' className={getClose}>
                 <img src={paperPlane} /> <span>PHOTO STUDIO OPERATIONS <br /> LONDON 2023</span>
-            </div>
+            </div> */}
         </>
     );
 };
 
-export default Banner; 
+export default PartnerBanner; 
