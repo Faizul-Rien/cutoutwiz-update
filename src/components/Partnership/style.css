@@ -357,15 +357,11 @@
 
 
 .partnarship-nav {
-	background: rgb(255,255,255);
-	background: radial-gradient(circle, rgba(255,255,255,1) 11%, rgba(209,215,227,1) 100%);
-	color: black;
+	
 	box-shadow: #bac0c9 0px 3px 3px;
 	padding: 13px 0px !important;
 	text-align: center;
 	font-weight: bold;
-  cursor:pointer;
-  transition: 4s ease-in-out;
 }
 
 

@@ -21,10 +21,10 @@ const ForMenuSections = () => {
 
             {isExpanded && (
                 <div className='for-menu-secttion partnarship-nav' >
-                    <div className='container'>
+                    <div className='container '>
                         <div className='row'>
-                            <div className='p-i-container'>
-                                <div className='p-i-h-a light-divider'>
+                            <div className='p-i-container '>
+                                <div className='p-i-h-a light-divider '>
                                     <img src={a} />
                                 </div>
                                 <div className='p-i-h-b light-divider'>
