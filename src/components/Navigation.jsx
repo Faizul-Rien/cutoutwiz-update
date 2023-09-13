@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Outlet, Link } from "react-router-dom";
 import ForMenuSections from "./Partnership/ForMenuSections";
@@ -28,6 +28,12 @@ function Navigation(props) {
   function refreshPagede() {
     window.location.href = "./de";
   }
+
+  const [isExpanded, setIsExpanded] = useState(false);
+
+    const toggleExpansion = () => {
+        setIsExpanded(!isExpanded);
+    };
   return (
     <div id="appWrap">
       <div className="nav-sticky">
@@ -279,16 +285,26 @@ function Navigation(props) {
             </div>
           </Container>
         </Navbar>
-        <div className="partnarship-nav">
-          <Link to="partnership">
-            <ForMenuSections />
-          </Link>
-          {/* <div className="container">
-              <div className="row">
-                
-              <Link to="partnership" style={{display:"none"}}>3D VISIONARIES UNITE FOR EVOLUTION!</Link>
+        <div className="">
+         
+          {/* <div >
+              <div className="">
+                <div className={` container ${isExpanded ? '' : ''}`} onClick={toggleExpansion}>
+              3D VISIONARIES UNITE FOR EVOLUTION!
+              
+              </div>
               </div>
             </div> */}
+
+           
+            {/* {isExpanded && (
+            <div >
+
+               
+            </div>
+              )}  */}
+          
+          <ForMenuSections />
         </div>
       </div>
       <Outlet />
