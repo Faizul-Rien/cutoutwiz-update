@@ -65,6 +65,8 @@ import { FakeData } from "./components/FakeData/FakeData";
 import VirtualTour from "./components/VitualTour/VirtualTour";
 import Partnership from "./components/Partnership/Partnership";
 import NewNavbar from "./components/NewNavbar/NewNavbar";
+import testAll from "./components/ComponentTest/ComponentTest";
+import ComponentTest from "./components/ComponentTest/ComponentTest";
 
 export const ManageContext = createContext();
 
@@ -116,8 +118,9 @@ export default function App() {
       <div className="App">
         <ScrollToTop />
         <Routes>
+          <Route path="/component-test" element={<ComponentTest />} />
           <Route path="/partnership" element={<Partnership />} />
-          <Route path="/" element={<Navigation/>}>
+          <Route path="/" element={<Navigation />}>
             <Route index element={<Home />} />
             <Route path="/service-portfolio" element={<PDFViewer />} />
 
