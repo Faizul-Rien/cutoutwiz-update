@@ -6,8 +6,7 @@ import paperPlane from './img/plane_2.png';
 import './bstyle.css';
 
 const BannerCGI = () => {
-    // const [getClose, setClose] = useState('activeBanner')
-    const [getClose, setClose] = useState('closeBanner')
+    const [getClose, setClose] = useState('activeBanner')
     const [getDisplay, setDisplay] = useState('block')
 
     const closeBanner = () => {
@@ -19,13 +18,13 @@ const BannerCGI = () => {
     }
 
     const openBannerBtn = () => {
-        // setDisplay('block')
-        //  setClose('activeBanner')
+        setDisplay('block')
+        setClose('activeBanner')
     }
 
     return (
         <>
-            {/* <div id='popupBannerWrapper' style={{ display: getDisplay }} className={getClose + ' fwidth'}>
+            <div id='popupBannerWrapper' style={{ display: getDisplay }} className={getClose + ' fwidth'}>
                 <div onClick={closeBanner} className='bgshadow'></div>
                 <div className='bannerWrap'>
                     <div className='popupBanner web_banner bannerCigWrap'>
@@ -43,7 +42,7 @@ const BannerCGI = () => {
 
                     </div>
                 </div>
-            </div> */}
+            </div>
             <div onClick={openBannerBtn} id='popupIcon' className={getClose}>
                 <a className='btncgi' style={{ textDecoration: "none" }} href='https://kowstudios.com/' target='_blank'><span className='text-anim'>Visit our CGI Website</span></a>
             </div>

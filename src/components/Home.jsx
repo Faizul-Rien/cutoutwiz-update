@@ -222,7 +222,7 @@ function Home(props) {
         />
       </Helmet>
       <BannerCGI/>
-      <PartnerBanner/>
+      {/* <PartnerBanner/> */}
     {/* <Banner />   */}
       {/*Banner section */}
       <NewBanner />

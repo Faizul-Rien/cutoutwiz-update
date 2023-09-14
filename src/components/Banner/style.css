@@ -1,4 +1,4 @@
-/* 
+
 @keyframes popupAnim {
     0% {
         top: 100%;
@@ -143,4 +143,4 @@ animation: buttonClose 2s;
 @media only screen and (max-width: 575px) {
 .mob_banner {display: block;}
 .web_banner {display: none;}
-} */
+}

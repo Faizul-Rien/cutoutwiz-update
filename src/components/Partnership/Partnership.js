@@ -5,6 +5,7 @@ import FirstSection from './FirstSection';
 import SecondSection from './SecondSection';
 import ThirdSection from './ThirdSection';
 import FourthSection from './FourthSection';
+import FifthSection from './FifthSection';
 
 const Partnership = () => {
     return (
@@ -14,6 +15,7 @@ const Partnership = () => {
                 <FirstSection />
                 <SecondSection />
                 <ThirdSection />
+                <FifthSection />
                 <FourthSection />
             </div>
         </>
