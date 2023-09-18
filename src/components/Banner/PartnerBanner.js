@@ -31,7 +31,7 @@ const PartnerBanner = () => {
                         <span className='partner-close-btn' onClick={closeBanner}>Close</span>
                         <img style={{ height: "100%" }} src={bannerImage} />
                         <div className='partnership-button-banner'>
-                            <a href='/partnership' target="_blank">Exploring Partnership</a>
+                            <a href='/partnership' target="_blank">Explore Partnership</a>
                         </div>
                     </div>
 
