@@ -70,6 +70,10 @@
   display: flex;
   gap: 50px;
 }
+.nav-home-wrap .nav-item::after {
+  background-color: transparent;
+}
+  
 .sign-up .button-new-nav {
   padding-top: 0px;
   padding-bottom: 0px;

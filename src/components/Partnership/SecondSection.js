@@ -1,31 +1,32 @@
 import React from 'react';
-import photo1 from './image/p1.jpg'
-import photo2 from './image/p2.jpg'
-import photo3 from './image/p3.jpg'
+import photo1 from './image/nirob-1.png'
+
+
 
 const SecondSection = () => {
     return (
 
+
         <div className='container'>
-        <div className='row ' style={{ marginTop: "110px", }}>
-            <div className='second-section-image-container'>
-                <div className='second-section-photo-1'>
-                    <img src={photo1} />
+            <div className=''>
+                <div className='second-section-container'>
+                    <div className='second-section-photo'>
+                        <img src={photo1} />
+                    </div>
+                    <div className='second-section-text'>
+                        <p>The KOW Company is elated to announce its pivotal partnership under the visionary leadership of <a href='https://www.linkedin.com/in/kowser-ahmed-nirob/' target='_blank'><b> Kowser Ahmed</b></a>, a luminary in content post-production, and <a href='https://www.covisionmedialab.com/en' target='_blank'><b>Covision Media</b></a> led by the tech whiz <a href='https://www.linkedin.com/in/franz-tschimben/' target='_blank'><b>Franz Tschimben</b></a> leading the charge in Product 3D scanning </p>
+                        <p>This collaboration promises to reshape the 3D content production landscape. By synergizing Covision Media's state-of-the-art 3D scanning capabilities with KOW Company's expertise in post-processing, we aim to deliver flawless 3D outputs with minimal friction. The benefits of this collaboration are manifold, not just for our businesses but for our esteemed customers as well. </p>
+                        <p>Brands and businesses can now look forward to unparalleled quality and precision in their 3D content, paving the way for immersive experiences and deeper customer engagement. As we embark on this journey together, we’re certain that together, we'll be raising the bar and redefine the future of 3D content production. </p>
+                    </div>
+
                 </div>
-                <div className='second-section-photo-2'>
-                    <img src={photo2} />
-                </div>
-                <div className='second-section-photo-3'>
-                    <img src={photo3} />
-                </div>
+
+
             </div>
 
-            <div className='second-section-text'>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet <br /> dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper sus-<br />cipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in </p>
-            </div>
         </div>
 
-    </div>
+
     );
 };
 

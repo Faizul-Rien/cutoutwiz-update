@@ -6,16 +6,16 @@ body {
 code {
   font-family: 'poppins';
 }
-
+/* 
 .partnarship-nav a{
 color: #000;
 text-decoration: none; 
 transition: all 0.3s;
-}
-.partnarship-nav a:hover{ color:#333; }
+} */
+/* .partnarship-nav a:hover{ color:#333; } */
 
 /* !extra  */
-.partnarship-nav {
+.partnership-nav {
 	background: rgb(255,255,255);
 	background: radial-gradient(circle, rgba(255,255,255,1) 11%, rgba(209,215,227,1) 100%);
 	color: black;
@@ -23,28 +23,6 @@ transition: all 0.3s;
 	padding: 13px 0px !important;
 	text-align: center;
 	font-weight: bold;
-  cursor:pointer;
-  transition: 4s ease-in-out;
-}
-.partnarship-nav a{
-  text-decoration: navajowhite;
-  color: #000; 
-  transition: all 0.3s;
 
-}
-.partnarship-nav a:hover{
-  color: #38455a
-}
 
-.test-1{
-  transform: scaleY(0);
-  display: none;
-  transition: all 1s;
-  transform-origin: top;
-}
-.test-2{
-  transform: scaleY(1);
-  display: block;
-  transition: all 1s;
-  transform-origin: top;
 }

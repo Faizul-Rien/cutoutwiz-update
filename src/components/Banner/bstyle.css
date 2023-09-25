@@ -196,7 +196,7 @@
     font-size: 12px;
     text-align: center;
     align-self: center;
-    /* background: #ffff; */
+ 
     border-radius: 0 5px 4px 0;
     padding: 3px 8px 3px 19px;
     margin-left: -14px;
@@ -260,28 +260,4 @@
     }
   }
   
-  /* @keyframes Color{
-    0%{
-      color:#A0D468;
-    }
-    
-    20%{
-      color:#4FC1E9;
-    }
-    
-    40%{
-      color:#FFCE54;
-    }
-    
-    60%{
-      color:#FC6E51;
-    }
-    
-    80%{
-      color:#ED5565;
-    }
-    
-    100%{
-      color:#AC92EC;
-    }
-  } */
+ 

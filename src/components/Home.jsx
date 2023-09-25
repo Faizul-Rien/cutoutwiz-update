@@ -18,6 +18,7 @@ import PlaceOrder from "./PlaceOrder/PlaceOrder";
 import Contact from "./Contact/Contact";
 import Blog from "./Blog/Blog";
 import BannerCGI from "./Banner/BannerCGI";
+import PartnerBanner from "./Banner/PartnerBanner";
 const $ = window.$;
 
 var c = 1,
@@ -221,7 +222,8 @@ function Home(props) {
         />
       </Helmet>
       <BannerCGI/>
-    {/* <Banner /> */}  
+      {/* <PartnerBanner/> */}
+    {/* <Banner />   */}
       {/*Banner section */}
       <NewBanner />
       {/* Banner card section */}

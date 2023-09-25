@@ -17,7 +17,7 @@ const Banner = () => {
         }, 900);
     }
 
-    const openBannerBtn =() =>{
+    const openBannerBtn = () => {
         setDisplay('block')
         setClose('activeBanner')
     }
@@ -39,7 +39,7 @@ const Banner = () => {
                 </div>
             </div>
             <div onClick={openBannerBtn} id='popupIcon' className={getClose}>
-                <img src={paperPlane}/> <span>PHOTO STUDIO OPERATIONS <br/> LONDON 2023</span>
+                <img src={paperPlane} /> <span>PHOTO STUDIO OPERATIONS <br /> LONDON 2023</span>
             </div>
         </>
     );
